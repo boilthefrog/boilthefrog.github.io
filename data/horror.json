@@ -1,0 +1,1854 @@
+{
+ "id": "horror",
+ "title": "Horror",
+ "tagline": "From Gremlins to Insidious without noticing the water got hot.",
+ "tags": {
+  "C": "Comedy",
+  "K": "Creatures",
+  "A": "Aliens",
+  "G": "Ghosts",
+  "D": "Demons & occult",
+  "V": "Vampires",
+  "S": "Slashers",
+  "Z": "Zombies",
+  "B": "Body horror",
+  "P": "Splatstick",
+  "W": "Weird",
+  "U": "British",
+  "T": "Killer toys",
+  "F": "Folk",
+  "O": "Classics",
+  "Y": "Psychological"
+ },
+ "levels": [
+  {
+   "t": 22,
+   "name": "Room temperature",
+   "note": "Barely horror. Monsters, ghosts and comedy. The frog is perfectly comfortable.",
+   "bg": "#dbe5cc",
+   "fg": "#17110d",
+   "upto": 3
+  },
+  {
+   "t": 35,
+   "name": "Lukewarm",
+   "note": "Fun first, frights second.",
+   "bg": "#ecdcaa",
+   "fg": "#17110d",
+   "upto": 7
+  },
+  {
+   "t": 50,
+   "name": "Hot bath",
+   "note": "First real tension and first proper ghosts.",
+   "bg": "#e8b47a",
+   "fg": "#17110d",
+   "upto": 12
+  },
+  {
+   "t": 65,
+   "name": "Too hot to touch",
+   "note": "Hitchcock, slashers, zombies, Alien and Hannibal Lecter.",
+   "bg": "#cf5b3a",
+   "fg": "#17110d",
+   "upto": 17
+  },
+  {
+   "t": 80,
+   "name": "Simmering",
+   "note": "Gore, Freddy, witches, the devil and body horror. Too late to hop out now.",
+   "bg": "#6d1b21",
+   "fg": "#efe3cf",
+   "upto": 27
+  },
+  {
+   "t": 95,
+   "name": "Rolling boil",
+   "note": "J-horror, the Overlook Hotel and the final boss.",
+   "bg": "#2b0b0e",
+   "fg": "#efe3cf",
+   "upto": 30
+  },
+  {
+   "t": "100+",
+   "name": "Cooked",
+   "note": "Past the final boss. Only if they finish Insidious and ask for more.",
+   "bg": "#0c0506",
+   "fg": "#efe3cf",
+   "beyond": true
+  }
+ ],
+ "core": [
+  {
+   "n": 1,
+   "t": "Gremlins",
+   "y": 1984,
+   "b": "Monsters wreck a small town at Christmas. More comedy than horror.",
+   "tags": "CK",
+   "seq": [
+    {
+     "t": "Gremlins 2: The New Batch",
+     "y": 1990,
+     "note": "Even sillier, and gloriously so",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Killer Klowns from Outer Space",
+     "y": 1988,
+     "note": "Alien clowns cocoon a town in candy floss. Rated 12",
+     "tags": "CA",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Blob",
+     "y": 1988,
+     "note": "Oozing alien, great practical effects",
+     "tags": "AK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Night of the Creeps",
+     "y": 1986,
+     "note": "Pure B-movie joy",
+     "tags": "AZC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Faculty",
+     "y": 1998,
+     "note": "Body Snatchers in a high school",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Monster Squad",
+     "y": 1987,
+     "note": "Kids vs Dracula and friends",
+     "tags": "CVO",
+     "warn": "Some 80s kid dialogue has dated badly, including a homophobic slur.",
+     "seq": []
+    }
+   ],
+   "heat": {
+    "gore": 1,
+    "dread": 1,
+    "jumps": 1,
+    "weird": 1
+   }
+  },
+  {
+   "n": 2,
+   "t": "Beetlejuice",
+   "y": 1988,
+   "b": "Ghosts, afterlife paperwork and Michael Keaton at full chaos.",
+   "tags": "CG",
+   "seq": [
+    {
+     "t": "Beetlejuice Beetlejuice",
+     "y": 2024,
+     "note": "Burton and Keaton back, nearly as fun",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "Coraline",
+     "y": 2009,
+     "note": "Animated, properly creepy",
+     "tags": "W",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "ParaNorman",
+     "y": 2012,
+     "note": "Animated; a boy who talks to ghosts",
+     "tags": "GC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Witches",
+     "y": 1990,
+     "note": "Traumatised a generation of children",
+     "tags": "CO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Little Shop of Horrors",
+     "y": 1986,
+     "note": "Musical with a man-eating plant",
+     "tags": "CK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Phantom of the Paradise",
+     "y": 1974,
+     "note": "De Palma's rock-opera horror",
+     "tags": "CO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "House (Hausu)",
+     "y": 1977,
+     "note": "Deranged, joyful Japanese haunted house",
+     "tags": "CWO",
+     "warn": null,
+     "seq": [],
+     "q": "Hausu"
+    }
+   ],
+   "heat": {
+    "gore": 0,
+    "dread": 0,
+    "jumps": 1,
+    "weird": 3
+   }
+  },
+  {
+   "n": 3,
+   "t": "Ghostbusters",
+   "y": 1984,
+   "b": "Ghosts, slime and Bill Murray. The ultimate gateway: barely horror at all.",
+   "tags": "CG",
+   "seq": [],
+   "br": [
+    {
+     "t": "Frankenstein",
+     "y": 1931,
+     "note": "Boris Karloff's original. Black and white, short, more eerie than scary",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Bride of Frankenstein",
+     "y": 1935,
+     "note": "Stranger and funnier than the first",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Young Frankenstein",
+     "y": 1974,
+     "note": "Mel Brooks' loving parody",
+     "tags": "CO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Dracula",
+     "y": 1931,
+     "note": "Bela Lugosi. Pure atmosphere, zero gore",
+     "tags": "VO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Nosferatu",
+     "y": 1922,
+     "note": "Murnau's silent original. Eerie, not scary",
+     "tags": "VO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Dracula",
+     "y": 1958,
+     "note": "Hammer's lurid, very British Christopher Lee version",
+     "tags": "VUO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Nosferatu the Vampyre",
+     "y": 1979,
+     "note": "Werner Herzog and Klaus Kinski. Haunting and slow",
+     "tags": "VO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "heat": {
+    "gore": 0,
+    "dread": 1,
+    "jumps": 1,
+    "weird": 1
+   }
+  },
+  {
+   "n": 4,
+   "t": "The Frighteners",
+   "y": 1996,
+   "b": "Peter Jackson's ghost comedy with Michael J. Fox.",
+   "tags": "CG",
+   "br": [
+    {
+     "t": "Death Becomes Her",
+     "y": 1992,
+     "note": "Barely horror; a great dark comedy",
+     "tags": "CB",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Tucker & Dale vs Evil",
+     "y": 2010,
+     "note": "Clever slasher parody",
+     "tags": "CS",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "seq": [],
+   "heat": {
+    "gore": 1,
+    "dread": 1,
+    "jumps": 2,
+    "weird": 2
+   }
+  },
+  {
+   "t": "What We Do in the Shadows",
+   "y": 2014,
+   "b": "Taika Waititi and Jemaine Clement's vampire-flatmates mockumentary. Very funny, barely scary, and a gentle way into vampires.",
+   "tags": "CV",
+   "seq": [],
+   "br": [
+    {
+     "t": "Happy Death Day",
+     "y": 2017,
+     "note": "Groundhog Day as a slasher",
+     "tags": "CS",
+     "warn": null,
+     "seq": [
+      {
+       "t": "Happy Death Day 2U",
+       "y": 2019,
+       "note": "Leans into sci-fi comedy",
+       "star": false
+      }
+     ]
+    },
+    {
+     "t": "M3GAN",
+     "y": 2022,
+     "note": "Camp killer-doll fun",
+     "tags": "TC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Freaky",
+     "y": 2020,
+     "note": "Body-swap with a serial killer",
+     "tags": "CS",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "I Know What You Did Last Summer",
+     "y": 1997,
+     "note": "Glossy 90s slasher, fairly mild",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "n": 5,
+   "heat": {
+    "gore": 1,
+    "dread": 0,
+    "jumps": 0,
+    "weird": 1
+   }
+  },
+  {
+   "n": 6,
+   "t": "The Lost Boys",
+   "y": 1987,
+   "b": "80s vampires, more cool than scary.",
+   "tags": "VC",
+   "br": [
+    {
+     "t": "Fright Night",
+     "y": 1985,
+     "note": "The vampire next door",
+     "tags": "VC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Mr. Vampire",
+     "y": 1985,
+     "note": "Hong Kong hopping-vampire comedy",
+     "tags": "VC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "A Chinese Ghost Story",
+     "y": 1987,
+     "note": "Hong Kong romantic ghost fantasy, all wire-work and wind",
+     "tags": "GC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "From Dusk Till Dawn",
+     "y": 1996,
+     "note": "Crime film turns vampire bloodbath",
+     "tags": "VP",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Interview with the Vampire",
+     "y": 1994,
+     "note": "Lush, gothic, sad",
+     "tags": "V",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Near Dark",
+     "y": 1987,
+     "note": "Gritty vampire western",
+     "tags": "V",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Let the Right One In",
+     "y": 2008,
+     "note": "Swedish, quiet, haunting",
+     "tags": "V",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Rigor Mortis",
+     "y": 2013,
+     "note": "Moody Hong Kong homage to Mr. Vampire",
+     "tags": "V",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Nosferatu",
+     "y": 2024,
+     "note": "Robert Eggers. Lush, grim, properly frightening",
+     "tags": "VO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "seq": [],
+   "heat": {
+    "gore": 2,
+    "dread": 1,
+    "jumps": 1,
+    "weird": 1
+   }
+  },
+  {
+   "n": 7,
+   "t": "Shaun of the Dead",
+   "y": 2004,
+   "b": "Zombies and gore, but so funny the blood barely registers.",
+   "tags": "CZU",
+   "br": [
+    {
+     "t": "Zombieland",
+     "y": 2009,
+     "note": "Road-trip zombie comedy",
+     "tags": "CZ",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Attack the Block",
+     "y": 2011,
+     "note": "Teens vs aliens on a London estate",
+     "tags": "AU",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Severance",
+     "y": 2006,
+     "note": "A team-building weekend goes very wrong",
+     "tags": "CUS",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "seq": [],
+   "heat": {
+    "gore": 3,
+    "dread": 1,
+    "jumps": 1,
+    "weird": 0
+   }
+  },
+  {
+   "n": 8,
+   "t": "Jaws",
+   "y": 1975,
+   "b": "The first real tension. Suspense from what you don't see.",
+   "tags": "KO",
+   "seq": [],
+   "br": [
+    {
+     "t": "Tremors",
+     "y": 1990,
+     "note": "Giant underground worms vs Kevin Bacon",
+     "tags": "CK",
+     "warn": null,
+     "seq": [
+      {
+       "t": "Tremors 2: Aftershocks",
+       "y": 1996,
+       "note": "Better than it has any right to be",
+       "star": true
+      }
+     ]
+    },
+    {
+     "t": "Arachnophobia",
+     "y": 1990,
+     "note": "Killer spiders; mostly comedy",
+     "tags": "CK",
+     "warn": "Skip it if spiders are a genuine phobia.",
+     "seq": []
+    },
+    {
+     "t": "Lake Placid",
+     "y": 1999,
+     "note": "Giant croc, Betty White, swearing",
+     "tags": "CK",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Deep Rising",
+     "y": 1998,
+     "note": "Sea monster on a cruise ship",
+     "tags": "KC",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Shadow in the Cloud",
+     "y": 2020,
+     "note": "A gremlin attacks a WWII bomber",
+     "tags": "K",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Slither",
+     "y": 2006,
+     "note": "Gross, very funny alien slugs",
+     "tags": "CAB",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Host",
+     "y": 2006,
+     "note": "Korean river monster; funny and sad",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "heat": {
+    "gore": 2,
+    "dread": 3,
+    "jumps": 3,
+    "weird": 0
+   }
+  },
+  {
+   "n": 9,
+   "t": "The Sixth Sense",
+   "y": 1999,
+   "b": "Ghosts and a creepy kid, very little gore.",
+   "tags": "GY",
+   "br": [
+    {
+     "t": "The Orphanage",
+     "y": 2007,
+     "note": "Spanish ghost story, emotional",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Changeling",
+     "y": 1980,
+     "note": "Old-school haunted house",
+     "tags": "GO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "seq": [],
+   "heat": {
+    "gore": 1,
+    "dread": 3,
+    "jumps": 3,
+    "weird": 1
+   }
+  },
+  {
+   "n": 10,
+   "t": "The Others",
+   "y": 2001,
+   "b": "Slow, elegant ghost story with no gore at all.",
+   "tags": "G",
+   "br": [
+    {
+     "t": "The Innocents",
+     "y": 1961,
+     "note": "The black-and-white classic that inspired it",
+     "tags": "GOU",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Haunting",
+     "y": 1963,
+     "note": "The original haunted-house film",
+     "tags": "GO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Woman in Black",
+     "y": 2012,
+     "note": "A 12A Hammer ghost story full of jump scares",
+     "tags": "GU",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Ghost Stories",
+     "y": 2017,
+     "note": "British anthology, tricksy and creepy",
+     "tags": "GU",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Crimson Peak",
+     "y": 2015,
+     "note": "Del Toro's gorgeous gothic romance",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Bram Stoker's Dracula",
+     "y": 1992,
+     "note": "Coppola. Lush, bloody and erotic",
+     "tags": "V",
+     "warn": "Quite erotic in places.",
+     "seq": []
+    }
+   ],
+   "seq": [],
+   "heat": {
+    "gore": 0,
+    "dread": 4,
+    "jumps": 2,
+    "weird": 1
+   }
+  },
+  {
+   "n": 11,
+   "t": "Get Out",
+   "y": 2017,
+   "b": "Unsettling psychological horror with very little gore.",
+   "tags": "Y",
+   "br": [
+    {
+     "t": "Ready or Not",
+     "y": 2019,
+     "note": "Deadly wedding-night hide-and-seek",
+     "tags": "CS",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Nope",
+     "y": 2022,
+     "note": "Jordan Peele's UFO western",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Sinners",
+     "y": 2025,
+     "note": "Ryan Coogler's vampire blues epic",
+     "tags": "V",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Candyman",
+     "y": 2021,
+     "note": "Peele co-wrote this urban-legend update",
+     "tags": "SY",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "seq": [],
+   "heat": {
+    "gore": 2,
+    "dread": 4,
+    "jumps": 2,
+    "weird": 2
+   }
+  },
+  {
+   "n": 12,
+   "t": "Poltergeist",
+   "y": 1982,
+   "b": "A haunted family, more spooky than scary. Insidious is basically its modern remake.",
+   "tags": "GT",
+   "br": [
+    {
+     "t": "Child's Play",
+     "y": 1988,
+     "note": "The killer-doll original",
+     "tags": "TS",
+     "warn": null,
+     "seq": [
+      {
+       "t": "Child's Play 2",
+       "y": 1990,
+       "note": "More Chucky, more fun",
+       "star": false
+      }
+     ]
+    }
+   ],
+   "seq": [],
+   "heat": {
+    "gore": 1,
+    "dread": 2,
+    "jumps": 3,
+    "weird": 2
+   }
+  },
+  {
+   "n": 13,
+   "t": "Psycho",
+   "y": 1960,
+   "b": "Hitchcock's motel. The film that invented half of horror's rules, with barely any blood.",
+   "tags": "SOY",
+   "br": [
+    {
+     "t": "Eyes Without a Face",
+     "y": 1960,
+     "note": "Poetic French classic about a surgeon and his daughter",
+     "tags": "OB",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Les Diaboliques",
+     "y": 1955,
+     "note": "Mostly a thriller until a pure-horror ending. It inspired Psycho",
+     "tags": "OY",
+     "warn": null,
+     "seq": [],
+     "q": "Diabolique"
+    },
+    {
+     "t": "Black Christmas",
+     "y": 1974,
+     "note": "The proto-slasher",
+     "tags": "SO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Dressed to Kill",
+     "y": 1980,
+     "note": "De Palma's stylish riff on Psycho",
+     "tags": "SY",
+     "warn": "Explicit sexual violence, and its portrayal of a trans character has aged very badly.",
+     "seq": []
+    }
+   ],
+   "seq": [],
+   "heat": {
+    "gore": 1,
+    "dread": 3,
+    "jumps": 2,
+    "weird": 1
+   }
+  },
+  {
+   "n": 14,
+   "t": "Halloween",
+   "y": 1978,
+   "b": "All tension, very little blood. The slasher blueprint.",
+   "tags": "SO",
+   "seq": [
+    {
+     "t": "Halloween H20",
+     "y": 1998,
+     "note": "Jamie Lee Curtis returns, 90s style",
+     "star": false,
+     "q": "Halloween H20: 20 Years Later"
+    },
+    {
+     "t": "Halloween",
+     "y": 2018,
+     "note": "The legacy sequel; best of the late ones",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Friday the 13th",
+     "y": 1980,
+     "note": "Gorier and clunkier",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Them (Ils)",
+     "y": 2006,
+     "note": "French home invasion, tight and nasty",
+     "tags": "S",
+     "warn": null,
+     "seq": [],
+     "q": "Ils"
+    },
+    {
+     "t": "It Follows",
+     "y": 2014,
+     "note": "A curse that walks towards you, slowly, forever. Pure Carpenter in its DNA",
+     "tags": "SW",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "heat": {
+    "gore": 1,
+    "dread": 4,
+    "jumps": 3,
+    "weird": 0
+   }
+  },
+  {
+   "n": 15,
+   "t": "28 Days Later",
+   "y": 2002,
+   "b": "Cillian Murphy wakes up in an empty London. Intense and grim, but brilliant.",
+   "tags": "ZU",
+   "seq": [
+    {
+     "t": "28 Weeks Later",
+     "y": 2007,
+     "note": "Bigger and bleaker",
+     "star": false
+    },
+    {
+     "t": "28 Years Later",
+     "y": 2025,
+     "note": "Strange, bold return",
+     "star": false
+    },
+    {
+     "t": "28 Years Later: The Bone Temple",
+     "y": 2026,
+     "note": "The most brutal yet",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Night of the Living Dead",
+     "y": 1968,
+     "note": "Romero: where modern zombies began",
+     "tags": "ZO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Dawn of the Dead",
+     "y": 1978,
+     "note": "Romero's shopping-mall classic, gorier",
+     "tags": "ZO",
+     "warn": null,
+     "seq": [
+      {
+       "t": "Day of the Dead",
+       "y": 1985,
+       "note": "Romero's bleak third chapter",
+       "star": false
+      }
+     ]
+    },
+    {
+     "t": "Train to Busan",
+     "y": 2016,
+     "note": "Zombies on a train. Thrilling and moving; subtitled",
+     "tags": "Z",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Dawn of the Dead",
+     "y": 2004,
+     "note": "Fast, punchy remake",
+     "tags": "Z",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "heat": {
+    "gore": 3,
+    "dread": 4,
+    "jumps": 3,
+    "weird": 0
+   }
+  },
+  {
+   "n": 16,
+   "t": "Alien",
+   "y": 1979,
+   "b": "Slow-burn dread in space. The halfway point.",
+   "tags": "AK",
+   "seq": [
+    {
+     "t": "Aliens",
+     "y": 1986,
+     "note": "James Cameron's sequel: more action than horror, and brilliant",
+     "star": true
+    },
+    {
+     "t": "Alien 3",
+     "y": 1992,
+     "note": "Bleak and underrated",
+     "star": false
+    },
+    {
+     "t": "Prometheus",
+     "y": 2012,
+     "note": "Prequel; gorgeous, frustrating",
+     "star": false
+    },
+    {
+     "t": "Alien: Romulus",
+     "y": 2024,
+     "note": "Back to basics, very scary",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "The Relic",
+     "y": 1997,
+     "note": "Peter Hyams' creature loose in a museum",
+     "tags": "K",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Mimic",
+     "y": 1997,
+     "note": "Del Toro's giant subway insects. Grim",
+     "tags": "K",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Predator",
+     "y": 1987,
+     "note": "Arnie vs an alien hunter",
+     "tags": "A",
+     "warn": null,
+     "seq": [
+      {
+       "t": "Prey",
+       "y": 2022,
+       "note": "Comanche warrior vs Predator",
+       "star": true
+      }
+     ]
+    },
+    {
+     "t": "Pitch Black",
+     "y": 2000,
+     "note": "A planet that comes alive in the dark",
+     "tags": "AK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Annihilation",
+     "y": 2018,
+     "note": "Beautiful, unsettling sci-fi horror",
+     "tags": "AWB",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Lifeforce",
+     "y": 1985,
+     "note": "Mad 80s space vampires",
+     "tags": "AV",
+     "warn": "Lots of nudity. Awkward to recommend to a colleague.",
+     "seq": [],
+     "junk": true
+    }
+   ],
+   "heat": {
+    "gore": 3,
+    "dread": 5,
+    "jumps": 3,
+    "weird": 2
+   }
+  },
+  {
+   "n": 17,
+   "t": "The Silence of the Lambs",
+   "y": 1991,
+   "b": "Hannibal Lecter. Often filed as a thriller, but its basement finale is pure horror.",
+   "tags": "Y",
+   "br": [
+    {
+     "t": "Misery",
+     "y": 1990,
+     "note": "Stephen King; bedside terror",
+     "tags": "Y",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Audition",
+     "y": 1999,
+     "note": "Japanese romance that turns horrifying in its last act",
+     "tags": "Y",
+     "warn": "Its final act includes notoriously painful torture.",
+     "seq": []
+    }
+   ],
+   "seq": [],
+   "heat": {
+    "gore": 3,
+    "dread": 4,
+    "jumps": 2,
+    "weird": 1
+   }
+  },
+  {
+   "n": 18,
+   "t": "Evil Dead II",
+   "y": 1987,
+   "b": "Slapstick horror with buckets of blood and a few properly creepy cabin moments.",
+   "tags": "PCD",
+   "seq": [
+    {
+     "t": "Army of Darkness",
+     "y": 1992,
+     "note": "Watch straight after as a breather: mostly medieval comedy",
+     "star": true
+    },
+    {
+     "t": "Evil Dead",
+     "y": 2013,
+     "note": "The remake, played straight and very gory",
+     "star": false
+    },
+    {
+     "t": "Evil Dead Rise",
+     "y": 2023,
+     "note": "Top-tier gore in a tower block",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Drag Me to Hell",
+     "y": 2009,
+     "note": "Raimi's jump-scare rollercoaster",
+     "tags": "PD",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Return of the Living Dead",
+     "y": 1985,
+     "note": "Punk zombies, gory and hilarious",
+     "tags": "ZPC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Re-Animator",
+     "y": 1985,
+     "note": "Mad-scientist splatter comedy",
+     "tags": "PB",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Bad Taste",
+     "y": 1987,
+     "note": "Peter Jackson's no-budget alien debut",
+     "tags": "PA",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Texas Chainsaw Massacre 2",
+     "y": 1986,
+     "note": "Tobe Hooper's gory black comedy",
+     "tags": "PS",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Braindead",
+     "y": 1992,
+     "note": "Possibly the goriest film ever made",
+     "tags": "PZ",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "heat": {
+    "gore": 4,
+    "dread": 2,
+    "jumps": 3,
+    "weird": 4
+   }
+  },
+  {
+   "n": 19,
+   "t": "An American Werewolf in London",
+   "y": 1981,
+   "b": "Funny and British, but the transformation scene steps things up.",
+   "tags": "CUB",
+   "br": [
+    {
+     "t": "Dog Soldiers",
+     "y": 2002,
+     "note": "British squaddies vs werewolves",
+     "tags": "UK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Don't Look Now",
+     "y": 1973,
+     "note": "Venice, grief and a red coat. The great 70s British chiller",
+     "tags": "UY",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Wicker Man",
+     "y": 1973,
+     "note": "Folk horror built on dread, not gore",
+     "tags": "FUO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Apostle",
+     "y": 2018,
+     "note": "Cult-island folk horror, brutal",
+     "tags": "FU",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Witch",
+     "y": 2015,
+     "note": "Robert Eggers' slow, creeping Puritan dread",
+     "tags": "FD",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Prevenge",
+     "y": 2016,
+     "note": "Pregnant woman's killing spree; pitch-black comedy",
+     "tags": "UCS",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "seq": [],
+   "heat": {
+    "gore": 3,
+    "dread": 3,
+    "jumps": 3,
+    "weird": 1
+   }
+  },
+  {
+   "n": 20,
+   "t": "Scream",
+   "y": 1996,
+   "b": "A self-aware slasher that teaches the rules as it goes. Real stabbings, real jumps.",
+   "tags": "SC",
+   "seq": [
+    {
+     "t": "Scream 2",
+     "y": 1997,
+     "note": "The best sequel",
+     "star": true
+    },
+    {
+     "t": "Scream",
+     "y": 2022,
+     "note": "Legacy sequel, sharp",
+     "star": false
+    },
+    {
+     "t": "Scream VI",
+     "y": 2023,
+     "note": "Ghostface in New York",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "Final Destination",
+     "y": 2000,
+     "note": "Inventive, cartoonish death traps",
+     "tags": "S",
+     "warn": null,
+     "seq": [
+      {
+       "t": "Final Destination 2",
+       "y": 2003,
+       "note": "The log-truck sequel",
+       "star": true
+      },
+      {
+       "t": "Final Destination Bloodlines",
+       "y": 2025,
+       "note": "A great late entry",
+       "star": true,
+       "q": "Final Destination Bloodlines"
+      }
+     ]
+    },
+    {
+     "t": "The Cabin in the Woods",
+     "y": 2012,
+     "note": "Best once they know the genre's tricks",
+     "tags": "CW",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "X",
+     "y": 2022,
+     "note": "Ti West's grimy 70s slasher",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "High Tension",
+     "y": 2003,
+     "note": "French slasher, very gory, divisive twist",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "heat": {
+    "gore": 3,
+    "dread": 3,
+    "jumps": 4,
+    "weird": 0
+   }
+  },
+  {
+   "n": 21,
+   "t": "A Nightmare on Elm Street",
+   "y": 1984,
+   "b": "Dream-logic slasher. Scarier than Alien, but campy enough to stay fun.",
+   "tags": "S",
+   "seq": [
+    {
+     "t": "Dream Warriors",
+     "y": 1987,
+     "note": "The best Freddy sequel",
+     "star": true,
+     "q": "A Nightmare on Elm Street 3: Dream Warriors"
+    },
+    {
+     "t": "Wes Craven's New Nightmare",
+     "y": 1994,
+     "note": "Meta before Scream",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Candyman",
+     "y": 1992,
+     "note": "Clive Barker's urban legend; say his name five times",
+     "tags": "SO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Carrie",
+     "y": 1976,
+     "note": "De Palma's prom night from hell",
+     "tags": "YO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "It",
+     "y": 2017,
+     "note": "Pennywise and lots of jump scares",
+     "tags": "S",
+     "warn": null,
+     "seq": [
+      {
+       "t": "It Chapter Two",
+       "y": 2019,
+       "note": "The grown-up Losers",
+       "star": false
+      }
+     ]
+    },
+    {
+     "t": "Talk to Me",
+     "y": 2022,
+     "note": "An Australian party game with a severed hand",
+     "tags": "YD",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "heat": {
+    "gore": 3,
+    "dread": 3,
+    "jumps": 4,
+    "weird": 3
+   }
+  },
+  {
+   "n": 22,
+   "t": "Rosemary's Baby",
+   "y": 1968,
+   "b": "Slow, paranoid dread in a New York apartment. No gore, just mounting unease.",
+   "tags": "DYO",
+   "br": [
+    {
+     "t": "The Babadook",
+     "y": 2014,
+     "note": "Grief and parenthood made monstrous",
+     "tags": "YD",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "seq": [],
+   "heat": {
+    "gore": 0,
+    "dread": 4,
+    "jumps": 1,
+    "weird": 2
+   }
+  },
+  {
+   "n": 23,
+   "t": "Suspiria",
+   "y": 1977,
+   "b": "Dario Argento's witches at a ballet school: a nightmare in red and blue with a pounding score. Dubbed, deliberately strange, and gory.",
+   "tags": "DO",
+   "br": [
+    {
+     "t": "Deep Red",
+     "y": 1975,
+     "note": "Argento's giallo: stylish, bloody murder mystery",
+     "tags": "SO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "seq": [],
+   "heat": {
+    "gore": 4,
+    "dread": 3,
+    "jumps": 2,
+    "weird": 5
+   }
+  },
+  {
+   "n": 24,
+   "t": "The Exorcist",
+   "y": 1973,
+   "b": "The possession film everything else copies. Iconic rather than terrifying for a lot of modern viewers.",
+   "tags": "DO",
+   "br": [
+    {
+     "t": "The Conjuring",
+     "y": 2013,
+     "note": "Demonic haunting from the Insidious director",
+     "tags": "GD",
+     "warn": null,
+     "seq": [
+      {
+       "t": "The Conjuring 2",
+       "y": 2016,
+       "note": "The Enfield haunting",
+       "star": true
+      }
+     ]
+    },
+    {
+     "t": "The Wailing",
+     "y": 2016,
+     "note": "Korean village, a stranger, a possession. Long and unnerving",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "seq": [],
+   "heat": {
+    "gore": 3,
+    "dread": 4,
+    "jumps": 3,
+    "weird": 2
+   }
+  },
+  {
+   "n": 25,
+   "t": "The Blair Witch Project",
+   "y": 1999,
+   "b": "Three students, a camcorder and the woods. No gore and almost nothing on screen: pure dread. It invented modern found footage. Divisive: terrifying to some, boring to others.",
+   "tags": "WF",
+   "br": [
+    {
+     "t": "[REC]",
+     "y": 2007,
+     "note": "Spanish found footage in a quarantined building. Relentless",
+     "tags": "Z",
+     "warn": null,
+     "seq": [],
+     "q": "REC"
+    },
+    {
+     "t": "Coherence",
+     "y": 2013,
+     "note": "Dinner party, passing comet, reality splits",
+     "tags": "W",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Cube",
+     "y": 1997,
+     "note": "Strangers trapped in a deadly maze",
+     "tags": "W",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Triangle",
+     "y": 2009,
+     "note": "Time-loop puzzle at sea",
+     "tags": "WU",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Platform",
+     "y": 2019,
+     "note": "Spanish vertical-prison allegory, nasty in places",
+     "tags": "W",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Lighthouse",
+     "y": 2019,
+     "note": "Robert Eggers: two men losing their minds on a rock",
+     "tags": "WY",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "seq": [],
+   "heat": {
+    "gore": 0,
+    "dread": 5,
+    "jumps": 2,
+    "weird": 2
+   }
+  },
+  {
+   "n": 26,
+   "t": "The Fly",
+   "y": 1986,
+   "b": "Cronenberg's gross-out body horror wrapped round a tragic love story.",
+   "tags": "B",
+   "br": [
+    {
+     "t": "eXistenZ",
+     "y": 1999,
+     "note": "Gooey game-pod mind-bender",
+     "tags": "BW",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Malignant",
+     "y": 2021,
+     "note": "Bonkers twist; go in blind",
+     "tags": "BW",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Videodrome",
+     "y": 1983,
+     "note": "Cronenberg's TV-signal nightmare",
+     "tags": "BW",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Society",
+     "y": 1989,
+     "note": "Satire with an infamous finale",
+     "tags": "BW",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Raw",
+     "y": 2016,
+     "note": "Julia Ducournau: a vegetarian vet student gets a taste for meat",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Dumplings",
+     "y": 2004,
+     "note": "Hong Kong Category III. Unsettling rather than gory",
+     "tags": "B",
+     "warn": "Adults-only Hong Kong rating; deeply disturbing themes.",
+     "seq": []
+    }
+   ],
+   "seq": [],
+   "heat": {
+    "gore": 5,
+    "dread": 3,
+    "jumps": 2,
+    "weird": 3
+   }
+  },
+  {
+   "n": 27,
+   "t": "The Thing",
+   "y": 1982,
+   "b": "Antarctic paranoia and the greatest practical effects ever made. Very gory.",
+   "tags": "BA",
+   "seq": [],
+   "br": [
+    {
+     "t": "The Mist",
+     "y": 2007,
+     "note": "Monsters in the fog, brutal ending",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "30 Days of Night",
+     "y": 2007,
+     "note": "Vampires in a month-long Alaskan night",
+     "tags": "V",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "heat": {
+    "gore": 5,
+    "dread": 5,
+    "jumps": 4,
+    "weird": 3
+   }
+  },
+  {
+   "n": 28,
+   "t": "Ringu",
+   "y": 1998,
+   "b": "A cursed videotape and seven days to live. The J-horror original: slow, cold, terrifying.",
+   "tags": "G",
+   "br": [
+    {
+     "t": "The Ring",
+     "y": 2002,
+     "note": "The US remake; one infamous scene",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Dark Water",
+     "y": 2002,
+     "note": "Same director; a leaking flat and a lost child",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Ju-on: The Grudge",
+     "y": 2002,
+     "note": "A house where the curse spreads to everyone",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Shutter",
+     "y": 2004,
+     "note": "Thai ghost story about photographs",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "A Tale of Two Sisters",
+     "y": 2003,
+     "note": "Korean, beautiful and twisty",
+     "tags": "GY",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Pulse",
+     "y": 2001,
+     "note": "Ghosts through the internet; bleak and eerie",
+     "tags": "GW",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "seq": [],
+   "heat": {
+    "gore": 0,
+    "dread": 5,
+    "jumps": 3,
+    "weird": 3
+   },
+   "q": "Ring"
+  },
+  {
+   "n": 29,
+   "t": "The Shining",
+   "y": 1980,
+   "b": "Slow, mounting dread. Plenty of people's scariest film ever.",
+   "tags": "GYO",
+   "br": [
+    {
+     "t": "Barbarian",
+     "y": 2022,
+     "note": "Zach Cregger: an Airbnb with a very wrong basement",
+     "tags": "WY",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "seq": [],
+   "heat": {
+    "gore": 2,
+    "dread": 5,
+    "jumps": 3,
+    "weird": 4
+   }
+  },
+  {
+   "n": 30,
+   "t": "Insidious",
+   "y": 2010,
+   "b": "The final boss. A haunted family and a lot of jump scares. By now they know how this goes.",
+   "tags": "GD",
+   "seq": [],
+   "br": [
+    {
+     "t": "A Quiet Place",
+     "y": 2018,
+     "note": "Modern jump scares with a family to hold onto",
+     "tags": "KA",
+     "warn": null,
+     "seq": [
+      {
+       "t": "A Quiet Place Part II",
+       "y": 2020,
+       "note": "Picks up the moment it ends",
+       "star": false
+      },
+      {
+       "t": "A Quiet Place: Day One",
+       "y": 2024,
+       "note": "The invasion begins, in New York",
+       "star": false
+      }
+     ]
+    },
+    {
+     "t": "Signs",
+     "y": 2002,
+     "note": "Aliens and crop circles; one big jolt",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Cloverfield",
+     "y": 2008,
+     "note": "Found-footage monster attack on New York",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Weapons",
+     "y": 2025,
+     "note": "Zach Cregger: 17 kids vanish at 2:17am",
+     "tags": "WY",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "heat": {
+    "gore": 1,
+    "dread": 4,
+    "jumps": 5,
+    "weird": 4
+   }
+  }
+ ],
+ "beyond": [
+  {
+   "t": "The Descent",
+   "y": 2005,
+   "b": "Cavers, total darkness and something else down there. One of the scariest films ever made.",
+   "tags": "KU",
+   "seq": [],
+   "heat": {
+    "gore": 4,
+    "dread": 5,
+    "jumps": 5,
+    "weird": 1
+   }
+  },
+  {
+   "t": "The Texas Chain Saw Massacre",
+   "y": 1974,
+   "b": "Little blood, relentless ordeal. The BBFC refused it a certificate in 1975 and only passed it uncut in 1999.",
+   "tags": "SO",
+   "seq": [
+    {
+     "t": "The Texas Chainsaw Massacre",
+     "y": 2003,
+     "note": "Grim, glossy remake",
+     "star": false
+    }
+   ],
+   "heat": {
+    "gore": 2,
+    "dread": 5,
+    "jumps": 3,
+    "weird": 2
+   }
+  },
+  {
+   "t": "Midsommar",
+   "y": 2019,
+   "b": "Bright daylight, grief and a terrible boyfriend. Less scary than Insidious, harder to sit through.",
+   "tags": "F",
+   "w": "Shocking graphic gore, an uncomfortable ritual sex scene, and an opening built on trauma. Nearly three hours in the director's cut.",
+   "seq": [],
+   "heat": {
+    "gore": 5,
+    "dread": 4,
+    "jumps": 1,
+    "weird": 5
+   }
+  },
+  {
+   "t": "Hellraiser",
+   "y": 1987,
+   "b": "Not jump-scare scary, but gory, kinky and nasty like nothing else here.",
+   "tags": "BD",
+   "seq": [],
+   "heat": {
+    "gore": 5,
+    "dread": 3,
+    "jumps": 2,
+    "weird": 4
+   }
+  },
+  {
+   "t": "The Substance",
+   "y": 2024,
+   "b": "Brilliant, with possibly the most extreme gore finale in any mainstream film.",
+   "tags": "B",
+   "seq": [],
+   "heat": {
+    "gore": 5,
+    "dread": 2,
+    "jumps": 2,
+    "weird": 4
+   }
+  },
+  {
+   "t": "Hereditary",
+   "y": 2018,
+   "b": "The real final boss. Many rate it the scariest film of the last 20 years.",
+   "tags": "GDY",
+   "seq": [],
+   "heat": {
+    "gore": 4,
+    "dread": 5,
+    "jumps": 4,
+    "weird": 4
+   }
+  }
+ ]
+}

@@ -78,7 +78,7 @@
   {
    "t": 95,
    "name": "Final boss",
-   "note": "Travis Bickle, Chinatown, London's gutter and Leone's four hours.",
+   "note": "Travis Bickle, Chinatown, Mitchum's doomed flashback and Leone's four hours.",
    "bg": "#2b0b0e",
    "fg": "#efe3cf",
    "upto": 30
@@ -824,14 +824,6 @@
    "seq": [],
    "br": [
     {
-     "t": "Out of the Past",
-     "y": 1947,
-     "note": "Robert Mitchum can't escape Jane Greer",
-     "tags": "NO",
-     "warn": null,
-     "seq": []
-    },
-    {
      "t": "Detour",
      "y": 1945,
      "note": "A hitchhiker's very bad luck, shot in six days. Scorsese list",
@@ -1162,18 +1154,26 @@
   },
   {
    "n": 29,
-   "t": "Night and the City",
-   "y": 1950,
-   "b": "Richard Widmark's hustler runs for his life through London's wrestling rackets. The bleakest noir.",
-   "tags": "NBD",
+   "t": "Out of the Past",
+   "y": 1947,
+   "b": "Robert Mitchum's small-town garage owner is dragged back to his old life, Kirk Douglas's gangster and Jane Greer, the femme fatale to end them all. The definitive noir.",
+   "tags": "NO",
    "heat": {
-    "violence": 3,
-    "intensity": 4,
+    "violence": 2,
+    "intensity": 3,
     "age": 4,
     "challenge": 3
    },
    "seq": [],
    "br": [
+    {
+     "t": "Night and the City",
+     "y": 1950,
+     "note": "Richard Widmark's hustler runs for his life through London's wrestling rackets. The bleakest noir",
+     "tags": "NBD",
+     "warn": null,
+     "seq": []
+    },
     {
      "t": "Brighton Rock",
      "y": 1948,

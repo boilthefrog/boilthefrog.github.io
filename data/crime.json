@@ -131,6 +131,14 @@
      "warn": null,
      "seq": [],
      "junk": true
+    },
+    {
+     "t": "House of Games",
+     "y": 1987,
+     "note": "David Mamet: a psychiatrist is drawn into a con man's world",
+     "tags": "KH",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -694,6 +702,30 @@
      "tags": "NO",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Phantom Lady",
+     "y": 1944,
+     "note": "A secretary goes undercover in the jazz underworld to clear her boss",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Woman in the Window",
+     "y": 1944,
+     "note": "Fritz Lang: Edward G. Robinson's professor and a fatal encounter",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Ossessione",
+     "y": 1943,
+     "note": "Visconti's unofficial Italian Postman Always Rings Twice",
+     "tags": "NWO",
+     "warn": "Subtitled.",
+     "seq": []
     }
    ]
   },
@@ -806,6 +838,22 @@
      "tags": "NO",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "T-Men",
+     "y": 1947,
+     "note": "Anthony Mann's Treasury agents undercover with counterfeiters",
+     "tags": "PNO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Call Northside 777",
+     "y": 1948,
+     "note": "James Stewart's reporter reopens a ten-year-old murder",
+     "tags": "PNO",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -853,6 +901,30 @@
      "note": "John Garfield's numbers-racket lawyer. Scorsese list",
      "tags": "NO",
      "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Body and Soul",
+     "y": 1947,
+     "note": "John Garfield's boxer sells out",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Champion",
+     "y": 1949,
+     "note": "Kirk Douglas's boxer climbs over everyone",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Sin City",
+     "y": 2005,
+     "note": "Frank Miller's comic-book noir in black, white and blood red",
+     "tags": "N",
+     "warn": "Very violent.",
      "seq": []
     }
    ]
@@ -924,6 +996,14 @@
      "t": "The Killing",
      "y": 1956,
      "note": "Early Kubrick: a racetrack heist told out of order",
+     "tags": "HO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Odds Against Tomorrow",
+     "y": 1959,
+     "note": "Harry Belafonte and Robert Ryan's racially charged bank job",
      "tags": "HO",
      "warn": null,
      "seq": []
@@ -1016,6 +1096,22 @@
      "tags": "NFO",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Shoot the Piano Player",
+     "y": 1960,
+     "note": "Truffaut's playful gangster noir with Charles Aznavour",
+     "tags": "FO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Coup de Torchon",
+     "y": 1981,
+     "note": "Bertrand Tavernier: a despised colonial cop in West Africa starts killing",
+     "tags": "FD",
+     "warn": null,
+     "seq": []
     }
    ],
    "w": "Subtitled."
@@ -1065,6 +1161,22 @@
      "tags": "FO",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Murder by Contract",
+     "y": 1958,
+     "note": "A cool, minimal hitman film Scorsese adores",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Diva",
+     "y": 1981,
+     "note": "Stolen tapes, an opera singer and a moped chase through the Métro",
+     "tags": "F",
+     "warn": null,
+     "seq": []
     }
    ],
    "w": "Subtitled, minimal dialogue."
@@ -1090,6 +1202,14 @@
      "tags": "PWO",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "It Happened in Broad Daylight",
+     "y": 1958,
+     "note": "A Swiss detective hunts a child murderer the police think they've caught",
+     "tags": "PWO",
+     "warn": "Subtitled.",
+     "seq": []
     }
    ],
    "w": "Subtitled, 143 minutes."
@@ -1114,6 +1234,14 @@
      "note": "Harvey Keitel's drug-addled cop hits bottom",
      "tags": "PD",
      "warn": "Extreme drug use and sexual content.",
+     "seq": []
+    },
+    {
+     "t": "Hana-bi",
+     "y": 1997,
+     "note": "Takeshi Kitano's ex-cop: sudden violence and quiet tenderness",
+     "tags": "PW",
+     "warn": "Subtitled; violent.",
      "seq": []
     }
    ],

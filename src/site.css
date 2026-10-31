@@ -208,3 +208,6 @@ footer a{color:var(--bone)}
 .potstats{font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:.06em;font-size:18px;margin:18px 0 6px}
 .prose{max-width:980px;margin:0 auto;padding:10px 20px 60px}
 .prose p,.prose li{max-width:62ch}
+
+.quote{margin:6px 0 0;font-family:var(--display);font-weight:800;font-size:22px;line-height:1.1;text-transform:none}
+.quote cite{display:block;font-family:var(--body);font-weight:400;font-style:italic;font-size:14px;margin-top:6px;opacity:.8}

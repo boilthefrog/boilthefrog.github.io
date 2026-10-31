@@ -107,7 +107,14 @@
     "age": 1,
     "challenge": 0
    },
-   "seq": [],
+   "seq": [
+    {
+     "t": "Back to the Future Part II",
+     "y": 1989,
+     "note": "Hoverboards and 2015: a cracking sequel",
+     "star": true
+    }
+   ],
    "br": [
     {
      "t": "Jurassic Park",
@@ -161,7 +168,17 @@
      "star": false
     }
    ],
-   "br": []
+   "br": [
+    {
+     "t": "Flash Gordon",
+     "y": 1980,
+     "note": "Queen's soundtrack and Brian Blessed shouting",
+     "tags": "SC",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
   },
   {
    "n": 3,
@@ -176,7 +193,32 @@
     "challenge": 1
    },
    "seq": [],
-   "br": []
+   "br": [
+    {
+     "t": "The Iron Giant",
+     "y": 1999,
+     "note": "A boy and a 50-foot robot in 1950s Maine",
+     "tags": "Z",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Wild Robot",
+     "y": 2024,
+     "note": "A robot stranded on an island raises a gosling",
+     "tags": "Z",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Big Hero 6",
+     "y": 2014,
+     "note": "A boy and his inflatable healthcare robot",
+     "tags": "ZC",
+     "warn": null,
+     "seq": []
+    }
+   ]
   },
   {
    "n": 4,
@@ -191,7 +233,24 @@
     "challenge": 1
    },
    "seq": [],
-   "br": []
+   "br": [
+    {
+     "t": "Star Trek: First Contact",
+     "y": 1996,
+     "note": "The Next Generation crew vs the Borg",
+     "tags": "SB",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Star Trek",
+     "y": 2009,
+     "note": "J.J. Abrams' fast, fun reboot",
+     "tags": "SB",
+     "warn": null,
+     "seq": []
+    }
+   ]
   },
   {
    "n": 5,
@@ -212,6 +271,30 @@
      "y": 1987,
      "note": "Arnie's squad hunted by an invisible alien. On the Action ladder",
      "tags": "B",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Source Code",
+     "y": 2011,
+     "note": "Jake Gyllenhaal relives the last eight minutes before a train bomb",
+     "tags": "TB",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Looper",
+     "y": 2012,
+     "note": "A hitman is sent his older self to kill",
+     "tags": "TD",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Palm Springs",
+     "y": 2020,
+     "note": "A wedding-day time loop as a romcom",
+     "tags": "TC",
      "warn": null,
      "seq": []
     }
@@ -448,6 +531,22 @@
      "tags": "AX",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Minority Report",
+     "y": 2002,
+     "note": "Spielberg and Cruise: arrested for murders not yet committed",
+     "tags": "DB",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Gattaca",
+     "y": 1997,
+     "note": "A man without perfect genes fakes his way into space",
+     "tags": "D",
+     "warn": null,
+     "seq": []
     }
    ],
    "w": "Watch the Final Cut."
@@ -473,6 +572,22 @@
      "tags": "TOX",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Timecrimes",
+     "y": 2007,
+     "note": "A Spanish time loop on a budget, nasty and clever",
+     "tags": "TX",
+     "warn": "Subtitled.",
+     "seq": []
+    },
+    {
+     "t": "Predestination",
+     "y": 2014,
+     "note": "Ethan Hawke's time agent and a paradox that eats itself",
+     "tags": "TX",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -489,7 +604,24 @@
     "challenge": 2
    },
    "seq": [],
-   "br": [],
+   "br": [
+    {
+     "t": "District 9",
+     "y": 2009,
+     "note": "Aliens stuck in a Johannesburg slum",
+     "tags": "DB",
+     "warn": "Violent and gory.",
+     "seq": []
+    },
+    {
+     "t": "Snowpiercer",
+     "y": 2013,
+     "note": "The last humans on a train, sorted by class",
+     "tags": "DB",
+     "warn": "Violent.",
+     "seq": []
+    }
+   ],
    "w": "Violent and harrowing."
   },
   {
@@ -511,6 +643,14 @@
      "y": 1997,
      "note": "Jodie Foster hears a message from Vega",
      "tags": "B",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Midnight Special",
+     "y": 2016,
+     "note": "A father on the run with a son who has strange powers",
+     "tags": "D",
      "warn": null,
      "seq": []
     }
@@ -537,7 +677,16 @@
      "star": true
     }
    ],
-   "br": []
+   "br": [
+    {
+     "t": "Alien: Romulus",
+     "y": 2024,
+     "note": "The best Alien film in decades: young miners on a derelict station",
+     "tags": "H",
+     "warn": "Gory.",
+     "seq": []
+    }
+   ]
   },
   {
    "n": 17,
@@ -558,6 +707,14 @@
      "y": 1999,
      "note": "Simulated 1930s LA, the same year as The Matrix",
      "tags": "X",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Truman Show",
+     "y": 1998,
+     "note": "Jim Carrey discovers his whole life is a TV show",
+     "tags": "C",
      "warn": null,
      "seq": []
     }
@@ -716,6 +873,14 @@
      "tags": "HX",
      "warn": "Graphic body horror.",
      "seq": []
+    },
+    {
+     "t": "Possessor",
+     "y": 2020,
+     "note": "Brandon Cronenberg: an assassin who works by hijacking other people's bodies",
+     "tags": "HX",
+     "warn": "Extremely gory.",
+     "seq": []
     }
    ],
    "w": "Gooey body horror."
@@ -797,6 +962,22 @@
      "tags": "O",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Rise of the Planet of the Apes",
+     "y": 2011,
+     "note": "Caesar's origin; the trilogy is excellent",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "War for the Planet of the Apes",
+     "y": 2017,
+     "note": "The trilogy's dark, moving end",
+     "tags": "D",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -813,7 +994,24 @@
     "challenge": 3
    },
    "seq": [],
-   "br": []
+   "br": [
+    {
+     "t": "Contagion",
+     "y": 2011,
+     "note": "Soderbergh's pandemic film, horribly accurate",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Thing from Another World",
+     "y": 1951,
+     "note": "Howard Hawks' Arctic alien, before Carpenter's remake",
+     "tags": "OH",
+     "warn": null,
+     "seq": []
+    }
+   ]
   },
   {
    "n": 26,
@@ -828,7 +1026,32 @@
     "challenge": 4
    },
    "seq": [],
-   "br": [],
+   "br": [
+    {
+     "t": "Nineteen Eighty-Four",
+     "y": 1984,
+     "note": "John Hurt in the definitive Orwell",
+     "tags": "DO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Delicatessen",
+     "y": 1991,
+     "note": "Jeunet and Caro's post-apocalyptic butcher comedy",
+     "tags": "CX",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The City of Lost Children",
+     "y": 1995,
+     "note": "A mad scientist steals children's dreams",
+     "tags": "X",
+     "warn": null,
+     "seq": []
+    }
+   ],
    "w": "Torture scenes, and a bleak ending."
   },
   {
@@ -844,7 +1067,24 @@
     "challenge": 4
    },
    "seq": [],
-   "br": [],
+   "br": [
+    {
+     "t": "A Trip to the Moon",
+     "y": 1902,
+     "note": "Méliès' rocket in the moon's eye: 13 minutes",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Things to Come",
+     "y": 1936,
+     "note": "H.G. Wells writes the next century",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ],
    "w": "Silent, and two and a half hours in the restored cut."
   },
   {
@@ -860,7 +1100,24 @@
     "challenge": 5
    },
    "seq": [],
-   "br": [],
+   "br": [
+    {
+     "t": "Solaris",
+     "y": 2002,
+     "note": "Soderbergh and George Clooney's shorter, sadder version",
+     "tags": "X",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "High Life",
+     "y": 2018,
+     "note": "Claire Denis: Robert Pattinson and a baby on a doomed ship",
+     "tags": "X",
+     "warn": "Sexual violence; very strange.",
+     "seq": []
+    }
+   ],
    "w": "Very slow: nearly three hours."
   },
   {
@@ -876,7 +1133,24 @@
     "challenge": 5
    },
    "seq": [],
-   "br": [],
+   "br": [
+    {
+     "t": "Coherence",
+     "y": 2013,
+     "note": "A dinner party, a comet and many versions of the same house",
+     "tags": "X",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Upstream Color",
+     "y": 2013,
+     "note": "Shane Carruth's follow-up, even more baffling",
+     "tags": "X",
+     "warn": null,
+     "seq": []
+    }
+   ],
    "w": "Deliberately baffling."
   },
   {
@@ -891,7 +1165,14 @@
     "age": 3,
     "challenge": 5
    },
-   "seq": [],
+   "seq": [
+    {
+     "t": "2010: The Year We Make Contact",
+     "y": 1984,
+     "note": "Explains what 2001 wouldn't. Fine, but optional",
+     "star": false
+    }
+   ],
    "br": [],
    "w": "Slow, mostly wordless, and the ending is pure abstraction."
   }

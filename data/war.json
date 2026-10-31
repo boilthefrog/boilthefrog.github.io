@@ -1,0 +1,1141 @@
+{
+ "id": "war",
+ "title": "War",
+ "order": 8,
+ "tagline": "From Where Eagles Dare to Come and See without noticing the water got hot.",
+ "heatKeys": [
+  [
+   "violence",
+   "Violence"
+  ],
+  [
+   "intensity",
+   "Intensity"
+  ],
+  [
+   "age",
+   "Old-school"
+  ],
+  [
+   "challenge",
+   "Challenge"
+  ]
+ ],
+ "tags": {
+  "F": "Fun & missions",
+  "C": "Comedy",
+  "U": "British",
+  "M": "Modern combat",
+  "O": "Classics",
+  "V": "Vietnam",
+  "W": "World",
+  "X": "Poetic",
+  "D": "Harrowing"
+ },
+ "levels": [
+  {
+   "t": 22,
+   "name": "Fun and stupid",
+   "note": "Cable cars, tunnels, gold heists and a comedy.",
+   "bg": "#dbe5cc",
+   "fg": "#17110d",
+   "upto": 5
+  },
+  {
+   "t": 35,
+   "name": "Modern",
+   "note": "Omaha Beach, Dunkirk and one long shot across no man's land.",
+   "bg": "#ecdcaa",
+   "fg": "#17110d",
+   "upto": 8
+  },
+  {
+   "t": 50,
+   "name": "The big classics",
+   "note": "Rorke's Drift, the Kwai, D-Day and Lawrence.",
+   "bg": "#e8b47a",
+   "fg": "#17110d",
+   "upto": 14
+  },
+  {
+   "t": 65,
+   "name": "Vietnam",
+   "note": "Stone, Kubrick, Cimino and Coppola.",
+   "bg": "#cf5b3a",
+   "fg": "#17110d",
+   "upto": 19
+  },
+  {
+   "t": 80,
+   "name": "The hard stuff",
+   "note": "U-boats, the Eastern Front, the Holocaust and the trenches.",
+   "bg": "#6d1b21",
+   "fg": "#efe3cf",
+   "upto": 26
+  },
+  {
+   "t": 95,
+   "name": "Final boss",
+   "note": "Ghibli, Malick, Melville and Come and See.",
+   "bg": "#2b0b0e",
+   "fg": "#efe3cf",
+   "upto": 30
+  },
+  {
+   "t": "100+",
+   "name": "Cooked",
+   "note": "Only if they finish Come and See and ask for more.",
+   "bg": "#0c0506",
+   "fg": "#efe3cf",
+   "beyond": true
+  }
+ ],
+ "core": [
+  {
+   "n": 1,
+   "t": "Where Eagles Dare",
+   "y": 1968,
+   "b": "Richard Burton and Clint Eastwood break into a Nazi castle on a mountaintop. The cable car. 'Broadsword calling Danny Boy.'",
+   "tags": "FU",
+   "heat": {
+    "violence": 3,
+    "intensity": 2,
+    "age": 2,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Dirty Dozen",
+     "y": 1967,
+     "note": "Lee Marvin trains twelve convicts for a suicide mission",
+     "tags": "F",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Guns of Navarone",
+     "y": 1961,
+     "note": "Gregory Peck and David Niven take out two giant guns",
+     "tags": "FU",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Eagle Has Landed",
+     "y": 1976,
+     "note": "Michael Caine's German paratroopers try to kidnap Churchill",
+     "tags": "FU",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Von Ryan's Express",
+     "y": 1965,
+     "note": "Frank Sinatra hijacks a POW train",
+     "tags": "F",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Force 10 from Navarone",
+     "y": 1978,
+     "note": "Harrison Ford and Robert Shaw blow up a dam",
+     "tags": "F",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "633 Squadron",
+     "y": 1964,
+     "note": "Mosquitoes attack a Norwegian fjord",
+     "tags": "FU",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "t": "The Great Escape",
+   "y": 1963,
+   "b": "Allied POWs dig three tunnels out of Stalag Luft III. McQueen's motorbike, Elmer Bernstein's march.",
+   "tags": "FO",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 2,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Stalag 17",
+     "y": 1953,
+     "note": "Billy Wilder: who's the informer in Barracks 4?",
+     "tags": "FO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "King Rat",
+     "y": 1965,
+     "note": "George Segal's hustler in a Japanese POW camp",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Colditz Story",
+     "y": 1955,
+     "note": "British officers in the escape-proof castle",
+     "tags": "UO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Wooden Horse",
+     "y": 1950,
+     "note": "Tunnelling under a vaulting horse",
+     "tags": "UO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Escape to Victory",
+     "y": 1981,
+     "note": "Stallone in goal, Pelé up front, Nazis cheating",
+     "tags": "F",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "t": "Kelly's Heroes",
+   "y": 1970,
+   "b": "Clint Eastwood's platoon goes AWOL to rob a Nazi gold reserve. Donald Sutherland's hippie tank commander.",
+   "tags": "FC",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 2,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Three Kings",
+     "y": 1999,
+     "note": "Gulf War soldiers steal Saddam's gold",
+     "tags": "FC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Wild Geese",
+     "y": 1978,
+     "note": "Richard Burton, Roger Moore and Richard Harris as ageing mercenaries",
+     "tags": "F",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Play Dirty",
+     "y": 1969,
+     "note": "Michael Caine's cut-throat desert raid",
+     "tags": "FU",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Tropic Thunder",
+     "y": 2008,
+     "note": "Actors making a war film get stuck in a real one",
+     "tags": "C",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "t": "M*A*S*H",
+   "y": 1970,
+   "b": "Robert Altman: surgeons in a Korean War field hospital drink, prank and operate. The war is the joke, and the blood is real.",
+   "tags": "C",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Catch-22",
+     "y": 1970,
+     "note": "Mike Nichols' bomber-squadron absurdity",
+     "tags": "C",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Good Morning, Vietnam",
+     "y": 1987,
+     "note": "Robin Williams on Saigon radio",
+     "tags": "C",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "t": "Inglourious Basterds",
+   "y": 2009,
+   "b": "Tarantino rewrites the war: Brad Pitt's Jewish-American commandos, Christoph Waltz's Hans Landa, and a cinema full of Nazis.",
+   "tags": "FD",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Sisu",
+     "y": 2022,
+     "note": "A Finnish gold prospector vs a Nazi platoon. Also on Action",
+     "tags": "F",
+     "warn": "Very gory.",
+     "seq": []
+    }
+   ],
+   "w": "Very violent."
+  },
+  {
+   "n": 6,
+   "t": "Saving Private Ryan",
+   "y": 1998,
+   "b": "Spielberg: the Omaha Beach landing, then Tom Hanks's squad sent to bring one man home.",
+   "tags": "M",
+   "heat": {
+    "violence": 5,
+    "intensity": 5,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Big Red One",
+     "y": 1980,
+     "note": "Sam Fuller's own war: Lee Marvin's sergeant and his squad from Africa to Germany",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Black Hawk Down",
+     "y": 2001,
+     "note": "Ridley Scott: Rangers trapped in Mogadishu",
+     "tags": "M",
+     "warn": "Violent.",
+     "seq": []
+    },
+    {
+     "t": "Fury",
+     "y": 2014,
+     "note": "Brad Pitt's Sherman tank crew in the last month of the war",
+     "tags": "M",
+     "warn": "Very violent.",
+     "seq": []
+    },
+    {
+     "t": "Hacksaw Ridge",
+     "y": 2016,
+     "note": "A medic who won't carry a gun, at Okinawa",
+     "tags": "M",
+     "warn": "Graphic violence.",
+     "seq": []
+    },
+    {
+     "t": "Tae Guk Gi: The Brotherhood of War",
+     "y": 2004,
+     "note": "Two brothers in the Korean War",
+     "tags": "MW",
+     "warn": "Subtitled; graphic.",
+     "seq": []
+    },
+    {
+     "t": "Warfare",
+     "y": 2025,
+     "note": "Ray Mendoza and Alex Garland's real-time Iraq firefight",
+     "tags": "M",
+     "warn": "Graphic.",
+     "seq": []
+    }
+   ],
+   "w": "The opening 25 minutes are graphic and harrowing."
+  },
+  {
+   "n": 7,
+   "t": "Dunkirk",
+   "y": 2017,
+   "b": "Nolan: land, sea and air, three timelines and the ticking clock. Almost no dialogue, all tension.",
+   "tags": "M",
+   "heat": {
+    "violence": 2,
+    "intensity": 5,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Dunkirk",
+     "y": 1958,
+     "note": "The Ealing version with John Mills",
+     "tags": "UO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "t": "1917",
+   "y": 2019,
+   "b": "Two British soldiers cross no man's land to deliver a message, filmed to look like one continuous shot.",
+   "tags": "M",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Gallipoli",
+     "y": 1981,
+     "note": "Peter Weir: two Australian runners and the Turkish trenches",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "t": "Zulu",
+   "y": 1964,
+   "b": "150 British soldiers hold Rorke's Drift against 4,000 Zulu warriors. Michael Caine's breakthrough.",
+   "tags": "UO",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [
+    {
+     "t": "Zulu Dawn",
+     "y": 1979,
+     "note": "The prequel: the disaster at Isandlwana",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "The Dam Busters",
+     "y": 1955,
+     "note": "The bouncing bomb and that march",
+     "tags": "UO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Ice Cold in Alex",
+     "y": 1958,
+     "note": "John Mills drives an ambulance across the desert for a cold beer",
+     "tags": "UO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Cruel Sea",
+     "y": 1953,
+     "note": "A corvette crew in the Battle of the Atlantic",
+     "tags": "UO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Went the Day Well?",
+     "y": 1942,
+     "note": "Germans disguised as British soldiers take an English village",
+     "tags": "UO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Imperial attitudes of 1964."
+  },
+  {
+   "n": 10,
+   "t": "The Bridge on the River Kwai",
+   "y": 1957,
+   "b": "Alec Guinness's British colonel builds a bridge for his Japanese captors, out of pride. 'Madness!'",
+   "tags": "O",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Merry Christmas, Mr. Lawrence",
+     "y": 1983,
+     "note": "David Bowie and Ryuichi Sakamoto in a Japanese POW camp",
+     "tags": "X",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "t": "The Longest Day",
+   "y": 1962,
+   "b": "D-Day from every side: an all-star, three-hour, black-and-white epic.",
+   "tags": "O",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Battle of Britain",
+     "y": 1969,
+     "note": "The RAF summer of 1940, with real Spitfires",
+     "tags": "UO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Tora! Tora! Tora!",
+     "y": 1970,
+     "note": "Pearl Harbor from both sides",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "t": "A Bridge Too Far",
+   "y": 1977,
+   "b": "Operation Market Garden: Connery, Caine, Hopkins, Redford, and a plan that went wrong at every bridge.",
+   "tags": "UO",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Train",
+     "y": 1964,
+     "note": "Burt Lancaster sabotages a Nazi train full of French art",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "t": "Lawrence of Arabia",
+   "y": 1962,
+   "b": "David Lean: Peter O'Toole leads the Arab revolt across the desert. The match cut. Nearly four hours.",
+   "tags": "O",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "A Matter of Life and Death",
+     "y": 1946,
+     "note": "Powell and Pressburger: a dead pilot argues for his life in heaven",
+     "tags": "UO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Life and Death of Colonel Blimp",
+     "y": 1943,
+     "note": "Powell and Pressburger: forty years of one British officer",
+     "tags": "UO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Long: 3 hours 47."
+  },
+  {
+   "n": 14,
+   "t": "Patton",
+   "y": 1970,
+   "b": "George C. Scott's general in front of the giant flag, and a portrait of a man made for war.",
+   "tags": "O",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Dr. Strangelove",
+     "y": 1964,
+     "note": "Kubrick: 'Gentlemen, you can't fight in here! This is the War Room!'",
+     "tags": "C",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Fail Safe",
+     "y": 1964,
+     "note": "The same plot as Strangelove, played straight and terrifying",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "t": "Platoon",
+   "y": 1986,
+   "b": "Oliver Stone's own Vietnam: Charlie Sheen between Willem Dafoe's good sergeant and Tom Berenger's monster.",
+   "tags": "V",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Aliens",
+     "y": 1986,
+     "note": "Cameron built it as Vietnam in space. Core on Action",
+     "tags": "F",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Casualties of War",
+     "y": 1989,
+     "note": "De Palma: Michael J. Fox and a squad's atrocity",
+     "tags": "V",
+     "warn": "A rape and murder.",
+     "seq": []
+    },
+    {
+     "t": "The Quiet American",
+     "y": 2002,
+     "note": "Michael Caine in 1950s Saigon",
+     "tags": "V",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Starship Troopers",
+     "y": 1997,
+     "note": "Verhoeven's fascist bug war satire",
+     "tags": "FC",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ],
+   "w": "Graphic violence and a village massacre."
+  },
+  {
+   "n": 16,
+   "t": "Full Metal Jacket",
+   "y": 1987,
+   "b": "Kubrick: R. Lee Ermey's drill sergeant, then Hue City.",
+   "tags": "V",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Jarhead",
+     "y": 2005,
+     "note": "Marines in the Gulf, waiting for a war that never comes",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Hurt Locker",
+     "y": 2008,
+     "note": "A bomb-disposal sergeant in Iraq",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "A suicide and graphic violence."
+  },
+  {
+   "n": 17,
+   "t": "Born on the Fourth of July",
+   "y": 1989,
+   "b": "Tom Cruise's paralysed vet comes home and turns against the war.",
+   "tags": "V",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Coming Home",
+     "y": 1978,
+     "note": "Jon Voight's paralysed vet and Jane Fonda",
+     "tags": "V",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "t": "The Deer Hunter",
+   "y": 1978,
+   "b": "Three steelworkers from Pennsylvania, a wedding, Vietnam and Russian roulette. Three hours, devastating.",
+   "tags": "VD",
+   "heat": {
+    "violence": 4,
+    "intensity": 5,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [],
+   "w": "The Russian roulette scenes."
+  },
+  {
+   "n": 19,
+   "t": "Apocalypse Now",
+   "y": 1979,
+   "b": "Coppola: Martin Sheen goes upriver to find Brando's Kurtz. The helicopters, the napalm, the horror.",
+   "tags": "VD",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Hearts of Darkness",
+     "y": 1991,
+     "note": "The documentary about the film's insane shoot",
+     "tags": "V",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Watch the theatrical cut or Final Cut, not Redux."
+  },
+  {
+   "n": 20,
+   "t": "Das Boot",
+   "y": 1981,
+   "b": "A German U-boat crew in the Atlantic: claustrophobia, depth charges and waiting. Watch the director's cut.",
+   "tags": "W",
+   "heat": {
+    "violence": 3,
+    "intensity": 5,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Greyhound",
+     "y": 2020,
+     "note": "Tom Hanks's destroyer captain hunted by U-boats",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Enemy Below",
+     "y": 1957,
+     "note": "A destroyer vs a U-boat: cat and mouse",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Subtitled; long."
+  },
+  {
+   "n": 21,
+   "t": "Cross of Iron",
+   "y": 1977,
+   "b": "Peckinpah's only war film: James Coburn's cynical German sergeant on the Russian front, slow-motion carnage.",
+   "tags": "D",
+   "heat": {
+    "violence": 5,
+    "intensity": 4,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Stalingrad",
+     "y": 1993,
+     "note": "A German platoon frozen and destroyed",
+     "tags": "WD",
+     "warn": "Subtitled; brutal.",
+     "seq": []
+    },
+    {
+     "t": "Enemy at the Gates",
+     "y": 2001,
+     "note": "Jude Law's Soviet sniper vs Ed Harris",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Graphic violence."
+  },
+  {
+   "n": 22,
+   "t": "Letters from Iwo Jima",
+   "y": 2006,
+   "b": "Clint Eastwood's Iwo Jima from the Japanese side, in Japanese.",
+   "tags": "W",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Flags of Our Fathers",
+     "y": 2006,
+     "note": "The same battle from the American side",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Subtitled."
+  },
+  {
+   "n": 23,
+   "t": "Schindler's List",
+   "y": 1993,
+   "b": "Spielberg: a profiteering Nazi Party member saves 1,100 Jews. Black and white, three hours, essential.",
+   "tags": "D",
+   "heat": {
+    "violence": 4,
+    "intensity": 5,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Pianist",
+     "y": 2002,
+     "note": "Polanski: a Jewish pianist survives the Warsaw ghetto",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Europa Europa",
+     "y": 1990,
+     "note": "A Jewish boy hides inside the Hitler Youth",
+     "tags": "W",
+     "warn": "Subtitled.",
+     "seq": []
+    },
+    {
+     "t": "Downfall",
+     "y": 2004,
+     "note": "Hitler's last days in the bunker",
+     "tags": "W",
+     "warn": "Subtitled.",
+     "seq": []
+    },
+    {
+     "t": "Son of Saul",
+     "y": 2015,
+     "note": "Auschwitz in close-up: a Sonderkommando prisoner's last day and a half",
+     "tags": "WD",
+     "warn": "Harrowing.",
+     "seq": []
+    }
+   ],
+   "w": "Holocaust atrocities."
+  },
+  {
+   "n": 24,
+   "t": "Paths of Glory",
+   "y": 1957,
+   "b": "Kubrick: Kirk Douglas defends three French soldiers picked at random to be shot for cowardice.",
+   "tags": "O",
+   "heat": {
+    "violence": 2,
+    "intensity": 4,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Hill",
+     "y": 1965,
+     "note": "Sean Connery in a brutal British military prison",
+     "tags": "UO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Breaker Morant",
+     "y": 1980,
+     "note": "Australian officers court-martialled in the Boer War",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Grand Illusion",
+     "y": 1937,
+     "note": "Jean Renoir's WWI POWs and the end of the old order",
+     "tags": "WO",
+     "warn": "Subtitled.",
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "t": "All Quiet on the Western Front",
+   "y": 1930,
+   "b": "German schoolboys sign up for glory and find the trenches. Still shattering.",
+   "tags": "O",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 5,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "All Quiet on the Western Front",
+     "y": 2022,
+     "note": "The German remake, Oscar winner",
+     "tags": "W",
+     "warn": "Subtitled; graphic.",
+     "seq": []
+    },
+    {
+     "t": "Joyeux Noël",
+     "y": 2005,
+     "note": "The Christmas truce of 1914",
+     "tags": "W",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Regeneration",
+     "y": 1997,
+     "note": "Siegfried Sassoon and Wilfred Owen at a war hospital",
+     "tags": "U",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "1930: early sound."
+  },
+  {
+   "n": 26,
+   "t": "The Battle of Algiers",
+   "y": 1966,
+   "b": "The Algerian war of independence, recreated so convincingly it looks like newsreel.",
+   "tags": "WO",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [],
+   "w": "Subtitled; bombings and torture."
+  },
+  {
+   "n": 27,
+   "t": "Grave of the Fireflies",
+   "y": 1988,
+   "b": "Studio Ghibli: two orphans try to survive the firebombing of Japan. Animated, and it will destroy you.",
+   "tags": "W",
+   "heat": {
+    "violence": 1,
+    "intensity": 5,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Empire of the Sun",
+     "y": 1987,
+     "note": "Spielberg: Christian Bale as a boy in a Japanese internment camp",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "When the Wind Blows",
+     "y": 1986,
+     "note": "Raymond Briggs' elderly couple and the bomb. Animated, and crushing",
+     "tags": "UD",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Heartbreaking."
+  },
+  {
+   "n": 28,
+   "t": "The Thin Red Line",
+   "y": 1998,
+   "b": "Terrence Malick: Guadalcanal as a poem about nature, death and grace. Some find it slow; some think it's the best war film ever made.",
+   "tags": "X",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [],
+   "w": "Long and meditative."
+  },
+  {
+   "n": 29,
+   "t": "Army of Shadows",
+   "y": 1969,
+   "b": "Jean-Pierre Melville's French Resistance: grey, cold, no heroics, and agonising choices.",
+   "tags": "WD",
+   "heat": {
+    "violence": 2,
+    "intensity": 4,
+    "age": 2,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Ascent",
+     "y": 1977,
+     "note": "Larisa Shepitko: two Soviet partisans captured in the snow",
+     "tags": "WD",
+     "warn": "Subtitled; harrowing.",
+     "seq": []
+    }
+   ],
+   "w": "Subtitled; slow."
+  },
+  {
+   "n": 30,
+   "t": "Come and See",
+   "y": 1985,
+   "b": "A Belarusian boy joins the partisans and witnesses the Nazi massacres. The hardest war film ever made.",
+   "tags": "WD",
+   "heat": {
+    "violence": 5,
+    "intensity": 5,
+    "age": 1,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [],
+   "w": "Atrocities shown with unbearable intensity. Subtitled."
+  }
+ ],
+ "beyond": [
+  {
+   "t": "Threads",
+   "y": 1984,
+   "b": "A nuclear attack on Sheffield and what comes after, told like a documentary. Many say it's the most frightening film ever broadcast.",
+   "tags": "UD",
+   "w": "Unrelentingly bleak.",
+   "heat": {
+    "violence": 3,
+    "intensity": 5,
+    "age": 1,
+    "challenge": 3
+   }
+  },
+  {
+   "t": "The War Game",
+   "y": 1965,
+   "b": "Peter Watkins' mock-documentary of a nuclear strike on Kent. The BBC banned it for 20 years.",
+   "tags": "UD",
+   "w": "Bleak.",
+   "heat": {
+    "violence": 2,
+    "intensity": 5,
+    "age": 3,
+    "challenge": 3
+   }
+  }
+ ]
+}

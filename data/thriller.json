@@ -113,6 +113,30 @@
      "tags": "P",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "The Wrong Man",
+     "y": 1956,
+     "note": "Hitchcock's true story: Henry Fonda arrested for crimes he didn't commit",
+     "tags": "HO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Witness",
+     "y": 1985,
+     "note": "Harrison Ford's cop hides among the Amish",
+     "tags": "C",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "In the Line of Fire",
+     "y": 1993,
+     "note": "Clint Eastwood's ageing bodyguard vs John Malkovich's assassin",
+     "tags": "P",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -151,6 +175,22 @@
      "y": 1938,
      "note": "An old lady disappears from a train and nobody admits she existed",
      "tags": "HO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "To Catch a Thief",
+     "y": 1955,
+     "note": "Cary Grant, Grace Kelly and the Riviera",
+     "tags": "HO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Man Who Knew Too Much",
+     "y": 1956,
+     "note": "James Stewart, Doris Day and the cymbal crash at the Albert Hall",
+     "tags": "HSO",
      "warn": null,
      "seq": []
     }
@@ -201,7 +241,16 @@
     "challenge": 1
    },
    "seq": [],
-   "br": []
+   "br": [
+    {
+     "t": "The Manchurian Candidate",
+     "y": 1962,
+     "note": "A brainwashed war hero and a sleeper assassination plot",
+     "tags": "PO",
+     "warn": null,
+     "seq": []
+    }
+   ]
   },
   {
    "n": 5,
@@ -223,6 +272,22 @@
      "note": "Robert Mitchum's original, cooler and nastier",
      "tags": "KO",
      "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Deliverance",
+     "y": 1972,
+     "note": "Four city men canoe into the backwoods",
+     "tags": "K",
+     "warn": "Includes a rape scene.",
+     "seq": []
+    },
+    {
+     "t": "Straw Dogs",
+     "y": 1971,
+     "note": "Peckinpah: Dustin Hoffman's Cornish cottage under siege",
+     "tags": "K",
+     "warn": "Includes a rape scene and graphic violence.",
      "seq": []
     }
    ],
@@ -271,6 +336,14 @@
      "y": 1975,
      "note": "Al Pacino's bank robbery goes wrong, live on TV. True story",
      "tags": "CX",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Witness for the Prosecution",
+     "y": 1957,
+     "note": "Billy Wilder's courtroom twister with Charles Laughton and Marlene Dietrich",
+     "tags": "O",
      "warn": null,
      "seq": []
     }
@@ -353,7 +426,24 @@
     "challenge": 2
    },
    "seq": [],
-   "br": [],
+   "br": [
+    {
+     "t": "Fight Club",
+     "y": 1999,
+     "note": "Fincher: the first rule, and a twist",
+     "tags": "M",
+     "warn": "Violent.",
+     "seq": []
+    },
+    {
+     "t": "Parasite",
+     "y": 2019,
+     "note": "Bong Joon-ho: a poor family worms into a rich one's house. Oscar winner",
+     "tags": "C",
+     "warn": "Subtitled; violent finale.",
+     "seq": []
+    }
+   ],
    "w": "One very bloody scene."
   },
   {
@@ -369,7 +459,24 @@
     "challenge": 3
    },
    "seq": [],
-   "br": []
+   "br": [
+    {
+     "t": "The Prestige",
+     "y": 2006,
+     "note": "Nolan: rival Victorian magicians, and the final reveal",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Shutter Island",
+     "y": 2010,
+     "note": "Scorsese: DiCaprio's marshal at an island asylum",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ]
   },
   {
    "n": 10,
@@ -408,6 +515,22 @@
      "tags": "HO",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Rope",
+     "y": 1948,
+     "note": "Two students hold a party round the trunk with a body in it. Made to look like one take",
+     "tags": "HO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Lodger",
+     "y": 1927,
+     "note": "Hitchcock's first real thriller: a silent London Ripper story",
+     "tags": "HO",
+     "warn": "Silent.",
+     "seq": []
     }
    ]
   },
@@ -440,6 +563,22 @@
      "tags": "HK",
      "warn": "Graphic for its time.",
      "seq": []
+    },
+    {
+     "t": "Marnie",
+     "y": 1964,
+     "note": "Tippi Hedren's compulsive thief and Sean Connery's dubious rescuer",
+     "tags": "HO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Gaslight",
+     "y": 1944,
+     "note": "Ingrid Bergman's husband makes her doubt her own mind. The film the word comes from",
+     "tags": "O",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -471,6 +610,14 @@
      "note": "Antonioni: a photographer may have photographed a murder",
      "tags": "PX",
      "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Lives of Others",
+     "y": 2006,
+     "note": "A Stasi officer bugs a playwright's flat and begins to care",
+     "tags": "P",
+     "warn": "Subtitled.",
      "seq": []
     }
    ]
@@ -509,6 +656,30 @@
      "t": "Spotlight",
      "y": 2015,
      "note": "The Boston Globe uncovers the Catholic Church cover-up",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Z",
+     "y": 1969,
+     "note": "Costa-Gavras: the cover-up of a Greek politician's murder",
+     "tags": "P",
+     "warn": "Subtitled.",
+     "seq": []
+    },
+    {
+     "t": "JFK",
+     "y": 1991,
+     "note": "Oliver Stone: Kevin Costner's DA and the assassination",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Insider",
+     "y": 1999,
+     "note": "Michael Mann: Russell Crowe blows the whistle on Big Tobacco",
      "tags": "P",
      "warn": null,
      "seq": []
@@ -558,6 +729,14 @@
      "y": 1973,
      "note": "An assassin, a target, and the detective racing to stop him",
      "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Constant Gardener",
+     "y": 2005,
+     "note": "Le Carré: Ralph Fiennes uncovers why his wife was killed",
+     "tags": "P",
      "warn": null,
      "seq": []
     }
@@ -858,6 +1037,22 @@
      "tags": "KX",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Le Corbeau",
+     "y": 1943,
+     "note": "Clouzot: poison-pen letters tear a French town apart",
+     "tags": "O",
+     "warn": "Subtitled.",
+     "seq": []
+    },
+    {
+     "t": "Match Point",
+     "y": 2005,
+     "note": "Woody Allen's London tennis pro, a mistress and a murder",
+     "tags": "K",
+     "warn": null,
+     "seq": []
     }
    ],
    "w": "Subtitled."
@@ -891,7 +1086,16 @@
     "challenge": 5
    },
    "seq": [],
-   "br": [],
+   "br": [
+    {
+     "t": "Blue Velvet",
+     "y": 1986,
+     "note": "Lynch: a severed ear and Dennis Hopper's Frank",
+     "tags": "MK",
+     "warn": "Disturbing violence and sexual abuse.",
+     "seq": []
+    }
+   ],
    "w": "Graphic violence and sexual content."
   },
   {
@@ -923,7 +1127,16 @@
     "challenge": 5
    },
    "seq": [],
-   "br": [],
+   "br": [
+    {
+     "t": "Black Swan",
+     "y": 2010,
+     "note": "Natalie Portman's ballerina cracks up",
+     "tags": "M",
+     "warn": "Body horror and sexual content.",
+     "seq": []
+    }
+   ],
    "w": "Deliberately baffling."
   }
  ],

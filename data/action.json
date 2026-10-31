@@ -296,6 +296,14 @@
      "tags": "W",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "The Last of the Mohicans",
+     "y": 1992,
+     "note": "Michael Mann's frontier epic and that cliff-top finale",
+     "tags": "A",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -512,6 +520,14 @@
     }
    ],
    "br": [
+    {
+     "t": "Smokey and the Bandit",
+     "y": 1977,
+     "note": "Burt Reynolds, a Trans Am and a lot of beer",
+     "tags": "VCO",
+     "warn": null,
+     "seq": []
+    },
     {
      "t": "The Transporter",
      "y": 2002,
@@ -730,7 +746,16 @@
     "challenge": 0
    },
    "seq": [],
-   "br": []
+   "br": [
+    {
+     "t": "Edge of Tomorrow",
+     "y": 2014,
+     "note": "Tom Cruise dies, resets, repeats. Huge fun",
+     "tags": "X",
+     "warn": null,
+     "seq": []
+    }
+   ]
   },
   {
    "n": 17,
@@ -784,6 +809,14 @@
      "note": "Verhoeven's satirical cyborg cop",
      "tags": "XP",
      "warn": "Very violent.",
+     "seq": []
+    },
+    {
+     "t": "Demolition Man",
+     "y": 1993,
+     "note": "Stallone vs Snipes in a too-polite future",
+     "tags": "XC",
+     "warn": null,
      "seq": []
     }
    ]
@@ -844,6 +877,14 @@
      "y": 1976,
      "note": "Carpenter's siege",
      "tags": "GO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Rollerball",
+     "y": 1975,
+     "note": "Corporate future, lethal sport, James Caan",
+     "tags": "XO",
      "warn": null,
      "seq": []
     }
@@ -948,6 +989,22 @@
      "tags": "GO",
      "warn": "Includes a brutal assault scene.",
      "seq": []
+    },
+    {
+     "t": "The Taking of Pelham One Two Three",
+     "y": 1974,
+     "note": "Subway hijack, Walter Matthau, peak 70s New York",
+     "tags": "PO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Thunderbolt and Lightfoot",
+     "y": 1974,
+     "note": "Eastwood and Jeff Bridges' heist road movie",
+     "tags": "CO",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -970,6 +1027,14 @@
      "y": 1981,
      "note": "Michael Mann's first: James Caan the safecracker",
      "tags": "GO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Collateral",
+     "y": 2004,
+     "note": "Mann again: Tom Cruise as a hitman in a taxi",
+     "tags": "G",
      "warn": null,
      "seq": []
     }
@@ -1211,6 +1276,14 @@
      "y": 2012,
      "note": "The same idea in Mega-City One",
      "tags": "XG",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "District B13",
+     "y": 2004,
+     "note": "French parkour action; pure momentum",
+     "tags": "M",
      "warn": null,
      "seq": []
     }

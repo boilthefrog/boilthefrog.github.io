@@ -981,14 +981,6 @@
    ],
    "br": [
     {
-     "t": "Apocalypto",
-     "y": 2006,
-     "note": "Mel Gibson's Mayan epic: one long jungle chase",
-     "tags": "A",
-     "warn": "Graphic violence, including human sacrifice. Subtitled.",
-     "seq": []
-    },
-    {
      "t": "Cobra",
      "y": 1986,
      "note": "Stallone, a matchstick and the worst haircut in LA",
@@ -1073,6 +1065,14 @@
      "note": "Walter Hill's rock'n'roll fable",
      "tags": "VO",
      "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Apocalypto",
+     "y": 2006,
+     "note": "Mel Gibson's Mayan epic: one long jungle chase",
+     "tags": "A",
+     "warn": "Graphic violence, including human sacrifice. Subtitled.",
      "seq": []
     },
     {

@@ -1,0 +1,773 @@
+{
+ "id": "superheroes",
+ "title": "Superheroes",
+ "order": 9,
+ "tagline": "From Superman to Birdman without noticing the water got hot.",
+ "heatKeys": [
+  [
+   "violence",
+   "Violence"
+  ],
+  [
+   "intensity",
+   "Intensity"
+  ],
+  [
+   "age",
+   "Old-school"
+  ],
+  [
+   "challenge",
+   "Challenge"
+  ]
+ ],
+ "tags": {
+  "C": "Comedy",
+  "M": "Marvel & friends",
+  "B": "Batman",
+  "Z": "Animation",
+  "O": "Old-school",
+  "D": "Dark",
+  "V": "Vampires & gore",
+  "X": "Weird"
+ },
+ "levels": [
+  {
+   "t": 22,
+   "name": "Popcorn",
+   "note": "Flying men, jet packs, a super family, the Spider-Verse and a raccoon.",
+   "bg": "#dbe5cc",
+   "fg": "#17110d",
+   "upto": 5
+  },
+  {
+   "t": 35,
+   "name": "The good Marvel and friends",
+   "note": "Stark, Raimi's Spider-Man, X2, Cap, the Avengers and RRR.",
+   "bg": "#ecdcaa",
+   "fg": "#17110d",
+   "upto": 11
+  },
+  {
+   "t": 50,
+   "name": "Batman",
+   "note": "Burton, the animated one, Nolan and Reeves.",
+   "bg": "#e8b47a",
+   "fg": "#17110d",
+   "upto": 17
+  },
+  {
+   "t": 65,
+   "name": "Cult and dark",
+   "note": "Vampires, revenge, demons, kids who kill and Mega-City One.",
+   "bg": "#cf5b3a",
+   "fg": "#17110d",
+   "upto": 25
+  },
+  {
+   "t": 80,
+   "name": "Deconstructions",
+   "note": "Old Wolverine, a wrench and a slow origin story.",
+   "bg": "#6d1b21",
+   "fg": "#efe3cf",
+   "upto": 28
+  },
+  {
+   "t": 95,
+   "name": "Final boss",
+   "note": "The Joker and a superhero actor's breakdown.",
+   "bg": "#2b0b0e",
+   "fg": "#efe3cf",
+   "upto": 30
+  },
+  {
+   "t": "100+",
+   "name": "Cooked",
+   "note": "Only if they finish Birdman and ask for more.",
+   "bg": "#0c0506",
+   "fg": "#efe3cf",
+   "beyond": true
+  }
+ ],
+ "core": [
+  {
+   "n": 1,
+   "t": "Superman",
+   "y": 1978,
+   "b": "Christopher Reeve makes you believe a man can fly. Earnest, funny and still the template.",
+   "tags": "DO",
+   "heat": {
+    "violence": 1,
+    "intensity": 1,
+    "age": 2,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "Superman II",
+     "y": 1980,
+     "note": "Zod, 'Kneel before Zod!', and the best Superman fight",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Batman",
+     "y": 1966,
+     "note": "Adam West's camp classic: shark repellent bat-spray",
+     "tags": "DC",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "t": "The Rocketeer",
+   "y": 1991,
+   "b": "A 1938 stunt pilot finds a jet pack, and the Nazis want it. Old-fashioned adventure in the Raiders mould.",
+   "tags": "O",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Dick Tracy",
+     "y": 1990,
+     "note": "Primary colours, prosthetics and Al Pacino going large",
+     "tags": "OD",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "The Mask",
+     "y": 1994,
+     "note": "Jim Carrey as a living cartoon",
+     "tags": "C",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "t": "The Incredibles",
+   "y": 2004,
+   "b": "Pixar's retired superhero family, forced back into action. Also the best Fantastic Four film.",
+   "tags": "Z",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "Incredibles 2",
+     "y": 2018,
+     "note": "Fun, if not as sharp",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "Megamind",
+     "y": 2010,
+     "note": "A supervillain with no hero to fight",
+     "tags": "ZC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Big Hero 6",
+     "y": 2014,
+     "note": "A boy and his inflatable robot. On Sci-fi",
+     "tags": "Z",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "t": "Spider-Man: Into the Spider-Verse",
+   "y": 2018,
+   "b": "Miles Morales and a multiverse of Spider-People, animated like a comic come alive. Possibly the best superhero film ever made.",
+   "tags": "ZM",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [
+    {
+     "t": "Spider-Man: Across the Spider-Verse",
+     "y": 2023,
+     "note": "Even more dazzling. Ends on a cliffhanger",
+     "star": true
+    }
+   ],
+   "br": []
+  },
+  {
+   "n": 5,
+   "t": "Guardians of the Galaxy",
+   "y": 2014,
+   "b": "Space misfits, a talking raccoon and a tree, and a 70s mixtape. Marvel's funniest.",
+   "tags": "MC",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Thor: Ragnarok",
+     "y": 2017,
+     "note": "Taika Waititi turns Thor into a comedy",
+     "tags": "MC",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "t": "Iron Man",
+   "y": 2008,
+   "b": "Robert Downey Jr. builds a suit in a cave and becomes Tony Stark forever. Where the Marvel films began.",
+   "tags": "M",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 7,
+   "t": "Spider-Man 2",
+   "y": 2004,
+   "b": "Raimi: Peter Parker can't pay his rent, and Doc Ock. The train fight.",
+   "tags": "M",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "Spider-Man",
+     "y": 2002,
+     "note": "Raimi's first: the upside-down kiss",
+     "star": false
+    }
+   ],
+   "br": []
+  },
+  {
+   "n": 8,
+   "t": "X2",
+   "y": 2003,
+   "b": "The X-Men and Magneto team up against a mutant-hunting colonel. Nightcrawler in the White House.",
+   "tags": "M",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [
+    {
+     "t": "X-Men",
+     "y": 2000,
+     "note": "Where it started",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "X-Men: First Class",
+     "y": 2011,
+     "note": "Young Xavier and Magneto in the 60s",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "X-Men: Days of Future Past",
+     "y": 2014,
+     "note": "Old and young X-Men across time",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "t": "Captain America: The Winter Soldier",
+   "y": 2014,
+   "b": "Cap in a 70s paranoia thriller: S.H.I.E.L.D. is rotten and his best friend is the assassin.",
+   "tags": "M",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Captain America: Civil War",
+     "y": 2016,
+     "note": "The airport fight",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "t": "The Avengers",
+   "y": 2012,
+   "b": "Joss Whedon assembles the team: bickering heroes, Loki, and the Battle of New York. The fair-to-Marvel pick.",
+   "tags": "MC",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Avengers: Infinity War",
+     "y": 2018,
+     "note": "Thanos, and the snap",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "n": 10
+  },
+  {
+   "n": 11,
+   "t": "RRR",
+   "y": 2022,
+   "b": "Two revolutionaries in 1920s India, one a cop, one a rebel, best friends who don't know it. A tiger fight, a dance-off, a bridge rescue. Three hours of pure joy.",
+   "tags": "MX",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [],
+   "w": "Three hours, subtitled, very violent in places."
+  },
+  {
+   "n": 12,
+   "t": "Batman",
+   "y": 1989,
+   "b": "Tim Burton: Michael Keaton's Batman, Nicholson's Joker, Prince on the soundtrack and Gotham as gothic noir.",
+   "tags": "B",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Batman Forever",
+     "y": 1995,
+     "note": "Jim Carrey's Riddler. Neon nonsense",
+     "tags": "BC",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "t": "Batman Returns",
+   "y": 1992,
+   "b": "Burton's Christmas fairy tale: Michelle Pfeiffer's Catwoman, Danny DeVito's grotesque Penguin.",
+   "tags": "BD",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 14,
+   "t": "Batman: Mask of the Phantasm",
+   "y": 1993,
+   "b": "The animated series' film: a vigilante killing gangsters, and Bruce's lost love. Arguably the best Batman story on film.",
+   "tags": "BZ",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 15,
+   "t": "Batman Begins",
+   "y": 2005,
+   "b": "Nolan: Bruce Wayne learns fear, the League of Shadows and the Tumbler. Better than The Dark Knight, some say.",
+   "tags": "B",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 16,
+   "t": "The Dark Knight",
+   "y": 2008,
+   "b": "Heath Ledger's Joker turns Gotham into a moral experiment. The superhero film as crime epic.",
+   "tags": "B",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [
+    {
+     "t": "The Dark Knight Rises",
+     "y": 2012,
+     "note": "Bane, and the end of Nolan's trilogy",
+     "star": false
+    }
+   ],
+   "br": []
+  },
+  {
+   "n": 17,
+   "t": "The Batman",
+   "y": 2022,
+   "b": "Matt Reeves: Robert Pattinson's Batman as a detective, the Riddler as a serial killer. Rain, Nirvana, three hours.",
+   "tags": "BD",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [],
+   "w": "Long, slow and dark."
+  },
+  {
+   "n": 18,
+   "t": "Blade",
+   "y": 1998,
+   "b": "Wesley Snipes' half-vampire hunter and the blood-rave opening.",
+   "tags": "DV",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [
+    {
+     "t": "Blade II",
+     "y": 2002,
+     "note": "Del Toro's sequel: even better",
+     "star": true
+    }
+   ],
+   "br": [],
+   "w": "Gory."
+  },
+  {
+   "n": 19,
+   "t": "The Crow",
+   "y": 1994,
+   "b": "Brandon Lee's murdered musician returns for revenge. Lee was killed during filming.",
+   "tags": "D",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [],
+   "w": "Violent."
+  },
+  {
+   "n": 20,
+   "t": "Hellboy",
+   "y": 2004,
+   "b": "Del Toro: Ron Perlman's demon detective, Nazis and Lovecraftian tentacles.",
+   "tags": "DX",
+   "heat": {
+    "violence": 3,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [
+    {
+     "t": "Hellboy II: The Golden Army",
+     "y": 2008,
+     "note": "Del Toro's richer, stranger sequel",
+     "star": true
+    }
+   ],
+   "br": []
+  },
+  {
+   "n": 21,
+   "t": "Kick-Ass",
+   "y": 2010,
+   "b": "A teenager with no powers puts on a costume and nearly dies. Then Hit-Girl arrives.",
+   "tags": "DC",
+   "heat": {
+    "violence": 5,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Kingsman: The Secret Service",
+     "y": 2014,
+     "note": "Mark Millar's spy spoof. Also on Action",
+     "tags": "C",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Wanted",
+     "y": 2008,
+     "note": "An office drone learns to curve bullets with Angelina Jolie",
+     "tags": "D",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Deadpool",
+     "y": 2016,
+     "note": "Ryan Reynolds' fourth-wall-breaking smartmouth",
+     "tags": "C",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ],
+   "w": "Very violent, including a child doing the killing."
+  },
+  {
+   "n": 22,
+   "t": "Chronicle",
+   "y": 2012,
+   "b": "Three teenagers get telekinesis, filmed on their own cameras. Fun, then dark.",
+   "tags": "D",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 23,
+   "t": "V for Vendetta",
+   "y": 2005,
+   "b": "A masked anarchist and Natalie Portman take on a fascist Britain. Remember, remember.",
+   "tags": "D",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 24,
+   "t": "Darkman",
+   "y": 1990,
+   "b": "Sam Raimi's pre-Spider-Man pulp anti-hero: Liam Neeson, burned and furious.",
+   "tags": "DX",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 25,
+   "t": "Dredd",
+   "y": 2012,
+   "b": "Karl Urban's judge, a tower block and the drug Slo-Mo. Also on Action.",
+   "tags": "DV",
+   "heat": {
+    "violence": 5,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Sin City",
+     "y": 2005,
+     "note": "Frank Miller's black-and-white-and-red noir. On Crime & Noir",
+     "tags": "DV",
+     "warn": "Very violent.",
+     "seq": []
+    },
+    {
+     "t": "Judge Dredd",
+     "y": 1995,
+     "note": "Stallone takes his helmet off",
+     "tags": "DC",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ],
+   "w": "Very gory."
+  },
+  {
+   "n": 26,
+   "t": "Logan",
+   "y": 2017,
+   "b": "An old, dying Wolverine drives a mute girl to the border. Shane with claws.",
+   "tags": "D",
+   "heat": {
+    "violence": 5,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [],
+   "w": "Very violent."
+  },
+  {
+   "n": 27,
+   "t": "Super",
+   "y": 2010,
+   "b": "James Gunn before Guardians: Rainn Wilson's sad sack becomes a wrench-wielding vigilante. Funny, then horrifying.",
+   "tags": "DC",
+   "heat": {
+    "violence": 5,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [],
+   "w": "Sudden extreme violence."
+  },
+  {
+   "n": 28,
+   "t": "Unbreakable",
+   "y": 2000,
+   "b": "M. Night Shyamalan: Bruce Willis survives a train crash untouched, and Samuel L. Jackson knows why. A slow, quiet origin story.",
+   "tags": "DX",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Watchmen",
+     "y": 2009,
+     "note": "Zack Snyder's shot-for-shot comic adaptation. Divisive",
+     "tags": "D",
+     "warn": "Very violent; long.",
+     "seq": []
+    },
+    {
+     "t": "Split",
+     "y": 2016,
+     "note": "James McAvoy's 23 personalities, secretly an Unbreakable sequel",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Slow."
+  },
+  {
+   "n": 29,
+   "t": "Joker",
+   "y": 2019,
+   "b": "Joaquin Phoenix's failed comedian becomes the Joker in a Taxi Driver-style Gotham.",
+   "tags": "D",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [],
+   "w": "Grim and violent."
+  },
+  {
+   "n": 30,
+   "t": "Birdman",
+   "y": 2014,
+   "b": "Michael Keaton, once a superhero star, stages a Broadway play to be taken seriously. Filmed as one long take.",
+   "tags": "X",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": []
+  }
+ ],
+ "beyond": []
+}

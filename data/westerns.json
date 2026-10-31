@@ -260,14 +260,6 @@
      "tags": "WO",
      "warn": null,
      "seq": []
-    },
-    {
-     "t": "Hell or High Water",
-     "y": 2016,
-     "note": "Modern Texas bank robbers and Jeff Bridges as the ranger after them",
-     "tags": "M",
-     "warn": null,
-     "seq": []
     }
    ]
   },
@@ -707,7 +699,24 @@
     "challenge": 2
    },
    "seq": [],
-   "br": []
+   "br": [
+    {
+     "t": "The Sisters Brothers",
+     "y": 2018,
+     "note": "John C. Reilly and Joaquin Phoenix as hitman brothers. Funny, then tender",
+     "tags": "RC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Hostiles",
+     "y": 2017,
+     "note": "Christian Bale escorts a dying Cheyenne chief home",
+     "tags": "RD",
+     "warn": "Very violent.",
+     "seq": []
+    }
+   ]
   },
   {
    "n": 24,
@@ -722,7 +731,16 @@
     "challenge": 4
    },
    "seq": [],
-   "br": [],
+   "br": [
+    {
+     "t": "The Ballad of Buster Scruggs",
+     "y": 2018,
+     "note": "The Coens' six Western tales, from silly to devastating",
+     "tags": "RC",
+     "warn": null,
+     "seq": []
+    }
+   ],
    "w": "Slow: 160 minutes."
   },
   {
@@ -786,25 +804,99 @@
      "tags": "RD",
      "warn": "One of the most gruesome scenes in any film.",
      "seq": []
+    },
+    {
+     "t": "Ulzana's Raid",
+     "y": 1972,
+     "note": "Burt Lancaster's scout tracks an Apache raiding party. Brutal and intelligent",
+     "tags": "RD",
+     "warn": "Disturbing violence.",
+     "seq": []
     }
    ],
    "w": "Extreme violence, including a flogging."
   },
   {
    "n": 28,
-   "t": "Ulzana's Raid",
-   "y": 1972,
-   "b": "Burt Lancaster's scout tracks an Apache raiding party. Brutal, intelligent, Vietnam-era bleak.",
-   "tags": "RD",
+   "t": "No Country for Old Men",
+   "y": 2007,
+   "b": "The Coens' modern Western: a hunter finds drug money in the Texas desert, and Javier Bardem's killer comes for it. Tommy Lee Jones's old sheriff can't keep up.",
+   "tags": "MD",
+   "w": "Sudden, cold violence, and an ending that refuses to resolve.",
    "heat": {
     "violence": 4,
-    "intensity": 4,
-    "age": 3,
+    "intensity": 5,
+    "age": 0,
     "challenge": 3
    },
    "seq": [],
-   "br": [],
-   "w": "Disturbing violence."
+   "br": [
+    {
+     "t": "Hell or High Water",
+     "y": 2016,
+     "note": "Modern Texas bank robbers and Jeff Bridges as the ranger after them",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Bad Day at Black Rock",
+     "y": 1955,
+     "note": "The first modern Western: one-armed Spencer Tracy arrives in a desert town with a secret",
+     "tags": "OM",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Hud",
+     "y": 1963,
+     "note": "Paul Newman's heel of a Texas rancher's son",
+     "tags": "OM",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Lone Star",
+     "y": 1996,
+     "note": "John Sayles: a border sheriff digs up his dead father's legend",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Three Burials of Melquiades Estrada",
+     "y": 2005,
+     "note": "Tommy Lee Jones drags his friend's body to Mexico",
+     "tags": "MD",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Wind River",
+     "y": 2017,
+     "note": "A murder on a Wyoming reservation in the snow",
+     "tags": "MD",
+     "warn": "Includes a rape scene.",
+     "seq": []
+    },
+    {
+     "t": "Logan",
+     "y": 2017,
+     "note": "Wolverine's last ride is really Shane with claws",
+     "tags": "MV",
+     "warn": "Very violent.",
+     "seq": []
+    },
+    {
+     "t": "Extreme Prejudice",
+     "y": 1987,
+     "note": "Walter Hill: Nick Nolte's Texas Ranger vs his old friend's cartel",
+     "tags": "MG",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
   },
   {
    "n": 29,

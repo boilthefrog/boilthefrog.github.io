@@ -1195,7 +1195,8 @@
      "t": "The Evil Dead",
      "y": 1981,
      "note": "The raw, scarier original",
-     "star": true
+     "star": true,
+     "tmdb": 764
     },
     {
      "t": "Army of Darkness",

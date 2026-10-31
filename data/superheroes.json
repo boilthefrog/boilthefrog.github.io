@@ -459,7 +459,24 @@
     "challenge": 2
    },
    "seq": [],
-   "br": [],
+   "br": [
+    {
+     "t": "The Heroic Trio",
+     "y": 1993,
+     "note": "Michelle Yeoh, Anita Mui and Maggie Cheung as Hong Kong superheroines. Also on Asian action",
+     "tags": "X",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Black Mask",
+     "y": 1996,
+     "note": "Jet Li as an escaped super-soldier in a Kato mask. Also on Asian action",
+     "tags": "X",
+     "warn": null,
+     "seq": []
+    }
+   ],
    "w": "Three hours, subtitled, very violent in places."
   },
   {
@@ -775,6 +792,15 @@
      "note": "Stallone takes his helmet off",
      "tags": "DC",
      "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "300",
+     "y": 2006,
+     "note": "Frank Miller's Spartans: abs, slow-motion and 'This is Sparta!'",
+     "tags": "DV",
+     "warn": "Very violent.",
      "seq": [],
      "junk": true
     }

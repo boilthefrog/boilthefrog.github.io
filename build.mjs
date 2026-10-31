@@ -137,7 +137,7 @@ ${body}
 const tagChips = (L, t) => [...(t || "")].map(k => `<span class="tag">${esc(L.tags[k])}</span>`).join("");
 function item(L, o, isSeq, root) {
   const sub = (o.seq || []).length ? `<ul class="blist sub">${o.seq.map(q => item(L, q, true, root)).join("")}</ul>` : "";
-  return `<li data-tags="${esc(o.tags || "")}" data-id="${o.id}" class="${isSeq ? "sq" : ""}"><input type="checkbox" id="cb-${o.id}" data-id="${o.id}" aria-label="Watched ${esc(o.t)}"><label for="cb-${o.id}">${isSeq ? '<span class="sqtag">Sequel</span>' : ""}${o.junk ? '<span class="junk">Junk food</span>' : ""}<span class="bt"><a href="${root}films/${o.id}/">${esc(o.t)}</a>${o.star ? ' <span class="star" title="Worth the detour">★</span>' : ""}</span><span class="by">${o.y}</span><span class="bn">${esc(o.note)}</span>${o.warn ? `<span class="bw">${esc(o.warn)}</span>` : ""}</label>${sub}</li>`;
+  return `<li data-tags="${esc(o.tags || "")}" data-id="${o.id}" class="${isSeq ? "sq" : ""}"><input type="checkbox" id="cb-${o.id}" data-id="${o.id}" aria-label="Watched ${esc(o.t)}"><label for="cb-${o.id}">${isSeq ? '<span class="sqtag">Sequel</span>' : ""}${o.junk ? '<span class="junk">Junk food</span>' : ""}<span class="bt"><a href="${root}films/${o.id}/">${esc(o.t)}</a>${o.star ? ' <span class="star">★ Worth it</span>' : ""}</span><span class="by">${o.y}</span><span class="bn">${esc(o.note)}</span>${o.warn ? `<span class="bw">${esc(o.warn)}</span>` : ""}</label>${sub}</li>`;
 }
 function card(L, c, no, beyond, root) {
   const brs = c.br || [], sq = c.seq || [];
@@ -181,7 +181,7 @@ function ladderPage(L) {
 <p class="lede">${L.core.length} films, each a few degrees hotter than the last, plus ${total - L.core.length} side quests and sequels. ${esc(L.tagline)}</p>
 <ul class="rules">
 <li><b>Climb in order</b>Each core film turns the heat up one notch.</li>
-<li><b>Liked one? Branch off</b>Every film has side quests at the same heat, plus sequels worth the detour (★). Junk food is cult trash, enjoyed responsibly.</li>
+<li><b>Liked one? Branch off</b>Every film has side quests at the same heat, plus sequels: the ones marked ★ Worth it are as good as the original. Junk food is cult trash, enjoyed responsibly.</li>
 <li><b>One a week</b>The core 30 takes about seven months. Ticks are saved in this browser.</li>
 </ul>
 </header>
@@ -216,7 +216,7 @@ function filmPage(f) {
     const of = p.of ? films.get(p.of) : null;
     if (p.role === "core") return `Step ${p.n} of 30 on the <a href="${root}${p.ladder}/">${esc(p.ladderTitle)} ladder</a>.`;
     if (p.role === "beyond") return `Beyond the final boss on the <a href="${root}${p.ladder}/">${esc(p.ladderTitle)} ladder</a>.`;
-    if (p.role === "sequel") return `${p.star ? "★ " : ""}Sequel spur off <a href="${root}films/${of.id}/">${esc(of.t)}</a> on the <a href="${root}${p.ladder}/">${esc(p.ladderTitle)} ladder</a>.`;
+    if (p.role === "sequel") return `${p.star ? '<span class="star">★ Worth it</span> ' : ""}Sequel spur off <a href="${root}films/${of.id}/">${esc(of.t)}</a> on the <a href="${root}${p.ladder}/">${esc(p.ladderTitle)} ladder</a>.`;
     return `${f.junk ? "Junk-food " : ""}Side quest off <a href="${root}films/${of.id}/">${esc(of.t)}</a> on the <a href="${root}${p.ladder}/">${esc(p.ladderTitle)} ladder</a>.`;
   }).join(" ");
   let coreObj = null;
@@ -239,7 +239,7 @@ ${m.overview ? `<p class="overview">${esc(m.overview)}</p>` : ""}
 ${m.cast?.length ? `<p class="small">With ${esc(m.cast.join(", "))}</p>` : ""}
 <div class="links"><button class="watch btn" type="button" aria-pressed="false" data-id="${f.id}"><span class="box" aria-hidden="true"></span><span class="wl">Mark watched</span></button>
 <a class="btn" href="${lb}" rel="noopener">Letterboxd</a>${m.tmdb ? `<a class="btn" href="https://www.themoviedb.org/movie/${m.tmdb}" rel="noopener">TMDB</a>` : ""}${m.imdb ? `<a class="btn" href="https://www.imdb.com/title/${m.imdb}/" rel="noopener">IMDb</a>` : ""}</div>
-${seqs.length ? `<section class="fsec"><h2>Sequels</h2><ul>${seqs.map(q => `<li><a href="${root}films/${q.id}/">${esc(q.t)}</a> (${q.y})${q.star ? " ★" : ""}: ${esc(q.note)}</li>`).join("")}</ul></section>` : ""}
+${seqs.length ? `<section class="fsec"><h2>Sequels</h2><ul>${seqs.map(q => `<li><a href="${root}films/${q.id}/">${esc(q.t)}</a> (${q.y})${q.star ? ' <span class="star">★ Worth it</span>' : ""}: ${esc(q.note)}</li>`).join("")}</ul></section>` : ""}
 ${sides.length ? `<section class="fsec"><h2>Liked it? Side quests</h2><ul>${sides.map(b => `<li>${b.junk ? '<span class="junk">Junk food</span>' : ""}<a href="${root}films/${b.id}/">${esc(b.t)}</a> (${b.y}): ${esc(b.note)}</li>`).join("")}</ul></section>` : ""}
 </div></main>`;
   write(`films/${f.id}/index.html`, page({ title: `${f.t} (${f.y}) | Boil the Frog`, body, root, desc: f.note }));

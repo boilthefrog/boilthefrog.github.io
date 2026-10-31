@@ -93,7 +93,7 @@ details[open] .preview{display:none}
 .sqtag{font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:.1em;font-size:11px;opacity:.6;margin-right:6px}
 .blist li.sq .bt{font-style:italic}
 .junk{display:inline-block;font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:11px;background:#e9c84a;color:#17110d;padding:0 5px;margin-right:6px;transform:rotate(-2deg)}
-.star{color:var(--stamp);font-style:normal}
+.star{color:var(--stamp);font-style:normal;font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:.06em;font-size:.8em;white-space:nowrap}
 .blist li.got .bt{text-decoration:line-through;text-decoration-thickness:2px;text-decoration-color:var(--stamp)}
 
 /* filter states */
@@ -219,3 +219,5 @@ footer a{color:var(--bone)}
 .fposter{aspect-ratio:2/3;object-fit:cover}
 .label a.poster{display:block;line-height:0}
 .label a.poster img{display:block;width:100%;height:auto;aspect-ratio:2/3;object-fit:cover}
+.watch.btn{display:inline-flex;align-items:center;gap:8px;vertical-align:middle}
+.watch .box{flex:none}

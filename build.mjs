@@ -150,7 +150,7 @@ function card(L, c, no, beyond, root) {
   return `<article class="tape" data-tags="${esc(c.tags)}" data-id="${c.id}" ${beyond ? "" : 'data-core="1"'}>
 <div class="spine"><span class="no">${no}</span><span class="reel" aria-hidden="true"></span></div>
 <div class="label">
-${p ? `<img class="poster" src="${p}" alt="" loading="lazy" width="92" height="138">` : ""}
+${p ? `<a class="poster" href="${root}films/${c.id}/" tabindex="-1" aria-hidden="true"><img src="${p}" alt="" loading="lazy" width="92" height="138"></a>` : ""}
 <div class="trow"><h3><a href="${root}films/${c.id}/">${esc(c.t)}</a><span class="yr">${c.y}</span></h3>
 <button class="watch" type="button" aria-pressed="false" data-id="${c.id}"><span class="box" aria-hidden="true"></span><span class="wl">Mark watched</span></button></div>
 <p class="blurb">${esc(c.b)}</p>

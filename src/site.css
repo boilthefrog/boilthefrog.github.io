@@ -217,3 +217,5 @@ footer a{color:var(--bone)}
 .label .branches{grid-column:1 / -1}
 .branches .sumlab{white-space:normal}
 .fposter{aspect-ratio:2/3;object-fit:cover}
+.label a.poster{display:block;line-height:0}
+.label a.poster img{display:block;width:100%;height:auto;aspect-ratio:2/3;object-fit:cover}

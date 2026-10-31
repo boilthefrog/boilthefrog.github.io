@@ -35,10 +35,10 @@
   {
    "t": 22,
    "name": "Popcorn",
-   "note": "Flying men, jet packs, a super family, the Spider-Verse and a raccoon.",
+   "note": "Flying men, jet packs, a super family, the Spider-Verse, a raccoon and seven evil exes.",
    "bg": "#dbe5cc",
    "fg": "#17110d",
-   "upto": 5
+   "upto": 6
   },
   {
    "t": 35,
@@ -46,7 +46,7 @@
    "note": "Stark, Raimi's Spider-Man, X2, Cap, the Avengers, and RRR's two Indian revolutionaries.",
    "bg": "#ecdcaa",
    "fg": "#17110d",
-   "upto": 11
+   "upto": 12
   },
   {
    "t": 50,
@@ -54,7 +54,7 @@
    "note": "Burton, the animated one, Nolan and Reeves.",
    "bg": "#e8b47a",
    "fg": "#17110d",
-   "upto": 17
+   "upto": 18
   },
   {
    "t": 65,
@@ -277,19 +277,26 @@
      "tags": "MC",
      "warn": null,
      "seq": []
-    },
-    {
-     "t": "Scott Pilgrim vs. the World",
-     "y": 2010,
-     "note": "Edgar Wright: Michael Cera fights his girlfriend's seven evil exes, video-game style. Also on Action",
-     "tags": "CX",
-     "warn": null,
-     "seq": []
     }
    ]
   },
   {
-   "n": 6,
+   "t": "Scott Pilgrim vs. the World",
+   "y": 2010,
+   "b": "Edgar Wright: Michael Cera must defeat his girlfriend's seven evil exes, with video-game powers, combos and coins. Also on Action.",
+   "tags": "CX",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [],
+   "n": 6
+  },
+  {
+   "n": 7,
    "t": "Iron Man",
    "y": 2008,
    "b": "Robert Downey Jr. builds a suit in a cave and becomes Tony Stark forever. Where the Marvel films began.",
@@ -321,7 +328,7 @@
    ]
   },
   {
-   "n": 7,
+   "n": 8,
    "t": "Spider-Man 2",
    "y": 2004,
    "b": "Raimi: Peter Parker can't pay his rent, and Doc Ock. The train fight.",
@@ -360,7 +367,7 @@
    ]
   },
   {
-   "n": 8,
+   "n": 9,
    "t": "X2",
    "y": 2003,
    "b": "The X-Men and Magneto team up against a mutant-hunting colonel. Nightcrawler in the White House.",
@@ -399,7 +406,7 @@
    ]
   },
   {
-   "n": 9,
+   "n": 10,
    "t": "Captain America: The Winter Soldier",
    "y": 2014,
    "b": "Cap in a 70s paranoia thriller: S.H.I.E.L.D. is rotten and his best friend is the assassin.",
@@ -460,10 +467,10 @@
      "seq": []
     }
    ],
-   "n": 10
+   "n": 11
   },
   {
-   "n": 11,
+   "n": 12,
    "t": "RRR",
    "y": 2022,
    "b": "Two revolutionaries in 1920s India, one a cop, one a rebel, best friends who don't know it. A tiger fight, a dance-off, a bridge rescue. Three hours of pure joy.",
@@ -505,7 +512,7 @@
    "w": "Three hours, subtitled, very violent in places."
   },
   {
-   "n": 12,
+   "n": 13,
    "t": "Batman",
    "y": 1989,
    "b": "Tim Burton: Michael Keaton's Batman, Nicholson's Joker, Prince on the soundtrack and Gotham as gothic noir.",
@@ -530,7 +537,7 @@
    ]
   },
   {
-   "n": 13,
+   "n": 14,
    "t": "Batman Returns",
    "y": 1992,
    "b": "Burton's Christmas fairy tale: Michelle Pfeiffer's Catwoman, Danny DeVito's grotesque Penguin.",
@@ -545,7 +552,7 @@
    "br": []
   },
   {
-   "n": 14,
+   "n": 15,
    "t": "Batman: Mask of the Phantasm",
    "y": 1993,
    "b": "The animated series' film: a vigilante killing gangsters, and Bruce's lost love. Arguably the best Batman story on film.",
@@ -560,7 +567,7 @@
    "br": []
   },
   {
-   "n": 15,
+   "n": 16,
    "t": "Batman Begins",
    "y": 2005,
    "b": "Nolan: Bruce Wayne learns fear, the League of Shadows and the Tumbler. Better than The Dark Knight, some say.",
@@ -575,7 +582,7 @@
    "br": []
   },
   {
-   "n": 16,
+   "n": 17,
    "t": "The Dark Knight",
    "y": 2008,
    "b": "Heath Ledger's Joker turns Gotham into a moral experiment. The superhero film as crime epic.",
@@ -597,7 +604,7 @@
    "br": []
   },
   {
-   "n": 17,
+   "n": 18,
    "t": "The Batman",
    "y": 2022,
    "b": "Matt Reeves: Robert Pattinson's Batman as a detective, the Riddler as a serial killer. Rain, Nirvana, three hours.",
@@ -613,7 +620,7 @@
    "w": "Long, slow and dark."
   },
   {
-   "n": 18,
+   "n": 19,
    "t": "Blade",
    "y": 1998,
    "b": "Wesley Snipes' half-vampire hunter and the blood-rave opening.",
@@ -646,7 +653,7 @@
    "w": "Gory."
   },
   {
-   "n": 19,
+   "n": 20,
    "t": "The Crow",
    "y": 1994,
    "b": "Brandon Lee's murdered musician returns for revenge. Lee was killed during filming.",
@@ -662,7 +669,7 @@
    "w": "Violent."
   },
   {
-   "n": 20,
+   "n": 21,
    "t": "Hellboy",
    "y": 2004,
    "b": "Del Toro: Ron Perlman's demon detective, Nazis and Lovecraftian tentacles.",
@@ -694,7 +701,7 @@
    ]
   },
   {
-   "n": 21,
+   "n": 22,
    "t": "Kick-Ass",
    "y": 2010,
    "b": "A teenager with no powers puts on a costume and nearly dies. Then Hit-Girl arrives.",
@@ -743,21 +750,6 @@
     }
    ],
    "w": "Very violent, including a child doing the killing."
-  },
-  {
-   "n": 22,
-   "t": "Chronicle",
-   "y": 2012,
-   "b": "Three teenagers get telekinesis, filmed on their own cameras. Fun, then dark.",
-   "tags": "D",
-   "heat": {
-    "violence": 3,
-    "intensity": 4,
-    "age": 0,
-    "challenge": 1
-   },
-   "seq": [],
-   "br": []
   },
   {
    "n": 23,
@@ -878,6 +870,14 @@
    },
    "seq": [],
    "br": [
+    {
+     "t": "Chronicle",
+     "y": 2012,
+     "note": "Three teenagers get telekinesis, filmed on their own cameras",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    },
     {
      "t": "Watchmen",
      "y": 2009,

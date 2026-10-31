@@ -2,7 +2,7 @@
  "id": "asian",
  "title": "Asian action",
  "order": 3,
- "tagline": "From Kung Fu Hustle to Harakiri without noticing the water got hot.",
+ "tagline": "From Shaolin Soccer to Harakiri without noticing the water got hot.",
  "heatKeys": [
   [
    "violence",
@@ -96,12 +96,12 @@
  "core": [
   {
    "n": 1,
-   "t": "Kung Fu Hustle",
-   "y": 2004,
-   "b": "Stephen Chow's live-action cartoon: tenement landlords who turn out to be kung fu masters. The easiest way in there is.",
+   "t": "Shaolin Soccer",
+   "y": 2001,
+   "b": "Stephen Chow gets washed-up Shaolin brothers to play football with kung fu. Daft, joyful and the easiest way in there is.",
    "tags": "CMH",
    "heat": {
-    "violence": 2,
+    "violence": 1,
     "intensity": 1,
     "age": 0,
     "challenge": 1
@@ -109,9 +109,9 @@
    "seq": [],
    "br": [
     {
-     "t": "Shaolin Soccer",
-     "y": 2001,
-     "note": "Shaolin monks play football. Daft and joyful",
+     "t": "Kung Fu Hustle",
+     "y": 2004,
+     "note": "Chow's live-action cartoon: tenement landlords turn out to be kung fu masters. A touch more violent",
      "tags": "CMH",
      "warn": null,
      "seq": []

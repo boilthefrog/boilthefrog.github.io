@@ -23,7 +23,7 @@ const ladders = fs.readdirSync(path.join(ROOT, "data")).filter(f => f.endsWith("
 const films = new Map();
 function reg(o, ladder, role, extra = {}) {
   const id = slug(o.t, o.y);
-  const f = films.get(id) || { id, t: o.t, y: o.y, q: o.q, places: [] };
+  const f = films.get(id) || { id, t: o.t, y: o.y, q: o.q, tmdb: o.tmdb, places: [] };
   Object.assign(f, { note: f.note || o.note || o.b, warn: f.warn || o.warn || o.w, tags: f.tags || o.tags, junk: f.junk || o.junk });
   if (o.heat && !f.heat) { f.heat = o.heat; f.heatLadder = ladder.id; }
   f.places.push({ ladder: ladder.id, ladderTitle: ladder.title, role, ...extra });
@@ -62,6 +62,7 @@ async function tmdb(p, params = {}) {
   throw new Error("TMDB rate limited");
 }
 async function findId(f) {
+  if (f.tmdb) return f.tmdb;
   const q = (f.q || f.t).replace(/[–—]/g, "-");
   const tries = [{ query: q, primary_release_year: f.y }, { query: q, year: f.y }, { query: q }];
   for (const p of tries) {
@@ -72,15 +73,15 @@ async function findId(f) {
   return null;
 }
 async function enrich(f) {
-  if (cache[f.id]?.v === 2) return cache[f.id];
+  if (cache[f.id]?.v === 3) return cache[f.id];
   const id = await findId(f);
-  if (!id) return (cache[f.id] = { v: 2, missing: true });
+  if (!id) return (cache[f.id] = { v: 3, missing: true });
   const m = await tmdb(`/movie/${id}`, { append_to_response: "release_dates,credits,external_ids" });
   const gb = (m.release_dates?.results || []).find(r => r.iso_3166_1 === "GB");
   const cert = (gb?.release_dates || []).map(d => d.certification).find(Boolean) || "";
   const dirs = (m.credits?.crew || []).filter(c => c.job === "Director").map(c => c.name);
   const cast = (m.credits?.cast || []).slice(0, 4).map(c => c.name);
-  return (cache[f.id] = { v: 2, tmdb: id, imdb: m.external_ids?.imdb_id || m.imdb_id || "", poster: m.poster_path || "", overview: m.overview || "", runtime: m.runtime || 0, original: m.original_title, lang: m.original_language, cert, dirs, cast });
+  return (cache[f.id] = { v: 3, title: m.title, year: +(m.release_date || "0").slice(0, 4), tmdb: id, imdb: m.external_ids?.imdb_id || m.imdb_id || "", poster: m.poster_path || "", overview: m.overview || "", runtime: m.runtime || 0, original: m.original_title, lang: m.original_language, cert, dirs, cast });
 }
 if (KEY) {
   const list = [...films.values()];
@@ -93,6 +94,8 @@ if (KEY) {
   }));
   fs.mkdirSync(path.dirname(CACHE), { recursive: true });
   fs.writeFileSync(CACHE, JSON.stringify(cache));
+  const norm = x => (x || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+  for (const f of list) if (f.m && !f.m.missing && norm(f.m.title) !== norm(f.t)) console.log(`CHECK ${f.id} -> "${f.m.title}" (${f.m.year}) tmdb ${f.m.tmdb}`);
   console.log(`TMDB: ${list.length - miss.length}/${list.length} matched` + (miss.length ? `; no match: ${miss.join(", ")}` : ""));
 } else {
   for (const f of films.values()) f.m = cache[f.id];

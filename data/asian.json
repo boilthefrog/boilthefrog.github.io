@@ -328,7 +328,8 @@
      "warn": null,
      "seq": []
     }
-   ]
+   ],
+   "q": "The Legend of Drunken Master"
   },
   {
    "n": 5,
@@ -758,7 +759,8 @@
      "note": "A village detective suspects Donnie. Slow-burn, then explosive",
      "tags": "M",
      "warn": null,
-     "seq": []
+     "seq": [],
+     "q": "Wu Xia"
     }
    ]
   },
@@ -973,7 +975,8 @@
      "tags": "M",
      "warn": "Lots of bone-breaking.",
      "seq": [],
-     "junk": true
+     "junk": true,
+     "q": "The Protector"
     },
     {
      "t": "Furie",

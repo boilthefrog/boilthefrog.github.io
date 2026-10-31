@@ -161,6 +161,14 @@
    "seq": [],
    "br": [
     {
+     "t": "Danger: Diabolik",
+     "y": 1968,
+     "note": "Mario Bava's Italian comic supervillain: pop-art heists, gorgeous to look at",
+     "tags": "OX",
+     "warn": null,
+     "seq": []
+    },
+    {
      "t": "Dick Tracy",
      "y": 1990,
      "note": "Primary colours, prosthetics and Al Pacino going large",
@@ -267,6 +275,14 @@
      "y": 2017,
      "note": "Taika Waititi turns Thor into a comedy",
      "tags": "MC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Scott Pilgrim vs. the World",
+     "y": 2010,
+     "note": "Edgar Wright: Michael Cera fights his girlfriend's seven evil exes, video-game style. Also on Action",
+     "tags": "CX",
      "warn": null,
      "seq": []
     }
@@ -475,6 +491,15 @@
      "tags": "X",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "City Hunter",
+     "y": 1993,
+     "note": "Jackie Chan's comic adaptation, with the Street Fighter parody scene",
+     "tags": "CX",
+     "warn": null,
+     "seq": [],
+     "junk": true
     }
    ],
    "w": "Three hours, subtitled, very violent in places."

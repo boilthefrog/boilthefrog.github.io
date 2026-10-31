@@ -1,0 +1,1320 @@
+{
+ "id": "asian",
+ "title": "Asian action",
+ "order": 3,
+ "tagline": "From Kung Fu Hustle to Harakiri without noticing the water got hot.",
+ "heatKeys": [
+  [
+   "violence",
+   "Violence"
+  ],
+  [
+   "intensity",
+   "Intensity"
+  ],
+  [
+   "age",
+   "Old-school"
+  ],
+  [
+   "challenge",
+   "Challenge"
+  ]
+ ],
+ "tags": {
+  "C": "Comedy",
+  "M": "Kung fu",
+  "G": "Gun fu",
+  "W": "Wuxia & swords",
+  "N": "Samurai",
+  "P": "Cops & triads",
+  "R": "Revenge",
+  "X": "Wild & weird",
+  "O": "Classics",
+  "H": "Hong Kong",
+  "J": "Japan",
+  "K": "Korea"
+ },
+ "levels": [
+  {
+   "t": 22,
+   "name": "Popcorn",
+   "note": "Jokes, stunts and Bruce Lee in English.",
+   "bg": "#dbe5cc",
+   "fg": "#17110d",
+   "upto": 4
+  },
+  {
+   "t": 35,
+   "name": "Big blockbusters",
+   "note": "Wire-fu, Wong Fei-hung and Ip Man.",
+   "bg": "#ecdcaa",
+   "fg": "#17110d",
+   "upto": 9
+  },
+  {
+   "t": 50,
+   "name": "The Hong Kong canon",
+   "note": "Woo, To, Tsui Hark and Sammo.",
+   "bg": "#e8b47a",
+   "fg": "#17110d",
+   "upto": 15
+  },
+  {
+   "t": 65,
+   "name": "Darker",
+   "note": "Korean revenge, Indonesian fists and Woo at his bleakest.",
+   "bg": "#cf5b3a",
+   "fg": "#17110d",
+   "upto": 20
+  },
+  {
+   "t": 80,
+   "name": "Samurai",
+   "note": "Blind swordsmen, baby carts and Kurosawa.",
+   "bg": "#6d1b21",
+   "fg": "#efe3cf",
+   "upto": 26
+  },
+  {
+   "t": 95,
+   "name": "The old masters",
+   "note": "Shaw Brothers, King Hu and the slowest, hardest stuff.",
+   "bg": "#2b0b0e",
+   "fg": "#efe3cf",
+   "upto": 30
+  },
+  {
+   "t": "100+",
+   "name": "Cooked",
+   "note": "Only if they finish Harakiri and ask for more.",
+   "bg": "#0c0506",
+   "fg": "#efe3cf",
+   "beyond": true
+  }
+ ],
+ "core": [
+  {
+   "n": 1,
+   "t": "Kung Fu Hustle",
+   "y": 2004,
+   "b": "Stephen Chow's live-action cartoon: tenement landlords who turn out to be kung fu masters. The easiest way in there is.",
+   "tags": "CMH",
+   "heat": {
+    "violence": 2,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Shaolin Soccer",
+     "y": 2001,
+     "note": "Shaolin monks play football. Daft and joyful",
+     "tags": "CMH",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "t": "Enter the Dragon",
+   "y": 1973,
+   "b": "Bruce Lee at an island tournament. Made in English, so no subtitles yet.",
+   "tags": "MO",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 2,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Fist of Fury",
+     "y": 1972,
+     "note": "Lee avenges his master and kicks a sign to bits",
+     "tags": "MO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Way of the Dragon",
+     "y": 1972,
+     "note": "Lee vs Chuck Norris in the Colosseum",
+     "tags": "MCO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Street Fighter",
+     "y": 1974,
+     "note": "Sonny Chiba at his most brutal: he rips a man's throat out",
+     "tags": "M",
+     "warn": "Very violent for its era.",
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "t": "Police Story",
+   "y": 1985,
+   "b": "Jackie Chan's cop film. Stunts so dangerous he nearly died making it, plus the shopping-mall finale.",
+   "tags": "MCPH",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [
+    {
+     "t": "Police Story 2",
+     "y": 1988,
+     "note": "More of the same, brilliantly",
+     "star": false
+    },
+    {
+     "t": "Police Story 3: Supercop",
+     "y": 1992,
+     "note": "Michelle Yeoh steals it, plus the helicopter",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Project A",
+     "y": 1983,
+     "note": "Jackie, Sammo and Yuen Biao vs pirates. The clock-tower fall",
+     "tags": "MCH",
+     "warn": null,
+     "seq": [
+      {
+       "t": "Project A Part II",
+       "y": 1987,
+       "note": "The best Jackie sequel",
+       "star": true
+      }
+     ]
+    },
+    {
+     "t": "Wheels on Meals",
+     "y": 1984,
+     "note": "Jackie vs Benny 'The Jet' Urquidez: maybe his best fight",
+     "tags": "MCH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Armour of God",
+     "y": 1986,
+     "note": "Jackie as Asian Hawk. Nearly killed him",
+     "tags": "MCAH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Rumble in the Bronx",
+     "y": 1995,
+     "note": "The film that broke Jackie Chan in the West",
+     "tags": "MCH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Who Am I?",
+     "y": 1998,
+     "note": "Amnesiac Jackie and that rooftop fight",
+     "tags": "MCH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Crime Story",
+     "y": 1993,
+     "note": "Serious Jackie: a kidnap thriller with no jokes",
+     "tags": "MPH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Shadow's Edge",
+     "y": 2025,
+     "note": "Late-career Jackie as a veteran surveillance cop. A big comeback",
+     "tags": "MPH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Yes, Madam!",
+     "y": 1985,
+     "note": "Michelle Yeoh and Cynthia Rothrock. Girls with guns begins",
+     "tags": "MGPH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Royal Warriors",
+     "y": 1986,
+     "note": "Michelle Yeoh on a plane full of killers",
+     "tags": "MGPH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "In the Line of Duty 4",
+     "y": 1989,
+     "note": "Cynthia Khan and Donnie Yen, directed by Yuen Woo-ping",
+     "tags": "MPH",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "t": "Drunken Master II",
+   "y": 1994,
+   "b": "Jackie fights better the drunker he gets. The final fight might be the best ever filmed.",
+   "tags": "MCH",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [
+    {
+     "t": "Drunken Master",
+     "y": 1978,
+     "note": "The original, made by Yuen Woo-ping",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "Snake in the Eagle's Shadow",
+     "y": 1978,
+     "note": "Yuen Woo-ping and Jackie's first hit",
+     "tags": "MCO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Dreadnaught",
+     "y": 1981,
+     "note": "Yuen Biao, a tailor's deadly laundry and a cult classic",
+     "tags": "MCH",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "t": "Crouching Tiger, Hidden Dragon",
+   "y": 2000,
+   "b": "Ang Lee's wire-fu romance. The bamboo-tree fight and Michelle Yeoh with a sword.",
+   "tags": "WM",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Hero",
+     "y": 2002,
+     "note": "Zhang Yimou's colour-coded Jet Li epic",
+     "tags": "WM",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "House of Flying Daggers",
+     "y": 2004,
+     "note": "More Zhang Yimou, more colour, the echo-drum scene",
+     "tags": "WM",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Tai Chi Master",
+     "y": 1993,
+     "note": "Jet Li and Michelle Yeoh, by Yuen Woo-ping",
+     "tags": "MCH",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "t": "Ip Man",
+   "y": 2008,
+   "b": "Donnie Yen as Bruce Lee's teacher. Crowd-pleasing and patriotic. 'I want to fight ten.'",
+   "tags": "MH",
+   "heat": {
+    "violence": 3,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [
+    {
+     "t": "Ip Man 2",
+     "y": 2010,
+     "note": "Donnie vs Sammo on a tabletop",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "Wing Chun",
+     "y": 1994,
+     "note": "Michelle Yeoh invents the style, comedy-first",
+     "tags": "MCH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Grandmaster",
+     "y": 2013,
+     "note": "Wong Kar-wai's Ip Man: gorgeous and slow",
+     "tags": "MW",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Fearless",
+     "y": 2006,
+     "note": "Jet Li's farewell to wushu epics",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "t": "Iron Monkey",
+   "y": 1993,
+   "b": "A Robin Hood doctor and a young Wong Fei-hung's dad. Yuen Woo-ping's wire-fu masterpiece.",
+   "tags": "MWH",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Fong Sai-yuk",
+     "y": 1993,
+     "note": "Corey Yuen and Jet Li's funniest film",
+     "tags": "MCH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Heroic Trio",
+     "y": 1993,
+     "note": "Michelle Yeoh, Anita Mui and Maggie Cheung as superheroines. Gloriously daft",
+     "tags": "MXH",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "t": "Once Upon a Time in China",
+   "y": 1991,
+   "b": "Jet Li as folk hero Wong Fei-hung. Tsui Hark's epic, with the ladder fight.",
+   "tags": "MWH",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [
+    {
+     "t": "Once Upon a Time in China II",
+     "y": 1992,
+     "note": "Jet Li vs Donnie Yen: the better film",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "The Blade",
+     "y": 1995,
+     "note": "Tsui Hark's feral, one-armed swordsman. Chaotic and brilliant",
+     "tags": "WH",
+     "warn": "Very violent.",
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "t": "Fist of Legend",
+   "y": 1994,
+   "b": "Jet Li remakes Fist of Fury. Yuen Woo-ping's fights, Jet at his peak.",
+   "tags": "MH",
+   "heat": {
+    "violence": 3,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Black Mask",
+     "y": 1996,
+     "note": "Jet Li as a super-soldier in a Kato mask",
+     "tags": "MGXH",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Righting Wrongs",
+     "y": 1986,
+     "note": "Corey Yuen: Yuen Biao and Cynthia Rothrock, all-timer stunts",
+     "tags": "MGPH",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "t": "Infernal Affairs",
+   "y": 2002,
+   "b": "A cop inside the triads, a triad inside the cops. The film The Departed remade.",
+   "tags": "PGH",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Chungking Express",
+     "y": 1994,
+     "note": "Wong Kar-wai's lovesick cops. More romance than action",
+     "tags": "CH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Cold War",
+     "y": 2012,
+     "note": "Glossy cop-politics thriller",
+     "tags": "PGH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Twilight of the Warriors: Walled In",
+     "y": 2024,
+     "note": "Kowloon Walled City rebuilt for a triad brawl",
+     "tags": "MH",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "t": "Peking Opera Blues",
+   "y": 1986,
+   "b": "Tsui Hark's screwball spy caper: three women, a revolution and an opera house.",
+   "tags": "CMWH",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "A Chinese Ghost Story",
+     "y": 1987,
+     "note": "Ghost romance, flying swords and a giant tongue",
+     "tags": "WXH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Time and Tide",
+     "y": 2000,
+     "note": "Tsui Hark's hyperactive gun ballet",
+     "tags": "GH",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "t": "Hard Boiled",
+   "y": 1992,
+   "b": "John Woo's last Hong Kong film: Chow Yun-fat, a teahouse, a hospital and a baby.",
+   "tags": "GPH",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Killer",
+     "y": 1989,
+     "note": "Woo's operatic hitman film with Chow Yun-fat",
+     "tags": "GH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "A Better Tomorrow",
+     "y": 1986,
+     "note": "The Woo film that started heroic bloodshed",
+     "tags": "GH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "City on Fire",
+     "y": 1987,
+     "note": "Ringo Lam's undercover film. Reservoir Dogs borrowed its ending",
+     "tags": "GPH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Prison on Fire",
+     "y": 1987,
+     "note": "Ringo Lam: Chow Yun-fat inside",
+     "tags": "MPH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Full Contact",
+     "y": 1992,
+     "note": "Ringo Lam at his nastiest: Chow Yun-fat, bullet's-eye view",
+     "tags": "GH",
+     "warn": "Very violent.",
+     "seq": []
+    },
+    {
+     "t": "Naked Killer",
+     "y": 1992,
+     "note": "Category III lesbian assassins. Trash, but stylish trash",
+     "tags": "GH",
+     "warn": "Sexual content and violence.",
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "t": "The Mission",
+   "y": 1999,
+   "b": "Johnnie To: five bodyguards, one boss, barely a wasted frame. The mall shootout is pure stillness.",
+   "tags": "GPH",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Election",
+     "y": 2005,
+     "note": "Johnnie To's triad politics. A gripping power struggle",
+     "tags": "PH",
+     "warn": "Brutal violence.",
+     "seq": []
+    },
+    {
+     "t": "Exiled",
+     "y": 2006,
+     "note": "To's Macau gangster Western",
+     "tags": "GH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "PTU",
+     "y": 2003,
+     "note": "One night, one lost police gun",
+     "tags": "PGH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Breaking News",
+     "y": 2004,
+     "note": "For its opening single-take shootout",
+     "tags": "GPH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Drug War",
+     "y": 2012,
+     "note": "To in mainland China: cold and relentless",
+     "tags": "GPH",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "t": "SPL",
+   "y": 2005,
+   "b": "Donnie Yen vs Sammo Hung, plus the alley fight with Wu Jing. Hong Kong action reborn.",
+   "tags": "MPH",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [
+    {
+     "t": "SPL II: A Time for Consequences",
+     "y": 2015,
+     "note": "Tony Jaa and Wu Jing. Better than the first",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Flash Point",
+     "y": 2007,
+     "note": "Donnie brings MMA to Hong Kong",
+     "tags": "MPH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Raging Fire",
+     "y": 2021,
+     "note": "Benny Chan's last film: Donnie at his best in years",
+     "tags": "MGPH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Tiger Cage",
+     "y": 1988,
+     "note": "Early Donnie, directed by Yuen Woo-ping",
+     "tags": "MGPH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Dragon",
+     "y": 2011,
+     "note": "A village detective suspects Donnie. Slow-burn, then explosive",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "t": "The Prodigal Son",
+   "y": 1981,
+   "b": "Sammo Hung directs Yuen Biao: a spoilt rich kid learns real Wing Chun. The best showcase of the style.",
+   "tags": "MCH",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Eastern Condors",
+     "y": 1987,
+     "note": "Sammo's Dirty Dozen in Vietnam",
+     "tags": "MGH",
+     "warn": "Violent.",
+     "seq": []
+    },
+    {
+     "t": "Dragons Forever",
+     "y": 1988,
+     "note": "The last time Jackie, Sammo and Yuen Biao teamed up",
+     "tags": "MCH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Encounters of the Spooky Kind",
+     "y": 1980,
+     "note": "Sammo's kung fu ghost comedy",
+     "tags": "MCXH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Pedicab Driver",
+     "y": 1989,
+     "note": "Sammo vs Lau Kar-leung: an elite fight",
+     "tags": "MCH",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "t": "Oldboy",
+   "y": 2003,
+   "b": "Locked up for 15 years without knowing why. The corridor hammer fight and one of cinema's great twists.",
+   "tags": "RK",
+   "heat": {
+    "violence": 4,
+    "intensity": 5,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [
+    {
+     "t": "Sympathy for Mr. Vengeance",
+     "y": 2002,
+     "note": "Park Chan-wook's first revenge film: bleak",
+     "star": false
+    },
+    {
+     "t": "Lady Vengeance",
+     "y": 2005,
+     "note": "The third, and the most elegant",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "Battle Royale",
+     "y": 2000,
+     "note": "Schoolkids forced to kill each other on an island",
+     "tags": "GXJ",
+     "warn": "Teenagers killing teenagers.",
+     "seq": []
+    }
+   ],
+   "w": "Violence, eating a live octopus and a disturbing sexual revelation."
+  },
+  {
+   "n": 17,
+   "t": "The Man from Nowhere",
+   "y": 2010,
+   "b": "A pawnbroker with a past goes after the gang that took the girl next door. Korea's answer to Taken, but better.",
+   "tags": "MGRK",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Villainess",
+     "y": 2017,
+     "note": "A female assassin and a first-person opening corridor fight",
+     "tags": "MGRK",
+     "warn": "Very violent.",
+     "seq": []
+    },
+    {
+     "t": "The Chaser",
+     "y": 2008,
+     "note": "An ex-cop pimp hunts a serial killer",
+     "tags": "PK",
+     "warn": "Brutal.",
+     "seq": []
+    },
+    {
+     "t": "The Outlaws",
+     "y": 2017,
+     "note": "Ma Dong-seok punches gangsters. Starts a big franchise",
+     "tags": "MPCK",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Organ trafficking and violence against children."
+  },
+  {
+   "n": 18,
+   "t": "A Bittersweet Life",
+   "y": 2005,
+   "b": "Kim Jee-woon's stylish gangster revenge: one mistake, then a man nobody can kill.",
+   "tags": "GRK",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Good, the Bad, the Weird",
+     "y": 2008,
+     "note": "Kim Jee-woon's Manchurian Western romp",
+     "tags": "GCK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Yellow Sea",
+     "y": 2010,
+     "note": "Na Hong-jin's axe-heavy chase",
+     "tags": "RK",
+     "warn": "Very violent.",
+     "seq": []
+    },
+    {
+     "t": "New World",
+     "y": 2013,
+     "note": "Korea's Infernal Affairs",
+     "tags": "PK",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "t": "The Raid",
+   "y": 2011,
+   "b": "A SWAT team trapped in a tower block of killers. Indonesian silat at full speed.",
+   "tags": "MG",
+   "heat": {
+    "violence": 5,
+    "intensity": 5,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [
+    {
+     "t": "The Raid 2",
+     "y": 2014,
+     "note": "Bigger, sprawling, the car fight",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Ong-Bak",
+     "y": 2003,
+     "note": "Tony Jaa's knees and elbows. Fights great, film weak",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Furie",
+     "y": 2019,
+     "note": "Vietnam's mother-on-a-mission film",
+     "tags": "MR",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Headshot",
+     "y": 2016,
+     "note": "Iko Uwais with amnesia and a lot of enemies",
+     "tags": "MG",
+     "warn": "Very gory.",
+     "seq": []
+    },
+    {
+     "t": "The Furious",
+     "y": 2025,
+     "note": "Kenji Tanigaki's all-star throwback to golden-age Hong Kong fights",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Wall-to-wall bloody violence."
+  },
+  {
+   "n": 20,
+   "t": "Bullet in the Head",
+   "y": 1990,
+   "b": "John Woo's darkest: three friends from Hong Kong lose themselves in the Vietnam War.",
+   "tags": "GH",
+   "heat": {
+    "violence": 5,
+    "intensity": 5,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [],
+   "w": "Torture, executions and a famous Russian-roulette-style scene. Very bleak."
+  },
+  {
+   "n": 21,
+   "t": "Yojimbo",
+   "y": 1961,
+   "b": "Toshiro Mifune's scruffy ronin plays two gangs against each other. Funny, and short for Kurosawa.",
+   "tags": "NCOJ",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [
+    {
+     "t": "Sanjuro",
+     "y": 1962,
+     "note": "Mifune returns: lighter, with the fastest draw ever",
+     "star": true
+    }
+   ],
+   "br": []
+  },
+  {
+   "n": 22,
+   "t": "13 Assassins",
+   "y": 2010,
+   "b": "Takashi Miike's samurai siege: a 45-minute battle in a booby-trapped town.",
+   "tags": "NJ",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Sword of the Stranger",
+     "y": 2007,
+     "note": "Anime: a ronin protects a boy. Superb swordfights",
+     "tags": "NJ",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Rurouni Kenshin",
+     "y": 2012,
+     "note": "Manga samurai done right. Fast and fun",
+     "tags": "NJ",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Disturbing cruelty early on."
+  },
+  {
+   "n": 23,
+   "t": "Zatoichi",
+   "y": 2003,
+   "b": "Takeshi Kitano as the blind swordsman. Bloody, funny, ends with a tap-dance.",
+   "tags": "NCJ",
+   "heat": {
+    "violence": 3,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [
+    {
+     "t": "The Tale of Zatoichi",
+     "y": 1962,
+     "note": "Shintaro Katsu's original: the first of 26",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "Sonatine",
+     "y": 1993,
+     "note": "Kitano's yakuza on a beach holiday. Deadpan, then violent",
+     "tags": "GJ",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Battles Without Honor and Humanity",
+     "y": 1973,
+     "note": "Fukasaku's yakuza epic: Japan's Godfather, handheld",
+     "tags": "GOJ",
+     "warn": "Very violent.",
+     "seq": []
+    },
+    {
+     "t": "Branded to Kill",
+     "y": 1967,
+     "note": "Seijun Suzuki's absurdist hitman film",
+     "tags": "GXOJ",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "t": "Lady Snowblood",
+   "y": 1973,
+   "b": "Meiko Kaji's vengeance in the snow. Kill Bill borrowed nearly everything.",
+   "tags": "NROJ",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Female Prisoner Scorpion",
+     "y": 1972,
+     "note": "Meiko Kaji again: pop-art prison revenge",
+     "tags": "RXOJ",
+     "warn": "Sexual violence.",
+     "seq": []
+    }
+   ],
+   "w": "Bloody, with sexual violence."
+  },
+  {
+   "n": 25,
+   "t": "Lone Wolf and Cub: Sword of Vengeance",
+   "y": 1972,
+   "b": "An executioner pushes his baby son through feudal Japan in a pram full of weapons.",
+   "tags": "NROJ",
+   "heat": {
+    "violence": 5,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [
+    {
+     "t": "Lone Wolf and Cub: Baby Cart at the River Styx",
+     "y": 1972,
+     "note": "Even better, even bloodier",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Ninja Scroll",
+     "y": 1993,
+     "note": "Anime: pulp ninja splatter",
+     "tags": "NXJ",
+     "warn": "Gory, with sexual violence.",
+     "seq": []
+    },
+    {
+     "t": "Riki-Oh: The Story of Ricky",
+     "y": 1991,
+     "note": "Prison kung fu where people burst like balloons",
+     "tags": "MXH",
+     "warn": "Absurdly gory.",
+     "seq": [],
+     "junk": true
+    }
+   ],
+   "w": "Geysers of blood, plus sexual violence."
+  },
+  {
+   "n": 26,
+   "t": "Seven Samurai",
+   "y": 1954,
+   "b": "Kurosawa's village defended by seven hired swords. Three and a half hours, and the template for every team film since.",
+   "tags": "NOJ",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 27,
+   "t": "The 36th Chamber of Shaolin",
+   "y": 1978,
+   "b": "Gordon Liu trains through every chamber. The Shaw Brothers' greatest film.",
+   "tags": "MOH",
+   "heat": {
+    "violence": 3,
+    "intensity": 2,
+    "age": 4,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Eight Diagram Pole Fighter",
+     "y": 1984,
+     "note": "Lau Kar-leung's grief-stricken, savage pole-fight finale",
+     "tags": "MOH",
+     "warn": "Very violent.",
+     "seq": []
+    },
+    {
+     "t": "Five Deadly Venoms",
+     "y": 1978,
+     "note": "Chang Cheh: five masked killers, five animal styles",
+     "tags": "MOH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Dirty Ho",
+     "y": 1979,
+     "note": "Lau Kar-leung's sneaky-fight comedy",
+     "tags": "MCOH",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "t": "Come Drink with Me",
+   "y": 1966,
+   "b": "King Hu's inn fight: Cheng Pei-pei, the first great wuxia heroine.",
+   "tags": "WOH",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 4,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Dragon Inn",
+     "y": 1967,
+     "note": "King Hu again: the inn as a trap",
+     "tags": "WO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "New Dragon Inn",
+     "y": 1992,
+     "note": "Tsui Hark's remake, with Brigitte Lin and Maggie Cheung",
+     "tags": "WH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "One-Armed Swordsman",
+     "y": 1967,
+     "note": "Chang Cheh's blood-soaked Shaw hit",
+     "tags": "WOH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Swordsman II",
+     "y": 1992,
+     "note": "Brigitte Lin as Asia the Invincible",
+     "tags": "WXH",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "t": "A Touch of Zen",
+   "y": 1971,
+   "b": "King Hu's three-hour masterpiece: a ghost story, then a conspiracy, then the bamboo-forest fight, then something mystical.",
+   "tags": "WOX",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 5,
+    "challenge": 5
+   },
+   "seq": [],
+   "br": [],
+   "w": "Three hours, and the action arrives slowly."
+  },
+  {
+   "n": 30,
+   "t": "Harakiri",
+   "y": 1962,
+   "b": "A ronin asks to kill himself at a lord's house, then tells his story. Slow, quiet, devastating, and finally a fight.",
+   "tags": "NOJ",
+   "heat": {
+    "violence": 3,
+    "intensity": 5,
+    "age": 4,
+    "challenge": 5
+   },
+   "seq": [],
+   "br": [],
+   "w": "An agonising ritual-suicide scene."
+  }
+ ],
+ "beyond": [
+  {
+   "t": "The Night Comes for Us",
+   "y": 2018,
+   "b": "Joe Taslim and Iko Uwais in Indonesia's goriest fight film. The Raid with the safety off.",
+   "tags": "MG",
+   "w": "Extreme gore throughout.",
+   "heat": {
+    "violence": 5,
+    "intensity": 5,
+    "age": 0,
+    "challenge": 2
+   }
+  },
+  {
+   "t": "I Saw the Devil",
+   "y": 2010,
+   "b": "Lee Byung-hun hunts the serial killer who murdered his fiancée, then lets him go, again and again.",
+   "tags": "RK",
+   "w": "Extreme, prolonged violence and sexual violence.",
+   "heat": {
+    "violence": 5,
+    "intensity": 5,
+    "age": 0,
+    "challenge": 4
+   }
+  }
+ ]
+}

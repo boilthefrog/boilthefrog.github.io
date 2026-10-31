@@ -124,7 +124,7 @@ const page = ({ title, body, root = "", desc = "", extraHead = "" }) => `<!DOCTY
 ${extraHead}
 </head>
 <body>
-<nav class="topnav"><div class="topnav-in"><a class="brand" href="${root}">${FROG}Boil the Frog</a>${ladders.map(l => `<a href="${root}${l.id}/">${esc(l.title)}</a>`).join("")}<a href="${root}pot/">Your pot</a><a href="${root}about/">About</a></div></nav>
+<nav class="topnav"><div class="topnav-in"><a class="brand" href="${root}">${FROG}Boil the Frog</a><div class="navlinks">${ladders.map(l => `<a href="${root}${l.id}/">${esc(l.title)}</a>`).join("")}<a href="${root}pot/">Your pot</a><a href="${root}about/">About</a></div></div></nav>
 ${body}
 <footer><div class="foot-in" style="max-width:980px;margin:0 auto"><div>
 <p class="small">Boil the Frog: film ladders for people who think they don't like a genre. Ticks are saved in this browser only.</p>
@@ -258,7 +258,7 @@ function home() {
 </ul></header>
 <div class="home-ladders">
 ${ladders.map(L => `<a class="ladder-card" href="${L.id}/"><div class="kicker">Ladder</div><h2>${esc(L.title)}</h2><div class="heatbar" aria-hidden="true"></div><p>${esc(L.tagline)}</p><p><b>${L.core[0].t} → ${L.core[L.core.length - 1].t}</b></p></a>`).join("")}
-${[["Sci-fi", "Open the pod bay doors, HAL.", "2001: A Space Odyssey"], ["War", "I love the smell of napalm in the morning.", "Apocalypse Now"], ["Westerns", "When you have to shoot, shoot. Don't talk.", "The Good, the Bad and the Ugly"], ["Asian cinema", "Boards don't hit back.", "Enter the Dragon"], ["Superheroes", "With great power comes great responsibility.", "Spider-Man"]].map(([t, q, f]) => `<div class="ladder-card soon"><div class="kicker">Coming later</div><h2>${t}</h2><div class="heatbar" aria-hidden="true"></div><blockquote class="quote">“${esc(q)}”<cite>${esc(f)}</cite></blockquote></div>`).join("")}
+${[["Sci-fi", "Open the pod bay doors, HAL.", "2001: A Space Odyssey"], ["War", "I love the smell of napalm in the morning.", "Apocalypse Now"], ["Westerns", "When you have to shoot, shoot. Don't talk.", "The Good, the Bad and the Ugly"], ["World cinema", "Marcello, come here!", "La Dolce Vita"], ["Superheroes", "With great power comes great responsibility.", "Spider-Man"]].map(([t, q, f]) => `<div class="ladder-card soon"><div class="kicker">Coming later</div><h2>${t}</h2><div class="heatbar" aria-hidden="true"></div><blockquote class="quote">“${esc(q)}”<cite>${esc(f)}</cite></blockquote></div>`).join("")}
 </div>`;
   write("index.html", page({ title: "Boil the Frog", body }));
 }

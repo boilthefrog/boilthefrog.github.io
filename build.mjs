@@ -119,6 +119,11 @@ const VER = (await import("node:crypto")).createHash("md5").update(CSS + JS).dig
 fs.mkdirSync(OUT, { recursive: true });
 write("assets/site.css", CSS);
 write("assets/site.js", JS);
+// Approved TMDB logo (blue short). Fetched at build time; falls back to TMDB's own URL.
+const TMDB_LOGO_URL = "https://www.themoviedb.org/assets/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg";
+let TMDB_LOGO = TMDB_LOGO_URL;
+try { const r = await fetch(TMDB_LOGO_URL); if (r.ok) { write("assets/tmdb.svg", await r.text()); TMDB_LOGO = "assets/tmdb.svg"; } } catch {}
+const tmdbLogo = (root, cls) => `<a class="${cls}" href="https://www.themoviedb.org/"><img src="${TMDB_LOGO.startsWith("http") ? TMDB_LOGO : root + TMDB_LOGO}" alt="TMDB"></a>`;
 write(".nojekyll", "");
 
 const FROG = `<svg viewBox="0 0 60 40" aria-hidden="true"><ellipse cx="30" cy="28" rx="24" ry="12" fill="#5d9b3a"/><circle cx="17" cy="13" r="9" fill="#5d9b3a"/><circle cx="43" cy="13" r="9" fill="#5d9b3a"/><circle cx="17" cy="13" r="4.5" fill="#fff"/><circle cx="43" cy="13" r="4.5" fill="#fff"/><circle cx="17" cy="14" r="2.2" fill="#17110d"/><circle cx="43" cy="14" r="2.2" fill="#17110d"/></svg>`;
@@ -139,7 +144,7 @@ ${extraHead}
 ${body}
 <footer><div class="foot-in" style="max-width:980px;margin:0 auto"><div>
 <p class="small">Boil the Frog: film ladders for people who think they don't like a genre. Ticks are saved in this browser only.</p>
-<p class="credit">Film data and posters from <a href="https://www.themoviedb.org/">TMDB</a>. This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+<p class="credit">${tmdbLogo(root, "tmdb-logo")} Film data and posters from <a href="https://www.themoviedb.org/">TMDB</a>. This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
 </div></div></footer>
 <script src="${root}assets/site.js?v=${VER}"></script>
 </body></html>`;
@@ -285,9 +290,9 @@ function about() {
 <div class="prose">
 <p>The idea comes from the boiling frog: put it in warm water, raise the heat slowly, and it never notices. Each ladder starts with films someone who "doesn't like" the genre will enjoy anyway, and adds one new kind of difficulty per step: tension, gore, subtitles, slowness, strangeness.</p>
 <p><b>Core films</b> are the essential route. <b>Side quests</b> are similar films at the same heat, for when someone loves a step. <b>Sequels</b> worth the detour are starred. <b>Junk food</b> marks cult trash: fun, not great.</p>
-<p><b>Heat scores</b> rate each core film out of 5 for gore, dread, jump scares and weirdness. They're draft scores and will change.</p>
+<p><b>Heat scores</b> rate each core film out of 5 on four measures that suit its ladder: on Horror, gore, dread, jump scares and weirdness; elsewhere, violence, intensity, how old-school it feels and how much work it asks of you. They're hand-judged guides, not data, and they'll be refined.</p>
 <p><b>Letterboxd:</b> each ladder can be downloaded as a CSV and imported into a Letterboxd list (Lists → New list → Import). Films are matched by their TMDB ID.</p>
-<p class="credit">Film data and posters are from <a href="https://www.themoviedb.org/">The Movie Database (TMDB)</a>. This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+${tmdbLogo("../", "tmdb-logo big")}<p class="credit">Film data and posters are from <a href="https://www.themoviedb.org/">The Movie Database (TMDB)</a>. This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
 </div>`;
   write("about/index.html", page({ title: "About | Boil the Frog", body, root: "../" }));
 }

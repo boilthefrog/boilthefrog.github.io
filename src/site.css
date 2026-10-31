@@ -223,3 +223,4 @@ footer a{color:var(--bone)}
 .watch .box{flex:none}
 .navlinks{display:flex;gap:18px;flex-wrap:wrap}
 @media (max-width:720px){.topnav .brand{width:100%}.navlinks{flex-wrap:nowrap;overflow-x:auto;white-space:nowrap;width:100%;padding-bottom:4px;scrollbar-width:none}.navlinks::-webkit-scrollbar{display:none}}
+.tmdb-logo{display:inline-block;vertical-align:middle;margin-right:8px}.tmdb-logo img{height:16px;width:auto;display:block}.tmdb-logo.big{display:block;margin:18px 0 8px}.tmdb-logo.big img{height:36px}

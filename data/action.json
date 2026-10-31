@@ -208,6 +208,14 @@
      "tags": "AW",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Big Trouble in Little China",
+     "y": 1986,
+     "note": "Kurt Russell blunders through Carpenter's kung fu fantasy",
+     "tags": "CMA",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -240,6 +248,23 @@
      "tags": "V",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Duel",
+     "y": 1971,
+     "note": "Spielberg's first: a man, a car and a killer truck",
+     "tags": "VO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Crank",
+     "y": 2006,
+     "note": "Statham must keep his adrenaline up or die. Speed on speed",
+     "tags": "GV",
+     "warn": null,
+     "seq": [],
+     "junk": true
     }
    ]
   },
@@ -486,6 +511,18 @@
      "y": 2012,
      "note": "Craig's grand, gorgeous third",
      "star": false
+    },
+    {
+     "t": "The Spy Who Loved Me",
+     "y": 1977,
+     "note": "Peak Roger Moore: Jaws, the Lotus sub, the ski jump",
+     "star": false
+    },
+    {
+     "t": "GoldenEye",
+     "y": 1995,
+     "note": "Brosnan's best and the tank chase",
+     "star": true
     }
    ],
    "br": [
@@ -501,25 +538,33 @@
   },
   {
    "n": 10,
-   "t": "Fast Five",
-   "y": 2011,
-   "b": "The franchise becomes a heist series with cars. Dragging a vault through Rio.",
-   "tags": "VB",
+   "t": "Point Break",
+   "y": 1991,
+   "b": "Keanu goes undercover with Swayze's surfing bank robbers. Kathryn Bigelow's sun-bleached, adrenaline-junkie classic, with the best foot chase ever filmed.",
+   "tags": "PGV",
    "heat": {
-    "violence": 2,
+    "violence": 3,
     "intensity": 3,
-    "age": 0,
+    "age": 1,
     "challenge": 0
    },
-   "seq": [
-    {
-     "t": "The Fast and the Furious",
-     "y": 2001,
-     "note": "Where it started: Point Break with cars",
-     "star": false
-    }
-   ],
+   "seq": [],
    "br": [
+    {
+     "t": "Fast Five",
+     "y": 2011,
+     "note": "The family heist that turned the series into Point Break with cars",
+     "tags": "VB",
+     "warn": null,
+     "seq": [
+      {
+       "t": "The Fast and the Furious",
+       "y": 2001,
+       "note": "Where it started: Point Break with cars",
+       "star": false
+      }
+     ]
+    },
     {
      "t": "Smokey and the Bandit",
      "y": 1977,
@@ -542,6 +587,23 @@
        "star": false
       }
      ],
+     "junk": true
+    },
+    {
+     "t": "The Italian Job",
+     "y": 1969,
+     "note": "Minis, Michael Caine and a cliffhanger ending",
+     "tags": "VCUO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Road House",
+     "y": 1989,
+     "note": "Swayze as a philosophical bouncer. Gloriously stupid",
+     "tags": "GC",
+     "warn": null,
+     "seq": [],
      "junk": true
     }
    ]
@@ -638,6 +700,23 @@
      "tags": "PC",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "The Long Kiss Goodnight",
+     "y": 1996,
+     "note": "Shane Black again: Geena Davis remembers she's an assassin",
+     "tags": "GC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Tango & Cash",
+     "y": 1989,
+     "note": "Stallone and Russell, cops framed. Pure 80s cheese",
+     "tags": "PC",
+     "warn": null,
+     "seq": [],
+     "junk": true
     }
    ]
   },
@@ -661,7 +740,26 @@
      "star": true
     }
    ],
-   "br": []
+   "br": [
+    {
+     "t": "Last Action Hero",
+     "y": 1993,
+     "note": "Arnie spoofs himself. A mess with great bits",
+     "tags": "CB",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Timecop",
+     "y": 1994,
+     "note": "Van Damme polices time travel and does the splits",
+     "tags": "XM",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
   },
   {
    "n": 14,
@@ -695,6 +793,22 @@
      "y": 2008,
      "note": "A particular set of skills",
      "tags": "G",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Hanna",
+     "y": 2011,
+     "note": "A teenage assassin on the run, scored by the Chemical Brothers",
+     "tags": "SM",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Haywire",
+     "y": 2011,
+     "note": "Gina Carano does her own brutally real fights",
+     "tags": "SM",
      "warn": null,
      "seq": []
     }
@@ -818,6 +932,22 @@
      "tags": "XC",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Darkman",
+     "y": 1990,
+     "note": "Sam Raimi's pulp anti-hero, pre-Spider-Man",
+     "tags": "XC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "They Live",
+     "y": 1988,
+     "note": "Sunglasses reveal the aliens. That alley fight",
+     "tags": "XC",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -841,7 +971,34 @@
      "star": false
     }
    ],
-   "br": []
+   "br": [
+    {
+     "t": "Apocalypto",
+     "y": 2006,
+     "note": "Mel Gibson's Mayan epic: one long jungle chase",
+     "tags": "A",
+     "warn": "Graphic violence, including human sacrifice. Subtitled.",
+     "seq": []
+    },
+    {
+     "t": "Cobra",
+     "y": 1986,
+     "note": "Stallone, a matchstick and the worst haircut in LA",
+     "tags": "PG",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Invasion U.S.A.",
+     "y": 1985,
+     "note": "Chuck Norris vs everyone. Peak 80s nonsense",
+     "tags": "G",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
   },
   {
    "n": 20,
@@ -861,6 +1018,12 @@
      "y": 1981,
      "note": "The Road Warrior: the original masterpiece",
      "star": true
+    },
+    {
+     "t": "Mad Max",
+     "y": 1979,
+     "note": "The rough, low-budget original",
+     "star": false
     }
    ],
    "br": [
@@ -887,6 +1050,31 @@
      "tags": "XO",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "The Warriors",
+     "y": 1979,
+     "note": "A gang fights its way home across New York in one night",
+     "tags": "VO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Streets of Fire",
+     "y": 1984,
+     "note": "Walter Hill's rock'n'roll fable",
+     "tags": "VO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Death Race 2000",
+     "y": 1975,
+     "note": "Corman's points-for-pedestrians road race",
+     "tags": "VCO",
+     "warn": null,
+     "seq": [],
+     "junk": true
     }
    ]
   },
@@ -903,7 +1091,32 @@
     "challenge": 2
    },
    "seq": [],
-   "br": []
+   "br": [
+    {
+     "t": "Get Carter",
+     "y": 1971,
+     "note": "Michael Caine's cold Newcastle revenge",
+     "tags": "GUO",
+     "warn": "Bleak, with sexual content.",
+     "seq": []
+    },
+    {
+     "t": "The Getaway",
+     "y": 1972,
+     "note": "Peckinpah, McQueen and a shotgun on the run",
+     "tags": "GVO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Payback",
+     "y": 1999,
+     "note": "Mel Gibson remakes Point Blank, nastier",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    }
+   ]
   },
   {
    "n": 22,
@@ -958,6 +1171,22 @@
      "tags": "VS",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "The Taking of Pelham One Two Three",
+     "y": 1974,
+     "note": "Subway hijack, Walter Matthau, peak 70s New York",
+     "tags": "PO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Seven-Ups",
+     "y": 1973,
+     "note": "Roy Scheider, plus a chase to rival Bullitt's",
+     "tags": "VPO",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -991,19 +1220,43 @@
      "seq": []
     },
     {
-     "t": "The Taking of Pelham One Two Three",
-     "y": 1974,
-     "note": "Subway hijack, Walter Matthau, peak 70s New York",
-     "tags": "PO",
-     "warn": null,
-     "seq": []
-    },
-    {
      "t": "Thunderbolt and Lightfoot",
      "y": 1974,
      "note": "Eastwood and Jeff Bridges' heist road movie",
      "tags": "CO",
      "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Gauntlet",
+     "y": 1977,
+     "note": "Eastwood walks a witness through a hail of bullets",
+     "tags": "PGO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Shaft",
+     "y": 1971,
+     "note": "Richard Roundtree, that theme, Harlem",
+     "tags": "PO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Coffy",
+     "y": 1973,
+     "note": "Pam Grier's revenge on the dealers who hooked her sister",
+     "tags": "GO",
+     "warn": "Nudity and sexual violence.",
+     "seq": []
+    },
+    {
+     "t": "Foxy Brown",
+     "y": 1974,
+     "note": "More Pam Grier, nastier villains",
+     "tags": "GO",
+     "warn": "Nudity and sexual violence.",
      "seq": []
     }
    ]
@@ -1037,6 +1290,22 @@
      "tags": "G",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "The Untouchables",
+     "y": 1987,
+     "note": "De Palma, Costner, Connery and the station steps",
+     "tags": "GPO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Drive",
+     "y": 2011,
+     "note": "Gosling's silent getaway driver. Romantic, then very violent",
+     "tags": "V",
+     "warn": "Sudden, extreme violence.",
+     "seq": []
     }
    ]
   },
@@ -1058,6 +1327,12 @@
      "y": 1988,
      "note": "More of the same, brilliantly",
      "star": false
+    },
+    {
+     "t": "Police Story 3: Supercop",
+     "y": 1992,
+     "note": "Michelle Yeoh steals it, plus the helicopter",
+     "star": true
     }
    ],
    "br": [
@@ -1100,6 +1375,23 @@
      "tags": "OC",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Rumble in the Bronx",
+     "y": 1995,
+     "note": "The film that broke Jackie Chan in the West",
+     "tags": "MCH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Bloodsport",
+     "y": 1988,
+     "note": "Van Damme's underground tournament. Splits and slow-mo",
+     "tags": "M",
+     "warn": null,
+     "seq": [],
+     "junk": true
     }
    ]
   },
@@ -1130,6 +1422,14 @@
      "note": "The Japanese revenge film that inspired it",
      "tags": "MO",
      "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Death Proof",
+     "y": 2007,
+     "note": "Tarantino's talky slasher, then the best real car stunt in years",
+     "tags": "V",
+     "warn": "Long talky stretches before the action.",
      "seq": []
     }
    ]
@@ -1183,6 +1483,14 @@
      "note": "Dev Patel's furious revenge film",
      "tags": "GM",
      "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Riders of Justice",
+     "y": 2020,
+     "note": "Mads Mikkelsen's grief, revenge and very dark comedy",
+     "tags": "GC",
+     "warn": "Subtitled (Danish).",
      "seq": []
     }
    ]
@@ -1247,6 +1555,23 @@
        "star": false
       }
      ]
+    },
+    {
+     "t": "A Better Tomorrow",
+     "y": 1986,
+     "note": "The Woo film that started heroic bloodshed",
+     "tags": "GH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Hard Target",
+     "y": 1993,
+     "note": "Woo's Hollywood debut: Van Damme, a mullet, endless slow-mo doves",
+     "tags": "GM",
+     "warn": null,
+     "seq": [],
+     "junk": true
     }
    ]
   },
@@ -1285,6 +1610,14 @@
      "note": "French parkour action; pure momentum",
      "tags": "M",
      "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Brawl in Cell Block 99",
+     "y": 2017,
+     "note": "Vince Vaughn, slow burn, then bone-cracking",
+     "tags": "M",
+     "warn": "Extreme, gory violence.",
      "seq": []
     }
    ]

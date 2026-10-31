@@ -477,6 +477,14 @@
      "tags": "F",
      "warn": "Violent.",
      "seq": []
+    },
+    {
+     "t": "The Wind That Shakes the Barley",
+     "y": 2006,
+     "note": "Ken Loach: brothers in the Irish War of Independence",
+     "tags": "U",
+     "warn": "Violent.",
+     "seq": []
     }
    ],
    "n": 8
@@ -850,7 +858,16 @@
     "challenge": 3
    },
    "seq": [],
-   "br": [],
+   "br": [
+    {
+     "t": "The Best Years of Our Lives",
+     "y": 1946,
+     "note": "Three veterans come home and try to fit back in",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ],
    "w": "The Russian roulette scenes."
   },
   {
@@ -904,6 +921,14 @@
      "t": "The Enemy Below",
      "y": 1957,
      "note": "A destroyer vs a U-boat: cat and mouse",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Caine Mutiny",
+     "y": 1954,
+     "note": "Bogart's paranoid captain and the missing strawberries",
      "tags": "O",
      "warn": null,
      "seq": []
@@ -965,6 +990,14 @@
      "tags": "M",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Hell in the Pacific",
+     "y": 1968,
+     "note": "Lee Marvin and Toshiro Mifune, enemies stranded on one island. Almost wordless",
+     "tags": "O",
+     "warn": null,
+     "seq": []
     }
    ],
    "w": "Subtitled."
@@ -1013,6 +1046,14 @@
      "note": "Auschwitz in close-up: a Sonderkommando prisoner's last day and a half",
      "tags": "WD",
      "warn": "Harrowing.",
+     "seq": []
+    },
+    {
+     "t": "Au Revoir les Enfants",
+     "y": 1987,
+     "note": "Louis Malle: a Catholic school hiding Jewish boys",
+     "tags": "W",
+     "warn": "Subtitled.",
      "seq": []
     }
    ],
@@ -1095,6 +1136,14 @@
      "tags": "U",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "The Big Parade",
+     "y": 1925,
+     "note": "The great silent WWI epic. Taschen and Scorsese",
+     "tags": "O",
+     "warn": "Silent.",
+     "seq": []
     }
    ],
    "w": "1930: early sound."
@@ -1153,6 +1202,14 @@
      "tags": "UD",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Forbidden Games",
+     "y": 1952,
+     "note": "Two French children invent a game of burying the dead",
+     "tags": "WO",
+     "warn": "Subtitled.",
+     "seq": []
     }
    ],
    "w": "Heartbreaking."
@@ -1193,6 +1250,22 @@
      "note": "Larisa Shepitko: two Soviet partisans captured in the snow",
      "tags": "WD",
      "warn": "Subtitled; harrowing.",
+     "seq": []
+    },
+    {
+     "t": "Rome, Open City",
+     "y": 1945,
+     "note": "Rossellini's Resistance, shot in the ruins just after liberation",
+     "tags": "WO",
+     "warn": "Subtitled.",
+     "seq": []
+    },
+    {
+     "t": "Ashes and Diamonds",
+     "y": 1958,
+     "note": "Wajda's Polish Resistance fighter on the last day of the war",
+     "tags": "WO",
+     "warn": "Subtitled.",
      "seq": []
     }
    ],

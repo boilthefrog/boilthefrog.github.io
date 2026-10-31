@@ -337,6 +337,22 @@
      "tags": "A",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Gladiator",
+     "y": 2000,
+     "note": "Ridley Scott: a general becomes a slave becomes a gladiator",
+     "tags": "WB",
+     "warn": "Bloody battles.",
+     "seq": []
+    },
+    {
+     "t": "Master and Commander: The Far Side of the World",
+     "y": 2003,
+     "note": "Russell Crowe's frigate hunts a French privateer. Very authentic",
+     "tags": "WB",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -1083,6 +1099,23 @@
      "warn": null,
      "seq": [],
      "junk": true
+    },
+    {
+     "t": "Furiosa",
+     "y": 2024,
+     "note": "Anya Taylor-Joy's origin story, a whole saga in the wasteland",
+     "tags": "VX",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Mad Max Beyond Thunderdome",
+     "y": 1985,
+     "note": "Tina Turner, Thunderdome and lost kids",
+     "tags": "VX",
+     "warn": null,
+     "seq": [],
+     "junk": true
     }
    ]
   },
@@ -1122,6 +1155,14 @@
      "note": "Mel Gibson remakes Point Blank, nastier",
      "tags": "G",
      "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Le Samouraï",
+     "y": 1967,
+     "note": "Alain Delon's silent, ice-cool hitman. Everyone from John Woo to Drive borrowed it",
+     "tags": "GO",
+     "warn": "Subtitled.",
      "seq": []
     }
    ]
@@ -1193,6 +1234,22 @@
      "y": 1973,
      "note": "Roy Scheider, plus a chase to rival Bullitt's",
      "tags": "VPO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Wages of Fear",
+     "y": 1953,
+     "note": "Four men drive trucks of nitroglycerine across Latin America. Unbearable tension",
+     "tags": "VO",
+     "warn": "Subtitled.",
+     "seq": []
+    },
+    {
+     "t": "Sorcerer",
+     "y": 1977,
+     "note": "Friedkin's remake: the rope-bridge crossing in a storm",
+     "tags": "VO",
      "warn": null,
      "seq": []
     }
@@ -1313,6 +1370,14 @@
      "note": "Gosling's silent getaway driver. Romantic, then very violent",
      "tags": "V",
      "warn": "Sudden, extreme violence.",
+     "seq": []
+    },
+    {
+     "t": "Sicario",
+     "y": 2015,
+     "note": "Emily Blunt on the Mexican border, and the Juárez convoy",
+     "tags": "GP",
+     "warn": "Brutal violence.",
      "seq": []
     }
    ]

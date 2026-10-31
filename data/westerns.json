@@ -49,7 +49,7 @@
    "note": "Recent Westerns that play like thrillers.",
    "bg": "#ecdcaa",
    "fg": "#17110d",
-   "upto": 8
+   "upto": 7
   },
   {
    "t": 50,
@@ -57,7 +57,7 @@
    "note": "Ford, Hawks, Mann, Wayne, Stewart and Cooper.",
    "bg": "#e8b47a",
    "fg": "#17110d",
-   "upto": 16
+   "upto": 17
   },
   {
    "t": 65,
@@ -65,7 +65,7 @@
    "note": "Leone, Corbucci and Eastwood. Dirtier, meaner, louder.",
    "bg": "#cf5b3a",
    "fg": "#17110d",
-   "upto": 20
+   "upto": 21
   },
   {
    "t": 80,
@@ -73,7 +73,7 @@
    "note": "The myth falls apart: Peckinpah, Unforgiven, Dead Man.",
    "bg": "#6d1b21",
    "fg": "#efe3cf",
-   "upto": 26
+   "upto": 27
   },
   {
    "t": 95,
@@ -212,27 +212,11 @@
      "tags": "GO",
      "warn": null,
      "seq": []
-    }
-   ]
-  },
-  {
-   "n": 5,
-   "t": "3:10 to Yuma",
-   "y": 2007,
-   "b": "Christian Bale's broke rancher has to get Russell Crowe's charming killer onto a prison train.",
-   "tags": "GM",
-   "heat": {
-    "violence": 3,
-    "intensity": 3,
-    "age": 0,
-    "challenge": 1
-   },
-   "seq": [],
-   "br": [
+    },
     {
-     "t": "3:10 to Yuma",
-     "y": 1957,
-     "note": "The tighter, talkier original with Glenn Ford",
+     "t": "Vera Cruz",
+     "y": 1954,
+     "note": "Gary Cooper and Burt Lancaster's grinning villain in Mexico",
      "tags": "O",
      "warn": null,
      "seq": []
@@ -240,7 +224,7 @@
    ]
   },
   {
-   "n": 6,
+   "n": 5,
    "t": "True Grit",
    "y": 2010,
    "b": "The Coen brothers: a 14-year-old hires Jeff Bridges' drunk marshal to hunt her father's killer.",
@@ -254,6 +238,22 @@
    "seq": [],
    "br": [
     {
+     "t": "3:10 to Yuma",
+     "y": 2007,
+     "note": "Christian Bale and Russell Crowe get a killer onto a prison train",
+     "tags": "GM",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "3:10 to Yuma",
+     "y": 1957,
+     "note": "The tighter, talkier original with Glenn Ford",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
      "t": "True Grit",
      "y": 1969,
      "note": "John Wayne's Oscar-winning Rooster Cogburn",
@@ -264,7 +264,7 @@
    ]
   },
   {
-   "n": 7,
+   "n": 6,
    "t": "Django Unchained",
    "y": 2012,
    "b": "Tarantino's spaghetti tribute: a freed slave and a German bounty hunter go after his wife.",
@@ -289,7 +289,7 @@
    "w": "Very bloody, and brutal scenes of slavery."
   },
   {
-   "n": 8,
+   "n": 7,
    "t": "Open Range",
    "y": 2003,
    "b": "Kevin Costner and Robert Duvall as cattlemen pushed too far. Slow burn, then one of the best gunfights ever filmed.",
@@ -313,7 +313,7 @@
    ]
   },
   {
-   "n": 9,
+   "n": 8,
    "t": "Stagecoach",
    "y": 1939,
    "b": "John Ford's coach full of misfits, and the shot that made John Wayne a star.",
@@ -328,7 +328,7 @@
    "br": []
   },
   {
-   "n": 10,
+   "n": 9,
    "t": "Red River",
    "y": 1948,
    "b": "Howard Hawks: John Wayne drives cattle to Missouri and Montgomery Clift mutinies.",
@@ -340,7 +340,47 @@
     "challenge": 2
    },
    "seq": [],
-   "br": []
+   "br": [
+    {
+     "t": "The Big Country",
+     "y": 1958,
+     "note": "Gregory Peck's epic range war",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Forty Guns",
+     "y": 1957,
+     "note": "Samuel Fuller: Barbara Stanwyck rules a county with 40 hired guns",
+     "tags": "OD",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Duel in the Sun",
+     "y": 1946,
+     "note": "Lurid Technicolor melodrama, from the Scorsese list",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "t": "The Treasure of the Sierra Madre",
+   "y": 1948,
+   "b": "Bogart and two prospectors strike gold in the Mexican mountains, and greed does the rest. 'Badges? We don't need no stinking badges!'",
+   "tags": "OD",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [],
+   "n": 10
   },
   {
    "n": 11,
@@ -435,26 +475,34 @@
     "challenge": 2
    },
    "seq": [],
-   "br": []
+   "br": [
+    {
+     "t": "The Shootist",
+     "y": 1976,
+     "note": "Wayne's last film: a dying gunfighter's final week",
+     "tags": "W",
+     "warn": null,
+     "seq": []
+    }
+   ]
   },
   {
-   "n": 15,
-   "t": "Winchester '73",
-   "y": 1950,
-   "b": "James Stewart chases a stolen rifle and the brother who took it. The first of his hard, angry Westerns with Anthony Mann.",
+   "t": "The Naked Spur",
+   "y": 1953,
+   "b": "James Stewart's bounty hunter drags Robert Ryan's killer across the Rockies and comes apart on the way. Anthony Mann at his darkest.",
    "tags": "OV",
    "heat": {
     "violence": 2,
-    "intensity": 3,
+    "intensity": 4,
     "age": 4,
     "challenge": 2
    },
    "seq": [],
    "br": [
     {
-     "t": "The Naked Spur",
-     "y": 1953,
-     "note": "Stewart as a bounty hunter falling apart. From the Scorsese list",
+     "t": "Winchester '73",
+     "y": 1950,
+     "note": "Stewart chases a stolen rifle and the brother who took it",
      "tags": "OV",
      "warn": null,
      "seq": []
@@ -475,10 +523,43 @@
      "warn": null,
      "seq": []
     }
-   ]
+   ],
+   "n": 15
   },
   {
-   "n": 16,
+   "t": "The Tall T",
+   "y": 1957,
+   "b": "Budd Boetticher: Randolph Scott and a newlywed couple held hostage by outlaws. 78 minutes, not a wasted line.",
+   "tags": "O",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Seven Men from Now",
+     "y": 1956,
+     "note": "Scott hunts the men who killed his wife",
+     "tags": "OV",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Ride Lonesome",
+     "y": 1959,
+     "note": "Scott, a bounty and a long ride",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "n": 16
+  },
+  {
+   "n": 17,
    "t": "The Searchers",
    "y": 1956,
    "b": "Wayne's darkest role: years hunting the Comanche who took his niece, and maybe planning to kill her.",
@@ -508,6 +589,14 @@
      "seq": []
     },
     {
+     "t": "Rio Grande",
+     "y": 1950,
+     "note": "Ford's cavalry trilogy, part three: Wayne and Maureen O'Hara",
+     "tags": "OW",
+     "warn": null,
+     "seq": []
+    },
+    {
      "t": "My Darling Clementine",
      "y": 1946,
      "note": "Ford's poetic OK Corral, with Henry Fonda",
@@ -527,7 +616,7 @@
    "w": "Racist hero, deliberately, and dated depictions of Native Americans."
   },
   {
-   "n": 17,
+   "n": 18,
    "t": "For a Few Dollars More",
    "y": 1965,
    "b": "Eastwood and Lee Van Cleef as rival bounty hunters, and a pocket watch. The best of the Dollars films.",
@@ -549,7 +638,7 @@
    "br": []
   },
   {
-   "n": 18,
+   "n": 19,
    "t": "The Good, the Bad and the Ugly",
    "y": 1966,
    "b": "Three men, a fortune in gold, a civil war, and the greatest stand-off ever filmed.",
@@ -581,7 +670,7 @@
    ]
   },
   {
-   "n": 19,
+   "n": 20,
    "t": "Django",
    "y": 1966,
    "b": "Sergio Corbucci: a man drags a coffin through the mud, and what's inside is a machine gun.",
@@ -622,7 +711,7 @@
    "w": "Violent, and dubbed."
   },
   {
-   "n": 20,
+   "n": 21,
    "t": "The Outlaw Josey Wales",
    "y": 1976,
    "b": "Eastwood's farmer turns killer after his family is murdered, then collects a family of strays.",
@@ -642,11 +731,27 @@
      "tags": "ED",
      "warn": "Includes a rape scene.",
      "seq": []
+    },
+    {
+     "t": "The Revenant",
+     "y": 2015,
+     "note": "DiCaprio, the bear and a frozen crawl for revenge",
+     "tags": "V",
+     "warn": "Very violent, including the bear attack.",
+     "seq": []
+    },
+    {
+     "t": "One-Eyed Jacks",
+     "y": 1961,
+     "note": "Marlon Brando directs himself in a revenge Western",
+     "tags": "OV",
+     "warn": null,
+     "seq": []
     }
    ]
   },
   {
-   "n": 21,
+   "n": 22,
    "t": "The Wild Bunch",
    "y": 1969,
    "b": "Peckinpah's ageing outlaws, one last job, and the bloodbath that changed screen violence.",
@@ -671,7 +776,7 @@
    "w": "Graphic violence."
   },
   {
-   "n": 22,
+   "n": 23,
    "t": "Pat Garrett & Billy the Kid",
    "y": 1973,
    "b": "Peckinpah: James Coburn hunts his old friend Kris Kristofferson. Bob Dylan sings 'Knockin' on Heaven's Door'.",
@@ -687,7 +792,7 @@
    "w": "Watch the 2005 special edition, not the theatrical cut."
   },
   {
-   "n": 23,
+   "n": 24,
    "t": "Unforgiven",
    "y": 1992,
    "b": "Eastwood's old killer takes one last job and finds there's nothing heroic about it.",
@@ -719,7 +824,7 @@
    ]
   },
   {
-   "n": 24,
+   "n": 25,
    "t": "The Assassination of Jesse James by the Coward Robert Ford",
    "y": 2007,
    "b": "Brad Pitt's Jesse and Casey Affleck's starstruck Robert Ford. Slow, gorgeous, haunting.",
@@ -744,7 +849,7 @@
    "w": "Slow: 160 minutes."
   },
   {
-   "n": 25,
+   "n": 26,
    "t": "Dead Man",
    "y": 1995,
    "b": "Jim Jarmusch: Johnny Depp drifts west, a wanted man, guided by a Native American called Nobody. Black and white, Neil Young guitar.",
@@ -764,11 +869,19 @@
      "tags": "R",
      "warn": "Very slow, and deliberately unresolved.",
      "seq": []
+    },
+    {
+     "t": "Slow West",
+     "y": 2015,
+     "note": "Michael Fassbender guides a lovesick Scottish boy west. Short and strange",
+     "tags": "RX",
+     "warn": null,
+     "seq": []
     }
    ]
   },
   {
-   "n": 26,
+   "n": 27,
    "t": "The Great Silence",
    "y": 1968,
    "b": "Corbucci's snowbound bounty-hunter nightmare, with Klaus Kinski. The bleakest ending in Westerns.",
@@ -782,39 +895,6 @@
    "seq": [],
    "br": [],
    "w": "Brutal, nihilistic, dubbed."
-  },
-  {
-   "n": 27,
-   "t": "Ulzana's Raid",
-   "y": 1972,
-   "b": "Burt Lancaster's weary scout and a green cavalry officer track an Apache raiding party. Brutal, intelligent, Vietnam-era bleak.",
-   "tags": "RD",
-   "w": "Disturbing violence.",
-   "heat": {
-    "violence": 4,
-    "intensity": 4,
-    "age": 3,
-    "challenge": 3
-   },
-   "seq": [],
-   "br": [
-    {
-     "t": "The Proposition",
-     "y": 2005,
-     "note": "Australia: an outlaw must choose between his brothers. Written by Nick Cave. Grim as anything",
-     "tags": "RDV",
-     "warn": "Extreme violence, including a flogging.",
-     "seq": []
-    },
-    {
-     "t": "Bone Tomahawk",
-     "y": 2015,
-     "note": "Kurt Russell's posse vs cannibal troglodytes. Slow, then horrific",
-     "tags": "RD",
-     "warn": "One of the most gruesome scenes in any film.",
-     "seq": []
-    }
-   ]
   },
   {
    "n": 28,
@@ -926,6 +1006,30 @@
      "note": "Dustin Hoffman, 121 years old, tells his story",
      "tags": "RC",
      "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Ulzana's Raid",
+     "y": 1972,
+     "note": "Burt Lancaster's scout tracks an Apache raiding party. Brutal and intelligent",
+     "tags": "RD",
+     "warn": "Disturbing violence.",
+     "seq": []
+    },
+    {
+     "t": "The Proposition",
+     "y": 2005,
+     "note": "Australia: an outlaw must choose between his brothers. Written by Nick Cave. Grim as anything",
+     "tags": "RDV",
+     "warn": "Extreme violence, including a flogging.",
+     "seq": []
+    },
+    {
+     "t": "Bone Tomahawk",
+     "y": 2015,
+     "note": "Kurt Russell's posse vs cannibal troglodytes. Slow, then horrific",
+     "tags": "RD",
+     "warn": "One of the most gruesome scenes in any film.",
      "seq": []
     }
    ]

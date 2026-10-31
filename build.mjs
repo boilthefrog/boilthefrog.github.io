@@ -16,14 +16,16 @@ const write = (p, s) => { const f = path.join(OUT, p); fs.mkdirSync(path.dirname
 
 /* ---------- load ladders ---------- */
 const ladders = fs.readdirSync(path.join(ROOT, "data")).filter(f => f.endsWith(".json"))
-  .map(f => JSON.parse(fs.readFileSync(path.join(ROOT, "data", f), "utf8")));
+  .map(f => JSON.parse(fs.readFileSync(path.join(ROOT, "data", f), "utf8")))
+  .sort((a, b) => (a.order ?? 99) - (b.order ?? 99));
 
 // Flatten every film into a registry keyed by slug, recording where it sits.
 const films = new Map();
 function reg(o, ladder, role, extra = {}) {
   const id = slug(o.t, o.y);
   const f = films.get(id) || { id, t: o.t, y: o.y, q: o.q, places: [] };
-  Object.assign(f, { note: f.note || o.note || o.b, warn: f.warn || o.warn || o.w, tags: f.tags || o.tags, heat: f.heat || o.heat, junk: f.junk || o.junk });
+  Object.assign(f, { note: f.note || o.note || o.b, warn: f.warn || o.warn || o.w, tags: f.tags || o.tags, junk: f.junk || o.junk });
+  if (o.heat && !f.heat) { f.heat = o.heat; f.heatLadder = ladder.id; }
   f.places.push({ ladder: ladder.id, ladderTitle: ladder.title, role, ...extra });
   films.set(id, f);
   return id;
@@ -60,7 +62,8 @@ async function tmdb(p, params = {}) {
   throw new Error("TMDB rate limited");
 }
 async function findId(f) {
-  const tries = [{ query: f.q || f.t, primary_release_year: f.y }, { query: f.q || f.t, year: f.y }, { query: f.q || f.t }];
+  const q = (f.q || f.t).replace(/[–—]/g, "-");
+  const tries = [{ query: q, primary_release_year: f.y }, { query: q, year: f.y }, { query: q }];
   for (const p of tries) {
     const r = await tmdb("/search/movie", p);
     const hit = (r.results || []).find(m => Math.abs(+(m.release_date || "0").slice(0, 4) - f.y) <= 1);
@@ -120,7 +123,7 @@ const page = ({ title, body, root = "", desc = "", extraHead = "" }) => `<!DOCTY
 ${extraHead}
 </head>
 <body>
-<nav class="topnav"><div class="topnav-in"><a class="brand" href="${root}">${FROG}Boil the Frog</a><a href="${root}horror/">Horror</a><a href="${root}pot/">Your pot</a><a href="${root}about/">About</a></div></nav>
+<nav class="topnav"><div class="topnav-in"><a class="brand" href="${root}">${FROG}Boil the Frog</a>${ladders.map(l => `<a href="${root}${l.id}/">${esc(l.title)}</a>`).join("")}<a href="${root}pot/">Your pot</a><a href="${root}about/">About</a></div></nav>
 ${body}
 <footer><div class="foot-in" style="max-width:980px;margin:0 auto"><div>
 <p class="small">Boil the Frog: film ladders for people who think they don't like a genre. Ticks are saved in this browser only.</p>
@@ -174,9 +177,9 @@ function ladderPage(L) {
 <header class="hero">
 <div class="kicker">The ${esc(L.title)} ladder</div>
 <h1>Boil <span class="wob">the</span> Frog</h1>
-<p class="lede">Thirty films, each a few degrees hotter than the last, plus ${total - L.core.length} side quests and sequels. ${esc(L.tagline)}</p>
+<p class="lede">${L.core.length} films, each a few degrees hotter than the last, plus ${total - L.core.length} side quests and sequels. ${esc(L.tagline)}</p>
 <ul class="rules">
-<li><b>Climb in order</b>Each core film adds one new kind of scare.</li>
+<li><b>Climb in order</b>Each core film turns the heat up one notch.</li>
 <li><b>Liked one? Branch off</b>Every film has side quests at the same heat, plus sequels worth the detour (★). Junk food is cult trash, enjoyed responsibly.</li>
 <li><b>One a week</b>The core 30 takes about seven months. Ticks are saved in this browser.</li>
 </ul>
@@ -193,7 +196,7 @@ function ladderPage(L) {
 </div><div class="bulb"></div><div class="treadout"><b id="tdeg">20°</b><span id="tword">Lukewarm</span></div></aside>
 <div class="mbar" aria-live="polite"><b id="mdeg">20°C</b><div class="mtrack"><div class="mfill" id="mfill" style="width:0"></div></div><span id="mword">0 of 30 watched</span></div>
 <div class="foot-in" style="max-width:980px;margin:0 auto;padding:30px 20px"><button class="btn" id="reset" type="button">Reset progress</button></div>
-<script>window.LADDER=${JSON.stringify({ id: L.id, core: L.core.map(c => c.id), films: exportData })};</script>`;
+<script>window.LADDER=${JSON.stringify({ id: L.id, title: L.title, core: L.core.map(c => c.id), films: exportData })};</script>`;
   write(`${L.id}/index.html`, page({ title: `${L.title} | Boil the Frog`, body, root, desc: `The ${L.title} ladder: ${L.tagline}` }));
   // Letterboxd CSVs
   const csv = rows => "tmdbID,Title,Year,Review\n" + rows.map(r => [r.tmdb || "", r.t, r.y, r.note].map(v => `"${String(v).replace(/"/g, '""')}"`).join(",")).join("\n") + "\n";
@@ -203,10 +206,11 @@ function ladderPage(L) {
 }
 
 /* ---------- film pages ---------- */
-const HEAT = [["gore", "Gore"], ["dread", "Dread"], ["jumps", "Jump scares"], ["weird", "Weirdness"]];
+const DEFAULT_HEAT = [["gore", "Gore"], ["dread", "Dread"], ["jumps", "Jump scares"], ["weird", "Weirdness"]];
 function filmPage(f) {
   const root = "../../", m = f.m || {};
-  const L = ladders.find(l => l.id === f.places[0].ladder);
+  const HL = ladders.find(l => l.id === (f.heatLadder || f.places[0].ladder));
+  const HEAT = HL.heatKeys || DEFAULT_HEAT;
   const where = f.places.map(p => {
     const of = p.of ? films.get(p.of) : null;
     if (p.role === "core") return `Step ${p.n} of 30 on the <a href="${root}${p.ladder}/">${esc(p.ladderTitle)} ladder</a>.`;
@@ -214,7 +218,8 @@ function filmPage(f) {
     if (p.role === "sequel") return `${p.star ? "★ " : ""}Sequel spur off <a href="${root}films/${of.id}/">${esc(of.t)}</a> on the <a href="${root}${p.ladder}/">${esc(p.ladderTitle)} ladder</a>.`;
     return `${f.junk ? "Junk-food " : ""}Side quest off <a href="${root}films/${of.id}/">${esc(of.t)}</a> on the <a href="${root}${p.ladder}/">${esc(p.ladderTitle)} ladder</a>.`;
   }).join(" ");
-  const coreObj = L.core.find(c => c.id === f.id) || L.beyond.find(b => b.id === f.id);
+  let coreObj = null;
+  for (const l of ladders) coreObj = coreObj || l.core.find(c => c.id === f.id) || l.beyond.find(b => b.id === f.id);
   const sides = coreObj?.br || [], seqs = coreObj?.seq || [];
   const pp = poster(f.id, "w342");
   const facts = [f.y, m.runtime ? `${m.runtime} min` : "", m.dirs?.length ? "Dir. " + m.dirs.join(", ") : ""].filter(Boolean).map(esc).join(" · ");
@@ -252,7 +257,7 @@ function home() {
 </ul></header>
 <div class="home-ladders">
 ${ladders.map(L => `<a class="ladder-card" href="${L.id}/"><div class="kicker">Ladder</div><h2>${esc(L.title)}</h2><div class="heatbar" aria-hidden="true"></div><p>${esc(L.tagline)}</p><p><b>${L.core[0].t} → ${L.core[L.core.length - 1].t}</b></p></a>`).join("")}
-${["Sci-fi", "Westerns", "Musicals", "World cinema"].map(t => `<div class="ladder-card soon"><div class="kicker">Coming later</div><h2>${t}</h2><div class="heatbar" aria-hidden="true"></div><p>Under construction.</p></div>`).join("")}
+${["Sci-fi", "War", "Westerns", "Asian cinema", "Superheroes"].map(t => `<div class="ladder-card soon"><div class="kicker">Coming later</div><h2>${t}</h2><div class="heatbar" aria-hidden="true"></div><p>Under construction.</p></div>`).join("")}
 </div>`;
   write("index.html", page({ title: "Boil the Frog", body }));
 }

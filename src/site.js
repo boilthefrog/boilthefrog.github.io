@@ -32,7 +32,7 @@
   const L = window.LADDER;
   const ticks = document.getElementById("ticks");
   if (ticks) for (let d = 20; d <= 100; d += 10) { const i = document.createElement("i"); i.style.bottom = ((d - 20) / 80 * 100) + "%"; ticks.appendChild(i); }
-  function words(t) { return t < 30 ? "Lukewarm. Frog suspects nothing" : t < 50 ? "Warming up. Frog is relaxed" : t < 70 ? "Hot bath. Frog has questions" : t < 90 ? "Simmering. Too late to hop out" : t < 100 ? "Rolling boil" : "Cooked. Welcome to horror"; }
+  function words(t) { return t < 30 ? "Lukewarm. Frog suspects nothing" : t < 50 ? "Warming up. Frog is relaxed" : t < 70 ? "Hot bath. Frog has questions" : t < 90 ? "Simmering. Too late to hop out" : t < 100 ? "Rolling boil" : "Cooked. Welcome to " + ((L && L.title) || "the genre").toLowerCase(); }
   function thermo() {
     if (!L || !document.getElementById("merc")) return;
     const core = L.core.filter(id => S[id]).length, pct = core / L.core.length, t = Math.round(20 + 80 * pct);

@@ -1,0 +1,1295 @@
+{
+ "id": "action",
+ "title": "Action",
+ "tagline": "From Beverly Hills Cop to Seven Samurai without noticing the water got hot.",
+ "heatKeys": [
+  [
+   "violence",
+   "Violence"
+  ],
+  [
+   "intensity",
+   "Intensity"
+  ],
+  [
+   "age",
+   "Old-school"
+  ],
+  [
+   "challenge",
+   "Challenge"
+  ]
+ ],
+ "tags": {
+  "C": "Comedy",
+  "V": "Chases",
+  "M": "Martial arts",
+  "G": "Gunplay",
+  "S": "Spies",
+  "B": "Blockbuster",
+  "P": "Cops",
+  "X": "Sci-fi",
+  "A": "Adventure",
+  "W": "Swashbucklers",
+  "H": "Hong Kong & Asia",
+  "U": "British",
+  "O": "Classics"
+ },
+ "levels": [
+  {
+   "t": 22,
+   "name": "Popcorn",
+   "note": "Charm and comedy first. Barely anyone gets hurt.",
+   "bg": "#dbe5cc",
+   "fg": "#17110d",
+   "upto": 4
+  },
+  {
+   "t": 35,
+   "name": "Big blockbusters",
+   "note": "Spectacle, stunts and stars.",
+   "bg": "#ecdcaa",
+   "fg": "#17110d",
+   "upto": 10
+  },
+  {
+   "t": 50,
+   "name": "The canon",
+   "note": "The films every action list agrees on.",
+   "bg": "#e8b47a",
+   "fg": "#17110d",
+   "upto": 15
+  },
+  {
+   "t": 65,
+   "name": "R-rated 80s and 90s",
+   "note": "Arnie, Ripley, Rambo and Max. More blood, more muscle.",
+   "bg": "#cf5b3a",
+   "fg": "#17110d",
+   "upto": 20
+  },
+  {
+   "t": 80,
+   "name": "The hard stuff",
+   "note": "Slow 60s and 70s cool, real stunts, subtitles and a big body count.",
+   "bg": "#6d1b21",
+   "fg": "#efe3cf",
+   "upto": 27
+  },
+  {
+   "t": 95,
+   "name": "Boss level",
+   "note": "Hong Kong gun fu, Indonesian fists, and Kurosawa.",
+   "bg": "#2b0b0e",
+   "fg": "#efe3cf",
+   "upto": 30
+  },
+  {
+   "t": "100+",
+   "name": "Cooked",
+   "note": "Only if they finish Seven Samurai and ask for more.",
+   "bg": "#0c0506",
+   "fg": "#efe3cf",
+   "beyond": true
+  }
+ ],
+ "core": [
+  {
+   "n": 1,
+   "t": "Beverly Hills Cop",
+   "y": 1984,
+   "b": "Eddie Murphy talks his way through Beverly Hills. More comedy than carnage.",
+   "tags": "CP",
+   "heat": {
+    "violence": 2,
+    "intensity": 1,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "48 Hrs.",
+     "y": 1982,
+     "note": "Murphy's debut: the first buddy-cop action comedy",
+     "tags": "CP",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Midnight Run",
+     "y": 1988,
+     "note": "De Niro and Grodin on the run: the best buddy road movie",
+     "tags": "CP",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Rush Hour",
+     "y": 1998,
+     "note": "Jackie Chan meets Chris Tucker",
+     "tags": "CPM",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "t": "Hot Fuzz",
+   "y": 2007,
+   "b": "Edgar Wright's village-cop comedy that turns into a full-blown Bad Boys II tribute. British and very funny.",
+   "tags": "CPU",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Baby Driver",
+     "y": 2017,
+     "note": "A getaway driver who lives by his mixtape",
+     "tags": "VC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Scott Pilgrim vs. the World",
+     "y": 2010,
+     "note": "Video-game fight comedy",
+     "tags": "CM",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "t": "Raiders of the Lost Ark",
+   "y": 1981,
+   "b": "Indiana Jones. The perfect adventure film.",
+   "tags": "AO",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "Indiana Jones and the Temple of Doom",
+     "y": 1984,
+     "note": "Darker and wilder",
+     "star": false
+    },
+    {
+     "t": "Indiana Jones and the Last Crusade",
+     "y": 1989,
+     "note": "Connery as Dad",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Romancing the Stone",
+     "y": 1984,
+     "note": "Jungle romp with Michael Douglas and Kathleen Turner",
+     "tags": "AC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Pirates of the Caribbean: The Curse of the Black Pearl",
+     "y": 2003,
+     "note": "Johnny Depp's swashbuckling blockbuster",
+     "tags": "AW",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "t": "Speed",
+   "y": 1994,
+   "b": "A bus that can't slow down. Pure momentum from start to finish.",
+   "tags": "VB",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Run Lola Run",
+     "y": 1998,
+     "note": "German, techno, three tries to save her boyfriend",
+     "tags": "V",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Unstoppable",
+     "y": 2010,
+     "note": "Tony Scott's runaway train",
+     "tags": "V",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "t": "The Adventures of Robin Hood",
+   "y": 1938,
+   "b": "Errol Flynn in glorious Technicolor. Swords, tights and pure joy.",
+   "tags": "WO",
+   "heat": {
+    "violence": 1,
+    "intensity": 1,
+    "age": 4,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Captain Blood",
+     "y": 1935,
+     "note": "Flynn's first swashbuckler",
+     "tags": "WO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Mark of Zorro",
+     "y": 1940,
+     "note": "Tyrone Power and that sword fight with Basil Rathbone",
+     "tags": "WO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Sea Hawk",
+     "y": 1940,
+     "note": "More Flynn, now at sea",
+     "tags": "WO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Gunga Din",
+     "y": 1939,
+     "note": "Rollicking adventure with Cary Grant",
+     "tags": "AO",
+     "warn": "Its portrayal of India has dated badly.",
+     "seq": []
+    },
+    {
+     "t": "The Mask of Zorro",
+     "y": 1998,
+     "note": "Banderas and Hopkins: a fun modern swashbuckler",
+     "tags": "W",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "t": "Top Gun: Maverick",
+   "y": 2022,
+   "b": "Real jets, real G-forces. The best stunt blockbuster in years.",
+   "tags": "VB",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Top Gun",
+     "y": 1986,
+     "note": "Volleyball, Kenny Loggins and Ray-Bans",
+     "tags": "V",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Man on Fire",
+     "y": 2004,
+     "note": "Tony Scott: Denzel's revenge in Mexico City",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Crimson Tide",
+     "y": 1995,
+     "note": "Tony Scott's submarine standoff",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "t": "The Rock",
+   "y": 1996,
+   "b": "Connery and Cage storm Alcatraz. The one Michael Bay film everyone agrees is great.",
+   "tags": "BG",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Bad Boys",
+     "y": 1995,
+     "note": "Bay's debut with Will Smith and Martin Lawrence",
+     "tags": "CPG",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Bad Boys II",
+     "y": 2003,
+     "note": "The freeway car-carrier chase is spectacular",
+     "tags": "CPV",
+     "warn": "Long, nasty and mean-spirited in places.",
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Con Air",
+     "y": 1997,
+     "note": "Cage, a mullet and a plane full of convicts",
+     "tags": "B",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Armageddon",
+     "y": 1998,
+     "note": "Oil drillers save the world",
+     "tags": "B",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Air Force One",
+     "y": 1997,
+     "note": "Harrison Ford: get off my plane",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "t": "Mission: Impossible – Fallout",
+   "y": 2018,
+   "b": "Tom Cruise does the HALO jump and the helicopter chase himself.",
+   "tags": "SB",
+   "heat": {
+    "violence": 2,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "Mission: Impossible",
+     "y": 1996,
+     "note": "De Palma's original and the silent vault heist",
+     "star": false
+    },
+    {
+     "t": "Mission: Impossible – Ghost Protocol",
+     "y": 2011,
+     "note": "The Burj Khalifa climb",
+     "star": true
+    },
+    {
+     "t": "Mission: Impossible – Rogue Nation",
+     "y": 2015,
+     "note": "Rebecca Ferguson arrives",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "North by Northwest",
+     "y": 1959,
+     "note": "Hitchcock's crop-duster: the grandfather of spy action",
+     "tags": "SO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "t": "Casino Royale",
+   "y": 2006,
+   "b": "Daniel Craig's Bond starts brutal and human. The best way into Bond.",
+   "tags": "S",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "From Russia with Love",
+     "y": 1963,
+     "note": "The train fight: maybe Bond's best ever",
+     "star": true
+    },
+    {
+     "t": "Goldfinger",
+     "y": 1964,
+     "note": "The iconic one; slower than you remember",
+     "star": false
+    },
+    {
+     "t": "On Her Majesty's Secret Service",
+     "y": 1969,
+     "note": "The best Bond nobody watched",
+     "star": false
+    },
+    {
+     "t": "Skyfall",
+     "y": 2012,
+     "note": "Craig's grand, gorgeous third",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "Kingsman: The Secret Service",
+     "y": 2014,
+     "note": "Spy spoof with that church fight",
+     "tags": "CS",
+     "warn": "The church scene is extremely violent.",
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "t": "Fast Five",
+   "y": 2011,
+   "b": "The franchise becomes a heist series with cars. Dragging a vault through Rio.",
+   "tags": "VB",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "The Fast and the Furious",
+     "y": 2001,
+     "note": "Where it started: Point Break with cars",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "The Transporter",
+     "y": 2002,
+     "note": "Statham, an oil-slick fight and a car that defies physics",
+     "tags": "VM",
+     "warn": null,
+     "seq": [
+      {
+       "t": "Transporter 2",
+       "y": 2005,
+       "note": "Even dafter",
+       "star": false
+      }
+     ],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "t": "Die Hard",
+   "y": 1988,
+   "b": "One man, one building, no shoes. The perfect action movie.",
+   "tags": "GP",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "Die Hard with a Vengeance",
+     "y": 1995,
+     "note": "Samuel L. Jackson joins in: the best sequel",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "The Fugitive",
+     "y": 1993,
+     "note": "Harrison Ford on the run; more chase thriller",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Cliffhanger",
+     "y": 1993,
+     "note": "Stallone on a mountain",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Under Siege",
+     "y": 1992,
+     "note": "Die Hard on a battleship",
+     "tags": "G",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "t": "Lethal Weapon",
+   "y": 1987,
+   "b": "Gibson and Glover set the template for every buddy-cop film since.",
+   "tags": "PGC",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "Lethal Weapon 2",
+     "y": 1989,
+     "note": "Bigger, funnier, Joe Pesci",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "The Last Boy Scout",
+     "y": 1991,
+     "note": "Shane Black's nastiest, funniest script",
+     "tags": "PC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Kiss Kiss Bang Bang",
+     "y": 2005,
+     "note": "Shane Black's noir comedy",
+     "tags": "PC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Nice Guys",
+     "y": 2016,
+     "note": "Crowe and Gosling in 70s LA",
+     "tags": "PC",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "t": "Terminator 2: Judgment Day",
+   "y": 1991,
+   "b": "The liquid-metal chase movie that changed special effects forever.",
+   "tags": "XB",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "The Terminator",
+     "y": 1984,
+     "note": "The leaner, scarier original",
+     "star": true
+    }
+   ],
+   "br": []
+  },
+  {
+   "n": 14,
+   "t": "The Bourne Identity",
+   "y": 2002,
+   "b": "Matt Damon can't remember who he is, but he can fight with a biro.",
+   "tags": "S",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "The Bourne Supremacy",
+     "y": 2004,
+     "note": "Shakycam arrives",
+     "star": false
+    },
+    {
+     "t": "The Bourne Ultimatum",
+     "y": 2007,
+     "note": "The Waterloo station sequence",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Taken",
+     "y": 2008,
+     "note": "A particular set of skills",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "t": "The Matrix",
+   "y": 1999,
+   "b": "Kung fu meets sci-fi. Bullet time.",
+   "tags": "XM",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Blade",
+     "y": 1998,
+     "note": "Wesley Snipes vs vampires",
+     "tags": "XM",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Equilibrium",
+     "y": 2002,
+     "note": "Gun kata nonsense, and great fun",
+     "tags": "XG",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "t": "Aliens",
+   "y": 1986,
+   "b": "Ripley goes back with the marines. The ultimate action sequel.",
+   "tags": "X",
+   "heat": {
+    "violence": 3,
+    "intensity": 5,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 17,
+   "t": "Predator",
+   "y": 1987,
+   "b": "Arnie's squad gets hunted in the jungle.",
+   "tags": "XG",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "Prey",
+     "y": 2022,
+     "note": "A Comanche warrior vs the Predator",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Commando",
+     "y": 1985,
+     "note": "Arnie at his most cartoonish",
+     "tags": "G",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "t": "Total Recall",
+   "y": 1990,
+   "b": "Verhoeven sends Arnie to Mars. Gory, funny, mind-bending.",
+   "tags": "X",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "RoboCop",
+     "y": 1987,
+     "note": "Verhoeven's satirical cyborg cop",
+     "tags": "XP",
+     "warn": "Very violent.",
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "t": "First Blood",
+   "y": 1982,
+   "b": "Rambo's first outing: a lean, sad survival thriller, not the cartoon.",
+   "tags": "G",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "Rambo: First Blood Part II",
+     "y": 1985,
+     "note": "Rambo becomes a cartoon",
+     "star": false
+    }
+   ],
+   "br": []
+  },
+  {
+   "n": 20,
+   "t": "Mad Max: Fury Road",
+   "y": 2015,
+   "b": "Two hours of chase. Possibly the best action film ever made.",
+   "tags": "V",
+   "heat": {
+    "violence": 3,
+    "intensity": 5,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [
+    {
+     "t": "Mad Max 2",
+     "y": 1981,
+     "note": "The Road Warrior: the original masterpiece",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Escape from New York",
+     "y": 1981,
+     "note": "Snake Plissken, Carpenter's cool",
+     "tags": "XG",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Assault on Precinct 13",
+     "y": 1976,
+     "note": "Carpenter's siege",
+     "tags": "GO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "t": "Point Blank",
+   "y": 1967,
+   "b": "Lee Marvin's cold, stylish revenge. John Wick's grandfather.",
+   "tags": "GO",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 22,
+   "t": "The French Connection",
+   "y": 1971,
+   "b": "Popeye Doyle and the elevated-train chase. Grimy, obsessive, Best Picture.",
+   "tags": "POV",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Bullitt",
+     "y": 1968,
+     "note": "McQueen and the San Francisco chase that invented the car chase",
+     "tags": "VO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Vanishing Point",
+     "y": 1971,
+     "note": "Existential road movie",
+     "tags": "VO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Driver",
+     "y": 1978,
+     "note": "Walter Hill's minimalist getaway",
+     "tags": "VO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "To Live and Die in L.A.",
+     "y": 1985,
+     "note": "Friedkin's wrong-way freeway chase",
+     "tags": "VP",
+     "warn": "Grim and sleazy.",
+     "seq": []
+    },
+    {
+     "t": "Ronin",
+     "y": 1998,
+     "note": "De Niro and that Paris car chase",
+     "tags": "VS",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "t": "Dirty Harry",
+   "y": 1971,
+   "b": "Eastwood's .44 Magnum. A morally murky 70s cop film.",
+   "tags": "PO",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [
+    {
+     "t": "Magnum Force",
+     "y": 1973,
+     "note": "Harry vs vigilante cops",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "Death Wish",
+     "y": 1974,
+     "note": "The angry vigilante",
+     "tags": "GO",
+     "warn": "Includes a brutal assault scene.",
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "t": "Heat",
+   "y": 1995,
+   "b": "De Niro vs Pacino, and the greatest street shootout ever filmed.",
+   "tags": "G",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Thief",
+     "y": 1981,
+     "note": "Michael Mann's first: James Caan the safecracker",
+     "tags": "GO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "t": "Police Story",
+   "y": 1985,
+   "b": "Jackie Chan's stunts are real and terrifying. Subtitles arrive.",
+   "tags": "MH",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [
+    {
+     "t": "Police Story 2",
+     "y": 1988,
+     "note": "More of the same, brilliantly",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "Project A",
+     "y": 1983,
+     "note": "Jackie's pirates and clock tower",
+     "tags": "MH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Enter the Dragon",
+     "y": 1973,
+     "note": "Bruce Lee: the essential one",
+     "tags": "MHO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Ong-Bak",
+     "y": 2003,
+     "note": "Tony Jaa's stunts; very thin film",
+     "tags": "MH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The General",
+     "y": 1926,
+     "note": "Buster Keaton's train chase. Silent",
+     "tags": "OV",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Safety Last!",
+     "y": 1923,
+     "note": "Harold Lloyd hanging off the clock. Silent",
+     "tags": "OC",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "t": "Kill Bill: Vol. 1",
+   "y": 2003,
+   "b": "Tarantino's revenge, building to the House of Blue Leaves.",
+   "tags": "MG",
+   "heat": {
+    "violence": 5,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [
+    {
+     "t": "Kill Bill: Vol. 2",
+     "y": 2004,
+     "note": "Quieter, talkier, finishes the story",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Lady Snowblood",
+     "y": 1973,
+     "note": "The Japanese revenge film that inspired it",
+     "tags": "MO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "t": "John Wick",
+   "y": 2014,
+   "b": "Keanu, a dog and a very large number of headshots.",
+   "tags": "G",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [
+    {
+     "t": "John Wick: Chapter 2",
+     "y": 2017,
+     "note": "Even more gloriously alien",
+     "star": false
+    },
+    {
+     "t": "John Wick: Chapter 3 – Parabellum",
+     "y": 2019,
+     "note": "The horse chase",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "Nobody",
+     "y": 2021,
+     "note": "Bob Odenkirk's John Wick",
+     "tags": "GC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Atomic Blonde",
+     "y": 2017,
+     "note": "That stairwell fight",
+     "tags": "GS",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Monkey Man",
+     "y": 2024,
+     "note": "Dev Patel's furious revenge film",
+     "tags": "GM",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "t": "Hard Boiled",
+   "y": 1992,
+   "b": "John Woo's masterpiece: a hospital shootout with a baby in one arm.",
+   "tags": "GH",
+   "heat": {
+    "violence": 5,
+    "intensity": 5,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Killer",
+     "y": 1989,
+     "note": "Woo and Chow Yun-fat: doves, churches, guns",
+     "tags": "GH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Face/Off",
+     "y": 1997,
+     "note": "Woo goes full Woo in Hollywood with Cage and Travolta",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Léon: The Professional",
+     "y": 1994,
+     "note": "Luc Besson's hitman and his apprentice",
+     "tags": "G",
+     "warn": "Its relationship between a grown man and a 12-year-old is uncomfortable.",
+     "seq": []
+    },
+    {
+     "t": "Nikita",
+     "y": 1990,
+     "note": "Besson's assassin thriller",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Desperado",
+     "y": 1995,
+     "note": "Rodriguez's Woo-style guitar-case shootouts",
+     "tags": "G",
+     "warn": null,
+     "seq": [
+      {
+       "t": "El Mariachi",
+       "y": 1992,
+       "note": "The no-budget original",
+       "star": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "t": "The Raid",
+   "y": 2011,
+   "b": "One tower block, floor after floor of fights. Brutal and breathless.",
+   "tags": "MH",
+   "heat": {
+    "violence": 5,
+    "intensity": 5,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [
+    {
+     "t": "The Raid 2",
+     "y": 2014,
+     "note": "Bigger, sprawling, the car fight",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Dredd",
+     "y": 2012,
+     "note": "The same idea in Mega-City One",
+     "tags": "XG",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "t": "Seven Samurai",
+   "y": 1954,
+   "b": "Three and a half hours, black and white, subtitled. It invented the team-up action film.",
+   "tags": "MO",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 5,
+    "challenge": 5
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Yojimbo",
+     "y": 1961,
+     "note": "Kurosawa's lone ronin, later A Fistful of Dollars",
+     "tags": "MO",
+     "warn": null,
+     "seq": [
+      {
+       "t": "Sanjuro",
+       "y": 1962,
+       "note": "Lighter, funnier sequel",
+       "star": false
+      }
+     ]
+    },
+    {
+     "t": "The Magnificent Seven",
+     "y": 1960,
+     "note": "The Western remake",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "13 Assassins",
+     "y": 2010,
+     "note": "A 45-minute final battle",
+     "tags": "MH",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  }
+ ],
+ "beyond": [
+  {
+   "t": "The Wild Bunch",
+   "y": 1969,
+   "b": "Peckinpah's bloodbath Western. Where modern screen violence began.",
+   "tags": "GO",
+   "heat": {
+    "violence": 5,
+    "intensity": 4,
+    "age": 3,
+    "challenge": 3
+   }
+  },
+  {
+   "t": "Mandy",
+   "y": 2018,
+   "b": "Nicolas Cage's revenge on a cult. Slow and psychedelic for an hour, then deranged.",
+   "tags": "G",
+   "w": "Very gory, and the slow first hour bores some people stiff.",
+   "heat": {
+    "violence": 5,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 4
+   }
+  }
+ ],
+ "order": 2
+}

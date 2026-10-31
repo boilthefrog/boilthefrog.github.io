@@ -1,0 +1,914 @@
+{
+ "id": "scifi",
+ "title": "Sci-fi",
+ "order": 5,
+ "tagline": "From Back to the Future to 2001 without noticing the water got hot.",
+ "heatKeys": [
+  [
+   "violence",
+   "Violence"
+  ],
+  [
+   "intensity",
+   "Intensity"
+  ],
+  [
+   "age",
+   "Old-school"
+  ],
+  [
+   "challenge",
+   "Challenge"
+  ]
+ ],
+ "tags": {
+  "C": "Comedy",
+  "B": "Blockbuster",
+  "S": "Space opera",
+  "T": "Time travel",
+  "V": "Virtual worlds",
+  "Z": "Animation",
+  "A": "Anime",
+  "J": "Japan",
+  "M": "Monsters",
+  "H": "Sci-fi horror",
+  "D": "Dystopia & dread",
+  "O": "Classics",
+  "X": "Mind-benders"
+ },
+ "levels": [
+  {
+   "t": 22,
+   "name": "Popcorn",
+   "note": "Time machines, lightsabers and a lonely robot.",
+   "bg": "#dbe5cc",
+   "fg": "#17110d",
+   "upto": 4
+  },
+  {
+   "t": 35,
+   "name": "Big blockbusters",
+   "note": "Loops, simulations, sandworms and kaiju.",
+   "bg": "#ecdcaa",
+   "fg": "#17110d",
+   "upto": 9
+  },
+  {
+   "t": 50,
+   "name": "The canon",
+   "note": "Spielberg, Verhoeven, Ridley Scott and quiet modern classics.",
+   "bg": "#e8b47a",
+   "fg": "#17110d",
+   "upto": 16
+  },
+  {
+   "t": 65,
+   "name": "Stranger",
+   "note": "Anime, robots that test you and body horror creeping in.",
+   "bg": "#cf5b3a",
+   "fg": "#17110d",
+   "upto": 22
+  },
+  {
+   "t": 80,
+   "name": "Old-school",
+   "note": "Rubber monsters, apes, microbes and a silent city.",
+   "bg": "#6d1b21",
+   "fg": "#efe3cf",
+   "upto": 27
+  },
+  {
+   "t": 95,
+   "name": "Final boss",
+   "note": "Tarkovsky, a $7,000 puzzle and Kubrick.",
+   "bg": "#2b0b0e",
+   "fg": "#efe3cf",
+   "upto": 30
+  },
+  {
+   "t": "100+",
+   "name": "Cooked",
+   "note": "Only if they finish 2001 and ask for more.",
+   "bg": "#0c0506",
+   "fg": "#efe3cf",
+   "beyond": true
+  }
+ ],
+ "core": [
+  {
+   "n": 1,
+   "t": "Back to the Future",
+   "y": 1985,
+   "b": "Marty McFly, a DeLorean and 1955. Time travel as pure fun, and a perfect script.",
+   "tags": "TC",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Jurassic Park",
+     "y": 1993,
+     "note": "Spielberg's dinosaurs still look real",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Galaxy Quest",
+     "y": 1999,
+     "note": "Washed-up TV actors meet aliens who think their show was real",
+     "tags": "C",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Men in Black",
+     "y": 1997,
+     "note": "Will Smith and Tommy Lee Jones police aliens in New York",
+     "tags": "CB",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "t": "Star Wars",
+   "y": 1977,
+   "b": "A farm boy, a princess, a smuggler and the Death Star. Space fantasy that changed films for good.",
+   "tags": "SB",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "The Empire Strikes Back",
+     "y": 1980,
+     "note": "Darker, better, and that reveal",
+     "star": true
+    },
+    {
+     "t": "Return of the Jedi",
+     "y": 1983,
+     "note": "Ewoks, but a great finale",
+     "star": false
+    }
+   ],
+   "br": []
+  },
+  {
+   "n": 3,
+   "t": "WALL-E",
+   "y": 2008,
+   "b": "Pixar's lonely robot cleaning up an abandoned Earth. Barely a word for 40 minutes, and you won't notice.",
+   "tags": "Z",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 4,
+   "t": "Star Trek II: The Wrath of Khan",
+   "y": 1982,
+   "b": "Kirk vs Khan: a submarine duel in space. No Trek knowledge needed. 'KHAAAN!'",
+   "tags": "SB",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 5,
+   "t": "Edge of Tomorrow",
+   "y": 2014,
+   "b": "Tom Cruise dies, wakes up and relives the same alien-invasion battle until he gets it right. Groundhog Day with exosuits.",
+   "tags": "TB",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Predator",
+     "y": 1987,
+     "note": "Arnie's squad hunted by an invisible alien. On the Action ladder",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "t": "The Matrix",
+   "y": 1999,
+   "b": "Keanu learns the world is a simulation and learns kung fu. Bullet time.",
+   "tags": "VB",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Inception",
+     "y": 2010,
+     "note": "Nolan's dream-heist puzzle",
+     "tags": "VB",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Tron",
+     "y": 1982,
+     "note": "Jeff Bridges zapped inside a computer",
+     "tags": "V",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Tron: Legacy",
+     "y": 2010,
+     "note": "Great Daft Punk score, thin film",
+     "tags": "V",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "t": "Dune",
+   "y": 2021,
+   "b": "Villeneuve's desert planet, giant worms and Timothée Chalamet as a reluctant messiah. Vast and absorbing.",
+   "tags": "SB",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [
+    {
+     "t": "Dune: Part Two",
+     "y": 2024,
+     "note": "The payoff, and even bigger",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Dune",
+     "y": 1984,
+     "note": "David Lynch's bonkers version: Sting in pants",
+     "tags": "SX",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "t": "Godzilla Minus One",
+   "y": 2023,
+   "b": "Post-war Japan, a failed kamikaze pilot and the monster. Moving as well as thrilling.",
+   "tags": "MJ",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Shin Godzilla",
+     "y": 2016,
+     "note": "Godzilla as a satire of government committees",
+     "tags": "MJ",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Godzilla",
+     "y": 1954,
+     "note": "The original: Hiroshima's shadow as a monster",
+     "tags": "MJO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Subtitled."
+  },
+  {
+   "n": 9,
+   "t": "Gravity",
+   "y": 2013,
+   "b": "Sandra Bullock adrift after debris tears apart her shuttle. 90 minutes of pure tension.",
+   "tags": "B",
+   "heat": {
+    "violence": 1,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Interstellar",
+     "y": 2014,
+     "note": "Nolan's wormhole epic: big, earnest, loud",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Outland",
+     "y": 1981,
+     "note": "Sean Connery's High Noon on a mining moon",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "t": "Close Encounters of the Third Kind",
+   "y": 1977,
+   "b": "Spielberg: a power-line worker obsessed with a shape in his head, and a five-note conversation with aliens.",
+   "tags": "O",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "E.T. the Extra-Terrestrial",
+     "y": 1982,
+     "note": "The alien who wants to phone home",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "t": "RoboCop",
+   "y": 1987,
+   "b": "Verhoeven: a murdered Detroit cop rebuilt as a corporate product. Savage satire and huge violence.",
+   "tags": "VD",
+   "heat": {
+    "violence": 5,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Total Recall",
+     "y": 1990,
+     "note": "Arnie, Mars and is-it-a-dream. On the Action ladder",
+     "tags": "V",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Starship Troopers",
+     "y": 1997,
+     "note": "Verhoeven's bug-war satire that many took straight",
+     "tags": "VD",
+     "warn": "Very gory.",
+     "seq": []
+    },
+    {
+     "t": "Escape from New York",
+     "y": 1981,
+     "note": "Snake Plissken in prison Manhattan",
+     "tags": "VO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Very violent: the boardroom scene especially."
+  },
+  {
+   "n": 12,
+   "t": "Blade Runner",
+   "y": 1982,
+   "b": "Harrison Ford hunts runaway androids in rainy future LA. Tears in rain.",
+   "tags": "DO",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [
+    {
+     "t": "Blade Runner 2049",
+     "y": 2017,
+     "note": "A sequel that's just as good",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "A Scanner Darkly",
+     "y": 2006,
+     "note": "Philip K. Dick, rotoscoped Keanu and paranoia",
+     "tags": "AX",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Watch the Final Cut."
+  },
+  {
+   "n": 13,
+   "t": "Twelve Monkeys",
+   "y": 1995,
+   "b": "Bruce Willis sent back from a plague-wrecked future, and nobody believes him. Terry Gilliam.",
+   "tags": "TD",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "La Jetée",
+     "y": 1962,
+     "note": "The 28-minute French short, told in still photos, that it's based on",
+     "tags": "TOX",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "t": "Children of Men",
+   "y": 2006,
+   "b": "No baby born in 18 years, then one pregnant woman. The long single-take battle is staggering.",
+   "tags": "D",
+   "heat": {
+    "violence": 4,
+    "intensity": 5,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [],
+   "w": "Violent and harrowing."
+  },
+  {
+   "n": 15,
+   "t": "Arrival",
+   "y": 2016,
+   "b": "Amy Adams learns an alien language, and it changes how she sees time. Quietly devastating.",
+   "tags": "D",
+   "heat": {
+    "violence": 0,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Contact",
+     "y": 1997,
+     "note": "Jodie Foster hears a message from Vega",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "t": "Alien",
+   "y": 1979,
+   "b": "Truckers in space pick up a distress call. Ridley Scott's haunted-house film on a spaceship, and the best creature ever designed. Also core on the Horror ladder.",
+   "tags": "H",
+   "w": "The chestburster scene.",
+   "heat": {
+    "violence": 4,
+    "intensity": 5,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [
+    {
+     "t": "Aliens",
+     "y": 1986,
+     "note": "Cameron turns it into a war film: on the Action ladder",
+     "star": true
+    }
+   ],
+   "br": []
+  },
+  {
+   "n": 17,
+   "t": "Dark City",
+   "y": 1998,
+   "b": "A man wakes with no memory in a city where it's always night, and strangers keep rearranging it.",
+   "tags": "DX",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Thirteenth Floor",
+     "y": 1999,
+     "note": "Simulated 1930s LA, the same year as The Matrix",
+     "tags": "X",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Watch the director's cut."
+  },
+  {
+   "n": 18,
+   "t": "Akira",
+   "y": 1988,
+   "b": "Neo-Tokyo bikers, government experiments and a boy who becomes a god. The anime that broke into the West.",
+   "tags": "AJD",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Ghost in the Shell",
+     "y": 1995,
+     "note": "A cyborg cop wonders if she has a soul",
+     "tags": "AJ",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Paprika",
+     "y": 2006,
+     "note": "Satoshi Kon's dream-detective trip",
+     "tags": "AJX",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Graphic violence and body horror. Subtitles or dub."
+  },
+  {
+   "n": 19,
+   "t": "Ex Machina",
+   "y": 2014,
+   "b": "A coder tests a tech billionaire's female robot, and the test runs both ways.",
+   "tags": "DX",
+   "heat": {
+    "violence": 2,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Moon",
+     "y": 2009,
+     "note": "Sam Rockwell alone on a lunar base near the end of his contract. Small and brilliant",
+     "tags": "DX",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Her",
+     "y": 2013,
+     "note": "Joaquin Phoenix falls for his operating system",
+     "tags": "X",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "t": "Sunshine",
+   "y": 2007,
+   "b": "A crew flies a bomb into the dying sun. Gorgeous and tense until the last act turns slasher.",
+   "tags": "DH",
+   "heat": {
+    "violence": 3,
+    "intensity": 5,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Pitch Black",
+     "y": 2000,
+     "note": "Crash-landed on a planet where things come out in the dark. Vin Diesel's goggles",
+     "tags": "HB",
+     "warn": null,
+     "seq": [
+      {
+       "t": "The Chronicles of Riddick",
+       "y": 2004,
+       "note": "Bigger, sillier, junk",
+       "star": false
+      }
+     ]
+    },
+    {
+     "t": "Event Horizon",
+     "y": 1997,
+     "note": "A lost ship comes back from hell, literally",
+     "tags": "H",
+     "warn": "Very gory.",
+     "seq": [],
+     "junk": true
+    }
+   ],
+   "w": "The final act becomes a horror film."
+  },
+  {
+   "n": 21,
+   "t": "Annihilation",
+   "y": 2018,
+   "b": "Natalie Portman enters the Shimmer, where nature is mutating. Beautiful, then terrifying.",
+   "tags": "DHX",
+   "heat": {
+    "violence": 3,
+    "intensity": 5,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Under the Skin",
+     "y": 2013,
+     "note": "Scarlett Johansson's alien stalks men in Glasgow",
+     "tags": "X",
+     "warn": "Very slow and very strange.",
+     "seq": []
+    }
+   ],
+   "w": "Body horror, and the bear."
+  },
+  {
+   "n": 22,
+   "t": "eXistenZ",
+   "y": 1999,
+   "b": "Cronenberg: a game you plug into your spine, and nobody knows where the game ends.",
+   "tags": "HX",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Videodrome",
+     "y": 1983,
+     "note": "Cronenberg's TV signal that changes your body",
+     "tags": "HX",
+     "warn": "Graphic body horror.",
+     "seq": []
+    }
+   ],
+   "w": "Gooey body horror."
+  },
+  {
+   "n": 23,
+   "t": "Forbidden Planet",
+   "y": 1956,
+   "b": "The Tempest in space: Robby the Robot, a mad scientist and the monster from the id.",
+   "tags": "O",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Day the Earth Stood Still",
+     "y": 1951,
+     "note": "'Klaatu barada nikto'",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Invasion of the Body Snatchers",
+     "y": 1956,
+     "note": "Pod people take over a small town",
+     "tags": "OD",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Westworld",
+     "y": 1973,
+     "note": "A robot gunslinger goes haywire in a Western theme park",
+     "tags": "OD",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "t": "Planet of the Apes",
+   "y": 1968,
+   "b": "Charlton Heston lands on a planet ruled by apes. That ending.",
+   "tags": "OD",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Soylent Green",
+     "y": 1973,
+     "note": "Overpopulated New York, and what's in the food",
+     "tags": "OD",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Silent Running",
+     "y": 1972,
+     "note": "Bruce Dern saving Earth's last forests in space",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Logan's Run",
+     "y": 1976,
+     "note": "A future where you die at 30",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "t": "The Andromeda Strain",
+   "y": 1971,
+   "b": "Scientists race to identify a microbe from space that's killed a whole town. Procedural, clinical, gripping.",
+   "tags": "OD",
+   "heat": {
+    "violence": 1,
+    "intensity": 4,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 26,
+   "t": "Brazil",
+   "y": 1985,
+   "b": "Terry Gilliam's bureaucratic nightmare: a clerk dreams of escape from a world of ducts and forms.",
+   "tags": "DX",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [],
+   "w": "Torture scenes, and a bleak ending."
+  },
+  {
+   "n": 27,
+   "t": "Metropolis",
+   "y": 1927,
+   "b": "Fritz Lang's silent city of workers and masters, and the robot Maria. Where film sci-fi starts.",
+   "tags": "OX",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 5,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [],
+   "w": "Silent, and two and a half hours in the restored cut."
+  },
+  {
+   "n": 28,
+   "t": "Solaris",
+   "y": 1972,
+   "b": "Tarkovsky: a psychologist on a space station where the planet makes your dead wife come back.",
+   "tags": "X",
+   "heat": {
+    "violence": 0,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 5
+   },
+   "seq": [],
+   "br": [],
+   "w": "Very slow: nearly three hours."
+  },
+  {
+   "n": 29,
+   "t": "Primer",
+   "y": 2004,
+   "b": "Two engineers build a time machine in a garage. Made for $7,000, and you'll need to watch it twice.",
+   "tags": "X",
+   "heat": {
+    "violence": 0,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 5
+   },
+   "seq": [],
+   "br": [],
+   "w": "Deliberately baffling."
+  },
+  {
+   "n": 30,
+   "t": "2001: A Space Odyssey",
+   "y": 1968,
+   "b": "Kubrick: apes, a monolith, HAL and the Star Gate. The final boss of sci-fi.",
+   "tags": "OX",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 5
+   },
+   "seq": [],
+   "br": [],
+   "w": "Slow, mostly wordless, and the ending is pure abstraction."
+  }
+ ],
+ "beyond": [
+  {
+   "t": "Stalker",
+   "y": 1979,
+   "b": "Tarkovsky's guide leads two men through the Zone to a room that grants wishes. Hypnotic and very long.",
+   "tags": "X",
+   "w": "163 minutes, slow and subtitled.",
+   "heat": {
+    "violence": 0,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 5
+   }
+  }
+ ]
+}

@@ -43,15 +43,15 @@
    "note": "Time machines, lightsabers and a lonely robot.",
    "bg": "#dbe5cc",
    "fg": "#17110d",
-   "upto": 4
+   "upto": 5
   },
   {
    "t": 35,
    "name": "Big blockbusters",
-   "note": "Loops, simulations, sandworms and kaiju.",
+   "note": "Loops, killer robots, simulations, sandworms and kaiju.",
    "bg": "#ecdcaa",
    "fg": "#17110d",
-   "upto": 9
+   "upto": 10
   },
   {
    "t": 50,
@@ -59,7 +59,7 @@
    "note": "Spielberg, Verhoeven, Ridley Scott and quiet modern classics.",
    "bg": "#e8b47a",
    "fg": "#17110d",
-   "upto": 16
+   "upto": 17
   },
   {
    "t": 65,
@@ -67,12 +67,12 @@
    "note": "Anime, robots that test you and body horror creeping in.",
    "bg": "#cf5b3a",
    "fg": "#17110d",
-   "upto": 22
+   "upto": 23
   },
   {
    "t": 80,
    "name": "Old-school",
-   "note": "Rubber monsters, apes, microbes and a silent city.",
+   "note": "Rubber monsters, apes, microbes and Gilliam.",
    "bg": "#6d1b21",
    "fg": "#efe3cf",
    "upto": 27
@@ -116,14 +116,6 @@
     }
    ],
    "br": [
-    {
-     "t": "Jurassic Park",
-     "y": 1993,
-     "note": "Spielberg's dinosaurs still look real",
-     "tags": "B",
-     "warn": null,
-     "seq": []
-    },
     {
      "t": "Galaxy Quest",
      "y": 1999,
@@ -177,11 +169,35 @@
      "warn": null,
      "seq": [],
      "junk": true
+    },
+    {
+     "t": "Barbarella",
+     "y": 1968,
+     "note": "Jane Fonda's camp space kitsch",
+     "tags": "CX",
+     "warn": null,
+     "seq": [],
+     "junk": true
     }
    ]
   },
   {
-   "n": 3,
+   "t": "Jurassic Park",
+   "y": 1993,
+   "b": "Spielberg's dinosaur theme park goes wrong. The T. rex in the rain still looks real.",
+   "tags": "B",
+   "heat": {
+    "violence": 2,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [],
+   "n": 3
+  },
+  {
+   "n": 4,
    "t": "WALL-E",
    "y": 2008,
    "b": "Pixar's lonely robot cleaning up an abandoned Earth. Barely a word for 40 minutes, and you won't notice.",
@@ -221,7 +237,7 @@
    ]
   },
   {
-   "n": 4,
+   "n": 5,
    "t": "Star Trek II: The Wrath of Khan",
    "y": 1982,
    "b": "Kirk vs Khan: a submarine duel in space. No Trek knowledge needed. 'KHAAAN!'",
@@ -253,7 +269,7 @@
    ]
   },
   {
-   "n": 5,
+   "n": 6,
    "t": "Edge of Tomorrow",
    "y": 2014,
    "b": "Tom Cruise dies, wakes up and relives the same alien-invasion battle until he gets it right. Groundhog Day with exosuits.",
@@ -301,7 +317,29 @@
    ]
   },
   {
-   "n": 6,
+   "t": "The Terminator",
+   "y": 1984,
+   "b": "A killer robot from the future hunts a waitress in 1984 LA. Lean, scary and relentless.",
+   "tags": "TB",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "Terminator 2: Judgment Day",
+     "y": 1991,
+     "note": "Bigger, better, liquid metal. Core on the Action ladder",
+     "star": true
+    }
+   ],
+   "br": [],
+   "n": 7
+  },
+  {
+   "n": 8,
    "t": "The Matrix",
    "y": 1999,
    "b": "Keanu learns the world is a simulation and learns kung fu. Bullet time.",
@@ -342,7 +380,7 @@
    ]
   },
   {
-   "n": 7,
+   "n": 9,
    "t": "Dune",
    "y": 2021,
    "b": "Villeneuve's desert planet, giant worms and Timothée Chalamet as a reluctant messiah. Vast and absorbing.",
@@ -363,6 +401,14 @@
    ],
    "br": [
     {
+     "t": "Avatar",
+     "y": 2009,
+     "note": "James Cameron's blue aliens and a whole world built from scratch. Looks astonishing",
+     "tags": "SB",
+     "warn": null,
+     "seq": []
+    },
+    {
      "t": "Dune",
      "y": 1984,
      "note": "David Lynch's bonkers version: Sting in pants",
@@ -374,7 +420,7 @@
    ]
   },
   {
-   "n": 8,
+   "n": 10,
    "t": "Godzilla Minus One",
    "y": 2023,
    "b": "Post-war Japan, a failed kamikaze pilot and the monster. Moving as well as thrilling.",
@@ -407,39 +453,7 @@
    "w": "Subtitled."
   },
   {
-   "n": 9,
-   "t": "Gravity",
-   "y": 2013,
-   "b": "Sandra Bullock adrift after debris tears apart her shuttle. 90 minutes of pure tension.",
-   "tags": "B",
-   "heat": {
-    "violence": 1,
-    "intensity": 4,
-    "age": 0,
-    "challenge": 1
-   },
-   "seq": [],
-   "br": [
-    {
-     "t": "Interstellar",
-     "y": 2014,
-     "note": "Nolan's wormhole epic: big, earnest, loud",
-     "tags": "B",
-     "warn": null,
-     "seq": []
-    },
-    {
-     "t": "Outland",
-     "y": 1981,
-     "note": "Sean Connery's High Noon on a mining moon",
-     "tags": "O",
-     "warn": null,
-     "seq": []
-    }
-   ]
-  },
-  {
-   "n": 10,
+   "n": 11,
    "t": "Close Encounters of the Third Kind",
    "y": 1977,
    "b": "Spielberg: a power-line worker obsessed with a shape in his head, and a five-note conversation with aliens.",
@@ -463,7 +477,7 @@
    ]
   },
   {
-   "n": 11,
+   "n": 12,
    "t": "RoboCop",
    "y": 1987,
    "b": "Verhoeven: a murdered Detroit cop rebuilt as a corporate product. Savage satire and huge violence.",
@@ -504,7 +518,7 @@
    "w": "Very violent: the boardroom scene especially."
   },
   {
-   "n": 12,
+   "n": 13,
    "t": "Blade Runner",
    "y": 1982,
    "b": "Harrison Ford hunts runaway androids in rainy future LA. Tears in rain.",
@@ -552,7 +566,7 @@
    "w": "Watch the Final Cut."
   },
   {
-   "n": 13,
+   "n": 14,
    "t": "Twelve Monkeys",
    "y": 1995,
    "b": "Bruce Willis sent back from a plague-wrecked future, and nobody believes him. Terry Gilliam.",
@@ -592,7 +606,7 @@
    ]
   },
   {
-   "n": 14,
+   "n": 15,
    "t": "Children of Men",
    "y": 2006,
    "b": "No baby born in 18 years, then one pregnant woman. The long single-take battle is staggering.",
@@ -625,7 +639,7 @@
    "w": "Violent and harrowing."
   },
   {
-   "n": 15,
+   "n": 16,
    "t": "Arrival",
    "y": 2016,
    "b": "Amy Adams learns an alien language, and it changes how she sees time. Quietly devastating.",
@@ -653,11 +667,27 @@
      "tags": "D",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Gravity",
+     "y": 2013,
+     "note": "Sandra Bullock adrift in orbit: 90 minutes of pure tension",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Interstellar",
+     "y": 2014,
+     "note": "Nolan's wormhole epic: big, earnest, loud",
+     "tags": "B",
+     "warn": null,
+     "seq": []
     }
    ]
   },
   {
-   "n": 16,
+   "n": 17,
    "t": "Alien",
    "y": 1979,
    "b": "Truckers in space pick up a distress call. Ridley Scott's haunted-house film on a spaceship, and the best creature ever designed. Also core on the Horror ladder.",
@@ -685,11 +715,19 @@
      "tags": "H",
      "warn": "Gory.",
      "seq": []
+    },
+    {
+     "t": "Outland",
+     "y": 1981,
+     "note": "Sean Connery's High Noon on a mining moon",
+     "tags": "O",
+     "warn": null,
+     "seq": []
     }
    ]
   },
   {
-   "n": 17,
+   "n": 18,
    "t": "Dark City",
    "y": 1998,
    "b": "A man wakes with no memory in a city where it's always night, and strangers keep rearranging it.",
@@ -722,7 +760,7 @@
    "w": "Watch the director's cut."
   },
   {
-   "n": 18,
+   "n": 19,
    "t": "Akira",
    "y": 1988,
    "b": "Neo-Tokyo bikers, government experiments and a boy who becomes a god. The anime that broke into the West.",
@@ -755,7 +793,7 @@
    "w": "Graphic violence and body horror. Subtitles or dub."
   },
   {
-   "n": 19,
+   "n": 20,
    "t": "Ex Machina",
    "y": 2014,
    "b": "A coder tests a tech billionaire's female robot, and the test runs both ways.",
@@ -787,7 +825,7 @@
    ]
   },
   {
-   "n": 20,
+   "n": 21,
    "t": "Sunshine",
    "y": 2007,
    "b": "A crew flies a bomb into the dying sun. Gorgeous and tense until the last act turns slasher.",
@@ -828,7 +866,7 @@
    "w": "The final act becomes a horror film."
   },
   {
-   "n": 21,
+   "n": 22,
    "t": "Annihilation",
    "y": 2018,
    "b": "Natalie Portman enters the Shimmer, where nature is mutating. Beautiful, then terrifying.",
@@ -853,7 +891,7 @@
    "w": "Body horror, and the bear."
   },
   {
-   "n": 22,
+   "n": 23,
    "t": "eXistenZ",
    "y": 1999,
    "b": "Cronenberg: a game you plug into your spine, and nobody knows where the game ends.",
@@ -886,7 +924,7 @@
    "w": "Gooey body horror."
   },
   {
-   "n": 23,
+   "n": 24,
    "t": "Forbidden Planet",
    "y": 1956,
    "b": "The Tempest in space: Robby the Robot, a mad scientist and the monster from the id.",
@@ -922,11 +960,52 @@
      "tags": "OD",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Metropolis",
+     "y": 1927,
+     "note": "Fritz Lang's silent city and the robot Maria: where film sci-fi starts",
+     "tags": "OX",
+     "warn": "Silent, and two and a half hours restored.",
+     "seq": []
+    },
+    {
+     "t": "A Trip to the Moon",
+     "y": 1902,
+     "note": "Méliès' rocket in the moon's eye: 13 minutes",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Things to Come",
+     "y": 1936,
+     "note": "H.G. Wells writes the next century",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Incredible Shrinking Man",
+     "y": 1957,
+     "note": "A man shrinks after a strange mist, and ends up somewhere profound",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Fantastic Voyage",
+     "y": 1966,
+     "note": "A submarine crew shrunk and injected into a man's bloodstream",
+     "tags": "OC",
+     "warn": null,
+     "seq": [],
+     "junk": true
     }
    ]
   },
   {
-   "n": 24,
+   "n": 25,
    "t": "Planet of the Apes",
    "y": 1968,
    "b": "Charlton Heston lands on a planet ruled by apes. That ending.",
@@ -982,7 +1061,7 @@
    ]
   },
   {
-   "n": 25,
+   "n": 26,
    "t": "The Andromeda Strain",
    "y": 1971,
    "b": "Scientists race to identify a microbe from space that's killed a whole town. Procedural, clinical, gripping.",
@@ -1010,11 +1089,19 @@
      "tags": "OH",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Seconds",
+     "y": 1966,
+     "note": "Rock Hudson buys a new identity, and it isn't what he hoped. Paranoid and chilling",
+     "tags": "OD",
+     "warn": null,
+     "seq": []
     }
    ]
   },
   {
-   "n": 26,
+   "n": 27,
    "t": "Brazil",
    "y": 1985,
    "b": "Terry Gilliam's bureaucratic nightmare: a clerk dreams of escape from a world of ducts and forms.",
@@ -1027,6 +1114,14 @@
    },
    "seq": [],
    "br": [
+    {
+     "t": "Alphaville",
+     "y": 1965,
+     "note": "Godard's detective in a city run by a computer, shot in 1960s Paris with no sets",
+     "tags": "OX",
+     "warn": null,
+     "seq": []
+    },
     {
      "t": "Nineteen Eighty-Four",
      "y": 1984,
@@ -1053,39 +1148,6 @@
     }
    ],
    "w": "Torture scenes, and a bleak ending."
-  },
-  {
-   "n": 27,
-   "t": "Metropolis",
-   "y": 1927,
-   "b": "Fritz Lang's silent city of workers and masters, and the robot Maria. Where film sci-fi starts.",
-   "tags": "OX",
-   "heat": {
-    "violence": 1,
-    "intensity": 2,
-    "age": 5,
-    "challenge": 4
-   },
-   "seq": [],
-   "br": [
-    {
-     "t": "A Trip to the Moon",
-     "y": 1902,
-     "note": "Méliès' rocket in the moon's eye: 13 minutes",
-     "tags": "O",
-     "warn": null,
-     "seq": []
-    },
-    {
-     "t": "Things to Come",
-     "y": 1936,
-     "note": "H.G. Wells writes the next century",
-     "tags": "O",
-     "warn": null,
-     "seq": []
-    }
-   ],
-   "w": "Silent, and two and a half hours in the restored cut."
   },
   {
    "n": 28,

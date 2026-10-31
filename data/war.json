@@ -36,15 +36,15 @@
   {
    "t": 22,
    "name": "Fun and stupid",
-   "note": "Cable cars, tunnels, gold heists and a comedy.",
+   "note": "Cable cars, tunnels, a gold heist and a comedy.",
    "bg": "#dbe5cc",
    "fg": "#17110d",
-   "upto": 5
+   "upto": 4
   },
   {
    "t": 35,
    "name": "Modern",
-   "note": "Omaha Beach, Dunkirk and one long shot across no man's land.",
+   "note": "Omaha Beach, Dunkirk, one long shot and Fort Wagner.",
    "bg": "#ecdcaa",
    "fg": "#17110d",
    "upto": 8
@@ -52,10 +52,10 @@
   {
    "t": 50,
    "name": "The big classics",
-   "note": "Rorke's Drift, the Kwai, D-Day and Lawrence.",
+   "note": "Rorke's Drift, the Kwai, D-Day, Blimp and Lawrence.",
    "bg": "#e8b47a",
    "fg": "#17110d",
-   "upto": 14
+   "upto": 15
   },
   {
    "t": 65,
@@ -229,6 +229,22 @@
    "seq": [],
    "br": [
     {
+     "t": "Inglourious Basterds",
+     "y": 2009,
+     "note": "Tarantino rewrites the war: Brad Pitt's commandos and Christoph Waltz's Hans Landa",
+     "tags": "FD",
+     "warn": "Very violent.",
+     "seq": []
+    },
+    {
+     "t": "Sisu",
+     "y": 2022,
+     "note": "A Finnish gold prospector vs a Nazi platoon. Also on Action",
+     "tags": "F",
+     "warn": "Very gory.",
+     "seq": []
+    },
+    {
      "t": "Three Kings",
      "y": 1999,
      "note": "Gulf War soldiers steal Saddam's gold",
@@ -257,6 +273,15 @@
      "y": 2008,
      "note": "Actors making a war film get stuck in a real one",
      "tags": "C",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Heartbreak Ridge",
+     "y": 1986,
+     "note": "Clint Eastwood's gravel-voiced gunnery sergeant whips Marines into shape",
+     "tags": "F",
      "warn": null,
      "seq": [],
      "junk": true
@@ -297,31 +322,6 @@
   },
   {
    "n": 5,
-   "t": "Inglourious Basterds",
-   "y": 2009,
-   "b": "Tarantino rewrites the war: Brad Pitt's Jewish-American commandos, Christoph Waltz's Hans Landa, and a cinema full of Nazis.",
-   "tags": "FD",
-   "heat": {
-    "violence": 4,
-    "intensity": 4,
-    "age": 0,
-    "challenge": 2
-   },
-   "seq": [],
-   "br": [
-    {
-     "t": "Sisu",
-     "y": 2022,
-     "note": "A Finnish gold prospector vs a Nazi platoon. Also on Action",
-     "tags": "F",
-     "warn": "Very gory.",
-     "seq": []
-    }
-   ],
-   "w": "Very violent."
-  },
-  {
-   "n": 6,
    "t": "Saving Private Ryan",
    "y": 1998,
    "b": "Spielberg: the Omaha Beach landing, then Tom Hanks's squad sent to bring one man home.",
@@ -386,7 +386,7 @@
    "w": "The opening 25 minutes are graphic and harrowing."
   },
   {
-   "n": 7,
+   "n": 6,
    "t": "Dunkirk",
    "y": 2017,
    "b": "Nolan: land, sea and air, three timelines and the ticking clock. Almost no dialogue, all tension.",
@@ -410,7 +410,7 @@
    ]
   },
   {
-   "n": 8,
+   "n": 7,
    "t": "1917",
    "y": 2019,
    "b": "Two British soldiers cross no man's land to deliver a message, filmed to look like one continuous shot.",
@@ -432,6 +432,30 @@
      "seq": []
     }
    ]
+  },
+  {
+   "t": "Glory",
+   "y": 1989,
+   "b": "The first Black regiment of the Civil War: Matthew Broderick's young colonel, Denzel Washington's runaway slave, Morgan Freeman. Ends at Fort Wagner.",
+   "tags": "M",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Gettysburg",
+     "y": 1993,
+     "note": "Four hours of the turning-point battle",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "n": 8
   },
   {
    "n": 9,
@@ -570,15 +594,14 @@
    ]
   },
   {
-   "n": 13,
-   "t": "Lawrence of Arabia",
-   "y": 1962,
-   "b": "David Lean: Peter O'Toole leads the Arab revolt across the desert. The match cut. Nearly four hours.",
-   "tags": "O",
+   "t": "The Life and Death of Colonel Blimp",
+   "y": 1943,
+   "b": "Powell and Pressburger: forty years of one British officer, three wars, one German friend and the same woman three times. Funny, moving, gorgeous Technicolor.",
+   "tags": "UO",
    "heat": {
-    "violence": 2,
+    "violence": 1,
     "intensity": 2,
-    "age": 3,
+    "age": 4,
     "challenge": 3
    },
    "seq": [],
@@ -590,20 +613,28 @@
      "tags": "UO",
      "warn": null,
      "seq": []
-    },
-    {
-     "t": "The Life and Death of Colonel Blimp",
-     "y": 1943,
-     "note": "Powell and Pressburger: forty years of one British officer",
-     "tags": "UO",
-     "warn": null,
-     "seq": []
     }
    ],
-   "w": "Long: 3 hours 47."
+   "n": 13
   },
   {
    "n": 14,
+   "t": "Lawrence of Arabia",
+   "y": 1962,
+   "b": "David Lean: Peter O'Toole leads the Arab revolt across the desert. The match cut. Nearly four hours.",
+   "tags": "O",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [],
+   "w": "Long: 3 hours 47."
+  },
+  {
+   "n": 15,
    "t": "Patton",
    "y": 1970,
    "b": "George C. Scott's general in front of the giant flag, and a portrait of a man made for war.",
@@ -635,7 +666,7 @@
    ]
   },
   {
-   "n": 15,
+   "n": 16,
    "t": "Platoon",
    "y": 1986,
    "b": "Oliver Stone's own Vietnam: Charlie Sheen between Willem Dafoe's good sergeant and Tom Berenger's monster.",
@@ -648,6 +679,22 @@
    },
    "seq": [],
    "br": [
+    {
+     "t": "Born on the Fourth of July",
+     "y": 1989,
+     "note": "Tom Cruise's paralysed vet turns against the war",
+     "tags": "V",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Coming Home",
+     "y": 1978,
+     "note": "Jon Voight's paralysed vet and Jane Fonda",
+     "tags": "V",
+     "warn": null,
+     "seq": []
+    },
     {
      "t": "Aliens",
      "y": 1986,
@@ -685,7 +732,7 @@
    "w": "Graphic violence and a village massacre."
   },
   {
-   "n": 16,
+   "n": 17,
    "t": "Full Metal Jacket",
    "y": 1987,
    "b": "Kubrick: R. Lee Ermey's drill sergeant, then Hue City.",
@@ -716,30 +763,6 @@
     }
    ],
    "w": "A suicide and graphic violence."
-  },
-  {
-   "n": 17,
-   "t": "Born on the Fourth of July",
-   "y": 1989,
-   "b": "Tom Cruise's paralysed vet comes home and turns against the war.",
-   "tags": "V",
-   "heat": {
-    "violence": 3,
-    "intensity": 4,
-    "age": 1,
-    "challenge": 2
-   },
-   "seq": [],
-   "br": [
-    {
-     "t": "Coming Home",
-     "y": 1978,
-     "note": "Jon Voight's paralysed vet and Jane Fonda",
-     "tags": "V",
-     "warn": null,
-     "seq": []
-    }
-   ]
   },
   {
    "n": 18,

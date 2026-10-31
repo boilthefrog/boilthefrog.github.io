@@ -64,7 +64,7 @@
   {
    "t": 95,
    "name": "Rolling boil",
-   "note": "J-horror, the Overlook Hotel and the final boss.",
+   "note": "J-horror and the final boss: the Overlook Hotel.",
    "bg": "#2b0b0e",
    "fg": "#efe3cf",
    "upto": 30
@@ -275,6 +275,30 @@
      "y": 1979,
      "note": "Werner Herzog and Klaus Kinski. Haunting and slow",
      "tags": "VO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Cabinet of Dr. Caligari",
+     "y": 1920,
+     "note": "The silent nightmare: crooked sets and a sleepwalking killer",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Vampyr",
+     "y": 1932,
+     "note": "Carl Dreyer's dreamlike vampire film, half silent",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Freaks",
+     "y": 1932,
+     "note": "Tod Browning's circus film with real sideshow performers. Banned for decades",
+     "tags": "O",
      "warn": null,
      "seq": []
     }
@@ -669,6 +693,30 @@
      "tags": "V",
      "warn": "Quite erotic in places.",
      "seq": []
+    },
+    {
+     "t": "Cat People",
+     "y": 1942,
+     "note": "Val Lewton: horror from shadows and suggestion, and the swimming-pool scene",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "I Walked with a Zombie",
+     "y": 1943,
+     "note": "Val Lewton's Jane Eyre in the Caribbean",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Dead of Night",
+     "y": 1945,
+     "note": "Ealing's anthology, ending with the ventriloquist's dummy",
+     "tags": "G",
+     "warn": null,
+     "seq": []
     }
    ],
    "seq": [],
@@ -748,6 +796,59 @@
        "star": false
       }
      ]
+    },
+    {
+     "t": "Insidious",
+     "y": 2010,
+     "note": "James Wan's haunted-child film: the Further, and that red-faced demon",
+     "tags": "GD",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "A Quiet Place",
+     "y": 2018,
+     "note": "Modern jump scares with a family to hold onto",
+     "tags": "KA",
+     "warn": null,
+     "seq": [
+      {
+       "t": "A Quiet Place Part II",
+       "y": 2020,
+       "note": "Picks up the moment it ends",
+       "star": false
+      },
+      {
+       "t": "A Quiet Place: Day One",
+       "y": 2024,
+       "note": "The invasion begins, in New York",
+       "star": false
+      }
+     ]
+    },
+    {
+     "t": "Signs",
+     "y": 2002,
+     "note": "Aliens and crop circles; one big jolt",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Cloverfield",
+     "y": 2008,
+     "note": "Found-footage monster attack on New York",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Weapons",
+     "y": 2025,
+     "note": "Zach Cregger: 17 kids vanish at 2:17am",
+     "tags": "WY",
+     "warn": null,
+     "seq": []
     }
    ],
    "seq": [],
@@ -796,6 +897,22 @@
      "note": "De Palma's stylish riff on Psycho",
      "tags": "SY",
      "warn": "Explicit sexual violence, and its portrayal of a trans character has aged very badly.",
+     "seq": []
+    },
+    {
+     "t": "The Birds",
+     "y": 1963,
+     "note": "Hitchcock's seaside town under attack, with no explanation given",
+     "tags": "SOY",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Peeping Tom",
+     "y": 1960,
+     "note": "Michael Powell's killer cameraman. It wrecked his career",
+     "tags": "SOY",
+     "warn": null,
      "seq": []
     }
    ],
@@ -1075,6 +1192,12 @@
    "tags": "PCD",
    "seq": [
     {
+     "t": "The Evil Dead",
+     "y": 1981,
+     "note": "The raw, scarier original",
+     "star": true
+    },
+    {
      "t": "Army of Darkness",
      "y": 1992,
      "note": "Watch straight after as a breather: mostly medieval comedy",
@@ -1204,6 +1327,14 @@
      "tags": "UCS",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Ginger Snaps",
+     "y": 2000,
+     "note": "Teenage werewolf as puberty: a sharp cult hit",
+     "tags": "CUB",
+     "warn": null,
+     "seq": []
     }
    ],
    "seq": [],
@@ -1284,6 +1415,14 @@
      "y": 2003,
      "note": "French slasher, very gory, divisive twist",
      "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Jennifer's Body",
+     "y": 2009,
+     "note": "Megan Fox's possessed cheerleader eats boys. Dismissed then, a cult favourite now",
+     "tags": "SC",
      "warn": null,
      "seq": []
     }
@@ -1372,6 +1511,14 @@
    "tags": "DYO",
    "br": [
     {
+     "t": "Repulsion",
+     "y": 1965,
+     "note": "Polanski: Catherine Deneuve unravels alone in a London flat",
+     "tags": "DYO",
+     "warn": null,
+     "seq": []
+    },
+    {
      "t": "The Babadook",
      "y": 2014,
      "note": "Grief and parenthood made monstrous",
@@ -1389,7 +1536,23 @@
    }
   },
   {
-   "n": 23,
+   "t": "The Omen",
+   "y": 1976,
+   "b": "An American diplomat slowly realises his adopted son is the Antichrist. The nanny's birthday party, the priest and the pane of glass.",
+   "tags": "DYO",
+   "w": "A couple of gruesome deaths, including a decapitation.",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 2,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [],
+   "n": 23
+  },
+  {
+   "n": 24,
    "t": "Suspiria",
    "y": 1977,
    "b": "Dario Argento's witches at a ballet school: a nightmare in red and blue with a pounding score. Dubbed, deliberately strange, and gory.",
@@ -1413,7 +1576,7 @@
    }
   },
   {
-   "n": 24,
+   "n": 25,
    "t": "The Exorcist",
    "y": 1973,
    "b": "The possession film everything else copies. Iconic rather than terrifying for a lot of modern viewers.",
@@ -1441,6 +1604,14 @@
      "tags": "D",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Night of the Demon",
+     "y": 1957,
+     "note": "An M.R. James curse and a sceptic who runs out of time",
+     "tags": "DO",
+     "warn": null,
+     "seq": []
     }
    ],
    "seq": [],
@@ -1452,7 +1623,7 @@
    }
   },
   {
-   "n": 25,
+   "n": 26,
    "t": "The Blair Witch Project",
    "y": 1999,
    "b": "Three students, a camcorder and the woods. No gore and almost nothing on screen: pure dread. It invented modern found footage. Divisive: terrifying to some, boring to others.",
@@ -1517,7 +1688,7 @@
    }
   },
   {
-   "n": 26,
+   "n": 27,
    "t": "The Fly",
    "y": 1986,
    "b": "Cronenberg's gross-out body horror wrapped round a tragic love story.",
@@ -1570,6 +1741,14 @@
      "tags": "B",
      "warn": "Adults-only Hong Kong rating; deeply disturbing themes.",
      "seq": []
+    },
+    {
+     "t": "Dead Ringers",
+     "y": 1988,
+     "note": "Cronenberg: Jeremy Irons as twin gynaecologists falling apart",
+     "tags": "B",
+     "warn": null,
+     "seq": []
     }
    ],
    "seq": [],
@@ -1581,7 +1760,7 @@
    }
   },
   {
-   "n": 27,
+   "n": 28,
    "t": "The Thing",
    "y": 1982,
    "b": "Antarctic paranoia and the greatest practical effects ever made. Very gory.",
@@ -1613,7 +1792,7 @@
    }
   },
   {
-   "n": 28,
+   "n": 29,
    "t": "Ringu",
    "y": 1998,
    "b": "A cursed videotape and seven days to live. The J-horror original: slow, cold, terrifying.",
@@ -1666,6 +1845,22 @@
      "tags": "GW",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Kwaidan",
+     "y": 1964,
+     "note": "Four gorgeous Japanese ghost stories",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Onibaba",
+     "y": 1964,
+     "note": "A demon mask in a field of reeds",
+     "tags": "G",
+     "warn": null,
+     "seq": []
     }
    ],
    "seq": [],
@@ -1678,7 +1873,7 @@
    "q": "Ring"
   },
   {
-   "n": 29,
+   "n": 30,
    "t": "The Shining",
    "y": 1980,
    "b": "Slow, mounting dread. Plenty of people's scariest film ever.",
@@ -1691,6 +1886,14 @@
      "tags": "WY",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Jacob's Ladder",
+     "y": 1990,
+     "note": "A Vietnam vet's reality falls apart into demons",
+     "tags": "GYO",
+     "warn": null,
+     "seq": []
     }
    ],
    "seq": [],
@@ -1698,67 +1901,6 @@
     "gore": 2,
     "dread": 5,
     "jumps": 3,
-    "weird": 4
-   }
-  },
-  {
-   "n": 30,
-   "t": "Insidious",
-   "y": 2010,
-   "b": "The final boss. A haunted family and a lot of jump scares. By now they know how this goes.",
-   "tags": "GD",
-   "seq": [],
-   "br": [
-    {
-     "t": "A Quiet Place",
-     "y": 2018,
-     "note": "Modern jump scares with a family to hold onto",
-     "tags": "KA",
-     "warn": null,
-     "seq": [
-      {
-       "t": "A Quiet Place Part II",
-       "y": 2020,
-       "note": "Picks up the moment it ends",
-       "star": false
-      },
-      {
-       "t": "A Quiet Place: Day One",
-       "y": 2024,
-       "note": "The invasion begins, in New York",
-       "star": false
-      }
-     ]
-    },
-    {
-     "t": "Signs",
-     "y": 2002,
-     "note": "Aliens and crop circles; one big jolt",
-     "tags": "A",
-     "warn": null,
-     "seq": []
-    },
-    {
-     "t": "Cloverfield",
-     "y": 2008,
-     "note": "Found-footage monster attack on New York",
-     "tags": "K",
-     "warn": null,
-     "seq": []
-    },
-    {
-     "t": "Weapons",
-     "y": 2025,
-     "note": "Zach Cregger: 17 kids vanish at 2:17am",
-     "tags": "WY",
-     "warn": null,
-     "seq": []
-    }
-   ],
-   "heat": {
-    "gore": 1,
-    "dread": 4,
-    "jumps": 5,
     "weird": 4
    }
   }

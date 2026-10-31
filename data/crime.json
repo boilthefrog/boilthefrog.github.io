@@ -1,0 +1,1205 @@
+{
+ "id": "crime",
+ "title": "Crime & Noir",
+ "order": 7,
+ "tagline": "From Ocean's Eleven to Once Upon a Time in America without noticing the water got hot.",
+ "heatKeys": [
+  [
+   "violence",
+   "Violence"
+  ],
+  [
+   "intensity",
+   "Intensity"
+  ],
+  [
+   "age",
+   "Old-school"
+  ],
+  [
+   "challenge",
+   "Challenge"
+  ]
+ ],
+ "tags": {
+  "K": "Comedy",
+  "H": "Heists",
+  "G": "Gangsters",
+  "P": "Cops",
+  "N": "Noir",
+  "E": "Erotic",
+  "B": "British",
+  "F": "French",
+  "W": "World",
+  "O": "Classics",
+  "D": "Bleak"
+ },
+ "levels": [
+  {
+   "t": 22,
+   "name": "Popcorn",
+   "note": "Charming crooks, cockney chaos and Clooney.",
+   "bg": "#dbe5cc",
+   "fg": "#17110d",
+   "upto": 3
+  },
+  {
+   "t": 35,
+   "name": "Modern crime",
+   "note": "The Coens, Tarantino, Scorsese and Bruges.",
+   "bg": "#ecdcaa",
+   "fg": "#17110d",
+   "upto": 8
+  },
+  {
+   "t": 50,
+   "name": "Gangsters",
+   "note": "The Corleones, Henry Hill, Tony Montana and Harold Shand.",
+   "bg": "#e8b47a",
+   "fg": "#17110d",
+   "upto": 14
+  },
+  {
+   "t": 65,
+   "name": "Classic noir",
+   "note": "Marlowe, insurance murders, Vienna and Norma Desmond.",
+   "bg": "#cf5b3a",
+   "fg": "#17110d",
+   "upto": 20
+  },
+  {
+   "t": 80,
+   "name": "Old-school",
+   "note": "Cagney, Bonnie and Clyde, French heists and Kurosawa.",
+   "bg": "#6d1b21",
+   "fg": "#efe3cf",
+   "upto": 26
+  },
+  {
+   "t": 95,
+   "name": "Final boss",
+   "note": "Travis Bickle, Chinatown, London's gutter and Leone's four hours.",
+   "bg": "#2b0b0e",
+   "fg": "#efe3cf",
+   "upto": 30
+  },
+  {
+   "t": "100+",
+   "name": "Cooked",
+   "note": "Only if they finish Once Upon a Time in America and ask for more.",
+   "bg": "#0c0506",
+   "fg": "#efe3cf",
+   "beyond": true
+  }
+ ],
+ "core": [
+  {
+   "n": 1,
+   "t": "Ocean's Eleven",
+   "y": 2001,
+   "b": "Clooney, Pitt and a crew of charmers rob three Vegas casinos at once. Cool, funny, and nobody really gets hurt.",
+   "tags": "HK",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Catch Me If You Can",
+     "y": 2002,
+     "note": "DiCaprio's teenage con man and Tom Hanks's dogged FBI agent",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Thomas Crown Affair",
+     "y": 1968,
+     "note": "Steve McQueen's bored millionaire plans a bank job; Faye Dunaway investigates",
+     "tags": "HO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Now You See Me",
+     "y": 2013,
+     "note": "Magician bank robbers. Silly, slick and nonsense",
+     "tags": "HK",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "t": "Lock, Stock and Two Smoking Barrels",
+   "y": 1998,
+   "b": "Guy Ritchie: four London lads owe a porn king half a million. Shotguns, weed and very bad luck.",
+   "tags": "KB",
+   "heat": {
+    "violence": 3,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Snatch",
+     "y": 2000,
+     "note": "Ritchie again: a stolen diamond, bare-knuckle boxing and Brad Pitt's unintelligible traveller",
+     "tags": "KB",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Layer Cake",
+     "y": 2004,
+     "note": "Daniel Craig's cocaine middleman wants out",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "t": "Out of Sight",
+   "y": 1998,
+   "b": "Soderbergh: George Clooney's charming bank robber and Jennifer Lopez's marshal fall for each other in a car boot. Elmore Leonard's dialogue.",
+   "tags": "KH",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Jackie Brown",
+     "y": 1997,
+     "note": "Tarantino's Elmore Leonard film: Pam Grier outwits everyone",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Get Shorty",
+     "y": 1995,
+     "note": "John Travolta's loan shark goes into the movie business",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Limey",
+     "y": 1999,
+     "note": "Terence Stamp's Cockney ex-con hunts his daughter's killer in LA",
+     "tags": "BD",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "t": "Fargo",
+   "y": 1996,
+   "b": "The Coens: a hapless car salesman arranges his wife's kidnapping, and pregnant police chief Marge Gunderson follows the trail through the snow.",
+   "tags": "KD",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Blood Simple",
+     "y": 1984,
+     "note": "The Coens' first: a Texas bar owner hires a killer",
+     "tags": "ND",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "A Simple Plan",
+     "y": 1998,
+     "note": "Two brothers find a crashed plane full of money",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "The woodchipper."
+  },
+  {
+   "n": 5,
+   "t": "Pulp Fiction",
+   "y": 1994,
+   "b": "Tarantino's interlocking LA stories: hitmen, a boxer, a briefcase and a dance contest.",
+   "tags": "GK",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Reservoir Dogs",
+     "y": 1992,
+     "note": "The heist gone wrong, told from the warehouse",
+     "tags": "H",
+     "warn": "The ear scene.",
+     "seq": []
+    },
+    {
+     "t": "True Romance",
+     "y": 1993,
+     "note": "Tarantino's script, Tony Scott's film: lovers on the run with the mob's cocaine",
+     "tags": "G",
+     "warn": "Violent.",
+     "seq": []
+    }
+   ],
+   "w": "Violent, and the Gimp scene."
+  },
+  {
+   "n": 6,
+   "t": "The Departed",
+   "y": 2006,
+   "b": "Scorsese: a cop inside the mob, a mobster inside the cops, Jack Nicholson in the middle. Boston accents for days.",
+   "tags": "GP",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Infernal Affairs",
+     "y": 2002,
+     "note": "The Hong Kong original. Core on the Asian action ladder",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Heat",
+     "y": 1995,
+     "note": "Mann's Pacino vs De Niro. Core on the Action ladder",
+     "tags": "H",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Very violent."
+  },
+  {
+   "n": 7,
+   "t": "In Bruges",
+   "y": 2008,
+   "b": "Two Irish hitmen hide out in Bruges after a job goes wrong. Very funny, very sad.",
+   "tags": "KB",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Guard",
+     "y": 2011,
+     "note": "Brendan Gleeson's foul-mouthed Galway cop vs drug smugglers",
+     "tags": "KB",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "t": "L.A. Confidential",
+   "y": 1997,
+   "b": "Three 1950s LA cops, one massacre at a diner, and corruption all the way up. Also core on the Thriller ladder.",
+   "tags": "PN",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Training Day",
+     "y": 2001,
+     "note": "Denzel Washington's corrupt narcotics cop",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Serpico",
+     "y": 1973,
+     "note": "Al Pacino, the honest cop nobody will back",
+     "tags": "PO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "American Gangster",
+     "y": 2007,
+     "note": "Denzel's Harlem heroin king vs Russell Crowe's honest cop",
+     "tags": "GP",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Prince of the City",
+     "y": 1981,
+     "note": "Sidney Lumet: a detective informs on his own unit",
+     "tags": "PO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "t": "The Godfather",
+   "y": 1972,
+   "b": "Coppola: the Corleone family, the horse's head, and Michael's slow turn from war hero to Don.",
+   "tags": "G",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [
+    {
+     "t": "The Godfather Part II",
+     "y": 1974,
+     "note": "Young Vito and older Michael. Maybe even better",
+     "star": true
+    },
+    {
+     "t": "The Godfather Part III",
+     "y": 1990,
+     "note": "Weaker, but finishes the story",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "Donnie Brasco",
+     "y": 1997,
+     "note": "Johnny Depp undercover with Al Pacino's small-time hood",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "t": "Goodfellas",
+   "y": 1990,
+   "b": "Scorsese: Henry Hill's life in the mob, from the Copacabana tracking shot to the helicopter paranoia.",
+   "tags": "G",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Casino",
+     "y": 1995,
+     "note": "De Niro, Pesci and Sharon Stone run Vegas into the ground",
+     "tags": "G",
+     "warn": "Very violent.",
+     "seq": []
+    },
+    {
+     "t": "Mean Streets",
+     "y": 1973,
+     "note": "Early Scorsese: De Niro's Johnny Boy in Little Italy",
+     "tags": "GO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Irishman",
+     "y": 2019,
+     "note": "Scorsese's three-and-a-half-hour gangster farewell",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Wolf of Wall Street",
+     "y": 2013,
+     "note": "DiCaprio's stockbroker crook: three hours of excess",
+     "tags": "K",
+     "warn": "Drugs and graphic sex.",
+     "seq": []
+    }
+   ],
+   "w": "Very violent."
+  },
+  {
+   "n": 11,
+   "t": "Scarface",
+   "y": 1983,
+   "b": "Brian De Palma: Al Pacino's Tony Montana goes from Cuban refugee to Miami cocaine king. 'Say hello to my little friend.'",
+   "tags": "G",
+   "heat": {
+    "violence": 5,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Carlito's Way",
+     "y": 1993,
+     "note": "De Palma and Pacino again: an ex-con trying to go straight",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Very violent: the chainsaw."
+  },
+  {
+   "n": 12,
+   "t": "The Long Good Friday",
+   "y": 1980,
+   "b": "Bob Hoskins's London gangster has one Easter weekend to find out who's blowing up his empire. Helen Mirren, and that final close-up.",
+   "tags": "GB",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Get Carter",
+     "y": 1971,
+     "note": "Michael Caine's cold Newcastle revenge. On the Action ladder",
+     "tags": "BD",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Sexy Beast",
+     "y": 2000,
+     "note": "Ray Winstone's retired safecracker vs Ben Kingsley's terrifying recruiter",
+     "tags": "BK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Eastern Promises",
+     "y": 2007,
+     "note": "Cronenberg: Viggo Mortensen's Russian mob driver, and the bathhouse fight",
+     "tags": "G",
+     "warn": "Very violent.",
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "t": "Miller's Crossing",
+   "y": 1990,
+   "b": "The Coens' Prohibition gang war: Gabriel Byrne's fixer plays both sides. 'What's the rumpus?'",
+   "tags": "GN",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Road to Perdition",
+     "y": 2002,
+     "note": "Tom Hanks's hitman on the run with his son",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "t": "City of God",
+   "y": 2002,
+   "b": "Rio's favelas over two decades: a boy with a camera watches his friends become gangsters.",
+   "tags": "GW",
+   "heat": {
+    "violence": 5,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Gomorrah",
+     "y": 2008,
+     "note": "The Naples Camorra, without glamour",
+     "tags": "GW",
+     "warn": "Subtitled.",
+     "seq": []
+    },
+    {
+     "t": "A Prophet",
+     "y": 2009,
+     "note": "Jacques Audiard: a young Arab prisoner rises inside a Corsican gang",
+     "tags": "GW",
+     "warn": "Subtitled; violent.",
+     "seq": []
+    }
+   ],
+   "w": "Graphic violence, including children. Subtitled."
+  },
+  {
+   "n": 15,
+   "t": "The Big Sleep",
+   "y": 1946,
+   "b": "Howard Hawks: Bogart's Philip Marlowe, Bacall, and a plot even the writers couldn't untangle. It doesn't matter.",
+   "tags": "NO",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 4,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Maltese Falcon",
+     "y": 1941,
+     "note": "Bogart's Sam Spade and the stuff dreams are made of",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Murder, My Sweet",
+     "y": 1944,
+     "note": "Dick Powell's Marlowe",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "In a Lonely Place",
+     "y": 1950,
+     "note": "Bogart's violent screenwriter suspected of murder",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Key Largo",
+     "y": 1948,
+     "note": "Bogart and Bacall trapped in a hurricane with Edward G. Robinson",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "High Sierra",
+     "y": 1941,
+     "note": "Bogart's ageing gangster on the run. From the Scorsese list",
+     "tags": "GO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "t": "Double Indemnity",
+   "y": 1944,
+   "b": "Billy Wilder: an insurance man, a wife, and a murder for the double payout. The template for every noir since.",
+   "tags": "NO",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Postman Always Rings Twice",
+     "y": 1946,
+     "note": "Lana Turner and John Garfield: lovers, a husband, a plan",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Body Heat",
+     "y": 1981,
+     "note": "William Hurt and Kathleen Turner remake it in a Florida heatwave",
+     "tags": "NE",
+     "warn": "Sexual content.",
+     "seq": []
+    },
+    {
+     "t": "Mildred Pierce",
+     "y": 1945,
+     "note": "Joan Crawford, her waitress empire and her monstrous daughter",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Leave Her to Heaven",
+     "y": 1945,
+     "note": "A Technicolor noir: Gene Tierney's jealousy has no limit",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Scarlet Street",
+     "y": 1945,
+     "note": "Fritz Lang: Edward G. Robinson's lonely clerk and a con woman",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "t": "The Third Man",
+   "y": 1949,
+   "b": "Post-war Vienna, black-market penicillin, the zither, and Orson Welles on the Ferris wheel. Also core on Thriller.",
+   "tags": "NO",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Lady from Shanghai",
+     "y": 1947,
+     "note": "Orson Welles, Rita Hayworth and the hall of mirrors",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Odd Man Out",
+     "y": 1947,
+     "note": "Carol Reed: James Mason's wounded IRA man adrift in Belfast",
+     "tags": "NBO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "t": "Sunset Boulevard",
+   "y": 1950,
+   "b": "Billy Wilder: a broke screenwriter floats dead in a forgotten silent star's pool. 'I'm ready for my close-up.'",
+   "tags": "NO",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Sweet Smell of Success",
+     "y": 1957,
+     "note": "Burt Lancaster's poisonous columnist and Tony Curtis's desperate press agent",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Laura",
+     "y": 1944,
+     "note": "A detective falls for the portrait of a murdered woman",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Gilda",
+     "y": 1946,
+     "note": "Rita Hayworth, 'Put the Blame on Mame'",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "t": "Touch of Evil",
+   "y": 1958,
+   "b": "Orson Welles: a bomb on the Mexican border, Charlton Heston's honest cop, and Welles's monstrous police captain. That opening shot.",
+   "tags": "NO",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Big Combo",
+     "y": 1955,
+     "note": "Shadows, a sadistic mob boss and a cop's obsession",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Pickup on South Street",
+     "y": 1953,
+     "note": "Sam Fuller: a pickpocket lifts a wallet full of secrets. Scorsese list",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Nightmare Alley",
+     "y": 1947,
+     "note": "Tyrone Power's carnival con man climbs, then falls",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "t": "Kiss Me Deadly",
+   "y": 1955,
+   "b": "Mike Hammer chases a glowing box everyone wants. Noir at the end of the world, with an atomic finale.",
+   "tags": "ND",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Out of the Past",
+     "y": 1947,
+     "note": "Robert Mitchum can't escape Jane Greer",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Detour",
+     "y": 1945,
+     "note": "A hitchhiker's very bad luck, shot in six days. Scorsese list",
+     "tags": "NOD",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Gun Crazy",
+     "y": 1950,
+     "note": "A sharpshooting couple go on a robbery spree. Scorsese list",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Killers",
+     "y": 1946,
+     "note": "Burt Lancaster waits in bed for the men coming to kill him",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Force of Evil",
+     "y": 1948,
+     "note": "John Garfield's numbers-racket lawyer. Scorsese list",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "t": "The Public Enemy",
+   "y": 1931,
+   "b": "James Cagney's grapefruit, his rise through bootlegging, and that ending on the doorstep.",
+   "tags": "GO",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 5,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Little Caesar",
+     "y": 1931,
+     "note": "Edward G. Robinson's Rico: 'Is this the end of Rico?'",
+     "tags": "GO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Scarface",
+     "y": 1932,
+     "note": "Howard Hawks's original, with Paul Muni",
+     "tags": "GO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Roaring Twenties",
+     "y": 1939,
+     "note": "Cagney and Bogart in Prohibition New York",
+     "tags": "GO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "1931: creaky in places."
+  },
+  {
+   "n": 22,
+   "t": "White Heat",
+   "y": 1949,
+   "b": "Cagney's mother-fixated psycho, a train robbery and 'Made it, Ma! Top of the world!'",
+   "tags": "GO",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Asphalt Jungle",
+     "y": 1950,
+     "note": "John Huston's jewel heist and the crew that ruins it",
+     "tags": "HO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Killing",
+     "y": 1956,
+     "note": "Early Kubrick: a racetrack heist told out of order",
+     "tags": "HO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "t": "Bonnie and Clyde",
+   "y": 1967,
+   "b": "Warren Beatty and Faye Dunaway rob banks across Depression Texas, and the ending changed screen violence.",
+   "tags": "GO",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Badlands",
+     "y": 1973,
+     "note": "Terrence Malick: Martin Sheen and Sissy Spacek's killing spree as a dreamy romance",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "They Live by Night",
+     "y": 1948,
+     "note": "Nicholas Ray's young lovers on the run",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Thelma & Louise",
+     "y": 1991,
+     "note": "Two friends, one bad night, and a run to the Grand Canyon",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Natural Born Killers",
+     "y": 1994,
+     "note": "Oliver Stone's media-mad killing spree",
+     "tags": "D",
+     "warn": "Extremely violent.",
+     "seq": []
+    }
+   ],
+   "w": "The final ambush is shocking."
+  },
+  {
+   "n": 24,
+   "t": "Rififi",
+   "y": 1955,
+   "b": "Jules Dassin: four thieves, one jewellery store and a 30-minute heist with no dialogue or music.",
+   "tags": "HFO",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Le Trou",
+     "y": 1960,
+     "note": "Five prisoners dig their way out, in real time",
+     "tags": "FO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Bob le Flambeur",
+     "y": 1956,
+     "note": "Melville's gambler plans one last casino job",
+     "tags": "HFO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Elevator to the Gallows",
+     "y": 1958,
+     "note": "Louis Malle: the perfect murder, a stuck lift, Miles Davis",
+     "tags": "NFO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Subtitled."
+  },
+  {
+   "n": 25,
+   "t": "Le Samouraï",
+   "y": 1967,
+   "b": "Melville: Alain Delon's silent hitman, his hat, his caged bird. Cool distilled. Also on Action.",
+   "tags": "FO",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Le Cercle Rouge",
+     "y": 1970,
+     "note": "Melville's heist: Delon, Yves Montand and a 25-minute silent robbery",
+     "tags": "HFO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Un Flic",
+     "y": 1972,
+     "note": "Melville's last: Delon as the cop this time",
+     "tags": "FO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Port of Shadows",
+     "y": 1938,
+     "note": "Marcel Carné's foggy French proto-noir",
+     "tags": "NFO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Pépé le Moko",
+     "y": 1937,
+     "note": "Jean Gabin's gangster trapped in the Casbah",
+     "tags": "FO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Subtitled, minimal dialogue."
+  },
+  {
+   "n": 26,
+   "t": "High and Low",
+   "y": 1963,
+   "b": "Kurosawa: kidnappers take the wrong boy, and a shoe tycoon must decide whether to pay anyway. Then a gripping police manhunt.",
+   "tags": "PW",
+   "heat": {
+    "violence": 1,
+    "intensity": 4,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Stray Dog",
+     "y": 1949,
+     "note": "Kurosawa: Toshiro Mifune's rookie cop loses his gun",
+     "tags": "PWO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Subtitled, 143 minutes."
+  },
+  {
+   "n": 27,
+   "t": "Taxi Driver",
+   "y": 1976,
+   "b": "Scorsese: Robert De Niro's insomniac Vietnam vet drives New York's night streets and comes apart. 'You talkin' to me?'",
+   "tags": "D",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Bad Lieutenant",
+     "y": 1992,
+     "note": "Harvey Keitel's drug-addled cop hits bottom",
+     "tags": "PD",
+     "warn": "Extreme drug use and sexual content.",
+     "seq": []
+    }
+   ],
+   "w": "Bloody climax."
+  },
+  {
+   "n": 28,
+   "t": "Chinatown",
+   "y": 1974,
+   "b": "Polanski: Jack Nicholson's private eye follows a water-rights scam into something much worse. Also core on Thriller.",
+   "tags": "NP",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 2,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Long Goodbye",
+     "y": 1973,
+     "note": "Altman: Elliott Gould's mumbling 70s Marlowe",
+     "tags": "N",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Night Moves",
+     "y": 1975,
+     "note": "Gene Hackman's private eye, lost in a case he can't solve",
+     "tags": "ND",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "A devastating ending."
+  },
+  {
+   "n": 29,
+   "t": "Night and the City",
+   "y": 1950,
+   "b": "Richard Widmark's hustler runs for his life through London's wrestling rackets. The bleakest noir.",
+   "tags": "NBD",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 4,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Brighton Rock",
+     "y": 1948,
+     "note": "Richard Attenborough's teenage razor-gang killer Pinkie",
+     "tags": "NBO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "t": "Once Upon a Time in America",
+   "y": 1984,
+   "b": "Leone's four-hour elegy for Jewish gangsters in New York, across 50 years. Watch the full cut.",
+   "tags": "GD",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 5
+   },
+   "seq": [],
+   "br": [],
+   "w": "229 minutes, and a disturbing rape scene."
+  }
+ ],
+ "beyond": []
+}

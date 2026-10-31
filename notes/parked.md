@@ -42,3 +42,12 @@ The Great Train Robbery (1903), The Musketeers of Pig Alley (1912), Death's Mara
 ## Source: Taschen "Movies of the ..." decade books (Jürgen Müller)
 iCheckMovies has a list per decade (30s to 2010s), but only the first 50 of each will load from here.
 70s, first 50: Straw Dogs, The Beguiled, Get Carter, Klute, Dirty Harry, Silent Running, Shaft, A Clockwork Orange, The French Connection, Play It Again Sam, Roma, Harold and Maude, The Last Picture Show, Deliverance, Cabaret, The Godfather, Frenzy, The Getaway, Un flic, The Discreet Charm of the Bourgeoisie, Solaris, Last Tango in Paris, What's Up Doc?, The Legend of Paul and Paula, Soylent Green, Badlands, Enter the Dragon, Day for Night, Westworld, Live and Let Die, Papillon, Flesh for Frankenstein, Pat Garrett & Billy the Kid, The Exorcist, American Graffiti, Don't Look Now, The Sting, My Name Is Nobody, The Towering Inferno, Lacombe Lucien, Lenny, The Godfather Part II, The Texas Chain Saw Massacre, A Woman Under the Influence, The Great Gatsby, The Passenger, Death Wish, The Conversation, Chinatown, Young Frankenstein
+
+## Drama / future ladders (parked 31 Oct)
+- One Flew Over the Cuckoo's Nest (1975): Drama or Classic 70s
+- Amadeus (1984): Drama, Epic or a Music ladder
+- Okja (2017): left out (weakest Bong)
+- Cold Mountain (2003): not a Western; maybe War
+- Coma (1978): Thriller candidate
+- Jason and the Argonauts (1963): Fantasy
+- Mars Attacks!, Highlander, True Lies, The Sting: vetoed

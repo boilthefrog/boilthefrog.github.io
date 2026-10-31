@@ -64,16 +64,19 @@ async function tmdb(p, params = {}) {
 async function findId(f) {
   if (f.tmdb) return f.tmdb;
   const q = (f.q || f.t).replace(/[–—]/g, "-");
-  const tries = [{ query: q, primary_release_year: f.y }, { query: q, year: f.y }, { query: q }];
-  for (const p of tries) {
+  const n = x => (x || "").toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]/g, "").replace(/^the/, "");
+  const yr = m => +(m.release_date || "0").slice(0, 4);
+  let fallback = null;
+  // Exact title within a year wins, from any search; otherwise the most-voted near-year hit.
+  for (const p of [{ query: q, year: f.y }, { query: q, primary_release_year: f.y }, { query: q }]) {
     const r = await tmdb("/search/movie", p);
-    const n = x => (x || "").toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]/g, "").replace(/^the/, "");
-    const inYear = (r.results || []).filter(m => Math.abs(+(m.release_date || "0").slice(0, 4) - f.y) <= 1);
-    const exact = inYear.find(m => n(m.title) === n(q) || n(m.original_title) === n(q));
-    const hit = exact || inYear.sort((a, b) => (b.vote_count || 0) - (a.vote_count || 0))[0];
-    if (hit) return hit.id;
+    const res = r.results || [];
+    const exact = res.find(m => Math.abs(yr(m) - f.y) <= 1 && (n(m.title) === n(q) || n(m.original_title) === n(q)));
+    if (exact) return exact.id;
+    const near = res.filter(m => Math.abs(yr(m) - f.y) <= 1).sort((a, b) => (b.vote_count || 0) - (a.vote_count || 0))[0];
+    if (near && (!fallback || (near.vote_count || 0) > (fallback.vote_count || 0))) fallback = near;
   }
-  return null;
+  return fallback ? fallback.id : null;
 }
 async function enrich(f) {
   if (cache[f.id]?.v === 3) return cache[f.id];

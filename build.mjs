@@ -95,7 +95,9 @@ if (KEY) {
   fs.mkdirSync(path.dirname(CACHE), { recursive: true });
   fs.writeFileSync(CACHE, JSON.stringify(cache));
   const norm = x => (x || "").toLowerCase().replace(/[^a-z0-9]/g, "");
-  for (const f of list) if (f.m && !f.m.missing && norm(f.m.title) !== norm(f.t)) console.log(`CHECK ${f.id} -> "${f.m.title}" (${f.m.year}) tmdb ${f.m.tmdb}`);
+  const checks = list.filter(f => f.m && !f.m.missing && norm(f.m.title) !== norm(f.t)).map(f => `${f.id} -> "${f.m.title}" (${f.m.year}) tmdb ${f.m.tmdb}`);
+  checks.forEach(c => console.log("CHECK " + c));
+  if (process.env.GITHUB_ACTIONS) console.log(`::notice title=TMDB title check::${[`missing: ${miss.join(", ")}`, ...checks].join("%0A")}`);
   console.log(`TMDB: ${list.length - miss.length}/${list.length} matched` + (miss.length ? `; no match: ${miss.join(", ")}` : ""));
 } else {
   for (const f of films.values()) f.m = cache[f.id];

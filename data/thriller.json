@@ -1,0 +1,931 @@
+{
+ "id": "thriller",
+ "title": "Thriller",
+ "order": 6,
+ "tagline": "From The Fugitive to Mulholland Drive without noticing the water got hot.",
+ "heatKeys": [
+  [
+   "violence",
+   "Violence"
+  ],
+  [
+   "intensity",
+   "Intensity"
+  ],
+  [
+   "age",
+   "Old-school"
+  ],
+  [
+   "challenge",
+   "Challenge"
+  ]
+ ],
+ "tags": {
+  "P": "Paranoia & conspiracy",
+  "S": "Spies",
+  "H": "Hitchcock",
+  "K": "Killers",
+  "C": "Crime",
+  "X": "Heists",
+  "N": "Noir",
+  "E": "Erotic",
+  "M": "Mind-benders",
+  "O": "Classics"
+ },
+ "levels": [
+  {
+   "t": 22,
+   "name": "Popcorn",
+   "note": "Men on the run, submarines and a Hitchcock romp.",
+   "bg": "#dbe5cc",
+   "fg": "#17110d",
+   "upto": 4
+  },
+  {
+   "t": 35,
+   "name": "Mainstream",
+   "note": "Twists, stalkers and a backwards murder hunt.",
+   "bg": "#ecdcaa",
+   "fg": "#17110d",
+   "upto": 9
+  },
+  {
+   "t": 50,
+   "name": "Hitchcock and paranoia",
+   "note": "Binoculars, wiretaps, Watergate and moles.",
+   "bg": "#e8b47a",
+   "fg": "#17110d",
+   "upto": 15
+  },
+  {
+   "t": 65,
+   "name": "Killers",
+   "note": "Profilers, the seven sins and the Zodiac.",
+   "bg": "#cf5b3a",
+   "fg": "#17110d",
+   "upto": 20
+  },
+  {
+   "t": 80,
+   "name": "The classics",
+   "note": "Vienna, a preacher, a child-killer and Chinatown.",
+   "bg": "#6d1b21",
+   "fg": "#efe3cf",
+   "upto": 26
+  },
+  {
+   "t": 95,
+   "name": "Final boss",
+   "note": "Haneke, Lynch and the ending nobody forgets.",
+   "bg": "#2b0b0e",
+   "fg": "#efe3cf",
+   "upto": 30
+  },
+  {
+   "t": "100+",
+   "name": "Cooked",
+   "note": "Only if they finish Mulholland Drive and ask for more.",
+   "bg": "#0c0506",
+   "fg": "#efe3cf",
+   "beyond": true
+  }
+ ],
+ "core": [
+  {
+   "n": 1,
+   "t": "The Fugitive",
+   "y": 1993,
+   "b": "Harrison Ford, wrongly convicted, runs; Tommy Lee Jones doesn't care. Two hours of momentum.",
+   "tags": "P",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Enemy of the State",
+     "y": 1998,
+     "note": "Will Smith hunted by the surveillance state",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "t": "North by Northwest",
+   "y": 1959,
+   "b": "Cary Grant mistaken for a spy: the crop-duster, Mount Rushmore. Hitchcock at his most fun.",
+   "tags": "HS",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Charade",
+     "y": 1963,
+     "note": "Cary Grant and Audrey Hepburn: who's lying in Paris?",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The 39 Steps",
+     "y": 1935,
+     "note": "Hitchcock's first man-on-the-run, across Scotland",
+     "tags": "HO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Lady Vanishes",
+     "y": 1938,
+     "note": "An old lady disappears from a train and nobody admits she existed",
+     "tags": "HO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "t": "The Hunt for Red October",
+   "y": 1990,
+   "b": "Sean Connery's Soviet captain heads west in a silent sub. Is he defecting or attacking?",
+   "tags": "S",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Crimson Tide",
+     "y": 1995,
+     "note": "Hackman vs Denzel: a mutiny over a nuclear launch",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Argo",
+     "y": 2012,
+     "note": "The CIA smuggles hostages out of Iran posing as a film crew",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "t": "Three Days of the Condor",
+   "y": 1975,
+   "b": "Robert Redford's CIA researcher comes back from lunch to find his whole office shot dead.",
+   "tags": "PS",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 5,
+   "t": "Cape Fear",
+   "y": 1991,
+   "b": "Scorsese: Robert De Niro's tattooed ex-con stalks the lawyer who buried his defence.",
+   "tags": "K",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Cape Fear",
+     "y": 1962,
+     "note": "Robert Mitchum's original, cooler and nastier",
+     "tags": "KO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Violent, and a disturbing scene with a teenager."
+  },
+  {
+   "n": 6,
+   "t": "The Usual Suspects",
+   "y": 1995,
+   "b": "Five crooks in a line-up and the legend of Keyser Söze. Don't let anyone spoil it.",
+   "tags": "CX",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Reservoir Dogs",
+     "y": 1992,
+     "note": "Tarantino's heist gone wrong, told from the warehouse",
+     "tags": "CX",
+     "warn": "Very violent: the ear scene.",
+     "seq": []
+    },
+    {
+     "t": "Pulp Fiction",
+     "y": 1994,
+     "note": "Tarantino's interlocking LA crime stories",
+     "tags": "C",
+     "warn": "Violent.",
+     "seq": []
+    },
+    {
+     "t": "Ocean's Eleven",
+     "y": 2001,
+     "note": "Soderbergh's slick, funny Vegas casino heist",
+     "tags": "X",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Dog Day Afternoon",
+     "y": 1975,
+     "note": "Al Pacino's bank robbery goes wrong, live on TV. True story",
+     "tags": "CX",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "t": "L.A. Confidential",
+   "y": 1997,
+   "b": "Three 1950s LA cops, one massacre at a diner, and corruption all the way up. The crime ladder's flagship.",
+   "tags": "CN",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Departed",
+     "y": 2006,
+     "note": "Scorsese remakes Infernal Affairs in Boston",
+     "tags": "C",
+     "warn": "Very violent.",
+     "seq": []
+    },
+    {
+     "t": "Training Day",
+     "y": 2001,
+     "note": "Denzel Washington's corrupt narcotics cop, one day in LA",
+     "tags": "C",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Serpico",
+     "y": 1973,
+     "note": "Al Pacino, the honest cop nobody will back",
+     "tags": "CO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Prince of the City",
+     "y": 1981,
+     "note": "Sidney Lumet: a detective informs on his own unit",
+     "tags": "CO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Insomnia",
+     "y": 2002,
+     "note": "Nolan: Al Pacino can't sleep in the Alaskan midnight sun",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Cruising",
+     "y": 1980,
+     "note": "Pacino undercover in New York's gay leather bars. Controversial",
+     "tags": "CK",
+     "warn": "Graphic violence and sexual content.",
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "t": "Gone Girl",
+   "y": 2014,
+   "b": "Fincher: a wife disappears and her husband looks guiltier by the hour.",
+   "tags": "KM",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [],
+   "w": "One very bloody scene."
+  },
+  {
+   "n": 9,
+   "t": "Memento",
+   "y": 2000,
+   "b": "Guy Pearce can't form new memories and hunts his wife's killer with tattoos and Polaroids. Told backwards.",
+   "tags": "M",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 10,
+   "t": "Rear Window",
+   "y": 1954,
+   "b": "James Stewart, broken leg, binoculars, and a neighbour who may have killed his wife.",
+   "tags": "HO",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Dial M for Murder",
+     "y": 1954,
+     "note": "Ray Milland plans the perfect murder of his wife",
+     "tags": "HO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Strangers on a Train",
+     "y": 1951,
+     "note": "Two strangers, two murders, one swap",
+     "tags": "HO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Shadow of a Doubt",
+     "y": 1943,
+     "note": "A girl suspects her favourite uncle is a killer. Hitchcock's own favourite",
+     "tags": "HO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "t": "Vertigo",
+   "y": 1958,
+   "b": "James Stewart's detective, a woman he's hired to follow, and an obsession that eats him alive.",
+   "tags": "HO",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Rebecca",
+     "y": 1940,
+     "note": "The second Mrs de Winter and Mrs Danvers",
+     "tags": "HO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Frenzy",
+     "y": 1972,
+     "note": "Late Hitchcock back in London: a necktie strangler",
+     "tags": "HK",
+     "warn": "Graphic for its time.",
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "t": "The Conversation",
+   "y": 1974,
+   "b": "Coppola: Gene Hackman's surveillance expert records a couple in a park, and thinks he's heard a murder plot.",
+   "tags": "P",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Blow Out",
+     "y": 1981,
+     "note": "De Palma: John Travolta's sound man records an assassination",
+     "tags": "P",
+     "warn": "Violent ending.",
+     "seq": []
+    },
+    {
+     "t": "Blow-Up",
+     "y": 1966,
+     "note": "Antonioni: a photographer may have photographed a murder",
+     "tags": "PX",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "t": "All the President's Men",
+   "y": 1976,
+   "b": "Redford and Hoffman follow the Watergate money. A thriller made of phone calls, and it's gripping.",
+   "tags": "P",
+   "heat": {
+    "violence": 0,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Klute",
+     "y": 1971,
+     "note": "Pakula: Jane Fonda's call girl and a detective hunting a stalker",
+     "tags": "PK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Parallax View",
+     "y": 1974,
+     "note": "Pakula: Warren Beatty investigates a corporation that trains assassins",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Spotlight",
+     "y": 2015,
+     "note": "The Boston Globe uncovers the Catholic Church cover-up",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "t": "Marathon Man",
+   "y": 1976,
+   "b": "Dustin Hoffman's student, Laurence Olivier's Nazi dentist. 'Is it safe?'",
+   "tags": "PS",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 2,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [],
+   "w": "The dentist scene."
+  },
+  {
+   "n": 15,
+   "t": "Tinker Tailor Soldier Spy",
+   "y": 2011,
+   "b": "Gary Oldman's George Smiley hunts a Soviet mole inside MI6. Cold, grey and masterly.",
+   "tags": "S",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Spy Who Came in from the Cold",
+     "y": 1965,
+     "note": "Richard Burton's burnt-out agent: le Carré's first great film",
+     "tags": "SO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Day of the Jackal",
+     "y": 1973,
+     "note": "An assassin, a target, and the detective racing to stop him",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Slow, and it trusts you to keep up."
+  },
+  {
+   "n": 16,
+   "t": "Manhunter",
+   "y": 1986,
+   "b": "Michael Mann's first Hannibal Lecter film: an FBI profiler who thinks like the killers he catches. Neon and synths.",
+   "tags": "K",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Silence of the Lambs",
+     "y": 1991,
+     "note": "Jodie Foster and Hopkins's Lecter. Core on the Horror ladder",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Heat",
+     "y": 1995,
+     "note": "Mann's Pacino vs De Niro. Core on the Action ladder",
+     "tags": "C",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Thief",
+     "y": 1981,
+     "note": "Mann's safecracker: James Caan and Tangerine Dream",
+     "tags": "CX",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Collateral",
+     "y": 2004,
+     "note": "Mann: Tom Cruise's hitman makes Jamie Foxx drive him round LA",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "t": "Se7en",
+   "y": 1995,
+   "b": "Fincher: two detectives and a killer working through the seven deadly sins. What's in the box?",
+   "tags": "K",
+   "heat": {
+    "violence": 4,
+    "intensity": 5,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [],
+   "w": "Grisly crime scenes and a devastating ending."
+  },
+  {
+   "n": 18,
+   "t": "Zodiac",
+   "y": 2007,
+   "b": "Fincher's obsessive, decade-long hunt for a real killer who was never caught.",
+   "tags": "K",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Memories of Murder",
+     "y": 2003,
+     "note": "Bong Joon-ho: Korea's first serial killer case and two hopeless cops",
+     "tags": "K",
+     "warn": "Subtitled.",
+     "seq": []
+    }
+   ],
+   "w": "Long, and there's no tidy answer."
+  },
+  {
+   "n": 19,
+   "t": "Basic Instinct",
+   "y": 1992,
+   "b": "Verhoeven: Michael Douglas's cop and Sharon Stone's ice-pick novelist. Trashy, slick and very knowing.",
+   "tags": "EK",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Body Heat",
+     "y": 1981,
+     "note": "William Hurt and Kathleen Turner remake Double Indemnity in a heatwave",
+     "tags": "EN",
+     "warn": "Sexual content.",
+     "seq": []
+    },
+    {
+     "t": "Bound",
+     "y": 1996,
+     "note": "The Wachowskis' debut: two women, a mob boss and $2 million",
+     "tags": "ENC",
+     "warn": "Sexual content and violence.",
+     "seq": []
+    }
+   ],
+   "w": "Graphic sex and violence."
+  },
+  {
+   "n": 20,
+   "t": "Prisoners",
+   "y": 2013,
+   "b": "Denis Villeneuve: two girls vanish and Hugh Jackman's father takes the law into his own hands.",
+   "tags": "K",
+   "heat": {
+    "violence": 4,
+    "intensity": 5,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "A History of Violence",
+     "y": 2005,
+     "note": "Cronenberg: Viggo Mortensen's small-town diner owner has a past",
+     "tags": "C",
+     "warn": "Very violent.",
+     "seq": []
+    }
+   ],
+   "w": "Torture scenes."
+  },
+  {
+   "n": 21,
+   "t": "The Third Man",
+   "y": 1949,
+   "b": "Post-war Vienna, black-market penicillin, the zither, and Orson Welles on the Ferris wheel.",
+   "tags": "NO",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 22,
+   "t": "Notorious",
+   "y": 1946,
+   "b": "Hitchcock: Ingrid Bergman marries a Nazi to spy for Cary Grant. The key, the wine cellar, the kiss.",
+   "tags": "HSO",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 23,
+   "t": "The Night of the Hunter",
+   "y": 1955,
+   "b": "Robert Mitchum's preacher, LOVE and HATE tattooed on his knuckles, hunts two children down the river.",
+   "tags": "KO",
+   "heat": {
+    "violence": 2,
+    "intensity": 4,
+    "age": 4,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 24,
+   "t": "M",
+   "y": 1931,
+   "b": "Fritz Lang: Berlin's criminals hunt a child-killer because the police raids are bad for business. Peter Lorre whistles.",
+   "tags": "KO",
+   "heat": {
+    "violence": 1,
+    "intensity": 4,
+    "age": 5,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [],
+   "w": "Subtitled, early sound, 1931."
+  },
+  {
+   "n": 25,
+   "t": "Chinatown",
+   "y": 1974,
+   "b": "Polanski: Jack Nicholson's private eye follows a water-rights scam into something much worse. 'Forget it, Jake.'",
+   "tags": "NC",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 2,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Double Indemnity",
+     "y": 1944,
+     "note": "Billy Wilder: an insurance man, a wife and a murder for the money",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Postman Always Rings Twice",
+     "y": 1946,
+     "note": "Lana Turner and John Garfield: lovers, a husband, a plan",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Out of the Past",
+     "y": 1947,
+     "note": "Robert Mitchum can't escape his old life or Jane Greer",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Blood Simple",
+     "y": 1984,
+     "note": "The Coens' first: a Texas bar owner hires a killer and everything goes wrong",
+     "tags": "NC",
+     "warn": "Violent.",
+     "seq": []
+    }
+   ],
+   "w": "A devastating ending."
+  },
+  {
+   "n": 26,
+   "t": "Les Diaboliques",
+   "y": 1955,
+   "b": "A wife and a mistress drown their brute of a husband, then his body disappears. The ending was so secret, cinemas locked the doors.",
+   "tags": "KO",
+   "heat": {
+    "violence": 2,
+    "intensity": 4,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Purple Noon",
+     "y": 1960,
+     "note": "Alain Delon as Tom Ripley on the Italian coast",
+     "tags": "KO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Talented Mr. Ripley",
+     "y": 1999,
+     "note": "Matt Damon's Ripley, Jude Law's golden boy",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The American Friend",
+     "y": 1977,
+     "note": "Wim Wenders: Dennis Hopper's Ripley lures a dying framer into murder",
+     "tags": "KX",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Subtitled."
+  },
+  {
+   "n": 27,
+   "t": "Hidden",
+   "y": 2005,
+   "b": "Haneke: a Paris couple receive surveillance tapes of their own house. Nobody explains, ever.",
+   "tags": "PM",
+   "heat": {
+    "violence": 2,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 5
+   },
+   "seq": [],
+   "br": [],
+   "w": "One sudden, shocking moment, and no answers."
+  },
+  {
+   "n": 28,
+   "t": "Lost Highway",
+   "y": 1997,
+   "b": "David Lynch: a saxophonist is sent videotapes of himself, then becomes someone else.",
+   "tags": "M",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 5
+   },
+   "seq": [],
+   "br": [],
+   "w": "Graphic violence and sexual content."
+  },
+  {
+   "n": 29,
+   "t": "The Vanishing",
+   "y": 1988,
+   "b": "A Dutch man's girlfriend disappears at a service station; years later, her abductor offers to show him what happened.",
+   "tags": "K",
+   "heat": {
+    "violence": 1,
+    "intensity": 5,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [],
+   "w": "The most chilling ending you'll see. Subtitled."
+  },
+  {
+   "n": 30,
+   "t": "Mulholland Drive",
+   "y": 2001,
+   "b": "Lynch: an aspiring actress, an amnesiac and a Hollywood dream that turns into a nightmare. Club Silencio.",
+   "tags": "M",
+   "heat": {
+    "violence": 2,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 5
+   },
+   "seq": [],
+   "br": [],
+   "w": "Deliberately baffling."
+  }
+ ],
+ "beyond": []
+}

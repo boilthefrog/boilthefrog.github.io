@@ -1127,18 +1127,29 @@
     {
      "t": "Rise of the Planet of the Apes",
      "y": 2011,
-     "note": "Caesar's origin; the trilogy is excellent",
+     "note": "Caesar's origin: the start of an excellent modern trilogy",
      "tags": "B",
      "warn": null,
-     "seq": []
-    },
-    {
-     "t": "War for the Planet of the Apes",
-     "y": 2017,
-     "note": "The trilogy's dark, moving end",
-     "tags": "D",
-     "warn": null,
-     "seq": []
+     "seq": [
+      {
+       "t": "Dawn of the Planet of the Apes",
+       "y": 2014,
+       "note": "Apes and survivors on the edge of war: the best of the three",
+       "star": true
+      },
+      {
+       "t": "War for the Planet of the Apes",
+       "y": 2017,
+       "note": "The dark, moving finale",
+       "star": true
+      },
+      {
+       "t": "Kingdom of the Planet of the Apes",
+       "y": 2024,
+       "note": "Generations later: a decent new start",
+       "star": false
+      }
+     ]
     }
    ]
   },

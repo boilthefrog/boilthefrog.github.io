@@ -1,0 +1,873 @@
+{
+ "id": "westerns",
+ "title": "Westerns",
+ "order": 4,
+ "tagline": "From Silverado to Once Upon a Time in the West without noticing the water got hot.",
+ "heatKeys": [
+  [
+   "violence",
+   "Violence"
+  ],
+  [
+   "intensity",
+   "Intensity"
+  ],
+  [
+   "age",
+   "Old-school"
+  ],
+  [
+   "challenge",
+   "Challenge"
+  ]
+ ],
+ "tags": {
+  "C": "Comedy",
+  "G": "Gunfights",
+  "M": "Modern",
+  "O": "Classic Hollywood",
+  "W": "John Wayne",
+  "E": "Eastwood",
+  "S": "Spaghetti",
+  "V": "Revenge",
+  "R": "Revisionist",
+  "D": "Bleak",
+  "X": "Strange"
+ },
+ "levels": [
+  {
+   "t": 22,
+   "name": "Popcorn",
+   "note": "Ensemble fun, charm and a quick draw.",
+   "bg": "#dbe5cc",
+   "fg": "#17110d",
+   "upto": 4
+  },
+  {
+   "t": 35,
+   "name": "The modern way in",
+   "note": "Recent Westerns that play like thrillers.",
+   "bg": "#ecdcaa",
+   "fg": "#17110d",
+   "upto": 8
+  },
+  {
+   "t": 50,
+   "name": "Classic Hollywood",
+   "note": "Ford, Hawks, Mann, Wayne, Stewart and Cooper.",
+   "bg": "#e8b47a",
+   "fg": "#17110d",
+   "upto": 16
+  },
+  {
+   "t": 65,
+   "name": "Spaghetti",
+   "note": "Leone, Corbucci and Eastwood. Dirtier, meaner, louder.",
+   "bg": "#cf5b3a",
+   "fg": "#17110d",
+   "upto": 20
+  },
+  {
+   "t": 80,
+   "name": "Revisionist",
+   "note": "The myth falls apart: Peckinpah, Unforgiven, Dead Man.",
+   "bg": "#6d1b21",
+   "fg": "#efe3cf",
+   "upto": 26
+  },
+  {
+   "t": 95,
+   "name": "Final boss",
+   "note": "The grimmest, the saddest and the slowest.",
+   "bg": "#2b0b0e",
+   "fg": "#efe3cf",
+   "upto": 30
+  },
+  {
+   "t": "100+",
+   "name": "Cooked",
+   "note": "Only if they finish Once Upon a Time in the West and ask for more.",
+   "bg": "#0c0506",
+   "fg": "#efe3cf",
+   "beyond": true
+  }
+ ],
+ "core": [
+  {
+   "n": 1,
+   "t": "Silverado",
+   "y": 1985,
+   "b": "Four drifters, one corrupt town, and Kevin Kline, Kevin Costner, Danny Glover and Scott Glenn having a ball. The most fun a Western has ever been.",
+   "tags": "GM",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Blazing Saddles",
+     "y": 1974,
+     "note": "Mel Brooks tears the whole genre apart. Rude, and still very funny",
+     "tags": "C",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Back to the Future Part III",
+     "y": 1990,
+     "note": "Marty and Doc in 1885",
+     "tags": "CM",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "t": "Butch Cassidy and the Sundance Kid",
+   "y": 1969,
+   "b": "Newman and Redford, charming outlaws on the run. 'Who are those guys?'",
+   "tags": "CO",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 2,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Jeremiah Johnson",
+     "y": 1972,
+     "note": "Redford alone in the Rockies, learning to survive",
+     "tags": "R",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "t": "Tombstone",
+   "y": 1993,
+   "b": "Kurt Russell's Wyatt Earp and Val Kilmer's Doc Holliday, who steals the film. 'I'm your huckleberry.'",
+   "tags": "GM",
+   "heat": {
+    "violence": 3,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Quick and the Dead",
+     "y": 1995,
+     "note": "Sam Raimi's quick-draw tournament: Sharon Stone, Gene Hackman, young DiCaprio and Crowe",
+     "tags": "GM",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Young Guns",
+     "y": 1988,
+     "note": "The Brat Pack as Billy the Kid's gang",
+     "tags": "GM",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "t": "The Magnificent Seven",
+   "y": 1960,
+   "b": "Seven Samurai moved to Mexico: Yul Brynner, Steve McQueen and that theme tune.",
+   "tags": "GO",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 2,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Seven Samurai",
+     "y": 1954,
+     "note": "The original, on the Action and Asian action ladders",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Professionals",
+     "y": 1966,
+     "note": "Lee Marvin and Burt Lancaster on a rescue mission into Mexico",
+     "tags": "GO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "t": "3:10 to Yuma",
+   "y": 2007,
+   "b": "Christian Bale's broke rancher has to get Russell Crowe's charming killer onto a prison train.",
+   "tags": "GM",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "3:10 to Yuma",
+     "y": 1957,
+     "note": "The tighter, talkier original with Glenn Ford",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "t": "True Grit",
+   "y": 2010,
+   "b": "The Coen brothers: a 14-year-old hires Jeff Bridges' drunk marshal to hunt her father's killer.",
+   "tags": "VM",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "True Grit",
+     "y": 1969,
+     "note": "John Wayne's Oscar-winning Rooster Cogburn",
+     "tags": "WO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Hell or High Water",
+     "y": 2016,
+     "note": "Modern Texas bank robbers and Jeff Bridges as the ranger after them",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "t": "Django Unchained",
+   "y": 2012,
+   "b": "Tarantino's spaghetti tribute: a freed slave and a German bounty hunter go after his wife.",
+   "tags": "VMG",
+   "heat": {
+    "violence": 5,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Hateful Eight",
+     "y": 2015,
+     "note": "Tarantino traps eight liars in a cabin in a blizzard",
+     "tags": "MD",
+     "warn": "Very violent.",
+     "seq": []
+    }
+   ],
+   "w": "Very bloody, and brutal scenes of slavery."
+  },
+  {
+   "n": 8,
+   "t": "Open Range",
+   "y": 2003,
+   "b": "Kevin Costner and Robert Duvall as cattlemen pushed too far. Slow burn, then one of the best gunfights ever filmed.",
+   "tags": "GM",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Dances with Wolves",
+     "y": 1990,
+     "note": "Costner's three-hour epic with the Lakota",
+     "tags": "R",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "t": "Stagecoach",
+   "y": 1939,
+   "b": "John Ford's coach full of misfits, and the shot that made John Wayne a star.",
+   "tags": "OW",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 10,
+   "t": "Red River",
+   "y": 1948,
+   "b": "Howard Hawks: John Wayne drives cattle to Missouri and Montgomery Clift mutinies.",
+   "tags": "OW",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 11,
+   "t": "Rio Bravo",
+   "y": 1959,
+   "b": "Hawks again: Wayne, Dean Martin and a kid hold a jail against a gang. Laid-back and lovely.",
+   "tags": "OW",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "El Dorado",
+     "y": 1966,
+     "note": "Hawks remakes Rio Bravo with Wayne and Robert Mitchum",
+     "tags": "OW",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "t": "High Noon",
+   "y": 1952,
+   "b": "Gary Cooper's marshal waits for the noon train and the killers on it, while the town abandons him. Told in real time.",
+   "tags": "O",
+   "heat": {
+    "violence": 2,
+    "intensity": 4,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Ox-Bow Incident",
+     "y": 1943,
+     "note": "A posse decides to hang three men. Grim and angry",
+     "tags": "OD",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Hang 'Em High",
+     "y": 1968,
+     "note": "Eastwood survives a lynching and comes back with a badge",
+     "tags": "EV",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "t": "Shane",
+   "y": 1953,
+   "b": "A gunfighter tries to hang up his guns on a homestead. 'Shane! Come back!'",
+   "tags": "O",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Pale Rider",
+     "y": 1985,
+     "note": "Eastwood remakes Shane as a ghost story",
+     "tags": "E",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "t": "The Man Who Shot Liberty Valance",
+   "y": 1962,
+   "b": "Ford, Wayne and James Stewart: who really killed the outlaw, and does it matter? 'Print the legend.'",
+   "tags": "OW",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 15,
+   "t": "Winchester '73",
+   "y": 1950,
+   "b": "James Stewart chases a stolen rifle and the brother who took it. The first of his hard, angry Westerns with Anthony Mann.",
+   "tags": "OV",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Naked Spur",
+     "y": 1953,
+     "note": "Stewart as a bounty hunter falling apart. From the Scorsese list",
+     "tags": "OV",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Man from Laramie",
+     "y": 1955,
+     "note": "Mann and Stewart's widescreen revenge",
+     "tags": "OV",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Bend of the River",
+     "y": 1952,
+     "note": "Stewart as a reformed raider guiding settlers",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "t": "The Searchers",
+   "y": 1956,
+   "b": "Wayne's darkest role: years hunting the Comanche who took his niece, and maybe planning to kill her.",
+   "tags": "OWD",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 4,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "She Wore a Yellow Ribbon",
+     "y": 1949,
+     "note": "Ford's cavalry in colour: Wayne's last patrol",
+     "tags": "OW",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Fort Apache",
+     "y": 1948,
+     "note": "Ford's cavalry: Henry Fonda's arrogant colonel",
+     "tags": "OW",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "My Darling Clementine",
+     "y": 1946,
+     "note": "Ford's poetic OK Corral, with Henry Fonda",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Johnny Guitar",
+     "y": 1954,
+     "note": "Joan Crawford vs Mercedes McCambridge. Feverish and strange",
+     "tags": "OD",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Racist hero, deliberately, and dated depictions of Native Americans."
+  },
+  {
+   "n": 17,
+   "t": "For a Few Dollars More",
+   "y": 1965,
+   "b": "Eastwood and Lee Van Cleef as rival bounty hunters, and a pocket watch. The best of the Dollars films.",
+   "tags": "SE",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [
+    {
+     "t": "A Fistful of Dollars",
+     "y": 1964,
+     "note": "Where it started: Yojimbo remade with Eastwood",
+     "star": false
+    }
+   ],
+   "br": []
+  },
+  {
+   "n": 18,
+   "t": "The Good, the Bad and the Ugly",
+   "y": 1966,
+   "b": "Three men, a fortune in gold, a civil war, and the greatest stand-off ever filmed.",
+   "tags": "SE",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Duck, You Sucker!",
+     "y": 1971,
+     "note": "Leone's revolution film, also called A Fistful of Dynamite",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "My Name Is Nobody",
+     "y": 1973,
+     "note": "Henry Fonda and Terence Hill: a comic farewell to the spaghetti Western",
+     "tags": "SC",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "t": "Django",
+   "y": 1966,
+   "b": "Sergio Corbucci: a man drags a coffin through the mud, and what's inside is a machine gun.",
+   "tags": "SV",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Big Gundown",
+     "y": 1966,
+     "note": "Lee Van Cleef hunts a man who might be innocent",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Compañeros",
+     "y": 1970,
+     "note": "Corbucci's comic revolution romp",
+     "tags": "SC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Keoma",
+     "y": 1976,
+     "note": "Franco Nero, mud and mysticism: the last great spaghetti",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Violent, and dubbed."
+  },
+  {
+   "n": 20,
+   "t": "The Outlaw Josey Wales",
+   "y": 1976,
+   "b": "Eastwood's farmer turns killer after his family is murdered, then collects a family of strays.",
+   "tags": "EV",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "High Plains Drifter",
+     "y": 1973,
+     "note": "Eastwood's vengeful stranger paints a town red. Nasty",
+     "tags": "ED",
+     "warn": "Includes a rape scene.",
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "t": "The Wild Bunch",
+   "y": 1969,
+   "b": "Peckinpah's ageing outlaws, one last job, and the bloodbath that changed screen violence.",
+   "tags": "RD",
+   "heat": {
+    "violence": 5,
+    "intensity": 4,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Ride the High Country",
+     "y": 1962,
+     "note": "Peckinpah's gentle elegy for two old lawmen",
+     "tags": "RO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Graphic violence."
+  },
+  {
+   "n": 22,
+   "t": "Pat Garrett & Billy the Kid",
+   "y": 1973,
+   "b": "Peckinpah: James Coburn hunts his old friend Kris Kristofferson. Bob Dylan sings 'Knockin' on Heaven's Door'.",
+   "tags": "RD",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [],
+   "w": "Watch the 2005 special edition, not the theatrical cut."
+  },
+  {
+   "n": 23,
+   "t": "Unforgiven",
+   "y": 1992,
+   "b": "Eastwood's old killer takes one last job and finds there's nothing heroic about it.",
+   "tags": "RED",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 24,
+   "t": "The Assassination of Jesse James by the Coward Robert Ford",
+   "y": 2007,
+   "b": "Brad Pitt's Jesse and Casey Affleck's starstruck Robert Ford. Slow, gorgeous, haunting.",
+   "tags": "RD",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [],
+   "w": "Slow: 160 minutes."
+  },
+  {
+   "n": 25,
+   "t": "Dead Man",
+   "y": 1995,
+   "b": "Jim Jarmusch: Johnny Depp drifts west, a wanted man, guided by a Native American called Nobody. Black and white, Neil Young guitar.",
+   "tags": "RX",
+   "heat": {
+    "violence": 3,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Meek's Cutoff",
+     "y": 2010,
+     "note": "Kelly Reichardt: settlers lost in the desert. Minimal and hypnotic",
+     "tags": "R",
+     "warn": "Very slow, and deliberately unresolved.",
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "t": "The Great Silence",
+   "y": 1968,
+   "b": "Corbucci's snowbound bounty-hunter nightmare, with Klaus Kinski. The bleakest ending in Westerns.",
+   "tags": "SD",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [],
+   "w": "Brutal, nihilistic, dubbed."
+  },
+  {
+   "n": 27,
+   "t": "The Proposition",
+   "y": 2005,
+   "b": "Australia: a captain makes an outlaw choose between his brothers. Written by Nick Cave. Grim as anything.",
+   "tags": "RDV",
+   "heat": {
+    "violence": 5,
+    "intensity": 5,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Bone Tomahawk",
+     "y": 2015,
+     "note": "Kurt Russell's posse vs cannibal troglodytes. Slow, then horrific",
+     "tags": "RD",
+     "warn": "One of the most gruesome scenes in any film.",
+     "seq": []
+    }
+   ],
+   "w": "Extreme violence, including a flogging."
+  },
+  {
+   "n": 28,
+   "t": "Ulzana's Raid",
+   "y": 1972,
+   "b": "Burt Lancaster's scout tracks an Apache raiding party. Brutal, intelligent, Vietnam-era bleak.",
+   "tags": "RD",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [],
+   "w": "Disturbing violence."
+  },
+  {
+   "n": 29,
+   "t": "McCabe & Mrs. Miller",
+   "y": 1971,
+   "b": "Robert Altman: Warren Beatty and Julie Christie build a brothel town in the snow. Leonard Cohen songs. Super depressing.",
+   "tags": "RD",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Hired Hand",
+     "y": 1971,
+     "note": "Peter Fonda's cult drifter Western: lovely and sad",
+     "tags": "R",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Little Big Man",
+     "y": 1970,
+     "note": "Dustin Hoffman, 121 years old, tells his story",
+     "tags": "RC",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "t": "Once Upon a Time in the West",
+   "y": 1968,
+   "b": "Leone's masterpiece: Henry Fonda as a villain, Claudia Cardinale, Bronson's harmonica. Slow and operatic.",
+   "tags": "SD",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 3,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [],
+   "w": "Nearly three hours, and it takes its time."
+  }
+ ],
+ "beyond": [
+  {
+   "t": "Heaven's Gate",
+   "y": 1980,
+   "b": "Michael Cimino's three-and-a-half-hour folly that sank a studio. Beautiful, baggy and fascinating.",
+   "tags": "RD",
+   "w": "219 minutes.",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 5
+   }
+  }
+ ]
+}

@@ -269,7 +269,7 @@ function home() {
 </ul></header>
 <div class="home-ladders">
 ${ladders.map(L => `<a class="ladder-card" href="${L.id}/"><div class="kicker">Ladder</div><h2>${esc(L.title)}</h2><div class="heatbar" aria-hidden="true"></div><p>${esc(L.tagline)}</p><p><b>${L.core[0].t} → ${L.core[L.core.length - 1].t}</b></p></a>`).join("")}
-${[["Sci-fi", "Open the pod bay doors, HAL.", "2001: A Space Odyssey"], ["War", "I love the smell of napalm in the morning.", "Apocalypse Now"], ["Westerns", "When you have to shoot, shoot. Don't talk.", "The Good, the Bad and the Ugly"], ["World cinema", "Marcello, come here!", "La Dolce Vita"], ["Superheroes", "With great power comes great responsibility.", "Spider-Man"]].map(([t, q, f]) => `<div class="ladder-card soon"><div class="kicker">Coming later</div><h2>${t}</h2><div class="heatbar" aria-hidden="true"></div><blockquote class="quote">“${esc(q)}”<cite>${esc(f)}</cite></blockquote></div>`).join("")}
+${[["Sci-fi", "Open the pod bay doors, HAL.", "2001: A Space Odyssey"], ["War", "I love the smell of napalm in the morning.", "Apocalypse Now"], ["World cinema", "Marcello, come here!", "La Dolce Vita"], ["Superheroes", "With great power comes great responsibility.", "Spider-Man"]].map(([t, q, f]) => `<div class="ladder-card soon"><div class="kicker">Coming later</div><h2>${t}</h2><div class="heatbar" aria-hidden="true"></div><blockquote class="quote">“${esc(q)}”<cite>${esc(f)}</cite></blockquote></div>`).join("")}
 </div>`;
   write("index.html", page({ title: "Boil the Frog", body }));
 }

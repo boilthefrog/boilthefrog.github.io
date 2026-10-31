@@ -629,6 +629,15 @@
      "tags": "VCUO",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Initial D",
+     "y": 2005,
+     "note": "Jay Chou's tofu-delivery boy is a mountain-pass drift genius. Hong Kong does the manga",
+     "tags": "VH",
+     "warn": null,
+     "seq": [],
+     "junk": true
     }
    ]
   },

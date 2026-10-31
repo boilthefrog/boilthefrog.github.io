@@ -59,15 +59,15 @@
   {
    "t": 65,
    "name": "Cult and dark",
-   "note": "Vampires, revenge, demons, kids who kill and Mega-City One.",
+   "note": "Vampires, revenge, demons, Hong Kong heroines, kids who kill and Mega-City One.",
    "bg": "#cf5b3a",
    "fg": "#17110d",
-   "upto": 25
+   "upto": 26
   },
   {
    "t": 80,
    "name": "Deconstructions",
-   "note": "Old Wolverine, a wrench and a slow origin story.",
+   "note": "Old Wolverine and a slow, quiet origin story.",
    "bg": "#6d1b21",
    "fg": "#efe3cf",
    "upto": 28
@@ -484,31 +484,6 @@
    "seq": [],
    "br": [
     {
-     "t": "The Heroic Trio",
-     "y": 1993,
-     "note": "Michelle Yeoh, Anita Mui and Maggie Cheung as Hong Kong superheroines. Also on Asian action",
-     "tags": "X",
-     "warn": null,
-     "seq": []
-    },
-    {
-     "t": "Black Mask",
-     "y": 1996,
-     "note": "Jet Li as an escaped super-soldier in a Kato mask. Also on Asian action",
-     "tags": "X",
-     "warn": null,
-     "seq": []
-    },
-    {
-     "t": "City Hunter",
-     "y": 1993,
-     "note": "Jackie Chan's comic adaptation, with the Street Fighter parody scene",
-     "tags": "CX",
-     "warn": null,
-     "seq": [],
-     "junk": true
-    },
-    {
      "t": "Crank",
      "y": 2006,
      "note": "Statham must keep his adrenaline up or die. Also on Action",
@@ -728,7 +703,72 @@
    ]
   },
   {
-   "n": 22,
+   "t": "The Heroic Trio",
+   "y": 1993,
+   "b": "Michelle Yeoh, Anita Mui and Maggie Cheung as three Hong Kong superheroines against a eunuch who steals babies. Johnnie To directs, Ching Siu-tung flies everyone on wires. Gloriously daft. Also on Asian action.",
+   "tags": "X",
+   "heat": {
+    "violence": 3,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [
+    {
+     "t": "Executioners",
+     "y": 1993,
+     "note": "The same year's darker, post-apocalyptic sequel",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "Black Mask",
+     "y": 1996,
+     "note": "Jet Li as an escaped super-soldier in a Kato mask. Also on Asian action",
+     "tags": "X",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Kung Fu Hustle",
+     "y": 2004,
+     "note": "Stephen Chow's tenement landlords with cartoon kung fu powers. On Asian action",
+     "tags": "CX",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Shaolin Soccer",
+     "y": 2001,
+     "note": "Shaolin monks with superhuman football skills. Core on Asian action",
+     "tags": "CX",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "City Hunter",
+     "y": 1993,
+     "note": "Jackie Chan's comic adaptation, with the Street Fighter parody scene",
+     "tags": "CX",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "The Storm Riders",
+     "y": 1998,
+     "note": "A Hong Kong comic adaptation: wire-fu, early CGI and floppy hair",
+     "tags": "X",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ],
+   "n": 22
+  },
+  {
+   "n": 23,
    "t": "Kick-Ass",
    "y": 2010,
    "b": "A teenager with no powers puts on a costume and nearly dies. Then Hit-Girl arrives.",
@@ -747,6 +787,14 @@
      "note": "Mark Millar's spy spoof. Also on Action",
      "tags": "C",
      "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Super",
+     "y": 2010,
+     "note": "James Gunn: Rainn Wilson's wrench-wielding vigilante. Funny, then horrifying",
+     "tags": "DC",
+     "warn": "Sudden extreme violence.",
      "seq": []
     },
     {
@@ -779,7 +827,7 @@
    "w": "Very violent, including a child doing the killing."
   },
   {
-   "n": 23,
+   "n": 24,
    "t": "V for Vendetta",
    "y": 2005,
    "b": "A masked anarchist and Natalie Portman take on a fascist Britain. Remember, remember.",
@@ -794,7 +842,7 @@
    "br": []
   },
   {
-   "n": 24,
+   "n": 25,
    "t": "Darkman",
    "y": 1990,
    "b": "Sam Raimi's pre-Spider-Man pulp anti-hero: Liam Neeson, burned and furious.",
@@ -809,7 +857,7 @@
    "br": []
   },
   {
-   "n": 25,
+   "n": 26,
    "t": "Dredd",
    "y": 2012,
    "b": "Karl Urban's judge, a tower block and the drug Slo-Mo. Also on Action.",
@@ -852,7 +900,7 @@
    "w": "Very gory."
   },
   {
-   "n": 26,
+   "n": 27,
    "t": "Logan",
    "y": 2017,
    "b": "An old, dying Wolverine drives a mute girl to the border. Shane with claws.",
@@ -866,22 +914,6 @@
    "seq": [],
    "br": [],
    "w": "Very violent."
-  },
-  {
-   "n": 27,
-   "t": "Super",
-   "y": 2010,
-   "b": "James Gunn before Guardians: Rainn Wilson's sad sack becomes a wrench-wielding vigilante. Funny, then horrifying.",
-   "tags": "DC",
-   "heat": {
-    "violence": 5,
-    "intensity": 4,
-    "age": 0,
-    "challenge": 3
-   },
-   "seq": [],
-   "br": [],
-   "w": "Sudden extreme violence."
   },
   {
    "n": 28,

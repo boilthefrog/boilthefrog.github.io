@@ -785,18 +785,27 @@
   },
   {
    "n": 27,
-   "t": "The Proposition",
-   "y": 2005,
-   "b": "Australia: a captain makes an outlaw choose between his brothers. Written by Nick Cave. Grim as anything.",
-   "tags": "RDV",
+   "t": "Ulzana's Raid",
+   "y": 1972,
+   "b": "Burt Lancaster's weary scout and a green cavalry officer track an Apache raiding party. Brutal, intelligent, Vietnam-era bleak.",
+   "tags": "RD",
+   "w": "Disturbing violence.",
    "heat": {
-    "violence": 5,
-    "intensity": 5,
-    "age": 0,
+    "violence": 4,
+    "intensity": 4,
+    "age": 3,
     "challenge": 3
    },
    "seq": [],
    "br": [
+    {
+     "t": "The Proposition",
+     "y": 2005,
+     "note": "Australia: an outlaw must choose between his brothers. Written by Nick Cave. Grim as anything",
+     "tags": "RDV",
+     "warn": "Extreme violence, including a flogging.",
+     "seq": []
+    },
     {
      "t": "Bone Tomahawk",
      "y": 2015,
@@ -804,17 +813,8 @@
      "tags": "RD",
      "warn": "One of the most gruesome scenes in any film.",
      "seq": []
-    },
-    {
-     "t": "Ulzana's Raid",
-     "y": 1972,
-     "note": "Burt Lancaster's scout tracks an Apache raiding party. Brutal and intelligent",
-     "tags": "RD",
-     "warn": "Disturbing violence.",
-     "seq": []
     }
-   ],
-   "w": "Extreme violence, including a flogging."
+   ]
   },
   {
    "n": 28,

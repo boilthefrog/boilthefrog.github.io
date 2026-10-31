@@ -163,6 +163,14 @@
      "tags": "CM",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Grosse Pointe Blank",
+     "y": 1997,
+     "note": "John Cusack's hitman goes to his school reunion",
+     "tags": "CG",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -429,6 +437,15 @@
      "tags": "B",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Road House",
+     "y": 1989,
+     "note": "Swayze as a philosophical bouncer. Gloriously stupid",
+     "tags": "GC",
+     "warn": null,
+     "seq": [],
+     "junk": true
     }
    ]
   },
@@ -538,32 +555,32 @@
   },
   {
    "n": 10,
-   "t": "Point Break",
-   "y": 1991,
-   "b": "Keanu goes undercover with Swayze's surfing bank robbers. Kathryn Bigelow's sun-bleached, adrenaline-junkie classic, with the best foot chase ever filmed.",
-   "tags": "PGV",
+   "t": "Fast Five",
+   "y": 2011,
+   "b": "The franchise becomes a heist series with cars. Dragging a vault through Rio.",
+   "tags": "VB",
    "heat": {
-    "violence": 3,
+    "violence": 2,
     "intensity": 3,
-    "age": 1,
+    "age": 0,
     "challenge": 0
    },
-   "seq": [],
+   "seq": [
+    {
+     "t": "The Fast and the Furious",
+     "y": 2001,
+     "note": "Where it started: Point Break with cars",
+     "star": false
+    }
+   ],
    "br": [
     {
-     "t": "Fast Five",
-     "y": 2011,
-     "note": "The family heist that turned the series into Point Break with cars",
-     "tags": "VB",
+     "t": "Point Break",
+     "y": 1991,
+     "note": "The film the franchise copied: Keanu undercover with Swayze's surfing bank robbers",
+     "tags": "PGV",
      "warn": null,
-     "seq": [
-      {
-       "t": "The Fast and the Furious",
-       "y": 2001,
-       "note": "Where it started: Point Break with cars",
-       "star": false
-      }
-     ]
+     "seq": []
     },
     {
      "t": "Smokey and the Bandit",
@@ -596,15 +613,6 @@
      "tags": "VCUO",
      "warn": null,
      "seq": []
-    },
-    {
-     "t": "Road House",
-     "y": 1989,
-     "note": "Swayze as a philosophical bouncer. Gloriously stupid",
-     "tags": "GC",
-     "warn": null,
-     "seq": [],
-     "junk": true
     }
    ]
   },

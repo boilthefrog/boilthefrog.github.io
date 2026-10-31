@@ -162,6 +162,14 @@
    ],
    "br": [
     {
+     "t": "The Fifth Element",
+     "y": 1997,
+     "note": "Luc Besson's candy-coloured romp: Bruce Willis, Milla Jovovich, Gary Oldman's hair",
+     "tags": "SC",
+     "warn": null,
+     "seq": []
+    },
+    {
      "t": "Flash Gordon",
      "y": 1980,
      "note": "Queen's soundtrack and Brian Blessed shouting",
@@ -193,7 +201,17 @@
     "challenge": 0
    },
    "seq": [],
-   "br": [],
+   "br": [
+    {
+     "t": "Independence Day",
+     "y": 1996,
+     "note": "Will Smith punches an alien. Gloriously dumb",
+     "tags": "B",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ],
    "n": 3
   },
   {
@@ -473,6 +491,22 @@
      "tags": "B",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "War of the Worlds",
+     "y": 2005,
+     "note": "Spielberg's invasion: the tripods' first attack is terrifying",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Abyss",
+     "y": 1989,
+     "note": "James Cameron's deep-sea aliens and a rig crew at breaking point",
+     "tags": "B",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -512,6 +546,14 @@
      "note": "Snake Plissken in prison Manhattan",
      "tags": "VO",
      "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Upgrade",
+     "y": 2018,
+     "note": "A paralysed man's AI implant turns him into a killing machine",
+     "tags": "VD",
+     "warn": "Very violent.",
      "seq": []
     }
    ],
@@ -560,6 +602,14 @@
      "note": "A man without perfect genes fakes his way into space",
      "tags": "D",
      "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Strange Days",
+     "y": 1995,
+     "note": "Kathryn Bigelow: recorded memories traded on the eve of 2000",
+     "tags": "D",
+     "warn": "Includes a disturbing sexual assault scene.",
      "seq": []
     }
    ],
@@ -683,6 +733,14 @@
      "tags": "B",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "The Martian",
+     "y": 2015,
+     "note": "Matt Damon stranded on Mars, science-ing his way home",
+     "tags": "BC",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -786,6 +844,14 @@
      "y": 2006,
      "note": "Satoshi Kon's dream-detective trip",
      "tags": "AJX",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Nausicaä of the Valley of the Wind",
+     "y": 1984,
+     "note": "Miyazaki's ecological epic, before Studio Ghibli",
+     "tags": "AJ",
      "warn": null,
      "seq": []
     }
@@ -1001,6 +1067,14 @@
      "warn": null,
      "seq": [],
      "junk": true
+    },
+    {
+     "t": "Them!",
+     "y": 1954,
+     "note": "Giant radioactive ants in the desert",
+     "tags": "OM",
+     "warn": null,
+     "seq": []
     }
    ]
   },

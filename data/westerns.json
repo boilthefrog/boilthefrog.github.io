@@ -403,6 +403,14 @@
      "tags": "OW",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Assault on Precinct 13",
+     "y": 1976,
+     "note": "John Carpenter remakes Rio Bravo as a police-station siege in 70s LA",
+     "tags": "M",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -433,6 +441,14 @@
      "y": 1968,
      "note": "Eastwood survives a lynching and comes back with a badge",
      "tags": "EV",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Outland",
+     "y": 1981,
+     "note": "Sean Connery's marshal waits for killers on a mining moon: High Noon in space",
+     "tags": "M",
      "warn": null,
      "seq": []
     }
@@ -664,6 +680,14 @@
      "y": 1973,
      "note": "Henry Fonda and Terence Hill: a comic farewell to the spaghetti Western",
      "tags": "SC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Escape from New York",
+     "y": 1981,
+     "note": "Carpenter's Western in disguise: Snake Plissken does Eastwood, with Lee Van Cleef along",
+     "tags": "M",
      "warn": null,
      "seq": []
     }

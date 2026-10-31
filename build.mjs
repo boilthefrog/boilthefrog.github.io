@@ -67,7 +67,10 @@ async function findId(f) {
   const tries = [{ query: q, primary_release_year: f.y }, { query: q, year: f.y }, { query: q }];
   for (const p of tries) {
     const r = await tmdb("/search/movie", p);
-    const hit = (r.results || []).find(m => Math.abs(+(m.release_date || "0").slice(0, 4) - f.y) <= 1);
+    const n = x => (x || "").toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]/g, "").replace(/^the/, "");
+    const inYear = (r.results || []).filter(m => Math.abs(+(m.release_date || "0").slice(0, 4) - f.y) <= 1);
+    const exact = inYear.find(m => n(m.title) === n(q) || n(m.original_title) === n(q));
+    const hit = exact || inYear.sort((a, b) => (b.vote_count || 0) - (a.vote_count || 0))[0];
     if (hit) return hit.id;
   }
   return null;

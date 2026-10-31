@@ -180,7 +180,7 @@ footer a{color:var(--bone)}
 
 /* ---------- film page ---------- */
 .film{max-width:980px;margin:0 auto;padding:36px 20px 60px;display:grid;grid-template-columns:240px 1fr;gap:28px}
-@media (max-width:720px){.film{grid-template-columns:1fr}.film .fposter{max-width:200px}}
+@media (max-width:720px){.film{grid-template-columns:1fr}.film .fposter{max-width:160px}}
 .fposter{width:100%;height:auto;border:3px solid var(--ink);box-shadow:8px 8px 0 rgba(0,0,0,.28);background:var(--paper)}
 .fposter.blank{aspect-ratio:2/3;display:flex;align-items:center;justify-content:center;font-family:var(--display);font-weight:900;font-size:28px;text-transform:uppercase;text-align:center;padding:12px}
 .film h1{font-size:clamp(44px,8vw,88px);margin:0 0 6px}
@@ -216,3 +216,4 @@ footer a{color:var(--bone)}
 .branches summary,.branches .preview{min-width:0;overflow-wrap:anywhere}
 .label .branches{grid-column:1 / -1}
 .branches .sumlab{white-space:normal}
+.fposter{aspect-ratio:2/3;object-fit:cover}

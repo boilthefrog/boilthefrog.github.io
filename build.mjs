@@ -104,6 +104,7 @@ const poster = (id, size = "w185") => M(id).poster ? IMG + size + M(id).poster :
 /* ---------- layout ---------- */
 const CSS = fs.readFileSync(path.join(ROOT, "src", "site.css"), "utf8");
 const JS = fs.readFileSync(path.join(ROOT, "src", "site.js"), "utf8");
+const VER = (await import("node:crypto")).createHash("md5").update(CSS + JS).digest("hex").slice(0, 8);
 fs.mkdirSync(OUT, { recursive: true });
 write("assets/site.css", CSS);
 write("assets/site.js", JS);
@@ -119,7 +120,7 @@ const page = ({ title, body, root = "", desc = "", extraHead = "" }) => `<!DOCTY
 <meta name="description" content="${esc(desc || "Film ladders for people who think they don't like a genre. Start lukewarm, finish at the deep end.")}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="${root}assets/site.css">
+<link rel="stylesheet" href="${root}assets/site.css?v=${VER}">
 ${extraHead}
 </head>
 <body>
@@ -129,7 +130,7 @@ ${body}
 <p class="small">Boil the Frog: film ladders for people who think they don't like a genre. Ticks are saved in this browser only.</p>
 <p class="credit">Film data and posters from <a href="https://www.themoviedb.org/">TMDB</a>. This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
 </div></div></footer>
-<script src="${root}assets/site.js"></script>
+<script src="${root}assets/site.js?v=${VER}"></script>
 </body></html>`;
 
 /* ---------- ladder page ---------- */

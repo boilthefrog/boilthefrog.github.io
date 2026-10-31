@@ -381,6 +381,14 @@
      "tags": "M",
      "warn": "Graphic.",
      "seq": []
+    },
+    {
+     "t": "Battleground",
+     "y": 1949,
+     "note": "The 101st Airborne surrounded at Bastogne",
+     "tags": "O",
+     "warn": null,
+     "seq": []
     }
    ],
    "w": "The opening 25 minutes are graphic and harrowing."
@@ -430,6 +438,14 @@
      "tags": "M",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Sergeant York",
+     "y": 1941,
+     "note": "Gary Cooper's backwoods pacifist becomes WWI's great hero",
+     "tags": "O",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -452,6 +468,14 @@
      "note": "Four hours of the turning-point battle",
      "tags": "O",
      "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Last of the Mohicans",
+     "y": 1992,
+     "note": "Daniel Day-Lewis in the French and Indian War. Also on Action",
+     "tags": "F",
+     "warn": "Violent.",
      "seq": []
     }
    ],
@@ -566,6 +590,22 @@
      "tags": "O",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "They Were Expendable",
+     "y": 1945,
+     "note": "John Ford's PT boats in the Philippines: John Wayne's best war film",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "From Here to Eternity",
+     "y": 1953,
+     "note": "Pearl Harbor, Sinatra, and the kiss on the beach",
+     "tags": "O",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -630,7 +670,24 @@
     "challenge": 3
    },
    "seq": [],
-   "br": [],
+   "br": [
+    {
+     "t": "The Sand Pebbles",
+     "y": 1966,
+     "note": "Steve McQueen on an American gunboat in 1920s China",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Waterloo",
+     "y": 1970,
+     "note": "Rod Steiger's Napoleon and 15,000 real Soviet soldiers",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ],
    "w": "Long: 3 hours 47."
   },
   {
@@ -727,6 +784,14 @@
      "warn": null,
      "seq": [],
      "junk": true
+    },
+    {
+     "t": "We Were Soldiers",
+     "y": 2002,
+     "note": "Mel Gibson at the first big battle of Vietnam, Ia Drang",
+     "tags": "V",
+     "warn": "Very violent.",
+     "seq": []
     }
    ],
    "w": "Graphic violence and a village massacre."
@@ -757,6 +822,14 @@
      "t": "The Hurt Locker",
      "y": 2008,
      "note": "A bomb-disposal sergeant in Iraq",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "American Sniper",
+     "y": 2014,
+     "note": "Clint Eastwood: Bradley Cooper's Navy SEAL sniper in Iraq and at home",
      "tags": "M",
      "warn": null,
      "seq": []
@@ -1039,7 +1112,16 @@
     "challenge": 3
    },
    "seq": [],
-   "br": [],
+   "br": [
+    {
+     "t": "Battleship Potemkin",
+     "y": 1925,
+     "note": "Eisenstein's mutiny and the Odessa Steps: the most famous sequence in silent film",
+     "tags": "WO",
+     "warn": "Silent.",
+     "seq": []
+    }
+   ],
    "w": "Subtitled; bombings and torture."
   },
   {

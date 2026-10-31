@@ -42,8 +42,8 @@
   },
   {
    "t": 35,
-   "name": "The good Marvel and friends",
-   "note": "Stark, Raimi's Spider-Man, X2, Cap, the Avengers and RRR.",
+   "name": "Blockbusters",
+   "note": "Stark, Raimi's Spider-Man, X2, Cap, the Avengers, and RRR's two Indian revolutionaries.",
    "bg": "#ecdcaa",
    "fg": "#17110d",
    "upto": 11
@@ -119,6 +119,30 @@
      "warn": null,
      "seq": [],
      "junk": true
+    },
+    {
+     "t": "Superman",
+     "y": 2025,
+     "note": "James Gunn's bright, hopeful reboot with David Corenswet and Krypto",
+     "tags": "DC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Wonder Woman",
+     "y": 2017,
+     "note": "Gal Gadot in No Man's Land: the best of the recent DC films",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Shazam!",
+     "y": 2019,
+     "note": "A kid who turns into a grown-up superhero: Big with lightning",
+     "tags": "DC",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -229,7 +253,14 @@
     "age": 0,
     "challenge": 0
    },
-   "seq": [],
+   "seq": [
+    {
+     "t": "Guardians of the Galaxy Vol. 3",
+     "y": 2023,
+     "note": "A moving send-off for Rocket",
+     "star": true
+    }
+   ],
    "br": [
     {
      "t": "Thor: Ragnarok",
@@ -254,7 +285,24 @@
     "challenge": 0
    },
    "seq": [],
-   "br": []
+   "br": [
+    {
+     "t": "Black Panther",
+     "y": 2018,
+     "note": "Wakanda, and Michael B. Jordan's Killmonger, the best Marvel villain",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Thunderbolts*",
+     "y": 2025,
+     "note": "Marvel's misfits and a film about depression. A late surprise",
+     "tags": "MC",
+     "warn": null,
+     "seq": []
+    }
+   ]
   },
   {
    "n": 7,
@@ -276,7 +324,24 @@
      "star": false
     }
    ],
-   "br": []
+   "br": [
+    {
+     "t": "Spider-Man: Homecoming",
+     "y": 2017,
+     "note": "Tom Holland's high-school Spidey and Michael Keaton's Vulture",
+     "tags": "MC",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Spider-Man: No Way Home",
+     "y": 2021,
+     "note": "Three Spider-Men, a nostalgia overload",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ]
   },
   {
    "n": 8,
@@ -358,6 +423,14 @@
      "t": "Avengers: Infinity War",
      "y": 2018,
      "note": "Thanos, and the snap",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Avengers: Endgame",
+     "y": 2019,
+     "note": "The payoff for 22 films. Needs the homework",
      "tags": "M",
      "warn": null,
      "seq": []
@@ -509,7 +582,17 @@
      "star": true
     }
    ],
-   "br": [],
+   "br": [
+    {
+     "t": "Venom",
+     "y": 2018,
+     "note": "Tom Hardy argues with his alien goo",
+     "tags": "MC",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ],
    "w": "Gory."
   },
   {
@@ -548,7 +631,17 @@
      "star": true
     }
    ],
-   "br": []
+   "br": [
+    {
+     "t": "Constantine",
+     "y": 2005,
+     "note": "Keanu Reeves as a chain-smoking exorcist",
+     "tags": "DX",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
   },
   {
    "n": 21,
@@ -589,6 +682,14 @@
      "warn": null,
      "seq": [],
      "junk": true
+    },
+    {
+     "t": "The Suicide Squad",
+     "y": 2021,
+     "note": "James Gunn's gory, funny do-over of DC's villain team",
+     "tags": "DC",
+     "warn": "Very gory.",
+     "seq": []
     }
    ],
    "w": "Very violent, including a child doing the killing."

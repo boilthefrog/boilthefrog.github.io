@@ -149,6 +149,22 @@
      "seq": []
     },
     {
+     "t": "Hapkido",
+     "y": 1972,
+     "note": "Angela Mao, Lee's sister in Enter the Dragon, in her best film",
+     "tags": "MOH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Lady Whirlwind",
+     "y": 1972,
+     "note": "Angela Mao's breakout: 'Lady Kung Fu'",
+     "tags": "MOH",
+     "warn": null,
+     "seq": []
+    },
+    {
      "t": "The Street Fighter",
      "y": 1974,
      "note": "Sonny Chiba at his most brutal: he rips a man's throat out",
@@ -791,6 +807,14 @@
      "tags": "MCH",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Mr. Vampire",
+     "y": 1985,
+     "note": "Lam Ching-ying's Taoist priest vs hopping vampires. Kung fu slapstick",
+     "tags": "MCXH",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -937,10 +961,19 @@
     {
      "t": "Ong-Bak",
      "y": 2003,
-     "note": "Tony Jaa's knees and elbows. Fights great, film weak",
+     "note": "Tony Jaa's knees and elbows, no wires. Plot is nonsense, fights are astonishing",
      "tags": "M",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Tom Yum Goong",
+     "y": 2005,
+     "note": "Tony Jaa wants his elephant back. Stupid, but the one-take staircase fight is untouchable",
+     "tags": "M",
+     "warn": "Lots of bone-breaking.",
+     "seq": [],
+     "junk": true
     },
     {
      "t": "Furie",
@@ -1285,7 +1318,16 @@
     "challenge": 5
    },
    "seq": [],
-   "br": [],
+   "br": [
+    {
+     "t": "Sword of Doom",
+     "y": 1966,
+     "note": "Tatsuya Nakadai as a swordsman with no soul. That ending",
+     "tags": "NOJ",
+     "warn": "Very violent, and deliberately unresolved.",
+     "seq": []
+    }
+   ],
    "w": "An agonising ritual-suicide scene."
   }
  ],

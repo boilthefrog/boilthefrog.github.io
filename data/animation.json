@@ -1,0 +1,996 @@
+{
+ "id": "animation",
+ "title": "Animation",
+ "order": 12,
+ "tagline": "From Toy Story 2 to Waltz with Bashir without noticing the water got hot.",
+ "heatKeys": [
+  [
+   "violence",
+   "Violence"
+  ],
+  [
+   "intensity",
+   "Intensity"
+  ],
+  [
+   "age",
+   "Old-school"
+  ],
+  [
+   "challenge",
+   "Challenge"
+  ]
+ ],
+ "tags": {
+  "P": "Pixar",
+  "D": "Disney",
+  "G": "Ghibli & Japan",
+  "H": "Stop-motion & handmade",
+  "K": "Comedy",
+  "W": "World",
+  "A": "Grown-up",
+  "O": "Classics"
+ },
+ "levels": [
+  {
+   "t": 22,
+   "name": "Popcorn",
+   "note": "Toys, an ogre, supers, a genie, a frying pan and a cat on his last life.",
+   "bg": "#dbe5cc",
+   "fg": "#17110d",
+   "upto": 6
+  },
+  {
+   "t": 35,
+   "name": "Modern classics",
+   "note": "Spider-Verse, emotions, a rat chef, robots and Santa.",
+   "bg": "#ecdcaa",
+   "fg": "#17110d",
+   "upto": 12
+  },
+  {
+   "t": 50,
+   "name": "Handmade",
+   "note": "Plasticine, a flooded cat, a shell, paper samurai and Belleville.",
+   "bg": "#e8b47a",
+   "fg": "#17110d",
+   "upto": 17
+  },
+  {
+   "t": 65,
+   "name": "Ghibli and the classics",
+   "note": "Totoro, sky pirates, the bathhouse, Snow White and Toontown.",
+   "bg": "#cf5b3a",
+   "fg": "#17110d",
+   "upto": 24
+  },
+  {
+   "t": 80,
+   "name": "Grown-up",
+   "note": "Iran, Philip K. Dick, cyborgs and Neo-Tokyo.",
+   "bg": "#6d1b21",
+   "fg": "#efe3cf",
+   "upto": 28
+  },
+  {
+   "t": 95,
+   "name": "Final boss",
+   "note": "Satoshi Kon's nightmare and an animated war documentary.",
+   "bg": "#2b0b0e",
+   "fg": "#efe3cf",
+   "upto": 30
+  },
+  {
+   "t": "100+",
+   "name": "Cooked",
+   "note": "Only if they finish Waltz with Bashir and ask for more.",
+   "bg": "#0c0506",
+   "fg": "#efe3cf",
+   "beyond": true
+  }
+ ],
+ "core": [
+  {
+   "n": 1,
+   "t": "Toy Story 2",
+   "y": 1999,
+   "b": "Woody is stolen by a collector, and Buzz leads a rescue. Jessie's song. Better than the first.",
+   "tags": "PK",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "Toy Story",
+     "y": 1995,
+     "note": "The first computer-animated feature: where it all started",
+     "star": true
+    },
+    {
+     "t": "Toy Story 3",
+     "y": 2010,
+     "note": "The incinerator. Bring tissues",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Monsters, Inc.",
+     "y": 2001,
+     "note": "Sulley, Mike and Boo",
+     "tags": "PK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Finding Nemo",
+     "y": 2003,
+     "note": "A clownfish crosses the ocean",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Up",
+     "y": 2009,
+     "note": "The first ten minutes, then balloons",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Coco",
+     "y": 2017,
+     "note": "The Land of the Dead and 'Remember Me'",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "t": "Shrek",
+   "y": 2001,
+   "b": "An ogre, a donkey and every fairy tale sent up. The film that made DreamWorks. Also on Fantasy.",
+   "tags": "K",
+   "heat": {
+    "violence": 1,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "Shrek 2",
+     "y": 2004,
+     "note": "Antonio Banderas's Puss arrives",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "The Mitchells vs. the Machines",
+     "y": 2021,
+     "note": "A dysfunctional family road trip during the robot apocalypse",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Lego Movie",
+     "y": 2014,
+     "note": "Everything is awesome",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "t": "The Incredibles",
+   "y": 2004,
+   "b": "Pixar's retired superhero family, forced back into action. Also core on Superheroes.",
+   "tags": "PK",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "Incredibles 2",
+     "y": 2018,
+     "note": "Fun, if not as sharp",
+     "star": false
+    }
+   ],
+   "br": []
+  },
+  {
+   "n": 4,
+   "t": "Aladdin",
+   "y": 1992,
+   "b": "Robin Williams's Genie turns a Disney fairy tale into a stand-up set. The best of the Disney Renaissance.",
+   "tags": "DK",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Emperor's New Groove",
+     "y": 2000,
+     "note": "The funniest Disney film. Pull the lever, Kronk",
+     "tags": "DK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Lion King",
+     "y": 1994,
+     "note": "Hamlet with lions",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Little Mermaid",
+     "y": 1989,
+     "note": "The one that started the Renaissance",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Lilo & Stitch",
+     "y": 2002,
+     "note": "Elvis, Hawaii and a destructive alien",
+     "tags": "DK",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "t": "Tangled",
+   "y": 2010,
+   "b": "Rapunzel with a frying pan and a charming thief. Funny, warm, and the lantern scene.",
+   "tags": "DK",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Frozen",
+     "y": 2013,
+     "note": "Let it go",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Moana",
+     "y": 2016,
+     "note": "A wayfinder, a demigod and the ocean",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Zootopia",
+     "y": 2016,
+     "note": "A rabbit cop and a fox con artist",
+     "tags": "DK",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "t": "Puss in Boots: The Last Wish",
+   "y": 2022,
+   "b": "Puss is down to his last life and hunted by Death, a whistling wolf. Painterly, funny and genuinely moving.",
+   "tags": "K",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 7,
+   "t": "Spider-Man: Into the Spider-Verse",
+   "y": 2018,
+   "b": "Miles Morales and a multiverse of Spider-People, animated like a comic come alive. Also core on Superheroes.",
+   "tags": "K",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [
+    {
+     "t": "Spider-Man: Across the Spider-Verse",
+     "y": 2023,
+     "note": "Even more dazzling",
+     "star": true
+    }
+   ],
+   "br": []
+  },
+  {
+   "n": 8,
+   "t": "Inside Out",
+   "y": 2015,
+   "b": "The emotions inside an 11-year-old's head, and why Sadness matters. Bing Bong.",
+   "tags": "P",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [
+    {
+     "t": "Inside Out 2",
+     "y": 2024,
+     "note": "Anxiety arrives",
+     "star": false
+    }
+   ],
+   "br": []
+  },
+  {
+   "n": 9,
+   "t": "Ratatouille",
+   "y": 2007,
+   "b": "A rat who wants to cook in Paris. A film about art and criticism; Anton Ego's review speech.",
+   "tags": "P",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 10,
+   "t": "WALL-E",
+   "y": 2008,
+   "b": "Pixar's lonely robot on an abandoned Earth. Barely a word for 40 minutes. Also core on Sci-fi.",
+   "tags": "P",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Wild Robot",
+     "y": 2024,
+     "note": "A robot stranded on an island raises a gosling",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "t": "The Iron Giant",
+   "y": 1999,
+   "b": "Brad Bird: a 50-foot robot falls on 1950s Maine, and a boy teaches it that it doesn't have to be a gun. 'Superman.'",
+   "tags": "O",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 12,
+   "t": "Klaus",
+   "y": 2019,
+   "b": "A lazy postman in a frozen town invents Santa. Hand-drawn with lighting like a painting.",
+   "tags": "W",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 13,
+   "t": "The Wrong Trousers",
+   "y": 1993,
+   "b": "Wallace, Gromit, a sinister penguin lodger and the model-train chase. Aardman's masterpiece, 30 minutes long.",
+   "tags": "HK",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Wallace & Gromit: The Curse of the Were-Rabbit",
+     "y": 2005,
+     "note": "The feature-length one",
+     "tags": "HK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Chicken Run",
+     "y": 2000,
+     "note": "The Great Escape with chickens",
+     "tags": "HK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Wallace & Gromit: Vengeance Most Fowl",
+     "y": 2024,
+     "note": "Feathers McGraw returns",
+     "tags": "HK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Shaun the Sheep Movie",
+     "y": 2015,
+     "note": "Wordless farm chaos",
+     "tags": "HK",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "t": "Flow",
+   "y": 2024,
+   "b": "A cat survives a great flood on a boat with a capybara, a dog and a secretary bird. No dialogue, Oscar winner. Also on Fantasy.",
+   "tags": "W",
+   "heat": {
+    "violence": 0,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "How to Train Your Dragon",
+     "y": 2010,
+     "note": "A Viking boy and a dragon",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "t": "Marcel the Shell with Shoes On",
+   "y": 2021,
+   "b": "A one-inch shell with googly eyes, filmed like a documentary, looking for his lost family. Tiny and devastating.",
+   "tags": "HK",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Fantastic Mr. Fox",
+     "y": 2009,
+     "note": "Wes Anderson's stop-motion fox heist",
+     "tags": "HK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Isle of Dogs",
+     "y": 2018,
+     "note": "Wes Anderson's exiled dogs",
+     "tags": "H",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "t": "Kubo and the Two Strings",
+   "y": 2016,
+   "b": "Laika's samurai fable: a boy with a magic shamisen, a monkey and a beetle. Breathtaking stop-motion.",
+   "tags": "H",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Coraline",
+     "y": 2009,
+     "note": "Laika's button-eyed other mother. Core on Fantasy",
+     "tags": "HD",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Guillermo del Toro's Pinocchio",
+     "y": 2022,
+     "note": "Stop-motion Pinocchio in Mussolini's Italy",
+     "tags": "H",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "t": "The Triplets of Belleville",
+   "y": 2003,
+   "b": "Sylvain Chomet: a kidnapped Tour de France cyclist, his club-footed grandmother, a fat dog and three ancient jazz singers. Wordless and grotesque.",
+   "tags": "W",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Illusionist",
+     "y": 2010,
+     "note": "Chomet animates a Jacques Tati script",
+     "tags": "W",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Fantastic Planet",
+     "y": 1973,
+     "note": "French surrealism: humans as pets of blue giants",
+     "tags": "WO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "t": "My Neighbor Totoro",
+   "y": 1988,
+   "b": "Two sisters move to the country and meet a giant, sleepy forest spirit. The catbus. Ghibli's gentlest.",
+   "tags": "G",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Kiki's Delivery Service",
+     "y": 1989,
+     "note": "A teenage witch's delivery business",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Ponyo",
+     "y": 2008,
+     "note": "A goldfish who wants to be a girl",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "t": "Castle in the Sky",
+   "y": 1986,
+   "b": "Ghibli's pure adventure: a girl with a magic crystal, sky pirates and a floating city.",
+   "tags": "G",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Porco Rosso",
+     "y": 1992,
+     "note": "A pig who flies seaplanes over the Adriatic",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "t": "Spirited Away",
+   "y": 2001,
+   "b": "A girl trapped in a bathhouse for spirits must work to save her parents. Miyazaki's masterpiece.",
+   "tags": "G",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Howl's Moving Castle",
+     "y": 2004,
+     "note": "A walking castle and a cursed girl",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Princess Mononoke",
+     "y": 1997,
+     "note": "Miyazaki's angriest epic. Core on Fantasy",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Tale of the Princess Kaguya",
+     "y": 2013,
+     "note": "Takahata's watercolour folk tale",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Your Name",
+     "y": 2016,
+     "note": "A body swap across time and a comet",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "A Silent Voice",
+     "y": 2016,
+     "note": "A bully seeks forgiveness from a deaf girl",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "t": "Nausicaä of the Valley of the Wind",
+   "y": 1984,
+   "b": "Miyazaki's ecological epic, before Ghibli: a princess, a toxic jungle and giant insects.",
+   "tags": "G",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 22,
+   "t": "Snow White and the Seven Dwarfs",
+   "y": 1937,
+   "b": "The first Disney feature. 'Disney's Folly', and it changed everything.",
+   "tags": "DO",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 4,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Pinocchio",
+     "y": 1940,
+     "note": "Pleasure Island and the whale. The best early Disney",
+     "tags": "DO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Fantasia",
+     "y": 1940,
+     "note": "Mickey's brooms and Night on Bald Mountain",
+     "tags": "DO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Dumbo",
+     "y": 1941,
+     "note": "Pink elephants on parade",
+     "tags": "DO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Bambi",
+     "y": 1942,
+     "note": "The mother",
+     "tags": "DO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Cinderella",
+     "y": 1950,
+     "note": "Bibbidi-bobbidi-boo",
+     "tags": "DO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Jungle Book",
+     "y": 1967,
+     "note": "The bare necessities",
+     "tags": "DO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "One Hundred and One Dalmatians",
+     "y": 1961,
+     "note": "Cruella",
+     "tags": "DO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "The witch scared kids in 1937 and still does."
+  },
+  {
+   "n": 23,
+   "t": "Beauty and the Beast",
+   "y": 1991,
+   "b": "The first animated film nominated for Best Picture: the ballroom, 'Be Our Guest' and Angela Lansbury's teapot.",
+   "tags": "D",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 24,
+   "t": "Who Framed Roger Rabbit",
+   "y": 1988,
+   "b": "Bob Hoskins's detective in a 1947 LA full of cartoons. Bugs and Mickey together, Jessica Rabbit, the Dip.",
+   "tags": "KO",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [],
+   "w": "Judge Doom traumatised a generation."
+  },
+  {
+   "n": 25,
+   "t": "Persepolis",
+   "y": 2007,
+   "b": "Marjane Satrapi's black-and-white memoir: growing up punk through the Iranian revolution. Funny, angry, moving.",
+   "tags": "A",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Mary and Max",
+     "y": 2009,
+     "note": "A lonely Australian girl and a New York man become pen pals. Claymation tragicomedy",
+     "tags": "AH",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Song of the Sea",
+     "y": 2014,
+     "note": "Cartoon Saloon's Irish selkie tale",
+     "tags": "W",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Anomalisa",
+     "y": 2015,
+     "note": "Charlie Kaufman's stop-motion loneliness",
+     "tags": "AH",
+     "warn": "Sexual content.",
+     "seq": []
+    }
+   ],
+   "w": "Subtitled."
+  },
+  {
+   "n": 26,
+   "t": "A Scanner Darkly",
+   "y": 2006,
+   "b": "Richard Linklater rotoscopes Philip K. Dick: Keanu Reeves as an undercover cop addicted to the drug he's hunting. Also on Sci-fi.",
+   "tags": "A",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Waking Life",
+     "y": 2001,
+     "note": "Linklater's rotoscoped dream of philosophy",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Drug paranoia."
+  },
+  {
+   "n": 27,
+   "t": "Ghost in the Shell",
+   "y": 1995,
+   "b": "Mamoru Oshii: a cyborg cop hunts a hacker and wonders whether she has a soul. The Matrix borrowed it wholesale.",
+   "tags": "GA",
+   "heat": {
+    "violence": 3,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Paprika",
+     "y": 2006,
+     "note": "Satoshi Kon's dream-detective trip",
+     "tags": "GA",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Violence and nudity."
+  },
+  {
+   "n": 28,
+   "t": "Akira",
+   "y": 1988,
+   "b": "Neo-Tokyo bikers, government experiments and a boy who becomes a god. Also core on Sci-fi.",
+   "tags": "GA",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [],
+   "w": "Graphic violence and body horror."
+  },
+  {
+   "n": 29,
+   "t": "Perfect Blue",
+   "y": 1997,
+   "b": "Satoshi Kon: a pop idol turns actress, and a stalker and her own reflection take her apart. Animated Hitchcock.",
+   "tags": "GA",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [],
+   "w": "Violence and a disturbing assault scene."
+  },
+  {
+   "n": 30,
+   "t": "Waltz with Bashir",
+   "y": 2008,
+   "b": "Ari Folman's animated documentary: trying to recover his lost memories of the 1982 Lebanon war. The ending switches to real footage.",
+   "tags": "A",
+   "heat": {
+    "violence": 3,
+    "intensity": 5,
+    "age": 0,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Grave of the Fireflies",
+     "y": 1988,
+     "note": "Ghibli's firebombed orphans. Core on War",
+     "tags": "G",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "When the Wind Blows",
+     "y": 1986,
+     "note": "Raymond Briggs' elderly couple and the bomb",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Watership Down",
+     "y": 1978,
+     "note": "The rabbit film that traumatised children",
+     "tags": "AO",
+     "warn": "Violent.",
+     "seq": []
+    }
+   ],
+   "w": "Real atrocity footage at the end. Subtitled."
+  }
+ ],
+ "beyond": []
+}

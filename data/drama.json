@@ -2,7 +2,7 @@
  "id": "drama",
  "title": "Drama",
  "order": 16,
- "tagline": "From Rocky to Citizen Kane without noticing the water got hot.",
+ "tagline": "From Rocky to Magnolia without noticing the water got hot.",
  "heatKeys": [
   [
    "violence",
@@ -59,7 +59,7 @@
   {
    "t": 65,
    "name": "New Hollywood",
-   "note": "Mrs. Robinson, fifty eggs, Fast Eddie, Nurse Ratched, a sandwich and a dying town.",
+   "note": "A bank job, fifty eggs, Fast Eddie, Nurse Ratched, a sandwich and a dying town.",
    "bg": "#cf5b3a",
    "fg": "#17110d",
    "upto": 25
@@ -75,7 +75,7 @@
   {
    "t": 95,
    "name": "Final boss",
-   "note": "Frogs, and Rosebud.",
+   "note": "Rosebud, then three hours in the Valley and the frogs.",
    "bg": "#2b0b0e",
    "fg": "#efe3cf",
    "upto": 30
@@ -83,7 +83,7 @@
   {
    "t": "100+",
    "name": "Cooked",
-   "note": "Only if they finish Citizen Kane and ask for more.",
+   "note": "Only if they finish Magnolia and ask for more.",
    "bg": "#0c0506",
    "fg": "#efe3cf",
    "beyond": true
@@ -518,14 +518,6 @@
      "tags": "PO",
      "warn": null,
      "seq": []
-    },
-    {
-     "t": "Dog Day Afternoon",
-     "y": 1975,
-     "note": "Lumet: Pacino's bank robbery becomes a media circus. Also on Thriller",
-     "tags": "N",
-     "warn": null,
-     "seq": []
     }
    ]
   },
@@ -714,35 +706,18 @@
   },
   {
    "n": 20,
-   "t": "The Graduate",
-   "y": 1967,
-   "b": "Dustin Hoffman drifts into an affair with Mrs. Robinson, then falls for her daughter. Simon & Garfunkel, and the bus.",
+   "t": "Dog Day Afternoon",
+   "y": 1975,
+   "b": "Sidney Lumet: Al Pacino's bank robbery goes wrong in an hour and turns into a summer-long media circus. 'Attica! Attica!' Based on a true story, and funnier than you'd expect. Also on Thriller.",
    "tags": "N",
    "heat": {
-    "violence": 0,
-    "intensity": 2,
-    "age": 2,
-    "challenge": 2
+    "violence": 2,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 1
    },
    "seq": [],
-   "br": [
-    {
-     "t": "Midnight Cowboy",
-     "y": 1969,
-     "note": "Jon Voight's hustler and Dustin Hoffman's Ratso",
-     "tags": "N",
-     "warn": "Seedy.",
-     "seq": []
-    },
-    {
-     "t": "Easy Rider",
-     "y": 1969,
-     "note": "Fonda, Hopper, Nicholson on the road",
-     "tags": "N",
-     "warn": null,
-     "seq": []
-    }
-   ]
+   "br": []
   },
   {
    "n": 21,
@@ -827,6 +802,30 @@
    },
    "seq": [],
    "br": [
+    {
+     "t": "The Graduate",
+     "y": 1967,
+     "note": "Mrs. Robinson, Simon & Garfunkel and the bus",
+     "tags": "N",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Midnight Cowboy",
+     "y": 1969,
+     "note": "Jon Voight's hustler and Dustin Hoffman's Ratso",
+     "tags": "N",
+     "warn": "Seedy.",
+     "seq": []
+    },
+    {
+     "t": "Easy Rider",
+     "y": 1969,
+     "note": "Fonda, Hopper, Nicholson on the road",
+     "tags": "N",
+     "warn": null,
+     "seq": []
+    },
     {
      "t": "Paris, Texas",
      "y": 1984,
@@ -961,6 +960,30 @@
   },
   {
    "n": 29,
+   "t": "Citizen Kane",
+   "y": 1941,
+   "b": "Orson Welles at 25: the rise and ruin of a newspaper tycoon, told by everyone who knew him. Rosebud. Still the most inventive film ever made.",
+   "tags": "PO",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 4,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Magnificent Ambersons",
+     "y": 1942,
+     "note": "Welles's follow-up, butchered by the studio",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 30,
    "t": "Magnolia",
    "y": 1999,
    "b": "Paul Thomas Anderson's three-hour San Fernando Valley mosaic: Tom Cruise's seduction guru, a quiz-show kid, a dying man, and then the frogs.",
@@ -983,30 +1006,6 @@
     }
    ],
    "w": "Three hours."
-  },
-  {
-   "n": 30,
-   "t": "Citizen Kane",
-   "y": 1941,
-   "b": "Orson Welles at 25: the rise and ruin of a newspaper tycoon, told by everyone who knew him. Rosebud. Still the most inventive film ever made.",
-   "tags": "PO",
-   "heat": {
-    "violence": 0,
-    "intensity": 2,
-    "age": 4,
-    "challenge": 4
-   },
-   "seq": [],
-   "br": [
-    {
-     "t": "The Magnificent Ambersons",
-     "y": 1942,
-     "note": "Welles's follow-up, butchered by the studio",
-     "tags": "O",
-     "warn": null,
-     "seq": []
-    }
-   ]
   }
  ],
  "beyond": [

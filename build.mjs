@@ -167,7 +167,7 @@ function card(L, c, no, beyond, root) {
   const prev = brs.map(b => esc(b.t)).concat(sq.map(q => esc(q.t) + " (sequel)")).join(" · ");
   const list = (sq.length ? `<p class="lh">Sequels</p><ul class="blist seqs">${sq.map(q => item(L, q, true, root)).join("")}</ul>` : "") + (brs.length ? `<p class="lh">Side quests</p><ul class="blist">${brs.map(b => item(L, b, false, root)).join("")}</ul>` : "");
   const p = poster(c.id);
-  return `<article class="tape" data-tags="${esc(c.tags)}" data-id="${c.id}" ${beyond ? "" : 'data-core="1"'}>
+  return `<article class="tape" data-tags="${esc(c.tags)}" data-id="${c.id}" data-y="${c.y}" ${beyond ? "" : 'data-core="1"'}>
 <div class="spine"><span class="no">${no}</span><span class="reel" aria-hidden="true"></span></div>
 <div class="label">
 ${p ? `<a class="poster" href="${root}films/${c.id}/" tabindex="-1" aria-hidden="true"><img src="${p}" alt="" loading="lazy" width="92" height="138"></a>` : ""}
@@ -190,7 +190,7 @@ function ladderPage(L) {
     else { cards = L.core.filter(c => c.n > lo && c.n <= lv.upto).map(c => card(L, c, String(c.n).padStart(2, "0"), false, root)).join(""); lo = lv.upto; }
     return `<section class="level${lv.beyond ? " beyond" : ""}" id="level-${i + 1}" style="--bg:${lv.bg};--bg2:${next};--fg:${lv.fg}"><div class="level-in"><div class="lhead"><div class="temp">${lv.t}<sup>°C</sup></div><h2 class="lname">${lv.beyond ? "Beyond the final boss: " : `Level ${i + 1}: `}${esc(lv.name)}</h2><p class="lnote">${esc(lv.note)}</p></div><div class="shelf">${cards}</div></div></section>`;
   }).join("");
-  const chips = `<span class="lab">Hunt by flavour</span><button class="chip" type="button" data-k="" aria-pressed="true">Everything</button>` + Object.entries(L.tags).map(([k, v]) => `<button class="chip" type="button" data-k="${k}" aria-pressed="false">${esc(v)}</button>`).join("") + `<span class="fcount" id="fcount"></span>`;
+  const chips = `<span class="lab">Order</span><button class="chip srt" type="button" data-sort="heat" aria-pressed="true">${L.ranked ? "Ranking" : "Heat"}</button><button class="chip srt" type="button" data-sort="year" aria-pressed="false">Year</button><span class="lab gap">Hunt by flavour</span><button class="chip" type="button" data-k="" aria-pressed="true">Everything</button>` + Object.entries(L.tags).map(([k, v]) => `<button class="chip" type="button" data-k="${k}" aria-pressed="false">${esc(v)}</button>`).join("") + `<span class="fcount" id="fcount"></span>`;
   const all = [...films.values()].filter(f => f.places.some(p => p.ladder === L.id));
   const exportData = all.map(f => ({ id: f.id, t: f.t, y: f.y, tmdb: M(f.id).tmdb || null, note: f.note || "", core: f.places.some(p => p.role === "core") }));
   const total = all.length;
@@ -198,11 +198,11 @@ function ladderPage(L) {
 <header class="hero">
 <div class="kicker">The ${esc(L.title)} ladder</div>
 <h1>Boil <span class="wob">the</span> Frog</h1>
-<p class="lede">${L.core.length} films, each a few degrees hotter than the last, plus ${total - L.core.length} side quests and sequels. ${esc(L.tagline)}</p>
+<p class="lede">${L.lede ? esc(L.lede) : `${L.core.length} films, each a few degrees hotter than the last, plus ${total - L.core.length} side quests and sequels. ${esc(L.tagline)}`}</p>
 <ul class="rules">
 <li><b>Climb in order</b>Each core film turns the heat up one notch.</li>
 <li><b>Liked one? Branch off</b>Every film has side quests at the same heat, plus sequels: the ones marked ★ Worth it are as good as the original. Junk food is cult trash, enjoyed responsibly.</li>
-<li><b>One a week</b>The core 30 takes about seven months. Ticks are saved in this browser.</li>
+<li><b>One a week</b>The core ${L.core.length} takes about ${Math.round(L.core.length / 4.3)} months. Tap Year to see them in release order. Ticks are saved in this browser.</li>
 </ul>
 </header>
 <div class="exports"><b>Send to Letterboxd</b>

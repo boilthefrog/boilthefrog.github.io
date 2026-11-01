@@ -50,9 +50,9 @@
   if (fbox) {
     const fc = document.getElementById("fcount");
     fbox.addEventListener("click", e => {
-      const c = e.target.closest(".chip"); if (!c) return;
+      const c = e.target.closest(".chip:not(.srt)"); if (!c) return;
       const k = c.dataset.k || null;
-      fbox.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", String(x === c)));
+      fbox.querySelectorAll(".chip:not(.srt)").forEach(x => x.setAttribute("aria-pressed", String(x === c)));
       document.body.classList.toggle("filtering", !!k);
       let n = 0;
       document.querySelectorAll(".tape").forEach(t => {
@@ -65,6 +65,35 @@
       });
       fc.textContent = k ? n + " " + c.textContent.toLowerCase() + " film" + (n === 1 ? "" : "s") : "";
     });
+  }
+
+
+  /* heat or release order */
+  const pot = document.getElementById("pot");
+  if (fbox && pot) {
+    const orig = [...pot.querySelectorAll(".tape[data-core]")].map(t => [t, t.parentNode, t.nextSibling]);
+    let chrono = null;
+    const order = by => {
+      fbox.querySelectorAll(".srt").forEach(x => x.setAttribute("aria-pressed", String(x.dataset.sort === by)));
+      if (by === "year") {
+        if (!chrono) {
+          chrono = document.createElement("section");
+          chrono.className = "level chrono";
+          const first = pot.querySelector(".level"); if (first) chrono.setAttribute("style", first.getAttribute("style"));
+          chrono.innerHTML = '<div class="level-in"><div class="lhead"><h2 class="lname">In order of release</h2><p class="lnote">The core films by year. Each number is still its place on the ladder.</p></div><div class="shelf"></div></div>';
+        }
+        const shelf = chrono.querySelector(".shelf");
+        orig.map(o => o[0]).sort((a, b) => a.dataset.y - b.dataset.y).forEach(t => shelf.appendChild(t));
+        pot.prepend(chrono); document.body.classList.add("chrono");
+      } else if (chrono && chrono.parentNode) {
+        for (let i = orig.length - 1; i >= 0; i--) { const [t, p, n] = orig[i]; p.insertBefore(t, n); }
+        chrono.remove(); document.body.classList.remove("chrono");
+      }
+      try { localStorage.setItem("btf-order", by); } catch (e) {}
+    };
+    fbox.addEventListener("click", e => { const s = e.target.closest(".srt"); if (s) order(s.dataset.sort); });
+    let saved = "heat"; try { saved = localStorage.getItem("btf-order") || "heat"; } catch (e) {}
+    if (saved === "year") order("year");
   }
 
   /* Letterboxd export of unwatched films */

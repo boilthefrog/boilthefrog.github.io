@@ -1,0 +1,481 @@
+{
+ "id": "bond",
+ "title": "Bond",
+ "order": 18,
+ "ranked": true,
+ "tagline": "Ranked, not boiled.",
+ "lede": "All 25 official Bond films, best first, plus the unofficial two. Tap Year for release order. Craig's five are one continuous story, so watch those in order.",
+ "heatKeys": [
+  [
+   "violence",
+   "Violence"
+  ],
+  [
+   "intensity",
+   "Intensity"
+  ],
+  [
+   "age",
+   "Old-school"
+  ],
+  [
+   "challenge",
+   "Challenge"
+  ]
+ ],
+ "tags": {
+  "C": "Connery",
+  "L": "Lazenby",
+  "M": "Moore",
+  "D": "Dalton",
+  "B": "Brosnan",
+  "R": "Craig"
+ },
+ "levels": [
+  {
+   "t": 22,
+   "name": "Joint first",
+   "note": "Lazenby's one shot, Goldfinger and the Orient Express.",
+   "bg": "#dbe5cc",
+   "fg": "#17110d",
+   "upto": 3
+  },
+  {
+   "t": 35,
+   "name": "Top five",
+   "note": "Brosnan's bungee and Craig's poker.",
+   "bg": "#ecdcaa",
+   "fg": "#17110d",
+   "upto": 5
+  },
+  {
+   "t": 50,
+   "name": "Very good",
+   "note": "Skyfall, the ski jump, Dr. No, Dalton twice, a 2CV and the sharks.",
+   "bg": "#e8b47a",
+   "fg": "#17110d",
+   "upto": 12
+  },
+  {
+   "t": 65,
+   "name": "Good fun",
+   "note": "Craig's farewell, a volcano, crocodiles, a car park and a clown suit.",
+   "bg": "#cf5b3a",
+   "fg": "#17110d",
+   "upto": 17
+  },
+  {
+   "t": 80,
+   "name": "Patchy",
+   "note": "Spectre, Vegas, a nuclear physicist, space and a slide whistle.",
+   "bg": "#6d1b21",
+   "fg": "#efe3cf",
+   "upto": 22
+  },
+  {
+   "t": 95,
+   "name": "The dregs",
+   "note": "Quantum, Moore at 57 and the invisible car.",
+   "bg": "#2b0b0e",
+   "fg": "#efe3cf",
+   "upto": 25
+  }
+ ],
+ "core": [
+  {
+   "n": 1,
+   "t": "On Her Majesty's Secret Service",
+   "y": 1969,
+   "b": "George Lazenby's only outing: Blofeld's Alpine clinic, a ski chase, Diana Rigg, and the ending that makes Bond human. Joint first.",
+   "tags": "L",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 1,
+   "t": "Goldfinger",
+   "y": 1964,
+   "b": "The template: the gold-painted girl, Oddjob's hat, the Aston Martin, 'No, Mr Bond, I expect you to die!' Joint first.",
+   "tags": "C",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 1,
+   "t": "From Russia with Love",
+   "y": 1963,
+   "b": "Connery's best as an actual spy film: Istanbul, a Lektor decoder, and Robert Shaw on the Orient Express. Joint first.",
+   "tags": "C",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 4,
+   "t": "GoldenEye",
+   "y": 1995,
+   "b": "Brosnan's debut: the bungee jump, a tank through St Petersburg, Sean Bean, and Famke Janssen crushing men with her thighs.",
+   "tags": "B",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 5,
+   "t": "Casino Royale",
+   "y": 2006,
+   "b": "Craig's reboot: parkour in Madagascar, poker in Montenegro, Eva Green, and the rope chair. Start of a five-film story. Also on Action.",
+   "tags": "R",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Casino Royale",
+     "y": 1967,
+     "note": "The unofficial spoof: Niven, Sellers, Woody Allen and chaos",
+     "tags": "",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "t": "Skyfall",
+   "y": 2012,
+   "b": "Mendes and Deakins: Javier Bardem's blond villain, Shanghai neon, and a siege at Bond's childhood home.",
+   "tags": "R",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 7,
+   "t": "The Spy Who Loved Me",
+   "y": 1977,
+   "b": "Moore's best: the Union Jack parachute ski jump, the Lotus submarine, and Jaws.",
+   "tags": "M",
+   "heat": {
+    "violence": 1,
+    "intensity": 1,
+    "age": 2,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 8,
+   "t": "Dr. No",
+   "y": 1962,
+   "b": "Where it began: 'Bond. James Bond.' Ursula Andress from the sea, and Jamaica.",
+   "tags": "C",
+   "heat": {
+    "violence": 2,
+    "intensity": 1,
+    "age": 4,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 9,
+   "t": "The Living Daylights",
+   "y": 1987,
+   "b": "Dalton's first: a cello case down a mountain, Afghanistan, and a properly cold Bond.",
+   "tags": "D",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 2,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 10,
+   "t": "For Your Eyes Only",
+   "y": 1981,
+   "b": "Moore brought down to earth: a Greek mountain climb, a 2CV chase, crossbows.",
+   "tags": "M",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 2,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 11,
+   "t": "Thunderball",
+   "y": 1965,
+   "b": "Underwater battles, a jetpack, the Bahamas and Largo's sharks.",
+   "tags": "C",
+   "heat": {
+    "violence": 2,
+    "intensity": 1,
+    "age": 4,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Never Say Never Again",
+     "y": 1983,
+     "note": "The unofficial Thunderball remake: Connery's return at 52, Klaus Maria Brandauer, a video-game duel",
+     "tags": "C",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "t": "Licence to Kill",
+   "y": 1989,
+   "b": "Dalton goes rogue for revenge: drug lords, a tanker chase, a man fed to a shark. Nastier than any Bond before it.",
+   "tags": "D",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 13,
+   "t": "No Time to Die",
+   "y": 2021,
+   "b": "Craig's finale, and the end of his serial. The Norwegian house, the Italian chase, and that ending.",
+   "tags": "R",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 14,
+   "t": "You Only Live Twice",
+   "y": 1967,
+   "b": "The volcano lair, Blofeld's face at last, and Roald Dahl's script. Dodgy 'turning Japanese' bit.",
+   "tags": "C",
+   "heat": {
+    "violence": 2,
+    "intensity": 1,
+    "age": 4,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 15,
+   "t": "Live and Let Die",
+   "y": 1973,
+   "b": "Moore's debut: crocodile-hopping, voodoo, the McCartney theme. Dated in every sense.",
+   "tags": "M",
+   "heat": {
+    "violence": 2,
+    "intensity": 1,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 16,
+   "t": "Tomorrow Never Dies",
+   "y": 1997,
+   "b": "Jonathan Pryce's media mogul, Michelle Yeoh, and a remote-control BMW in a car park.",
+   "tags": "B",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 17,
+   "t": "Octopussy",
+   "y": 1983,
+   "b": "Moore in a clown suit defusing a bomb, and Tarzan yells in the jungle. Fun, daft.",
+   "tags": "M",
+   "heat": {
+    "violence": 2,
+    "intensity": 1,
+    "age": 2,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 18,
+   "t": "Spectre",
+   "y": 2015,
+   "b": "The Day of the Dead opening is superb; then Blofeld turns out to be Bond's foster brother.",
+   "tags": "R",
+   "heat": {
+    "violence": 3,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 19,
+   "t": "Diamonds Are Forever",
+   "y": 1971,
+   "b": "Connery back for the money, Las Vegas, and Mr Wint and Mr Kidd.",
+   "tags": "C",
+   "heat": {
+    "violence": 2,
+    "intensity": 1,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 20,
+   "t": "The World Is Not Enough",
+   "y": 1999,
+   "b": "Sophie Marceau's villain is good. Denise Richards as a nuclear physicist is not.",
+   "tags": "B",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 21,
+   "t": "Moonraker",
+   "y": 1979,
+   "b": "Bond in space, with laser guns. Jaws gets a girlfriend.",
+   "tags": "M",
+   "heat": {
+    "violence": 1,
+    "intensity": 1,
+    "age": 2,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 22,
+   "t": "The Man with the Golden Gun",
+   "y": 1974,
+   "b": "Christopher Lee is great; the slide-whistle car jump is not.",
+   "tags": "M",
+   "heat": {
+    "violence": 2,
+    "intensity": 1,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 23,
+   "t": "Quantum of Solace",
+   "y": 2008,
+   "b": "Written during a strike and edited in a blender. Bolivian water rights. It's short.",
+   "tags": "R",
+   "heat": {
+    "violence": 3,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 24,
+   "t": "A View to a Kill",
+   "y": 1985,
+   "b": "Moore at 57, Grace Jones and Christopher Walken. Duran Duran's theme is the best bit.",
+   "tags": "M",
+   "heat": {
+    "violence": 2,
+    "intensity": 1,
+    "age": 2,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 25,
+   "t": "Die Another Day",
+   "y": 2002,
+   "b": "Invisible car, CGI surfing, Madonna. The franchise jumped the shark, then rebooted.",
+   "tags": "B",
+   "heat": {
+    "violence": 2,
+    "intensity": 1,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": []
+  }
+ ],
+ "beyond": []
+}

@@ -172,7 +172,7 @@ const page = ({ title, body, root = "", desc = "", extraHead = "" }) => `<!DOCTY
 ${extraHead}
 </head>
 <body>
-<nav class="topnav"><div class="topnav-in"><a class="brand" href="${root}">${FROG}Boil the Frog</a><div class="navlinks">${ladders.map(l => `<a href="${root}${l.id}/">${esc(l.title)}</a>`).join("")}<a href="${root}pot/">Your pot</a><a href="${root}about/">About</a></div></div></nav>
+<nav class="topnav"><div class="topnav-in"><a class="brand" href="${root}">${FROG}Boil the Frog</a><div class="navlinks">${ladders.map(l => `<a href="${root}${l.id}/">${esc(l.title)}</a>`).join("")}<a href="${root}pot/">Your pot</a><a href="${root}about/">About</a><a href="${root}faq/">FAQ</a></div></div></nav>
 ${body}
 <footer><div class="foot-in" style="max-width:980px;margin:0 auto"><div>
 <p class="small">Boil the Frog: film ladders for people who think they don't like a genre. Ticks are saved in this browser only.</p>
@@ -329,7 +329,20 @@ ${tmdbLogo("../", "tmdb-logo big")}<p class="credit">Film data and posters are f
   write("about/index.html", page({ title: "About | Boil the Frog", body, root: "../" }));
 }
 
+function faq() {
+  const body = `<header class="hero"><div class="kicker">Questions</div><h1>FAQ</h1></header>
+<div class="prose">
+<h2>Was AI used to make this?</h2>
+<p>Yes. This site wouldn't exist without it, because it would have taken far too long otherwise.</p>
+<h2>Why are all the films so old?</h2>
+<p>Because I'm old.</p>
+<h2>You're high. Your ladder doesn't include my favourite film.</h2>
+<p>Yeah, art is subjective.</p>
+</div>`;
+  write("faq/index.html", page({ title: "FAQ | Boil the Frog", body, root: "../" }));
+}
+
 ladders.forEach(ladderPage);
 [...films.values()].forEach(filmPage);
-home(); pot(); about();
+home(); pot(); about(); faq();
 console.log(`Built ${films.size} film pages, ${ladders.length} ladder(s) into dist/`);

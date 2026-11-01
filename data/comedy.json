@@ -178,14 +178,6 @@
      "seq": []
     },
     {
-     "t": "Dazed and Confused",
-     "y": 1993,
-     "note": "Linklater's last day of school, 1976. Alright alright alright",
-     "tags": "T",
-     "warn": null,
-     "seq": []
-    },
-    {
      "t": "Fast Times at Ridgemont High",
      "y": 1982,
      "note": "Sean Penn's Spicoli",
@@ -479,6 +471,37 @@
    },
    "seq": [],
    "br": [
+    {
+     "t": "Clerks",
+     "y": 1994,
+     "note": "Kevin Smith's convenience store, shot for $27,000. 'I'm not even supposed to be here today'",
+     "tags": "D",
+     "warn": "Crude.",
+     "seq": [
+      {
+       "t": "Clerks II",
+       "y": 2006,
+       "note": "Ten years on, at a burger joint",
+       "star": false
+      }
+     ]
+    },
+    {
+     "t": "Dazed and Confused",
+     "y": 1993,
+     "note": "Linklater's last day of school, 1976. Alright alright alright",
+     "tags": "T",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Slacker",
+     "y": 1990,
+     "note": "Linklater's Austin drifters, where the word came from",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    },
     {
      "t": "Office Space",
      "y": 1999,

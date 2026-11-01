@@ -499,7 +499,33 @@
     "intensity": 3,
     "age": 4,
     "challenge": 3
-   }
+   },
+   "br": [
+    {
+     "t": "Tinker Tailor Soldier Spy",
+     "y": 2011,
+     "note": "Gary Oldman's Smiley hunts the mole. Core on Thriller",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Russia House",
+     "y": 1990,
+     "note": "Sean Connery as a boozy publisher drawn into le Carré's Moscow",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Tailor of Panama",
+     "y": 2001,
+     "note": "Pierce Brosnan as a sleazy anti-Bond, in le Carré's satire",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    }
+   ]
   },
   {
    "t": "The Ipcress File",
@@ -601,6 +627,19 @@
     "challenge": 0
    },
    "w": "The church scene."
+  },
+  {
+   "t": "The Rock",
+   "y": 1996,
+   "b": "Michael Bay: Sean Connery as an ageing British agent locked up for decades, sprung to break into Alcatraz with Nicolas Cage. Fans insist he's Bond. 'Welcome to the Rock.'",
+   "tags": "X",
+   "seq": [],
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 0
+   }
   }
  ]
 }

@@ -1,0 +1,921 @@
+{
+ "id": "musicals",
+ "title": "Musicals",
+ "order": 17,
+ "tagline": "From Mamma Mia! to All That Jazz without noticing the water got hot.",
+ "heatKeys": [
+  [
+   "violence",
+   "Violence"
+  ],
+  [
+   "intensity",
+   "Intensity"
+  ],
+  [
+   "age",
+   "Old-school"
+  ],
+  [
+   "challenge",
+   "Challenge"
+  ]
+ ],
+ "tags": {
+  "F": "Family",
+  "K": "Comedy",
+  "P": "Pop & rock",
+  "D": "Dance",
+  "S": "Stage shows",
+  "W": "Cult & weird",
+  "X": "Dark",
+  "O": "Classics"
+ },
+ "levels": [
+  {
+   "t": 22,
+   "name": "Popcorn",
+   "note": "ABBA, Barnum, Rydell High, Kermit, a nanny and a green witch.",
+   "bg": "#dbe5cc",
+   "fg": "#17110d",
+   "upto": 6
+  },
+  {
+   "t": 35,
+   "name": "Crowd-pleasers",
+   "note": "A Dublin band, Baltimore, LA, the Heights, Christmas zombies and a hungry plant.",
+   "bg": "#ecdcaa",
+   "fg": "#17110d",
+   "upto": 12
+  },
+  {
+   "t": 50,
+   "name": "Golden age",
+   "note": "Oz, the rain, Astaire twice, the von Trapps, the Jets and Springtime for Hitler.",
+   "bg": "#e8b47a",
+   "fg": "#17110d",
+   "upto": 19
+  },
+  {
+   "t": 65,
+   "name": "Rock and cult",
+   "note": "The Beatles, the Time Warp, South Park, Superstar, the Moulin Rouge and Hedwig.",
+   "bg": "#cf5b3a",
+   "fg": "#17110d",
+   "upto": 25
+  },
+  {
+   "t": 80,
+   "name": "Dark",
+   "note": "Murderesses, a barber and a sung French tragedy.",
+   "bg": "#6d1b21",
+   "fg": "#efe3cf",
+   "upto": 28
+  },
+  {
+   "t": 95,
+   "name": "Final boss",
+   "note": "Bob Fosse twice: Weimar Berlin and his own death.",
+   "bg": "#2b0b0e",
+   "fg": "#efe3cf",
+   "upto": 30
+  },
+  {
+   "t": "100+",
+   "name": "Cooked",
+   "note": "Only if they finish All That Jazz and ask for more.",
+   "bg": "#0c0506",
+   "fg": "#efe3cf",
+   "beyond": true
+  }
+ ],
+ "core": [
+  {
+   "n": 1,
+   "t": "Mamma Mia!",
+   "y": 2008,
+   "b": "ABBA songs, a Greek island, three possible dads and Pierce Brosnan's singing. Stupid and joyful.",
+   "tags": "PK",
+   "heat": {
+    "violence": 0,
+    "intensity": 0,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "Mamma Mia! Here We Go Again",
+     "y": 2018,
+     "note": "Cher arrives. Somehow even more fun",
+     "star": true
+    }
+   ],
+   "br": []
+  },
+  {
+   "n": 2,
+   "t": "The Greatest Showman",
+   "y": 2017,
+   "b": "Hugh Jackman's P.T. Barnum and a stack of earworms. Hollow, but it knows how to put on a show.",
+   "tags": "S",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Phantom of the Opera",
+     "y": 2004,
+     "note": "Lloyd Webber's chandelier",
+     "tags": "S",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "t": "Grease",
+   "y": 1978,
+   "b": "Travolta and Olivia Newton-John at Rydell High. 'You're the One That I Want' and the flying car.",
+   "tags": "PD",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Saturday Night Fever",
+     "y": 1977,
+     "note": "Travolta's disco. Darker than you remember",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Dirty Dancing",
+     "y": 1987,
+     "note": "Nobody puts Baby in a corner",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Footloose",
+     "y": 1984,
+     "note": "Kevin Bacon's dance-ban rebellion",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "t": "The Muppet Movie",
+   "y": 1979,
+   "b": "Kermit rides to Hollywood, picking up the gang and a parade of cameos. 'Rainbow Connection'.",
+   "tags": "FK",
+   "heat": {
+    "violence": 0,
+    "intensity": 0,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Muppet Christmas Carol",
+     "y": 1992,
+     "note": "Michael Caine plays Scrooge dead straight. The best Christmas Carol",
+     "tags": "FK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Muppets",
+     "y": 2011,
+     "note": "Jason Segel's revival. 'Man or Muppet'",
+     "tags": "FK",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "t": "Mary Poppins",
+   "y": 1964,
+   "b": "Julie Andrews, the chimney sweeps, the penguins and Dick Van Dyke's accent.",
+   "tags": "FO",
+   "heat": {
+    "violence": 0,
+    "intensity": 0,
+    "age": 3,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Chitty Chitty Bang Bang",
+     "y": 1968,
+     "note": "The Child Catcher",
+     "tags": "FO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Bedknobs and Broomsticks",
+     "y": 1971,
+     "note": "Angela Lansbury's witch versus the Nazis",
+     "tags": "FO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Willy Wonka & the Chocolate Factory",
+     "y": 1971,
+     "note": "Gene Wilder and the boat tunnel",
+     "tags": "F",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "t": "Wicked",
+   "y": 2024,
+   "b": "The witches of Oz before Dorothy: Cynthia Erivo, Ariana Grande, and 'Defying Gravity' at full volume.",
+   "tags": "S",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "Wicked: For Good",
+     "y": 2025,
+     "note": "Part two",
+     "star": false
+    }
+   ],
+   "br": []
+  },
+  {
+   "n": 7,
+   "t": "Sing Street",
+   "y": 2016,
+   "b": "John Carney: a Dublin schoolboy starts a band in 1985 to impress a girl. Every song is a banger.",
+   "tags": "P",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Once",
+     "y": 2007,
+     "note": "Carney's busker and a Czech pianist",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Commitments",
+     "y": 1991,
+     "note": "Dublin soul band. On the BFI list",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "t": "Hairspray",
+   "y": 2007,
+   "b": "Baltimore, 1962: Tracy Turnblad dances her way onto TV and integrates it. John Travolta in a fat suit.",
+   "tags": "DK",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Hairspray",
+     "y": 1988,
+     "note": "John Waters' original, with Divine",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "t": "La La Land",
+   "y": 2016,
+   "b": "Emma Stone and Ryan Gosling fall in love in LA, then choose their dreams. The traffic-jam opening and the epilogue that wrecks you.",
+   "tags": "D",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "A Star Is Born",
+     "y": 2018,
+     "note": "Lady Gaga and Bradley Cooper",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "A Star Is Born",
+     "y": 1954,
+     "note": "Judy Garland's",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "t": "In the Heights",
+   "y": 2021,
+   "b": "Lin-Manuel Miranda's Washington Heights summer, with a swimming-pool number like Busby Berkeley.",
+   "tags": "D",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Hamilton",
+     "y": 2020,
+     "note": "The filmed stage show",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Tick, Tick... Boom!",
+     "y": 2021,
+     "note": "Andrew Garfield as Rent's Jonathan Larson",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "t": "Anna and the Apocalypse",
+   "y": 2017,
+   "b": "A Scottish school, Christmas, zombies, and pop songs. High School Musical with decapitations.",
+   "tags": "WK",
+   "heat": {
+    "violence": 3,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [],
+   "w": "Zombie gore."
+  },
+  {
+   "n": 12,
+   "t": "Little Shop of Horrors",
+   "y": 1986,
+   "b": "Rick Moranis feeds a carnivorous plant, and Steve Martin's dentist sings. 'Feed me, Seymour!' Also on Horror.",
+   "tags": "WK",
+   "heat": {
+    "violence": 2,
+    "intensity": 1,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 13,
+   "t": "The Wizard of Oz",
+   "y": 1939,
+   "b": "Over the rainbow, into Technicolor. Core on Fantasy.",
+   "tags": "FO",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Meet Me in St. Louis",
+     "y": 1944,
+     "note": "Judy Garland, the trolley song",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "t": "Singin' in the Rain",
+   "y": 1952,
+   "b": "Gene Kelly, the puddles, 'Make 'Em Laugh', and Hollywood switching to sound. The best musical ever made.",
+   "tags": "DO",
+   "heat": {
+    "violence": 0,
+    "intensity": 0,
+    "age": 4,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "On the Town",
+     "y": 1949,
+     "note": "Kelly and Sinatra, sailors on leave in New York",
+     "tags": "DO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "An American in Paris",
+     "y": 1951,
+     "note": "Kelly's 17-minute ballet",
+     "tags": "DO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "t": "Top Hat",
+   "y": 1935,
+   "b": "Fred Astaire and Ginger Rogers, mistaken identity in Venice, and 'Cheek to Cheek'.",
+   "tags": "DO",
+   "heat": {
+    "violence": 0,
+    "intensity": 0,
+    "age": 5,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Swing Time",
+     "y": 1936,
+     "note": "Astaire and Rogers' best dancing",
+     "tags": "DO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "42nd Street",
+     "y": 1933,
+     "note": "Busby Berkeley's kaleidoscopes",
+     "tags": "DO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Gold Diggers of 1933",
+     "y": 1933,
+     "note": "'We're in the Money'",
+     "tags": "DO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "t": "The Band Wagon",
+   "y": 1953,
+   "b": "Astaire's washed-up star in a doomed Broadway show. 'That's Entertainment' and the 'Girl Hunt' noir ballet.",
+   "tags": "DO",
+   "heat": {
+    "violence": 0,
+    "intensity": 0,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Gentlemen Prefer Blondes",
+     "y": 1953,
+     "note": "Marilyn: 'Diamonds Are a Girl's Best Friend'",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Funny Face",
+     "y": 1957,
+     "note": "Audrey Hepburn and Astaire in Paris",
+     "tags": "DO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "t": "The Sound of Music",
+   "y": 1965,
+   "b": "Julie Andrews, the hills, the von Trapps and the Nazis. Corny, enormous, and every song a standard.",
+   "tags": "FO",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "My Fair Lady",
+     "y": 1964,
+     "note": "Audrey Hepburn's Eliza, Rex Harrison's Higgins",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Three hours."
+  },
+  {
+   "n": 18,
+   "t": "West Side Story",
+   "y": 1961,
+   "b": "Romeo and Juliet with the Jets and Sharks on the Upper West Side. Bernstein, Sondheim, and the dance-off.",
+   "tags": "DO",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "West Side Story",
+     "y": 2021,
+     "note": "Spielberg's remake. Arguably better",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "t": "The Producers",
+   "y": 1967,
+   "b": "Mel Brooks: two crooks stage a guaranteed flop, 'Springtime for Hitler', and it's a hit. Also on Comedy.",
+   "tags": "KO",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Producers",
+     "y": 2005,
+     "note": "The film of the Broadway musical. Flat",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "t": "A Hard Day's Night",
+   "y": 1964,
+   "b": "A day in the life of the Beatles, running from fans. Funny, fast, and it invented the music video.",
+   "tags": "PO",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Help!",
+     "y": 1965,
+     "note": "The Beatles' daft colour follow-up",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Stop Making Sense",
+     "y": 1984,
+     "note": "Talking Heads' big suit. The best concert film",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "t": "The Rocky Horror Picture Show",
+   "y": 1975,
+   "b": "Brad and Janet's car breaks down at Frank-N-Furter's castle. The Time Warp. The cult film of all cult films.",
+   "tags": "WP",
+   "heat": {
+    "violence": 1,
+    "intensity": 1,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Phantom of the Paradise",
+     "y": 1974,
+     "note": "Brian De Palma's rock Faust. Also on Horror",
+     "tags": "W",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Shock Treatment",
+     "y": 1981,
+     "note": "The Rocky Horror sequel nobody saw",
+     "tags": "W",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "t": "South Park: Bigger, Longer & Uncut",
+   "y": 1999,
+   "b": "The boys see a filthy Canadian film and America declares war. 'Blame Canada', 'Uncle Fucka', and a parody of Les Mis that's better than Les Mis.",
+   "tags": "WK",
+   "heat": {
+    "violence": 1,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Team America: World Police",
+     "y": 2004,
+     "note": "Puppets, 'America, Fuck Yeah'",
+     "tags": "WK",
+     "warn": "Puppet sex.",
+     "seq": []
+    },
+    {
+     "t": "The Book of Mormon",
+     "y": 2011,
+     "note": "Not a film. Hello!",
+     "tags": "WK",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ],
+   "w": "Filthy. Gloriously."
+  },
+  {
+   "n": 23,
+   "t": "Jesus Christ Superstar",
+   "y": 1973,
+   "b": "Lloyd Webber and Rice's rock opera, filmed among Israeli ruins with tanks and fighter jets. Judas steals it.",
+   "tags": "P",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Tommy",
+     "y": 1975,
+     "note": "The Who's pinball wizard. Ken Russell's madness",
+     "tags": "PW",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Hair",
+     "y": 1979,
+     "note": "Milos Forman's hippies",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "t": "Moulin Rouge!",
+   "y": 2001,
+   "b": "Baz Luhrmann's Paris: Ewan McGregor, Nicole Kidman, an elephant, and a hundred years of pop songs in a blender.",
+   "tags": "P",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Romeo + Juliet",
+     "y": 1996,
+     "note": "Baz's Verona Beach",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "t": "Hedwig and the Angry Inch",
+   "y": 2001,
+   "b": "John Cameron Mitchell's East German rock singer after a botched operation, touring diners and chasing the man who stole her songs.",
+   "tags": "PW",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Velvet Goldmine",
+     "y": 1998,
+     "note": "Todd Haynes' glam rock",
+     "tags": "PW",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "t": "Chicago",
+   "y": 2002,
+   "b": "Roxie Hart and Velma Kelly murder their way to fame in 1920s Chicago. Best Picture. 'Cell Block Tango'.",
+   "tags": "SX",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 27,
+   "t": "Sweeney Todd: The Demon Barber of Fleet Street",
+   "y": 2007,
+   "b": "Burton and Sondheim: Johnny Depp's barber cuts throats and Helena Bonham Carter bakes the pies.",
+   "tags": "SX",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [],
+   "w": "Lots of gore."
+  },
+  {
+   "n": 28,
+   "t": "The Umbrellas of Cherbourg",
+   "y": 1964,
+   "b": "Jacques Demy: every line sung, candy colours, and an ending that wrecks you. Core on World cinema.",
+   "tags": "O",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [],
+   "w": "Subtitled; every line sung."
+  },
+  {
+   "n": 29,
+   "t": "Cabaret",
+   "y": 1972,
+   "b": "Bob Fosse: Liza Minnelli's Sally Bowles in Weimar Berlin as the Nazis rise. 'Tomorrow Belongs to Me' will chill you.",
+   "tags": "X",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 30,
+   "t": "All That Jazz",
+   "y": 1979,
+   "b": "Bob Fosse stages his own death: Roy Scheider's pill-popping choreographer, a heart attack, and a final number with an angel of death.",
+   "tags": "X",
+   "heat": {
+    "violence": 0,
+    "intensity": 4,
+    "age": 2,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "New York, New York",
+     "y": 1977,
+     "note": "Scorsese's musical. On his list",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  }
+ ],
+ "beyond": [
+  {
+   "t": "Dancer in the Dark",
+   "y": 2000,
+   "b": "Lars von Trier and Björk: a nearly blind factory worker escapes into musical daydreams as her life collapses. Devastating, and Björk is extraordinary.",
+   "tags": "X",
+   "seq": [],
+   "heat": {
+    "violence": 2,
+    "intensity": 5,
+    "age": 0,
+    "challenge": 4
+   },
+   "w": "Unbearably sad."
+  },
+  {
+   "t": "Annette",
+   "y": 2021,
+   "b": "Leos Carax and Sparks: Adam Driver's stand-up and Marion Cotillard's soprano have a baby, who's a puppet. Mad, and unlike anything else.",
+   "tags": "XW",
+   "seq": [],
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 5
+   }
+  }
+ ]
+}

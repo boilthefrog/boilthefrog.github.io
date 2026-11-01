@@ -1,0 +1,1101 @@
+{
+ "id": "fantasy",
+ "title": "Fantasy & adventure",
+ "order": 10,
+ "tagline": "From The Princess Bride to Cocteau's Beauty and the Beast without noticing the water got hot.",
+ "heatKeys": [
+  [
+   "violence",
+   "Violence"
+  ],
+  [
+   "intensity",
+   "Intensity"
+  ],
+  [
+   "age",
+   "Old-school"
+  ],
+  [
+   "challenge",
+   "Challenge"
+  ]
+ ],
+ "tags": {
+  "K": "Comedy",
+  "A": "Adventure",
+  "L": "Legends & knights",
+  "M": "Monsters",
+  "P": "Pirates",
+  "Z": "Animation",
+  "D": "Dark fairy tales",
+  "O": "Classics",
+  "W": "World"
+ },
+ "levels": [
+  {
+   "t": 22,
+   "name": "Popcorn",
+   "note": "True love, one long day, a mummy, dinosaurs and Hogwarts.",
+   "bg": "#dbe5cc",
+   "fg": "#17110d",
+   "upto": 5
+  },
+  {
+   "t": 35,
+   "name": "Big and wonderful",
+   "note": "Middle-earth, tall tales, a cat in a flood, Bowie, buttons and scissors.",
+   "bg": "#ecdcaa",
+   "fg": "#17110d",
+   "upto": 11
+  },
+  {
+   "t": 50,
+   "name": "Legends",
+   "note": "Python's Grail, time bandits, Robin Hood, Arthur, Conan and the Crusades.",
+   "bg": "#e8b47a",
+   "fg": "#17110d",
+   "upto": 17
+  },
+  {
+   "t": 65,
+   "name": "Old-school adventure",
+   "note": "Oz, an angel, Harryhausen, Kong, Kipling, pirates and a leaky boat.",
+   "bg": "#cf5b3a",
+   "fg": "#17110d",
+   "upto": 25
+  },
+  {
+   "t": 80,
+   "name": "Darker",
+   "note": "Forest gods, the Pale Man and the original Godzilla.",
+   "bg": "#6d1b21",
+   "fg": "#efe3cf",
+   "upto": 28
+  },
+  {
+   "t": 95,
+   "name": "Final boss",
+   "note": "A slow knight's quest and Cocteau's magic.",
+   "bg": "#2b0b0e",
+   "fg": "#efe3cf",
+   "upto": 30
+  },
+  {
+   "t": "100+",
+   "name": "Cooked",
+   "note": "Only if they finish Beauty and the Beast and ask for more.",
+   "bg": "#0c0506",
+   "fg": "#efe3cf",
+   "beyond": true
+  }
+ ],
+ "core": [
+  {
+   "n": 1,
+   "t": "The Princess Bride",
+   "y": 1987,
+   "b": "Fencing, fighting, torture, revenge, giants, monsters, chases, escapes, true love, miracles. 'Inconceivable!'",
+   "tags": "KL",
+   "heat": {
+    "violence": 1,
+    "intensity": 1,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Shrek",
+     "y": 2001,
+     "note": "An ogre, a donkey and the fairy tales sent up",
+     "tags": "KZ",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Stardust",
+     "y": 2007,
+     "note": "Neil Gaiman: a boy chases a fallen star, who turns out to be Claire Danes",
+     "tags": "KA",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Willow",
+     "y": 1988,
+     "note": "Lucas and Ron Howard: a farmer protects a magic baby",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "t": "Groundhog Day",
+   "y": 1993,
+   "b": "Bill Murray wakes up on the same day, again and again, until he gets it right.",
+   "tags": "K",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 3,
+   "t": "The Mummy",
+   "y": 1999,
+   "b": "Brendan Fraser, Rachel Weisz and a cursed Egyptian priest. The perfect Saturday-afternoon adventure.",
+   "tags": "AM",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "The Mummy Returns",
+     "y": 2001,
+     "note": "Bigger, sillier, The Rock as a scorpion",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "The Goonies",
+     "y": 1985,
+     "note": "Kids, a pirate map and One-Eyed Willy's treasure",
+     "tags": "AK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Jumanji",
+     "y": 1995,
+     "note": "Robin Williams and a board game that brings the jungle home",
+     "tags": "AK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Hook",
+     "y": 1991,
+     "note": "Robin Williams as a grown-up Peter Pan, Dustin Hoffman as Hook",
+     "tags": "AP",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Dungeons & Dragons: Honor Among Thieves",
+     "y": 2023,
+     "note": "Chris Pine's bard and a surprisingly great heist fantasy",
+     "tags": "AK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "National Treasure",
+     "y": 2004,
+     "note": "Nicolas Cage steals the Declaration of Independence",
+     "tags": "A",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "t": "Jurassic Park",
+   "y": 1993,
+   "b": "Dinosaurs brought back to life on an island theme park, and nature finds a way. Also core on Sci-fi.",
+   "tags": "AM",
+   "heat": {
+    "violence": 2,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 5,
+   "t": "Harry Potter and the Prisoner of Azkaban",
+   "y": 2004,
+   "b": "Alfonso Cuarón takes over: an escaped prisoner, dementors, a werewolf and a time-turner. The best Potter by some way.",
+   "tags": "A",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [
+    {
+     "t": "Harry Potter and the Philosopher's Stone",
+     "y": 2001,
+     "note": "Where it starts",
+     "star": false
+    },
+    {
+     "t": "Harry Potter and the Deathly Hallows: Part 2",
+     "y": 2011,
+     "note": "The battle of Hogwarts",
+     "star": true
+    }
+   ],
+   "br": []
+  },
+  {
+   "n": 6,
+   "t": "The Fellowship of the Ring",
+   "y": 2001,
+   "b": "Peter Jackson: nine walkers, one ring, the mines of Moria and the bridge of Khazad-dûm.",
+   "tags": "LA",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [
+    {
+     "t": "The Two Towers",
+     "y": 2002,
+     "note": "Helm's Deep and Gollum",
+     "star": true
+    },
+    {
+     "t": "The Return of the King",
+     "y": 2003,
+     "note": "The finale that won everything",
+     "star": true
+    }
+   ],
+   "br": [],
+   "w": "Three hours. Watch the extended edition only if hooked."
+  },
+  {
+   "n": 7,
+   "t": "Big Fish",
+   "y": 2003,
+   "b": "Tim Burton: a dying man's tall tales of giants, witches and a town called Spectre, and the son who wants the truth.",
+   "tags": "D",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Fall",
+     "y": 2006,
+     "note": "A stuntman tells a girl an epic fairy tale in a 1920s hospital. Filmed in 24 countries",
+     "tags": "DW",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Adventures of Baron Munchausen",
+     "y": 1988,
+     "note": "Terry Gilliam's greatest liar, the moon and a sea monster",
+     "tags": "KA",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "t": "Flow",
+   "y": 2024,
+   "b": "A cat survives a great flood on a boat with a capybara, a dog and a secretary bird. Animated, no dialogue, Oscar winner.",
+   "tags": "ZA",
+   "heat": {
+    "violence": 0,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "How to Train Your Dragon",
+     "y": 2010,
+     "note": "A Viking boy befriends a dragon",
+     "tags": "Z",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Wolfwalkers",
+     "y": 2020,
+     "note": "Irish hand-drawn wolves and witchcraft. Gorgeous",
+     "tags": "ZD",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Last Unicorn",
+     "y": 1982,
+     "note": "The 80s animated quest, with a Jimmy Webb soundtrack",
+     "tags": "Z",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "t": "Labyrinth",
+   "y": 1986,
+   "b": "Jim Henson: Jennifer Connelly has 13 hours to rescue her brother from David Bowie's Goblin King.",
+   "tags": "DK",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Dark Crystal",
+     "y": 1982,
+     "note": "Henson's darker, all-puppet world",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The NeverEnding Story",
+     "y": 1984,
+     "note": "Falkor, the Swamps of Sadness and that theme",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "t": "Coraline",
+   "y": 2009,
+   "b": "Laika's stop-motion: a girl finds a door to a 'better' family with buttons for eyes. A proper dark fairy tale.",
+   "tags": "ZD",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Nightmare Before Christmas",
+     "y": 1993,
+     "note": "Jack Skellington discovers Christmas",
+     "tags": "ZD",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Spirited Away",
+     "y": 2001,
+     "note": "Ghibli's bathhouse of spirits. Also parked for World cinema",
+     "tags": "ZW",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "House",
+     "y": 1977,
+     "note": "Japanese schoolgirls, a hungry piano and an evil cat. Deranged. On Horror",
+     "tags": "WD",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Scary for small children."
+  },
+  {
+   "n": 11,
+   "t": "Edward Scissorhands",
+   "y": 1990,
+   "b": "Tim Burton's gothic fairy tale: Johnny Depp's unfinished boy with scissors for hands, adopted by suburbia.",
+   "tags": "D",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 12,
+   "t": "Monty Python and the Holy Grail",
+   "y": 1975,
+   "b": "King Arthur, coconuts, the Black Knight, the killer rabbit and the knights who say 'Ni!'",
+   "tags": "KL",
+   "heat": {
+    "violence": 2,
+    "intensity": 1,
+    "age": 2,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "A Knight's Tale",
+     "y": 2001,
+     "note": "Heath Ledger jousts to Queen and Bowie",
+     "tags": "KL",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "t": "Time Bandits",
+   "y": 1981,
+   "b": "Terry Gilliam: a boy and six dwarves steal through history using God's map of holes in time.",
+   "tags": "KA",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 14,
+   "t": "The Adventures of Robin Hood",
+   "y": 1938,
+   "b": "Errol Flynn in Technicolor green, Olivia de Havilland, Basil Rathbone, and the archery contest. Also core on Action.",
+   "tags": "LPO",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Robin and Marian",
+     "y": 1976,
+     "note": "Sean Connery's ageing Robin and Audrey Hepburn's Marian",
+     "tags": "L",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Robin Hood",
+     "y": 1973,
+     "note": "Disney's foxes",
+     "tags": "LZ",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Robin Hood: Prince of Thieves",
+     "y": 1991,
+     "note": "Costner's accent, Alan Rickman's Sheriff, Bryan Adams for 16 weeks",
+     "tags": "L",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "t": "Excalibur",
+   "y": 1981,
+   "b": "John Boorman's Arthurian epic: shining armour, Merlin, Morgana, Carmina Burana. Mad and gleaming.",
+   "tags": "LD",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Ladyhawke",
+     "y": 1985,
+     "note": "Lovers cursed to be a wolf by night and a hawk by day",
+     "tags": "L",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Dragonslayer",
+     "y": 1981,
+     "note": "The best dragon of the pre-CGI era",
+     "tags": "LM",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Violence and sexual content."
+  },
+  {
+   "n": 16,
+   "t": "Conan the Barbarian",
+   "y": 1982,
+   "b": "Arnold Schwarzenegger's sword-and-sorcery revenge, James Earl Jones's snake cult and Basil Poledouris's score.",
+   "tags": "L",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Northman",
+     "y": 2022,
+     "note": "Robert Eggers' Viking revenge epic",
+     "tags": "LD",
+     "warn": "Very violent.",
+     "seq": []
+    },
+    {
+     "t": "Krull",
+     "y": 1983,
+     "note": "The glaive, the Cyclops and a young Liam Neeson",
+     "tags": "L",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Red Sonja",
+     "y": 1985,
+     "note": "Arnie again, sort of",
+     "tags": "L",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ],
+   "w": "Violent."
+  },
+  {
+   "n": 17,
+   "t": "Kingdom of Heaven",
+   "y": 2005,
+   "b": "Ridley Scott's Crusades: Orlando Bloom defends Jerusalem against Saladin. Watch the director's cut.",
+   "tags": "L",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [],
+   "w": "Battle violence; the director's cut runs three hours."
+  },
+  {
+   "n": 18,
+   "t": "The Wizard of Oz",
+   "y": 1939,
+   "b": "Dorothy, the yellow brick road, the switch to Technicolor, and there's no place like home.",
+   "tags": "OA",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Thief of Bagdad",
+     "y": 1940,
+     "note": "The Technicolor genie and a flying carpet",
+     "tags": "OA",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "The flying monkeys still scare small children."
+  },
+  {
+   "n": 19,
+   "t": "It's a Wonderful Life",
+   "y": 1946,
+   "b": "An angel shows George Bailey what Bedford Falls would be without him. The Christmas fantasy.",
+   "tags": "O",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "A Matter of Life and Death",
+     "y": 1946,
+     "note": "Powell and Pressburger: a dead pilot argues for his life in heaven. Also on War",
+     "tags": "OL",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "t": "Jason and the Argonauts",
+   "y": 1963,
+   "b": "Ray Harryhausen's skeleton army, Talos the bronze giant and the Golden Fleece.",
+   "tags": "OM",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The 7th Voyage of Sinbad",
+     "y": 1958,
+     "note": "Harryhausen's Cyclops and a dragon",
+     "tags": "OM",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Clash of the Titans",
+     "y": 1981,
+     "note": "Harryhausen's last: Medusa and the Kraken",
+     "tags": "OM",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "t": "King Kong",
+   "y": 1933,
+   "b": "A film crew, Skull Island, dinosaurs and the giant ape on the Empire State Building. 'It was beauty killed the beast.'",
+   "tags": "OM",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 22,
+   "t": "Gunga Din",
+   "y": 1939,
+   "b": "Kipling: Cary Grant and two soldier pals in the Raj, a murderous cult and a water carrier who wants to be a soldier. Also on Action.",
+   "tags": "OA",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 4,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Jungle Book",
+     "y": 1967,
+     "note": "Disney's Kipling: the bare necessities",
+     "tags": "ZO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Captains Courageous",
+     "y": 1937,
+     "note": "A spoilt boy learns from Spencer Tracy's fisherman",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Colonial attitudes of 1939."
+  },
+  {
+   "n": 23,
+   "t": "The Crimson Pirate",
+   "y": 1952,
+   "b": "Burt Lancaster's grinning, somersaulting pirate. The most fun swashbuckler ever made.",
+   "tags": "PO",
+   "heat": {
+    "violence": 1,
+    "intensity": 1,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Treasure Island",
+     "y": 1950,
+     "note": "Robert Newton's definitive Long John Silver",
+     "tags": "PO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Black Pirate",
+     "y": 1926,
+     "note": "Douglas Fairbanks slides down a sail on his knife",
+     "tags": "PO",
+     "warn": "Silent.",
+     "seq": []
+    },
+    {
+     "t": "The Black Swan",
+     "y": 1942,
+     "note": "Tyrone Power in Technicolor",
+     "tags": "PO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Pirates of the Caribbean: The Curse of the Black Pearl",
+     "y": 2003,
+     "note": "Johnny Depp's Jack Sparrow. Also on Action",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Muppet Treasure Island",
+     "y": 1996,
+     "note": "Tim Curry and Kermit",
+     "tags": "PK",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Cutthroat Island",
+     "y": 1995,
+     "note": "The flop that sank a studio",
+     "tags": "P",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "t": "The African Queen",
+   "y": 1951,
+   "b": "Bogart's gin-soaked boat captain and Hepburn's missionary take a leaky steamer down a river to attack a German gunboat.",
+   "tags": "AO",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Lost City of Z",
+     "y": 2016,
+     "note": "Charlie Hunnam's explorer obsessed with a lost Amazon city",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Kon-Tiki",
+     "y": 2012,
+     "note": "Thor Heyerdahl crosses the Pacific on a raft",
+     "tags": "AW",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Life of Pi",
+     "y": 2012,
+     "note": "A boy, a tiger and a lifeboat",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "t": "The Man Who Would Be King",
+   "y": 1975,
+   "b": "Kipling: Sean Connery and Michael Caine as two rogue soldiers who make themselves kings in Kafiristan.",
+   "tags": "AL",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Lost Horizon",
+     "y": 1937,
+     "note": "Frank Capra's plane crash and Shangri-La",
+     "tags": "OA",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "t": "Princess Mononoke",
+   "y": 1997,
+   "b": "Ghibli: a cursed prince between a forest of gods and an ironworks town. Miyazaki's angriest epic.",
+   "tags": "ZDW",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "My Neighbor Totoro",
+     "y": 1988,
+     "note": "Two sisters and a giant, sleepy forest spirit",
+     "tags": "ZW",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Howl's Moving Castle",
+     "y": 2004,
+     "note": "A walking castle and a cursed girl",
+     "tags": "ZW",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Castle in the Sky",
+     "y": 1986,
+     "note": "Sky pirates and a floating city",
+     "tags": "ZW",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Your Name",
+     "y": 2016,
+     "note": "A body-swap across time and a comet",
+     "tags": "ZW",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Some violence."
+  },
+  {
+   "n": 27,
+   "t": "Pan's Labyrinth",
+   "y": 2006,
+   "b": "Del Toro: a girl in Franco's Spain meets a faun and the Pale Man, while her stepfather tortures rebels.",
+   "tags": "D",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Devil's Backbone",
+     "y": 2001,
+     "note": "Del Toro's ghost in a Civil War orphanage",
+     "tags": "DW",
+     "warn": "Subtitled.",
+     "seq": []
+    },
+    {
+     "t": "Guillermo del Toro's Pinocchio",
+     "y": 2022,
+     "note": "Stop-motion Pinocchio in Mussolini's Italy",
+     "tags": "ZD",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Shape of Water",
+     "y": 2017,
+     "note": "A mute cleaner falls for an amphibian man",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Cronos",
+     "y": 1993,
+     "note": "Del Toro's debut: a vampire beetle",
+     "tags": "DW",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Company of Wolves",
+     "y": 1984,
+     "note": "Neil Jordan's dark Red Riding Hood",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Graphic violence. Subtitled."
+  },
+  {
+   "n": 28,
+   "t": "Godzilla",
+   "y": 1954,
+   "b": "The original: a monster woken by H-bomb tests flattens Tokyo, nine years after Hiroshima. Solemn and haunting.",
+   "tags": "MW",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Godzilla Minus One",
+     "y": 2023,
+     "note": "The modern masterpiece. Core on Sci-fi",
+     "tags": "MW",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Subtitled."
+  },
+  {
+   "n": 29,
+   "t": "The Green Knight",
+   "y": 2021,
+   "b": "David Lowery: Dev Patel's Gawain rides out to keep a deadly bargain. Strange, slow and beautiful.",
+   "tags": "LD",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Seventh Seal",
+     "y": 1957,
+     "note": "Bergman's knight plays chess with Death",
+     "tags": "LW",
+     "warn": "Subtitled.",
+     "seq": []
+    }
+   ],
+   "w": "Slow and dreamlike."
+  },
+  {
+   "n": 30,
+   "t": "Beauty and the Beast",
+   "y": 1946,
+   "b": "Jean Cocteau: arms holding candelabras out of the walls, a Beast in velvet, and pure film magic.",
+   "tags": "OW",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 4,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Orpheus",
+     "y": 1950,
+     "note": "Cocteau: Death on a motorbike and mirrors into the underworld",
+     "tags": "OW",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Ugetsu",
+     "y": 1953,
+     "note": "Mizoguchi's potter seduced by a phantom princess",
+     "tags": "OW",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Thief of Bagdad",
+     "y": 1924,
+     "note": "Douglas Fairbanks's silent flying carpets",
+     "tags": "O",
+     "warn": "Silent.",
+     "seq": []
+    },
+    {
+     "t": "The Adventures of Prince Achmed",
+     "y": 1926,
+     "note": "The oldest surviving animated feature, cut from paper silhouettes",
+     "tags": "ZO",
+     "warn": "Silent.",
+     "seq": []
+    },
+    {
+     "t": "Die Nibelungen: Siegfried",
+     "y": 1924,
+     "note": "Fritz Lang's full-size dragon",
+     "tags": "LO",
+     "warn": "Silent; long.",
+     "seq": []
+    },
+    {
+     "t": "Valerie and Her Week of Wonders",
+     "y": 1970,
+     "note": "A Czech surrealist vampire fairy tale",
+     "tags": "DW",
+     "warn": "Strange and sexual.",
+     "seq": []
+    }
+   ],
+   "w": "Subtitled, black and white."
+  }
+ ],
+ "beyond": []
+}

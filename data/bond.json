@@ -29,7 +29,9 @@
   "M": "Moore",
   "D": "Dalton",
   "B": "Brosnan",
-  "R": "Craig"
+  "R": "Craig",
+  "S": "Better spies",
+  "X": "Rip-offs & spoofs"
  },
  "levels": [
   {
@@ -79,6 +81,14 @@
    "bg": "#2b0b0e",
    "fg": "#efe3cf",
    "upto": 25
+  },
+  {
+   "t": "100+",
+   "name": "Better spies and rip-offs",
+   "note": "The anti-Bonds, the knock-offs and the piss-takes.",
+   "bg": "#0c0506",
+   "fg": "#efe3cf",
+   "beyond": true
   }
  ],
  "core": [
@@ -477,5 +487,120 @@
    "br": []
   }
  ],
- "beyond": []
+ "beyond": [
+  {
+   "t": "The Spy Who Came in from the Cold",
+   "y": 1965,
+   "b": "Le Carré's answer to Bond: Richard Burton's burnt-out agent sent on one last grubby mission across the Berlin Wall. Black and white, bleak, brilliant. Also on Thriller.",
+   "tags": "S",
+   "seq": [],
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 3
+   }
+  },
+  {
+   "t": "The Ipcress File",
+   "y": 1965,
+   "b": "Michael Caine's Harry Palmer: glasses, a council flat, filing, and cooking omelettes. Made by Bond's producer as the anti-Bond. On the BFI 100.",
+   "tags": "S",
+   "seq": [
+    {
+     "t": "Funeral in Berlin",
+     "y": 1966,
+     "note": "Palmer in Berlin",
+     "star": false
+    },
+    {
+     "t": "Billion Dollar Brain",
+     "y": 1967,
+     "note": "Ken Russell directs Palmer",
+     "star": false
+    }
+   ],
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 4,
+    "challenge": 2
+   }
+  },
+  {
+   "t": "Our Man Flint",
+   "y": 1966,
+   "b": "James Coburn's Derek Flint: a lighter with 82 functions, four girlfriends and karate. The best of the 60s knock-offs.",
+   "tags": "X",
+   "seq": [
+    {
+     "t": "In Like Flint",
+     "y": 1967,
+     "note": "Sillier",
+     "star": false
+    }
+   ],
+   "heat": {
+    "violence": 1,
+    "intensity": 1,
+    "age": 4,
+    "challenge": 1
+   }
+  },
+  {
+   "t": "OSS 117: Cairo, Nest of Spies",
+   "y": 2006,
+   "b": "Jean Dujardin's suave, staggeringly ignorant French agent in 1955 Egypt. A perfect Connery parody from the team behind The Artist.",
+   "tags": "X",
+   "seq": [
+    {
+     "t": "OSS 117: Lost in Rio",
+     "y": 2009,
+     "note": "Nearly as good",
+     "star": true
+    }
+   ],
+   "heat": {
+    "violence": 1,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 1
+   },
+   "w": "Subtitled."
+  },
+  {
+   "t": "Austin Powers: International Man of Mystery",
+   "y": 1997,
+   "b": "Mike Myers' frozen 60s spy and Dr. Evil's one million dollars. Yeah, baby.",
+   "tags": "X",
+   "seq": [
+    {
+     "t": "Austin Powers: The Spy Who Shagged Me",
+     "y": 1999,
+     "note": "Mini-Me",
+     "star": false
+    }
+   ],
+   "heat": {
+    "violence": 1,
+    "intensity": 0,
+    "age": 0,
+    "challenge": 0
+   }
+  },
+  {
+   "t": "Kingsman: The Secret Service",
+   "y": 2014,
+   "b": "Colin Firth's tailor-spy and a church massacre to Free Bird. Bond with a Savile Row suit and no restraint. Also on Action and Superheroes.",
+   "tags": "X",
+   "seq": [],
+   "heat": {
+    "violence": 4,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 0
+   },
+   "w": "The church scene."
+  }
+ ]
 }

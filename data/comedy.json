@@ -1,0 +1,1163 @@
+{
+ "id": "comedy",
+ "title": "Comedy",
+ "order": 14,
+ "tagline": "From Paddington 2 to The Wolf of Wall Street without noticing the water got hot.",
+ "heatKeys": [
+  [
+   "violence",
+   "Violence"
+  ],
+  [
+   "intensity",
+   "Intensity"
+  ],
+  [
+   "age",
+   "Old-school"
+  ],
+  [
+   "challenge",
+   "Challenge"
+  ]
+ ],
+ "tags": {
+  "F": "Family",
+  "T": "Teen",
+  "M": "Murray & Murphy",
+  "P": "Parody",
+  "S": "Slapstick",
+  "B": "British",
+  "W": "Screwball & wit",
+  "R": "Romantic",
+  "D": "Dark",
+  "O": "Classics"
+ },
+ "levels": [
+  {
+   "t": 22,
+   "name": "Popcorn",
+   "note": "A bear in prison, a day off, ghosts, Axel Foley, Airplane! and Toontown.",
+   "bg": "#dbe5cc",
+   "fg": "#17110d",
+   "upto": 6
+  },
+  {
+   "t": 35,
+   "name": "Cult favourites",
+   "note": "Fuzz, the Blues Brothers, Wanda, a stolen baby, the Dude and Spinal Tap.",
+   "bg": "#ecdcaa",
+   "fg": "#17110d",
+   "upto": 12
+  },
+  {
+   "t": 50,
+   "name": "Sharper",
+   "note": "A hotel, a monster, a Messiah, the Heathers, Paris and Annie Hall.",
+   "bg": "#e8b47a",
+   "fg": "#17110d",
+   "upto": 18
+  },
+  {
+   "t": 65,
+   "name": "Golden age",
+   "note": "Wilder, Kubrick, Ealing, Hawks, screwball and the Marx Brothers.",
+   "bg": "#cf5b3a",
+   "fg": "#17110d",
+   "upto": 25
+  },
+  {
+   "t": 80,
+   "name": "Silent and serious",
+   "note": "Sturges, Chaplin and Keaton.",
+   "bg": "#6d1b21",
+   "fg": "#efe3cf",
+   "upto": 28
+  },
+  {
+   "t": 95,
+   "name": "Final boss",
+   "note": "Scorsese's worst night in SoHo and three hours on Wall Street.",
+   "bg": "#2b0b0e",
+   "fg": "#efe3cf",
+   "upto": 30
+  },
+  {
+   "t": "100+",
+   "name": "Cooked",
+   "note": "Only if they finish The Wolf of Wall Street and ask for more.",
+   "bg": "#0c0506",
+   "fg": "#efe3cf",
+   "beyond": true
+  }
+ ],
+ "core": [
+  {
+   "n": 1,
+   "t": "Paddington 2",
+   "y": 2017,
+   "b": "Paddington goes to prison for a crime he didn't commit, and Hugh Grant plays the villain of his career. Every gag pays off. Not a joke pick.",
+   "tags": "BF",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "Paddington",
+     "y": 2014,
+     "note": "The first, nearly as good",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "Babe",
+     "y": 1995,
+     "note": "A pig who wants to herd sheep",
+     "tags": "F",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Home Alone",
+     "y": 1990,
+     "note": "Booby traps",
+     "tags": "F",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "t": "Ferris Bueller's Day Off",
+   "y": 1986,
+   "b": "Matthew Broderick skips school and takes Chicago. 'Bueller? Bueller?' Breaks the fourth wall and gets away with it.",
+   "tags": "T",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Wayne's World",
+     "y": 1992,
+     "note": "Party on, Garth",
+     "tags": "T",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Bill & Ted's Excellent Adventure",
+     "y": 1989,
+     "note": "Most excellent time travel",
+     "tags": "T",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Superbad",
+     "y": 2007,
+     "note": "Two teenagers, one party",
+     "tags": "T",
+     "warn": "Crude.",
+     "seq": []
+    },
+    {
+     "t": "The Breakfast Club",
+     "y": 1985,
+     "note": "Detention",
+     "tags": "T",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "t": "Ghostbusters",
+   "y": 1984,
+   "b": "Bill Murray versus the Stay Puft Marshmallow Man. Core on Horror.",
+   "tags": "M",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "Ghostbusters II",
+     "y": 1989,
+     "note": "The slime sequel",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "Stripes",
+     "y": 1981,
+     "note": "Bill Murray joins the army",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Groundhog Day",
+     "y": 1993,
+     "note": "Bill Murray's best. Core on Fantasy",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "t": "Beverly Hills Cop",
+   "y": 1984,
+   "b": "Eddie Murphy's Detroit cop runs rings around Beverly Hills. Core on Action.",
+   "tags": "M",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Trading Places",
+     "y": 1983,
+     "note": "Murphy and Aykroyd swapped by two rich old men",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Coming to America",
+     "y": 1988,
+     "note": "A prince in Queens",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "48 Hrs.",
+     "y": 1982,
+     "note": "Murphy and Nolte",
+     "tags": "M",
+     "warn": "Violence.",
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "t": "Airplane!",
+   "y": 1980,
+   "b": "The disaster-movie spoof with a joke every three seconds. 'Surely you can't be serious.' 'I am serious. And don't call me Shirley.'",
+   "tags": "P",
+   "heat": {
+    "violence": 0,
+    "intensity": 0,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Naked Gun",
+     "y": 1988,
+     "note": "Leslie Nielsen's Frank Drebin. Nearly as funny",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Top Secret!",
+     "y": 1984,
+     "note": "Elvis-style spy spoof",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Hot Shots!",
+     "y": 1991,
+     "note": "Top Gun spoof",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Naked Gun",
+     "y": 2025,
+     "note": "Liam Neeson takes over. Surprisingly good",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "t": "Who Framed Roger Rabbit",
+   "y": 1988,
+   "b": "Bob Hoskins and the cartoons of Toontown. Core on Animation.",
+   "tags": "S",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 7,
+   "t": "Hot Fuzz",
+   "y": 2007,
+   "b": "Edgar Wright's London supercop sent to a sinister village. Core on Action.",
+   "tags": "BP",
+   "heat": {
+    "violence": 3,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Shaun of the Dead",
+     "y": 2004,
+     "note": "Core on Horror",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The World's End",
+     "y": 2013,
+     "note": "The pub crawl that ends the world",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Gory slapstick."
+  },
+  {
+   "n": 8,
+   "t": "The Blues Brothers",
+   "y": 1980,
+   "b": "Jake and Elwood on a mission from God: car chases, Aretha, James Brown, Ray Charles and every police car in Illinois.",
+   "tags": "MS",
+   "heat": {
+    "violence": 1,
+    "intensity": 1,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Animal House",
+     "y": 1978,
+     "note": "Toga!",
+     "tags": "M",
+     "warn": "Crude.",
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "t": "A Fish Called Wanda",
+   "y": 1988,
+   "b": "John Cleese, Jamie Lee Curtis, Kevin Kline ('Don't call me stupid') and Michael Palin's chips. The best British farce.",
+   "tags": "BF",
+   "heat": {
+    "violence": 1,
+    "intensity": 1,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Fierce Creatures",
+     "y": 1997,
+     "note": "The same cast at a zoo. Not as good",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "t": "Raising Arizona",
+   "y": 1987,
+   "b": "The Coens: Nicolas Cage and Holly Hunter steal a quintuplet. Cartoon chase scenes and a biker from hell.",
+   "tags": "SD",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "O Brother, Where Art Thou?",
+     "y": 2000,
+     "note": "The Coens' Odyssey with chain gangs and bluegrass",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Burn After Reading",
+     "y": 2008,
+     "note": "Coens' spy idiots",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "t": "The Big Lebowski",
+   "y": 1998,
+   "b": "The Dude abides. A rug, a ransom, bowling and nihilists. The Coens' most quotable film.",
+   "tags": "D",
+   "heat": {
+    "violence": 2,
+    "intensity": 1,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Nice Guys",
+     "y": 2016,
+     "note": "Gosling and Crowe, 70s LA. Also on Action",
+     "tags": "D",
+     "warn": "Violence.",
+     "seq": []
+    },
+    {
+     "t": "Clerks",
+     "y": 1994,
+     "note": "Kevin Smith's convenience store",
+     "tags": "D",
+     "warn": "Crude.",
+     "seq": []
+    },
+    {
+     "t": "Office Space",
+     "y": 1999,
+     "note": "The printer scene",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "t": "This Is Spinal Tap",
+   "y": 1984,
+   "b": "The mockumentary of a dim British rock band. Stonehenge, the drummers, and the amp that goes to eleven.",
+   "tags": "PB",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Best in Show",
+     "y": 2000,
+     "note": "Christopher Guest does dog shows",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "What We Do in the Shadows",
+     "y": 2014,
+     "note": "Vampire flatmates. Core on Horror",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Borat",
+     "y": 2006,
+     "note": "Very nice",
+     "tags": "P",
+     "warn": "Crude.",
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "t": "The Grand Budapest Hotel",
+   "y": 2014,
+   "b": "Wes Anderson: Ralph Fiennes's perfumed concierge, a stolen painting and a prison break, in pastel boxes.",
+   "tags": "W",
+   "heat": {
+    "violence": 2,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Rushmore",
+     "y": 1998,
+     "note": "Max Fischer versus Bill Murray",
+     "tags": "W",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Royal Tenenbaums",
+     "y": 2001,
+     "note": "Anderson's family of failed geniuses",
+     "tags": "W",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Fantastic Mr. Fox",
+     "y": 2009,
+     "note": "Also on Animation",
+     "tags": "W",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "t": "Young Frankenstein",
+   "y": 1974,
+   "b": "Mel Brooks and Gene Wilder in gorgeous black and white. 'Walk this way.' 'Puttin' on the Ritz.' Also on Horror.",
+   "tags": "PO",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 2,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Producers",
+     "y": 1967,
+     "note": "'Springtime for Hitler'",
+     "tags": "PO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Blazing Saddles",
+     "y": 1974,
+     "note": "Also on Westerns",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Spaceballs",
+     "y": 1987,
+     "note": "Star Wars spoof",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "t": "Life of Brian",
+   "y": 1979,
+   "b": "Monty Python's not-the-Messiah: Biggus Dickus, the People's Front of Judea, and the crucifixion singalong.",
+   "tags": "B",
+   "heat": {
+    "violence": 1,
+    "intensity": 1,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Monty Python and the Holy Grail",
+     "y": 1975,
+     "note": "Core on Fantasy",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Meaning of Life",
+     "y": 1983,
+     "note": "Mr Creosote",
+     "tags": "B",
+     "warn": "Gross.",
+     "seq": []
+    },
+    {
+     "t": "Withnail and I",
+     "y": 1987,
+     "note": "Two out-of-work actors and a disastrous holiday",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Four Lions",
+     "y": 2010,
+     "note": "Chris Morris's jihadi farce. Brave and hilarious",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "t": "Heathers",
+   "y": 1988,
+   "b": "Winona Ryder and Christian Slater kill the popular girls and make it look like suicide. Pitch-black high school satire.",
+   "tags": "TD",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Election",
+     "y": 1999,
+     "note": "Reese Witherspoon's Tracy Flick",
+     "tags": "T",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Mean Girls",
+     "y": 2004,
+     "note": "On Wednesdays we wear pink",
+     "tags": "T",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Murder and teen suicide played for laughs."
+  },
+  {
+   "n": 17,
+   "t": "Charade",
+   "y": 1963,
+   "b": "Cary Grant and Audrey Hepburn in Paris: a dead husband, stolen money and everyone lying. A comedy with some murders. Also on Thriller.",
+   "tags": "RO",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "How to Steal a Million",
+     "y": 1966,
+     "note": "Hepburn and Peter O'Toole rob a museum",
+     "tags": "RO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "t": "Annie Hall",
+   "y": 1977,
+   "b": "Woody Allen and Diane Keaton fall in and out of love in New York. Marshall McLuhan behind the cinema queue.",
+   "tags": "R",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Manhattan",
+     "y": 1979,
+     "note": "Black and white, Gershwin",
+     "tags": "R",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "When Harry Met Sally...",
+     "y": 1989,
+     "note": "I'll have what she's having",
+     "tags": "R",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "t": "Some Like It Hot",
+   "y": 1959,
+   "b": "Billy Wilder: two musicians witness a mob hit and hide in an all-girl band. Marilyn. 'Nobody's perfect.'",
+   "tags": "OR",
+   "heat": {
+    "violence": 1,
+    "intensity": 1,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Apartment",
+     "y": 1960,
+     "note": "Wilder's lonely office drone lends out his flat",
+     "tags": "OR",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Tootsie",
+     "y": 1982,
+     "note": "Dustin Hoffman in a soap opera",
+     "tags": "R",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "t": "Dr. Strangelove",
+   "y": 1964,
+   "b": "Kubrick's nuclear farce: Peter Sellers three times, a general obsessed with his fluids, and a cowboy riding the bomb. Also on War.",
+   "tags": "O",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Being There",
+     "y": 1979,
+     "note": "Sellers as a gardener mistaken for a genius",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Pink Panther Strikes Again",
+     "y": 1976,
+     "note": "Clouseau at his best",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "t": "Kind Hearts and Coronets",
+   "y": 1949,
+   "b": "Ealing: a poor relation murders eight heirs to a dukedom, all played by Alec Guinness. Exquisitely nasty.",
+   "tags": "BO",
+   "heat": {
+    "violence": 2,
+    "intensity": 1,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Ladykillers",
+     "y": 1955,
+     "note": "Ealing's gang versus a little old lady",
+     "tags": "BO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Lavender Hill Mob",
+     "y": 1951,
+     "note": "Guinness robs the Bank of England",
+     "tags": "BO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Whisky Galore!",
+     "y": 1949,
+     "note": "Islanders loot a wrecked whisky ship",
+     "tags": "BO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "t": "His Girl Friday",
+   "y": 1940,
+   "b": "Howard Hawks: Cary Grant tries to win back his ex-wife and star reporter with one last story. The fastest dialogue ever filmed.",
+   "tags": "WO",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Philadelphia Story",
+     "y": 1940,
+     "note": "Grant, Hepburn and Stewart at a society wedding",
+     "tags": "WO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Thin Man",
+     "y": 1934,
+     "note": "Married detectives and martinis",
+     "tags": "WO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "t": "Bringing Up Baby",
+   "y": 1938,
+   "b": "Hawks again: Katharine Hepburn wrecks Cary Grant's life with the help of a leopard. Screwball at full speed.",
+   "tags": "WO",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "It Happened One Night",
+     "y": 1934,
+     "note": "Gable and Colbert, the hitchhiking scene",
+     "tags": "WO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Arsenic and Old Lace",
+     "y": 1944,
+     "note": "Grant's aunts poison lonely old men",
+     "tags": "WO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "t": "My Man Godfrey",
+   "y": 1936,
+   "b": "William Powell's tramp becomes butler to a family of rich lunatics, with Carole Lombard. Depression-era screwball.",
+   "tags": "WO",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Trouble in Paradise",
+     "y": 1932,
+     "note": "Lubitsch's jewel thieves",
+     "tags": "WO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "To Be or Not to Be",
+     "y": 1942,
+     "note": "Lubitsch: Polish actors fool the Nazis",
+     "tags": "WO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Ninotchka",
+     "y": 1939,
+     "note": "Garbo laughs",
+     "tags": "WO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "t": "Duck Soup",
+   "y": 1933,
+   "b": "The Marx Brothers start a war. The mirror scene. Groucho at his most anarchic.",
+   "tags": "SO",
+   "heat": {
+    "violence": 1,
+    "intensity": 1,
+    "age": 5,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "A Night at the Opera",
+     "y": 1935,
+     "note": "The stateroom scene",
+     "tags": "SO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Horse Feathers",
+     "y": 1932,
+     "note": "Groucho runs a college",
+     "tags": "SO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "t": "Sullivan's Travels",
+   "y": 1941,
+   "b": "Preston Sturges: a comedy director dresses as a tramp to make a serious film, and learns why people need to laugh. Turns grim, then lands.",
+   "tags": "O",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Lady Eve",
+     "y": 1941,
+     "note": "Sturges: Barbara Stanwyck cons Henry Fonda on a liner. Funnier",
+     "tags": "WO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Palm Beach Story",
+     "y": 1942,
+     "note": "Sturges' runaway wife",
+     "tags": "WO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "t": "Modern Times",
+   "y": 1936,
+   "b": "Chaplin's Tramp versus the factory: swallowed by the gears, the feeding machine, and the gibberish song.",
+   "tags": "SO",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 5,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "City Lights",
+     "y": 1931,
+     "note": "Chaplin's best: the blind flower girl, and the last shot",
+     "tags": "SO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Gold Rush",
+     "y": 1925,
+     "note": "The shoe dinner and the dancing rolls",
+     "tags": "SO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Great Dictator",
+     "y": 1940,
+     "note": "Chaplin mocks Hitler",
+     "tags": "SO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Kid",
+     "y": 1921,
+     "note": "Chaplin and Jackie Coogan",
+     "tags": "SO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Almost silent."
+  },
+  {
+   "n": 28,
+   "t": "Sherlock Jr.",
+   "y": 1924,
+   "b": "Buster Keaton's projectionist dreams himself into the movie he's showing. 45 minutes of impossible stunts and effects.",
+   "tags": "SO",
+   "heat": {
+    "violence": 1,
+    "intensity": 1,
+    "age": 5,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The General",
+     "y": 1926,
+     "note": "Keaton's train chase. Also on Action",
+     "tags": "SO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Safety Last!",
+     "y": 1923,
+     "note": "Harold Lloyd and the clock. Also on Action",
+     "tags": "SO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Steamboat Bill, Jr.",
+     "y": 1928,
+     "note": "The falling house",
+     "tags": "SO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Navigator",
+     "y": 1924,
+     "note": "Keaton adrift on an ocean liner",
+     "tags": "SO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Silent."
+  },
+  {
+   "n": 29,
+   "t": "After Hours",
+   "y": 1985,
+   "b": "Scorsese: an office worker's night in SoHo goes wrong in every possible way. A paranoid nightmare that's also very funny.",
+   "tags": "D",
+   "heat": {
+    "violence": 1,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The King of Comedy",
+     "y": 1982,
+     "note": "De Niro's would-be comic kidnaps Jerry Lewis",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Being John Malkovich",
+     "y": 1999,
+     "note": "A portal into John Malkovich",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "t": "The Wolf of Wall Street",
+   "y": 2013,
+   "b": "Scorsese's three-hour bacchanal: DiCaprio's crooked broker, the Lemmon 714s crawl, a dwarf-tossing office. Also on Crime & Noir.",
+   "tags": "D",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "In the Loop",
+     "y": 2009,
+     "note": "Malcolm Tucker starts a war",
+     "tags": "BD",
+     "warn": "Very sweary.",
+     "seq": []
+    }
+   ],
+   "w": "Drugs, sex, three hours."
+  }
+ ],
+ "beyond": []
+}

@@ -60,15 +60,15 @@
   {
    "t": 65,
    "name": "Old-school adventure",
-   "note": "Oz, an angel, Harryhausen, Kong, Kipling, pirates and a leaky boat.",
+   "note": "Oz, an angel, Harryhausen, Kong, pirates, a leaky boat and Kipling.",
    "bg": "#cf5b3a",
    "fg": "#17110d",
-   "upto": 25
+   "upto": 24
   },
   {
    "t": 80,
    "name": "Darker",
-   "note": "Forest gods, the Pale Man and the original Godzilla.",
+   "note": "Forest gods, the Pale Man, cursed ballet shoes and the original Godzilla.",
    "bg": "#6d1b21",
    "fg": "#efe3cf",
    "upto": 28
@@ -747,39 +747,6 @@
   },
   {
    "n": 22,
-   "t": "Gunga Din",
-   "y": 1939,
-   "b": "Kipling: Cary Grant and two soldier pals in the Raj, a murderous cult and a water carrier who wants to be a soldier. Also on Action.",
-   "tags": "OA",
-   "heat": {
-    "violence": 2,
-    "intensity": 2,
-    "age": 4,
-    "challenge": 1
-   },
-   "seq": [],
-   "br": [
-    {
-     "t": "The Jungle Book",
-     "y": 1967,
-     "note": "Disney's Kipling: the bare necessities",
-     "tags": "ZO",
-     "warn": null,
-     "seq": []
-    },
-    {
-     "t": "Captains Courageous",
-     "y": 1937,
-     "note": "A spoilt boy learns from Spencer Tracy's fisherman",
-     "tags": "O",
-     "warn": null,
-     "seq": []
-    }
-   ],
-   "w": "Colonial attitudes of 1939."
-  },
-  {
-   "n": 23,
    "t": "The Crimson Pirate",
    "y": 1952,
    "b": "Burt Lancaster's grinning, somersaulting pirate. The most fun swashbuckler ever made.",
@@ -837,7 +804,7 @@
    ]
   },
   {
-   "n": 24,
+   "n": 23,
    "t": "The African Queen",
    "y": 1951,
    "b": "Bogart's gin-soaked boat captain and Hepburn's missionary take a leaky steamer down a river to attack a German gunboat.",
@@ -877,7 +844,7 @@
    ]
   },
   {
-   "n": 25,
+   "n": 24,
    "t": "The Man Who Would Be King",
    "y": 1975,
    "b": "Kipling: Sean Connery and Michael Caine as two rogue soldiers who make themselves kings in Kafiristan.",
@@ -891,6 +858,30 @@
    "seq": [],
    "br": [
     {
+     "t": "Gunga Din",
+     "y": 1939,
+     "note": "Cary Grant, Kipling and a thuggee cult. Pure Saturday-matinee fun. Also on Action",
+     "tags": "OA",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Jungle Book",
+     "y": 1967,
+     "note": "Disney's Kipling: the bare necessities",
+     "tags": "ZO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Captains Courageous",
+     "y": 1937,
+     "note": "A spoilt boy learns from Spencer Tracy's fisherman",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
      "t": "Lost Horizon",
      "y": 1937,
      "note": "Frank Capra's plane crash and Shangri-La",
@@ -901,7 +892,7 @@
    ]
   },
   {
-   "n": 26,
+   "n": 25,
    "t": "Princess Mononoke",
    "y": 1997,
    "b": "Ghibli: a cursed prince between a forest of gods and an ironworks town. Miyazaki's angriest epic.",
@@ -950,7 +941,7 @@
    "w": "Some violence."
   },
   {
-   "n": 27,
+   "n": 26,
    "t": "Pan's Labyrinth",
    "y": 2006,
    "b": "Del Toro: a girl in Franco's Spain meets a faun and the Pale Man, while her stepfather tortures rebels.",
@@ -1005,6 +996,21 @@
     }
    ],
    "w": "Graphic violence. Subtitled."
+  },
+  {
+   "t": "The Red Shoes",
+   "y": 1948,
+   "b": "Powell and Pressburger: a ballerina torn between her art and her love, and a ballet of the Andersen tale where the shoes won't stop dancing. The most beautiful Technicolor ever shot, and it ends badly.",
+   "tags": "DO",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [],
+   "n": 27
   },
   {
    "n": 28,
@@ -1116,14 +1122,6 @@
      "note": "A Czech surrealist vampire fairy tale",
      "tags": "DW",
      "warn": "Strange and sexual.",
-     "seq": []
-    },
-    {
-     "t": "The Red Shoes",
-     "y": 1948,
-     "note": "Powell and Pressburger's Technicolor ballet fairy tale",
-     "tags": "O",
-     "warn": null,
      "seq": []
     }
    ],

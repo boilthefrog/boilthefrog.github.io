@@ -1930,6 +1930,19 @@
     "jumps": 4,
     "weird": 4
    }
+  },
+  {
+   "t": "Eraserhead",
+   "y": 1977,
+   "b": "David Lynch's first film: an industrial wasteland, a radiator lady and a mutant baby that won't stop crying. Pure nightmare logic.",
+   "tags": "WB",
+   "seq": [],
+   "heat": {
+    "violence": 2,
+    "intensity": 4,
+    "age": 3,
+    "challenge": 5
+   }
   }
  ],
  "order": 1

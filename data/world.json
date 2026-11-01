@@ -506,6 +506,14 @@
      "tags": "A",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "A Separation",
+     "y": 2011,
+     "note": "Farhadi: an Iranian divorce, an accident and a court case where everyone half lies",
+     "tags": "W",
+     "warn": null,
+     "seq": []
     }
    ],
    "w": "Violence."
@@ -744,6 +752,14 @@
      "tags": "AO",
      "warn": "Battle violence.",
      "seq": []
+    },
+    {
+     "t": "Sansho the Bailiff",
+     "y": 1954,
+     "note": "Mizoguchi: a governor's children sold into slavery. Devastating",
+     "tags": "AO",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -781,6 +797,14 @@
      "t": "Cléo from 5 to 7",
      "y": 1962,
      "note": "Agnès Varda's two hours in real time",
+     "tags": "FO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Contempt",
+     "y": 1963,
+     "note": "Godard: Bardot, Fritz Lang as himself and a marriage dying in a Capri villa. Incredible, miserable",
      "tags": "FO",
      "warn": null,
      "seq": []
@@ -847,6 +871,22 @@
      "y": 1954,
      "note": "Fellini's strongman and his simple assistant",
      "tags": "EO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "L'Avventura",
+     "y": 1960,
+     "note": "Antonioni: a woman vanishes on an island and everyone stops looking. Booed at Cannes",
+     "tags": "EO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Close-Up",
+     "y": 1990,
+     "note": "Kiarostami: a real conman who posed as a director re-enacts it as himself",
+     "tags": "WO",
      "warn": null,
      "seq": []
     }
@@ -1028,6 +1068,14 @@
      "t": "Tokyo Story",
      "y": 1953,
      "note": "Ozu's elderly couple visit children too busy for them",
+     "tags": "AO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Late Spring",
+     "y": 1949,
+     "note": "Ozu: a widower pretends to remarry so his daughter will leave. Tokyo Story's twin",
      "tags": "AO",
      "warn": null,
      "seq": []

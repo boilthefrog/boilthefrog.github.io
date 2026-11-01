@@ -220,6 +220,15 @@
      "tags": "O",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Red Sun",
+     "y": 1971,
+     "note": "Charles Bronson, Toshiro Mifune's samurai and Alain Delon chase a stolen sword across the West",
+     "tags": "O",
+     "warn": null,
+     "seq": [],
+     "junk": true
     }
    ]
   },

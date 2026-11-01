@@ -1,0 +1,911 @@
+{
+ "id": "gangster",
+ "title": "Gangster",
+ "order": 8,
+ "tagline": "From Snatch to Once Upon a Time in America without noticing the water got hot.",
+ "heatKeys": [
+  [
+   "violence",
+   "Violence"
+  ],
+  [
+   "intensity",
+   "Intensity"
+  ],
+  [
+   "age",
+   "Old-school"
+  ],
+  [
+   "challenge",
+   "Challenge"
+  ]
+ ],
+ "tags": {
+  "K": "Comedy",
+  "B": "British",
+  "S": "Street gangs",
+  "A": "American crime",
+  "M": "Mafia",
+  "W": "World",
+  "O": "Classics",
+  "D": "Bleak",
+  "N": "Noir",
+  "X": "Weird"
+ },
+ "levels": [
+  {
+   "t": 22,
+   "name": "Popcorn",
+   "note": "Pigs, Capone, a Spanish pool and Coney Island.",
+   "bg": "#dbe5cc",
+   "fg": "#17110d",
+   "upto": 4
+  },
+  {
+   "t": 35,
+   "name": "Modern crime",
+   "note": "Moles, Mr Blonde, a hitman on the run, Carlito, Nino Brown and a bathhouse.",
+   "bg": "#ecdcaa",
+   "fg": "#17110d",
+   "upto": 10
+  },
+  {
+   "t": 50,
+   "name": "The mob",
+   "note": "Corleones, Henry Hill, Vegas, Tony Montana, Johnny Boy and Prohibition.",
+   "bg": "#e8b47a",
+   "fg": "#17110d",
+   "upto": 16
+  },
+  {
+   "t": 65,
+   "name": "Around the world",
+   "note": "Hong Kong, triads, yakuza, Rio and the banlieue.",
+   "bg": "#cf5b3a",
+   "fg": "#17110d",
+   "upto": 22
+  },
+  {
+   "t": 80,
+   "name": "Old-school",
+   "note": "Robinson, Cagney, Bogart, and Michael Caine in Newcastle.",
+   "bg": "#6d1b21",
+   "fg": "#efe3cf",
+   "upto": 27
+  },
+  {
+   "t": 95,
+   "name": "Final boss",
+   "note": "Walken's New York, Watts, and Leone's four hours.",
+   "bg": "#2b0b0e",
+   "fg": "#efe3cf",
+   "upto": 30
+  },
+  {
+   "t": "100+",
+   "name": "Cooked",
+   "note": "Only if they finish Once Upon a Time in America and ask for more.",
+   "bg": "#0c0506",
+   "fg": "#efe3cf",
+   "beyond": true
+  }
+ ],
+ "core": [
+  {
+   "n": 1,
+   "t": "Snatch",
+   "y": 2000,
+   "b": "Guy Ritchie: a stolen diamond, a bare-knuckle traveller nobody can understand (Brad Pitt), Brick Top's pigs. Cockney chaos.",
+   "tags": "KB",
+   "heat": {
+    "violence": 3,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Lock, Stock and Two Smoking Barrels",
+     "y": 1998,
+     "note": "Ritchie's first. Core on Crime & Noir",
+     "tags": "KB",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Layer Cake",
+     "y": 2004,
+     "note": "Daniel Craig's cocaine middleman wants out",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Gentlemen",
+     "y": 2019,
+     "note": "Ritchie back on form: Matthew McConaughey's weed empire",
+     "tags": "KB",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "t": "The Untouchables",
+   "y": 1987,
+   "b": "De Palma: Kevin Costner's Eliot Ness, Sean Connery's beat cop and De Niro's Capone. The station steps.",
+   "tags": "AO",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Public Enemies",
+     "y": 2009,
+     "note": "Michael Mann: Johnny Depp's Dillinger",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Lawless",
+     "y": 2012,
+     "note": "Tom Hardy's Prohibition bootleggers. Thin but fun",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "t": "Sexy Beast",
+   "y": 2000,
+   "b": "Ray Winstone's retired safecracker sunbathing in Spain, until Ben Kingsley's terrifying recruiter arrives.",
+   "tags": "BK",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Long Good Friday",
+     "y": 1980,
+     "note": "Bob Hoskins's London empire falls apart. Core on Crime & Noir",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "t": "The Warriors",
+   "y": 1979,
+   "b": "Walter Hill: a Coney Island gang framed for a murder must fight its way home across New York in one night. 'Warriors, come out to play!'",
+   "tags": "SO",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Wanderers",
+     "y": 1979,
+     "note": "Philip Kaufman's 1960s Bronx gangs",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Gangs of New York",
+     "y": 2002,
+     "note": "Scorsese: Daniel Day-Lewis's Bill the Butcher in 1860s Five Points",
+     "tags": "S",
+     "warn": "Very violent.",
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "t": "The Departed",
+   "y": 2006,
+   "b": "Scorsese: a cop inside the mob, a mobster inside the cops, Jack Nicholson in the middle. Boston accents for days.",
+   "tags": "A",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Infernal Affairs",
+     "y": 2002,
+     "note": "The Hong Kong original. Core on Asian action",
+     "tags": "W",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Town",
+     "y": 2010,
+     "note": "Ben Affleck's Charlestown bank robbers",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Very violent."
+  },
+  {
+   "n": 6,
+   "t": "Reservoir Dogs",
+   "y": 1992,
+   "b": "Tarantino's debut: a jewel heist gone wrong, told from the warehouse afterwards. Mr Pink, Mr Blonde and the rat.",
+   "tags": "A",
+   "heat": {
+    "violence": 5,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "True Romance",
+     "y": 1993,
+     "note": "Tarantino's script, Tony Scott's film: lovers on the run with the mob's cocaine. The Hopper and Walken scene",
+     "tags": "A",
+     "warn": "Violent.",
+     "seq": []
+    },
+    {
+     "t": "Brick",
+     "y": 2005,
+     "note": "Rian Johnson's high-school noir with a teenage drug kingpin. Also on Crime & Noir",
+     "tags": "N",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Pulp Fiction",
+     "y": 1994,
+     "note": "Tarantino's interlocking LA stories. Core on Crime & Noir",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Very violent: the ear scene."
+  },
+  {
+   "n": 7,
+   "t": "Road to Perdition",
+   "y": 2002,
+   "b": "Sam Mendes: Tom Hanks's Irish mob hitman goes on the run with his son. Paul Newman, Jude Law and rain.",
+   "tags": "A",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 8,
+   "t": "Carlito's Way",
+   "y": 1993,
+   "b": "De Palma: Al Pacino's Puerto Rican ex-con tries to go straight, Sean Penn's coked-up lawyer drags him back. The Grand Central chase.",
+   "tags": "A",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Donnie Brasco",
+     "y": 1997,
+     "note": "Johnny Depp undercover with Al Pacino's small-time hood",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "t": "New Jack City",
+   "y": 1991,
+   "b": "Mario Van Peebles: Wesley Snipes's Nino Brown builds a crack empire in a Harlem tower block.",
+   "tags": "A",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "American Gangster",
+     "y": 2007,
+     "note": "Denzel's Harlem heroin king vs Russell Crowe's honest cop",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "t": "Eastern Promises",
+   "y": 2007,
+   "b": "Cronenberg: Viggo Mortensen's Russian mob driver in London, a midwife with a diary, and the bathhouse fight.",
+   "tags": "W",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Brother",
+     "y": 1997,
+     "note": "Aleksei Balabanov: a Russian ex-soldier becomes a hitman in 90s St Petersburg",
+     "tags": "W",
+     "warn": "Subtitled.",
+     "seq": []
+    }
+   ],
+   "w": "Very violent."
+  },
+  {
+   "n": 11,
+   "t": "The Godfather",
+   "y": 1972,
+   "b": "Coppola: the Corleones, the horse's head, and Michael's slow turn from war hero to Don. The best gangster film ever made.",
+   "tags": "M",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [
+    {
+     "t": "The Godfather Part II",
+     "y": 1974,
+     "note": "Young Vito and older Michael. Brilliant, but not better",
+     "star": true
+    },
+    {
+     "t": "The Godfather Part III",
+     "y": 1990,
+     "note": "Weaker, but finishes the story",
+     "star": false
+    }
+   ],
+   "br": []
+  },
+  {
+   "n": 12,
+   "t": "Goodfellas",
+   "y": 1990,
+   "b": "Scorsese: Henry Hill's life in the mob, from the Copacabana tracking shot to the helicopter paranoia.",
+   "tags": "M",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Irishman",
+     "y": 2019,
+     "note": "Scorsese's three-and-a-half-hour farewell to the genre",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Very violent."
+  },
+  {
+   "n": 13,
+   "t": "Casino",
+   "y": 1995,
+   "b": "Scorsese: De Niro, Pesci and Sharon Stone run Vegas into the ground. Three hours of glamour and baseball bats.",
+   "tags": "M",
+   "heat": {
+    "violence": 5,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Bugsy",
+     "y": 1991,
+     "note": "Warren Beatty's Bugsy Siegel invents Las Vegas. Handsome, stodgy",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Very violent: the vice and the cornfield."
+  },
+  {
+   "n": 14,
+   "t": "Scarface",
+   "y": 1983,
+   "b": "De Palma: Al Pacino's Tony Montana goes from Cuban refugee to Miami cocaine king. 'Say hello to my little friend.'",
+   "tags": "A",
+   "heat": {
+    "violence": 5,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Scarface",
+     "y": 1932,
+     "note": "Howard Hawks's original, with Paul Muni",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Very violent: the chainsaw."
+  },
+  {
+   "n": 15,
+   "t": "Mean Streets",
+   "y": 1973,
+   "b": "Early Scorsese: Harvey Keitel's small-time hood and De Niro's reckless Johnny Boy in Little Italy. 'Jumpin' Jack Flash'.",
+   "tags": "M",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "A Bronx Tale",
+     "y": 1993,
+     "note": "De Niro's directing debut: a boy between his bus-driver dad and the local boss",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "t": "Miller's Crossing",
+   "y": 1990,
+   "b": "The Coens' Prohibition gang war: Gabriel Byrne's fixer plays the Irish and Italian bosses against each other. 'What's the rumpus?'",
+   "tags": "A",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 17,
+   "t": "A Better Tomorrow",
+   "y": 1986,
+   "b": "John Woo: Chow Yun-fat in a long coat with a matchstick, two brothers on opposite sides of the law. The start of heroic bloodshed.",
+   "tags": "W",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Killer",
+     "y": 1989,
+     "note": "Woo and Chow again. On Asian action",
+     "tags": "W",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Subtitled."
+  },
+  {
+   "n": 18,
+   "t": "Election",
+   "y": 2005,
+   "b": "Johnnie To: two triad bosses fight for the ceremonial baton. Quiet politics, then terrifying violence.",
+   "tags": "W",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [
+    {
+     "t": "Election 2",
+     "y": 2006,
+     "note": "Louis Koo's reluctant boss. Even darker",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Exiled",
+     "y": 2006,
+     "note": "To's Macau gangster Western",
+     "tags": "W",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "A Bittersweet Life",
+     "y": 2005,
+     "note": "Korea: a mob enforcer spares a woman and pays for it",
+     "tags": "W",
+     "warn": "Very violent.",
+     "seq": []
+    },
+    {
+     "t": "New World",
+     "y": 2013,
+     "note": "Korea's Infernal Affairs",
+     "tags": "W",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Brutal violence. Subtitled."
+  },
+  {
+   "n": 19,
+   "t": "The Yakuza",
+   "y": 1974,
+   "b": "Sydney Pollack: Robert Mitchum returns to Japan for an old debt, and Ken Takakura shows him what honour costs. The English-language way into yakuza films.",
+   "tags": "W",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Battles Without Honor and Humanity",
+     "y": 1973,
+     "note": "Fukasaku's handheld yakuza epic: Japan's Godfather",
+     "tags": "W",
+     "warn": "Very violent; subtitled.",
+     "seq": []
+    },
+    {
+     "t": "Sonatine",
+     "y": 1993,
+     "note": "Kitano's yakuza on a beach holiday",
+     "tags": "W",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Outrage",
+     "y": 2010,
+     "note": "Kitano's yakuza war, a body count with jokes",
+     "tags": "W",
+     "warn": "Very violent.",
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "t": "Tokyo Drifter",
+   "y": 1966,
+   "b": "Seijun Suzuki's pop-art yakuza film: a reformed hitman drifts across Japan in a powder-blue suit. Mad colours and songs.",
+   "tags": "WX",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 2,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Branded to Kill",
+     "y": 1967,
+     "note": "Suzuki's absurdist hitman, which got him fired",
+     "tags": "WX",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Subtitled."
+  },
+  {
+   "n": 21,
+   "t": "City of God",
+   "y": 2002,
+   "b": "Rio's favelas over two decades: a boy with a camera watches his friends become gangsters.",
+   "tags": "WS",
+   "heat": {
+    "violence": 5,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Gomorrah",
+     "y": 2008,
+     "note": "The Naples Camorra, without glamour",
+     "tags": "W",
+     "warn": "Subtitled.",
+     "seq": []
+    },
+    {
+     "t": "A Prophet",
+     "y": 2009,
+     "note": "A young Arab prisoner rises inside a Corsican gang",
+     "tags": "W",
+     "warn": "Subtitled; violent.",
+     "seq": []
+    }
+   ],
+   "w": "Graphic violence, including children. Subtitled."
+  },
+  {
+   "n": 22,
+   "t": "La Haine",
+   "y": 1995,
+   "b": "Mathieu Kassovitz: three friends drift through 24 hours in the Paris banlieue after a riot, carrying a lost police gun. Black and white, furious.",
+   "tags": "WS",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [],
+   "w": "Subtitled."
+  },
+  {
+   "n": 23,
+   "t": "Little Caesar",
+   "y": 1931,
+   "b": "Edward G. Robinson's Rico climbs Chicago's mob. 'Mother of mercy, is this the end of Rico?'",
+   "tags": "O",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 5,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Key Largo",
+     "y": 1948,
+     "note": "Robinson's washed-up gangster holds Bogart and Bacall in a hurricane",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Brother Orchid",
+     "y": 1940,
+     "note": "Robinson's gangster hides in a monastery. A comedy",
+     "tags": "OK",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "1931: creaky in places."
+  },
+  {
+   "n": 24,
+   "t": "The Public Enemy",
+   "y": 1931,
+   "b": "James Cagney's grapefruit, his rise through bootlegging, and that ending on the doorstep.",
+   "tags": "O",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 5,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Roaring Twenties",
+     "y": 1939,
+     "note": "Cagney and Bogart in Prohibition New York",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Musketeers of Pig Alley",
+     "y": 1912,
+     "note": "D.W. Griffith's 17-minute short: the first gangster film. Scorsese list",
+     "tags": "O",
+     "warn": "Silent.",
+     "seq": []
+    },
+    {
+     "t": "Regeneration",
+     "y": 1915,
+     "note": "Raoul Walsh's Bowery gangster. Scorsese list",
+     "tags": "O",
+     "warn": "Silent.",
+     "seq": []
+    }
+   ],
+   "w": "1931: creaky in places."
+  },
+  {
+   "n": 25,
+   "t": "High Sierra",
+   "y": 1941,
+   "b": "Humphrey Bogart's ageing gangster Roy Earle pulls one last job and runs for the mountains. Bogart's breakthrough.",
+   "tags": "O",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Bonnie and Clyde",
+     "y": 1967,
+     "note": "Beatty and Dunaway rob banks across Depression Texas. Core on Crime & Noir",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "t": "White Heat",
+   "y": 1949,
+   "b": "Cagney's mother-fixated psycho, a train robbery, an undercover cop, and 'Made it, Ma! Top of the world!'",
+   "tags": "O",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 27,
+   "t": "Get Carter",
+   "y": 1971,
+   "b": "Michael Caine's cold London hood goes to Newcastle to find out who killed his brother. The bleakest British gangster film.",
+   "tags": "BD",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Brighton Rock",
+     "y": 1948,
+     "note": "Richard Attenborough's teenage razor-gang killer",
+     "tags": "BO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Bleak, with sexual content."
+  },
+  {
+   "n": 28,
+   "t": "King of New York",
+   "y": 1990,
+   "b": "Abel Ferrara: Christopher Walken's drug lord leaves prison to clean up New York his way. Neon, nihilism and Walken at his strangest.",
+   "tags": "D",
+   "heat": {
+    "violence": 5,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [],
+   "w": "Very violent."
+  },
+  {
+   "n": 29,
+   "t": "Menace II Society",
+   "y": 1993,
+   "b": "The Hughes brothers: a summer in Watts, and a teenager's life of violence that only goes one way.",
+   "tags": "SD",
+   "heat": {
+    "violence": 5,
+    "intensity": 5,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Boyz n the Hood",
+     "y": 1991,
+     "note": "John Singleton: growing up in South Central",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Graphic and harrowing."
+  },
+  {
+   "n": 30,
+   "t": "Once Upon a Time in America",
+   "y": 1984,
+   "b": "Leone's four-hour elegy for Jewish gangsters in New York across 50 years. Watch the full cut.",
+   "tags": "D",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 5
+   },
+   "seq": [],
+   "br": [],
+   "w": "229 minutes, and a disturbing rape scene."
+  }
+ ],
+ "beyond": []
+}

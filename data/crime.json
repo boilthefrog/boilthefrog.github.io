@@ -2,7 +2,7 @@
  "id": "crime",
  "title": "Crime & Noir",
  "order": 7,
- "tagline": "From Ocean's Eleven to Once Upon a Time in America without noticing the water got hot.",
+ "tagline": "From Ocean's Eleven to Le Cercle Rouge without noticing the water got hot.",
  "heatKeys": [
   [
    "violence",
@@ -78,7 +78,7 @@
   {
    "t": 95,
    "name": "Final boss",
-   "note": "Travis Bickle, Chinatown, Mitchum's doomed flashback and Leone's four hours.",
+   "note": "Travis Bickle, Chinatown, Mitchum's doomed flashback and Melville's silent heist.",
    "bg": "#2b0b0e",
    "fg": "#efe3cf",
    "upto": 30
@@ -189,14 +189,6 @@
    "seq": [],
    "br": [
     {
-     "t": "Jackie Brown",
-     "y": 1997,
-     "note": "Tarantino's Elmore Leonard film: Pam Grier outwits everyone",
-     "tags": "K",
-     "warn": null,
-     "seq": []
-    },
-    {
      "t": "Get Shorty",
      "y": 1995,
      "note": "John Travolta's loan shark goes into the movie business",
@@ -282,18 +274,17 @@
   },
   {
    "n": 6,
-   "t": "The Departed",
-   "y": 2006,
-   "b": "Scorsese: a cop inside the mob, a mobster inside the cops, Jack Nicholson in the middle. Boston accents for days.",
-   "tags": "GP",
-   "heat": {
-    "violence": 4,
-    "intensity": 4,
-    "age": 0,
-    "challenge": 1
-   },
+   "t": "Jackie Brown",
    "seq": [],
    "br": [
+    {
+     "t": "The Departed",
+     "y": 2006,
+     "note": "Scorsese's Boston remake of Infernal Affairs. Core on Gangster",
+     "tags": "GP",
+     "warn": "Very violent.",
+     "seq": []
+    },
     {
      "t": "Infernal Affairs",
      "y": 2002,
@@ -311,7 +302,15 @@
      "seq": []
     }
    ],
-   "w": "Very violent."
+   "y": 1997,
+   "b": "Tarantino's Elmore Leonard film: Pam Grier's flight attendant outwits cops and gunrunners, with Robert Forster at his best. His most grown-up film.",
+   "tags": "K",
+   "heat": {
+    "violence": 3,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 2
+   }
   },
   {
    "n": 7,
@@ -356,14 +355,6 @@
      "y": 2001,
      "note": "Denzel Washington's corrupt narcotics cop",
      "tags": "P",
-     "warn": null,
-     "seq": []
-    },
-    {
-     "t": "Serpico",
-     "y": 1973,
-     "note": "Al Pacino, the honest cop nobody will back",
-     "tags": "PO",
      "warn": null,
      "seq": []
     },
@@ -473,18 +464,17 @@
   },
   {
    "n": 11,
-   "t": "Scarface",
-   "y": 1983,
-   "b": "Brian De Palma: Al Pacino's Tony Montana goes from Cuban refugee to Miami cocaine king. 'Say hello to my little friend.'",
-   "tags": "G",
-   "heat": {
-    "violence": 5,
-    "intensity": 4,
-    "age": 1,
-    "challenge": 1
-   },
+   "t": "Serpico",
    "seq": [],
    "br": [
+    {
+     "t": "Scarface",
+     "y": 1983,
+     "note": "Pacino's Tony Montana. Core on Gangster",
+     "tags": "G",
+     "warn": "Very violent: the chainsaw.",
+     "seq": []
+    },
     {
      "t": "Carlito's Way",
      "y": 1993,
@@ -494,7 +484,15 @@
      "seq": []
     }
    ],
-   "w": "Very violent: the chainsaw."
+   "y": 1973,
+   "b": "Sidney Lumet: Al Pacino as the honest New York cop nobody will back. True story.",
+   "tags": "PO",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 2
+   }
   },
   {
    "n": 12,
@@ -538,18 +536,17 @@
   },
   {
    "n": 13,
-   "t": "Miller's Crossing",
-   "y": 1990,
-   "b": "The Coens' Prohibition gang war: Gabriel Byrne's fixer plays both sides. 'What's the rumpus?'",
-   "tags": "GN",
-   "heat": {
-    "violence": 3,
-    "intensity": 3,
-    "age": 1,
-    "challenge": 3
-   },
+   "t": "The Maltese Falcon",
    "seq": [],
    "br": [
+    {
+     "t": "Miller's Crossing",
+     "y": 1990,
+     "note": "The Coens' Prohibition gang war. Core on Gangster",
+     "tags": "GN",
+     "warn": null,
+     "seq": []
+    },
     {
      "t": "Road to Perdition",
      "y": 2002,
@@ -558,7 +555,16 @@
      "warn": null,
      "seq": []
     }
-   ]
+   ],
+   "y": 1941,
+   "b": "John Huston: Bogart's Sam Spade, Mary Astor's liar, Peter Lorre, Sydney Greenstreet, and the stuff dreams are made of.",
+   "tags": "NO",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 4,
+    "challenge": 2
+   }
   },
   {
    "n": 14,
@@ -607,14 +613,6 @@
    },
    "seq": [],
    "br": [
-    {
-     "t": "The Maltese Falcon",
-     "y": 1941,
-     "note": "Bogart's Sam Spade and the stuff dreams are made of",
-     "tags": "NO",
-     "warn": null,
-     "seq": []
-    },
     {
      "t": "Murder, My Sweet",
      "y": 1944,
@@ -1131,14 +1129,6 @@
    "seq": [],
    "br": [
     {
-     "t": "Le Cercle Rouge",
-     "y": 1970,
-     "note": "Melville's heist: Delon, Yves Montand and a 25-minute silent robbery",
-     "tags": "HFO",
-     "warn": null,
-     "seq": []
-    },
-    {
      "t": "Un Flic",
      "y": 1972,
      "note": "Melville's last: Delon as the cop this time",
@@ -1314,19 +1304,28 @@
   },
   {
    "n": 30,
-   "t": "Once Upon a Time in America",
-   "y": 1984,
-   "b": "Leone's four-hour elegy for Jewish gangsters in New York, across 50 years. Watch the full cut.",
-   "tags": "GD",
-   "heat": {
-    "violence": 4,
-    "intensity": 4,
-    "age": 1,
-    "challenge": 5
-   },
+   "t": "Le Cercle Rouge",
    "seq": [],
-   "br": [],
-   "w": "229 minutes, and a disturbing rape scene."
+   "br": [
+    {
+     "t": "Once Upon a Time in America",
+     "y": 1984,
+     "note": "Leone's four-hour gangster elegy. Core on Gangster",
+     "tags": "GD",
+     "warn": "229 minutes, and a disturbing rape scene.",
+     "seq": []
+    }
+   ],
+   "y": 1970,
+   "b": "Melville's heist: Alain Delon, Yves Montand and a 25-minute silent jewel robbery. Slow, cold and immaculate.",
+   "tags": "HFO",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 4
+   },
+   "w": "Subtitled, 140 minutes."
   }
  ],
  "beyond": []

@@ -24,7 +24,7 @@ const films = new Map();
 function reg(o, ladder, role, extra = {}) {
   const id = slug(o.t, o.y);
   const f = films.get(id) || { id, t: o.t, y: o.y, q: o.q, tmdb: o.tmdb, places: [] };
-  Object.assign(f, { note: f.note || o.note || o.b, warn: f.warn || o.warn || o.w, tags: f.tags || o.tags, junk: f.junk || o.junk });
+  Object.assign(f, { note: f.note || o.note || o.b, warn: f.warn || o.warn || o.w, tags: f.tags || o.tags, junk: f.junk || o.junk, apple: f.apple || o.apple });
   if (o.heat && !f.heat) { f.heat = o.heat; f.heatLadder = ladder.id; }
   f.places.push({ ladder: ladder.id, ladderTitle: ladder.title, role, ...extra });
   films.set(id, f);
@@ -119,7 +119,7 @@ if (KEY) {
       for (const x of (await r.json()).results.bindings) apple[x.tmdb.value] = x.apple.value;
     }
     let got = 0;
-    for (const f of list) if (f.m && apple[f.m.tmdb]) { f.apple = apple[f.m.tmdb]; got++; }
+    for (const f of list) { if (!f.apple && f.m && apple[f.m.tmdb]) f.apple = apple[f.m.tmdb]; if (f.apple) got++; }
     const noApple = list.filter(f => f.m && !f.m.missing && !f.apple).map(f => `${f.t} (${f.y})`);
     console.log(`Apple TV: ${got}/${list.length} linked`);
     if (process.env.GITHUB_ACTIONS) console.log(`::notice title=Apple TV links: ${got}/${list.length}::No Apple TV id: ${noApple.join("; ")}`);

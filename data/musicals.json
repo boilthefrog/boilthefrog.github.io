@@ -59,15 +59,15 @@
   {
    "t": 65,
    "name": "Rock and cult",
-   "note": "The Beatles, Talking Heads, the Time Warp, South Park, Superstar, the Moulin Rouge and Hedwig.",
+   "note": "The Beatles, Talking Heads, the Time Warp, South Park, Superstar, Monterey, the Moulin Rouge and Hedwig.",
    "bg": "#cf5b3a",
    "fg": "#17110d",
-   "upto": 25
+   "upto": 26
   },
   {
    "t": 80,
    "name": "Dark",
-   "note": "Murderesses, a barber and a sung French tragedy.",
+   "note": "Murderesses and a demon barber.",
    "bg": "#6d1b21",
    "fg": "#efe3cf",
    "upto": 28
@@ -333,6 +333,14 @@
    },
    "seq": [],
    "br": [
+    {
+     "t": "The Umbrellas of Cherbourg",
+     "y": 1964,
+     "note": "Demy's all-sung French tragedy, La La Land's direct ancestor. Core on World cinema",
+     "tags": "O",
+     "warn": "Subtitled; every line sung.",
+     "seq": []
+    },
     {
      "t": "A Star Is Born",
      "y": 2018,
@@ -654,14 +662,6 @@
      "seq": []
     },
     {
-     "t": "Monterey Pop",
-     "y": 1968,
-     "note": "Hendrix sets his guitar on fire; Otis Redding; Janis",
-     "tags": "P",
-     "warn": null,
-     "seq": []
-    },
-    {
      "t": "Woodstock",
      "y": 1970,
      "note": "The festival, three days and four hours",
@@ -835,6 +835,21 @@
   },
   {
    "n": 24,
+   "t": "Monterey Pop",
+   "y": 1968,
+   "b": "D.A. Pennebaker films the 1967 Monterey festival: Otis Redding's 'Try a Little Tenderness', Janis Joplin's breakout, The Who smashing everything, and Hendrix setting his guitar on fire.",
+   "tags": "PO",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 25,
    "t": "Moulin Rouge!",
    "y": 2001,
    "b": "Baz Luhrmann's Paris: Ewan McGregor, Nicole Kidman, an elephant, and a hundred years of pop songs in a blender.",
@@ -858,7 +873,7 @@
    ]
   },
   {
-   "n": 25,
+   "n": 26,
    "t": "Hedwig and the Angry Inch",
    "y": 2001,
    "b": "John Cameron Mitchell's East German rock singer after a botched operation, touring diners and chasing the man who stole her songs.",
@@ -882,7 +897,7 @@
    ]
   },
   {
-   "n": 26,
+   "n": 27,
    "t": "Chicago",
    "y": 2002,
    "b": "Roxie Hart and Velma Kelly murder their way to fame in 1920s Chicago. Best Picture. 'Cell Block Tango'.",
@@ -897,7 +912,7 @@
    "br": []
   },
   {
-   "n": 27,
+   "n": 28,
    "t": "Sweeney Todd: The Demon Barber of Fleet Street",
    "y": 2007,
    "b": "Burton and Sondheim: Johnny Depp's barber cuts throats and Helena Bonham Carter bakes the pies.",
@@ -911,22 +926,6 @@
    "seq": [],
    "br": [],
    "w": "Lots of gore."
-  },
-  {
-   "n": 28,
-   "t": "The Umbrellas of Cherbourg",
-   "y": 1964,
-   "b": "Jacques Demy: every line sung, candy colours, and an ending that wrecks you. Core on World cinema.",
-   "tags": "O",
-   "heat": {
-    "violence": 0,
-    "intensity": 2,
-    "age": 3,
-    "challenge": 3
-   },
-   "seq": [],
-   "br": [],
-   "w": "Subtitled; every line sung."
   },
   {
    "n": 29,

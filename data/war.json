@@ -501,14 +501,7 @@
     "age": 3,
     "challenge": 1
    },
-   "seq": [
-    {
-     "t": "Zulu Dawn",
-     "y": 1979,
-     "note": "The prequel: the disaster at Isandlwana",
-     "star": false
-    }
-   ],
+   "seq": [],
    "br": [
     {
      "t": "The Dam Busters",

@@ -355,14 +355,7 @@
      "note": "Groundhog Day as a slasher",
      "tags": "CS",
      "warn": null,
-     "seq": [
-      {
-       "t": "Happy Death Day 2U",
-       "y": 2019,
-       "note": "Leans into sci-fi comedy",
-       "star": false
-      }
-     ]
+     "seq": []
     },
     {
      "t": "M3GAN",
@@ -377,14 +370,6 @@
      "y": 2020,
      "note": "Body-swap with a serial killer",
      "tags": "CS",
-     "warn": null,
-     "seq": []
-    },
-    {
-     "t": "I Know What You Did Last Summer",
-     "y": 1997,
-     "note": "Glossy 90s slasher, fairly mild",
-     "tags": "S",
      "warn": null,
      "seq": []
     }
@@ -663,14 +648,6 @@
      "seq": []
     },
     {
-     "t": "The Woman in Black",
-     "y": 2012,
-     "note": "A 12A Hammer ghost story full of jump scares",
-     "tags": "GU",
-     "warn": null,
-     "seq": []
-    },
-    {
      "t": "Ghost Stories",
      "y": 2017,
      "note": "British anthology, tricksy and creepy",
@@ -755,14 +732,6 @@
      "y": 2025,
      "note": "Ryan Coogler's vampire blues epic",
      "tags": "V",
-     "warn": null,
-     "seq": []
-    },
-    {
-     "t": "Candyman",
-     "y": 2021,
-     "note": "Peele co-wrote this urban-legend update",
-     "tags": "SY",
      "warn": null,
      "seq": []
     }
@@ -1322,14 +1291,6 @@
      "seq": []
     },
     {
-     "t": "Prevenge",
-     "y": 2016,
-     "note": "Pregnant woman's killing spree; pitch-black comedy",
-     "tags": "UCS",
-     "warn": null,
-     "seq": []
-    },
-    {
      "t": "Ginger Snaps",
      "y": 2000,
      "note": "Teenage werewolf as puberty: a sharp cult hit",
@@ -1775,14 +1736,6 @@
      "tags": "K",
      "warn": null,
      "seq": []
-    },
-    {
-     "t": "30 Days of Night",
-     "y": 2007,
-     "note": "Vampires in a month-long Alaskan night",
-     "tags": "V",
-     "warn": null,
-     "seq": []
     }
    ],
    "heat": {
@@ -1925,14 +1878,7 @@
    "y": 1974,
    "b": "Little blood, relentless ordeal. The BBFC refused it a certificate in 1975 and only passed it uncut in 1999.",
    "tags": "SO",
-   "seq": [
-    {
-     "t": "The Texas Chainsaw Massacre",
-     "y": 2003,
-     "note": "Grim, glossy remake",
-     "star": false
-    }
-   ],
+   "seq": [],
    "heat": {
     "gore": 2,
     "dread": 5,

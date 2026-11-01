@@ -108,6 +108,22 @@ if (KEY) {
     .map(f => `${f.m.vote.toFixed(1)} ${f.t} (${f.y}) [${f.places.map(p => p.ladder + ":" + p.role + (p.n ? p.n : "")).join(",")}]`);
   if (process.env.GITHUB_ACTIONS) console.log(`::notice title=Weak films (TMDB under 6.6, not junk)::${weak.join("%0A")}`);
   if (process.env.GITHUB_ACTIONS) console.log(`::notice title=TMDB title check::${[`missing: ${miss.join(", ")}`, ...checks].join("%0A")}`);
+  // Apple TV ids via Wikidata (TMDB id P4947 -> Apple TV movie id P9586). Same id in every country's store.
+  try {
+    const ids = [...new Set(list.map(f => f.m && f.m.tmdb).filter(Boolean))];
+    const apple = {};
+    for (let i = 0; i < ids.length; i += 300) {
+      const q = `SELECT ?tmdb ?apple WHERE { VALUES ?tmdb { ${ids.slice(i, i + 300).map(x => `"${x}"`).join(" ")} } ?item wdt:P4947 ?tmdb; wdt:P9586 ?apple. }`;
+      const r = await fetch("https://query.wikidata.org/sparql?format=json&query=" + encodeURIComponent(q), { headers: { "User-Agent": "boilthefrog/1.0 (https://boilthefrog.github.io)", Accept: "application/sparql-results+json" } });
+      if (!r.ok) throw new Error("Wikidata " + r.status);
+      for (const x of (await r.json()).results.bindings) apple[x.tmdb.value] = x.apple.value;
+    }
+    let got = 0;
+    for (const f of list) if (f.m && apple[f.m.tmdb]) { f.apple = apple[f.m.tmdb]; got++; }
+    const noApple = list.filter(f => f.m && !f.m.missing && !f.apple).map(f => `${f.t} (${f.y})`);
+    console.log(`Apple TV: ${got}/${list.length} linked`);
+    if (process.env.GITHUB_ACTIONS) console.log(`::notice title=Apple TV links: ${got}/${list.length}::No Apple TV id: ${noApple.join("; ")}`);
+  } catch (e) { console.warn("Apple TV lookup failed:", e.message); }
   console.log(`TMDB: ${list.length - miss.length}/${list.length} matched` + (miss.length ? `; no match: ${miss.join(", ")}` : ""));
 } else {
   for (const f of films.values()) f.m = cache[f.id];
@@ -258,7 +274,7 @@ ${f.heat ? `<div class="heat" aria-label="Heat scores out of 5">${HEAT.map(([k, 
 ${m.overview ? `<p class="overview">${esc(m.overview)}</p>` : ""}
 ${m.cast?.length ? `<p class="small">With ${esc(m.cast.join(", "))}</p>` : ""}
 <div class="links"><button class="watch btn" type="button" aria-pressed="false" data-id="${f.id}"><span class="box" aria-hidden="true"></span><span class="wl">Mark watched</span></button>
-<a class="btn" href="${lb}" rel="noopener">Letterboxd</a>${m.tmdb ? `<a class="btn" href="https://www.themoviedb.org/movie/${m.tmdb}" rel="noopener">TMDB</a>` : ""}${m.imdb ? `<a class="btn" href="https://www.imdb.com/title/${m.imdb}/" rel="noopener">IMDb</a>` : ""}</div>
+${f.apple ? `<a class="btn" href="https://tv.apple.com/movie/${f.apple}" rel="noopener">Apple TV</a>` : ""}<a class="btn" href="${lb}" rel="noopener">Letterboxd</a>${m.tmdb ? `<a class="btn" href="https://www.themoviedb.org/movie/${m.tmdb}" rel="noopener">TMDB</a>` : ""}${m.imdb ? `<a class="btn" href="https://www.imdb.com/title/${m.imdb}/" rel="noopener">IMDb</a>` : ""}</div>
 ${seqs.length ? `<section class="fsec"><h2>Sequels</h2><ul>${seqs.map(q => `<li><a href="${root}films/${q.id}/">${esc(q.t)}</a> (${q.y})${q.star ? ' <span class="star">★ Worth it</span>' : ""}: ${esc(q.note)}</li>`).join("")}</ul></section>` : ""}
 ${sides.length ? `<section class="fsec"><h2>Liked it? Side quests</h2><ul>${sides.map(b => `<li>${b.junk ? '<span class="junk">Junk food</span>' : ""}<a href="${root}films/${b.id}/">${esc(b.t)}</a> (${b.y}): ${esc(b.note)}</li>`).join("")}</ul></section>` : ""}
 </div></main>`;

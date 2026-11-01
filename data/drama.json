@@ -1,0 +1,1028 @@
+{
+ "id": "drama",
+ "title": "Drama",
+ "order": 16,
+ "tagline": "From Rocky to Citizen Kane without noticing the water got hot.",
+ "heatKeys": [
+  [
+   "violence",
+   "Violence"
+  ],
+  [
+   "intensity",
+   "Intensity"
+  ],
+  [
+   "age",
+   "Old-school"
+  ],
+  [
+   "challenge",
+   "Challenge"
+  ]
+ ],
+ "tags": {
+  "S": "Sport",
+  "L": "Law & justice",
+  "Y": "Growing up",
+  "B": "British",
+  "P": "Power & media",
+  "M": "Modern",
+  "N": "New Hollywood",
+  "O": "Classics"
+ },
+ "levels": [
+  {
+   "t": 22,
+   "name": "Popcorn",
+   "note": "A boxer, a whistleblower, four boys, twelve jurors, Facebook and the Globe.",
+   "bg": "#dbe5cc",
+   "fg": "#17110d",
+   "upto": 6
+  },
+  {
+   "t": 35,
+   "name": "Modern classics",
+   "note": "A cliff, a lawnmower, runners, erased memories, salesmen and a man mad as hell.",
+   "bg": "#ecdcaa",
+   "fg": "#17110d",
+   "upto": 12
+  },
+  {
+   "t": 50,
+   "name": "Golden age",
+   "note": "Atticus, Mr. Smith, James Dean, Brando twice, Bette Davis and the Joads.",
+   "bg": "#e8b47a",
+   "fg": "#17110d",
+   "upto": 19
+  },
+  {
+   "t": 65,
+   "name": "New Hollywood",
+   "note": "Mrs. Robinson, fifty eggs, Fast Eddie, Nurse Ratched, a sandwich and a dying town.",
+   "bg": "#cf5b3a",
+   "fg": "#17110d",
+   "upto": 25
+  },
+  {
+   "t": 80,
+   "name": "Heavy",
+   "note": "Altman, the hottest day in Brooklyn and Jake LaMotta.",
+   "bg": "#6d1b21",
+   "fg": "#efe3cf",
+   "upto": 28
+  },
+  {
+   "t": 95,
+   "name": "Final boss",
+   "note": "Frogs, and Rosebud.",
+   "bg": "#2b0b0e",
+   "fg": "#efe3cf",
+   "upto": 30
+  },
+  {
+   "t": "100+",
+   "name": "Cooked",
+   "note": "Only if they finish Citizen Kane and ask for more.",
+   "bg": "#0c0506",
+   "fg": "#efe3cf",
+   "beyond": true
+  }
+ ],
+ "core": [
+  {
+   "n": 1,
+   "t": "Rocky",
+   "y": 1976,
+   "b": "A Philadelphia nobody gets a shot at the heavyweight title. The steps, the raw eggs, 'Adrian!' It's a love story first.",
+   "tags": "S",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "Rocky II",
+     "y": 1979,
+     "note": "The rematch",
+     "star": false
+    },
+    {
+     "t": "Creed",
+     "y": 2015,
+     "note": "Apollo's son, and the best of the later ones",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Warrior",
+     "y": 2011,
+     "note": "Two brothers in an MMA tournament",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Wrestler",
+     "y": 2008,
+     "note": "Mickey Rourke's broken-down pro",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Breaking Away",
+     "y": 1979,
+     "note": "Indiana kids race bikes against the college boys",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Jerry Maguire",
+     "y": 1996,
+     "note": "Show me the money",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "t": "Erin Brockovich",
+   "y": 2000,
+   "b": "Julia Roberts's foul-mouthed single mum takes on a power company poisoning a town. Soderbergh makes a legal drama feel like a heist.",
+   "tags": "L",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "A Civil Action",
+     "y": 1998,
+     "note": "Travolta's lawyer against a polluter",
+     "tags": "L",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Dark Waters",
+     "y": 2019,
+     "note": "Mark Ruffalo against DuPont",
+     "tags": "L",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "t": "Stand by Me",
+   "y": 1986,
+   "b": "Four boys walk the railway tracks in 1959 to see a dead body. The leeches, the train bridge, the last line.",
+   "tags": "Y",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Dead Poets Society",
+     "y": 1989,
+     "note": "O Captain! My Captain!",
+     "tags": "Y",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Almost Famous",
+     "y": 2000,
+     "note": "A teenage Rolling Stone writer on tour with a band",
+     "tags": "Y",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Good Will Hunting",
+     "y": 1997,
+     "note": "It's not your fault",
+     "tags": "Y",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "t": "12 Angry Men",
+   "y": 1957,
+   "b": "One juror (Henry Fonda) talks eleven others out of a guilty verdict in one sweaty room. 96 minutes, no wasted line.",
+   "tags": "LO",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Anatomy of a Murder",
+     "y": 1959,
+     "note": "James Stewart's small-town lawyer, Duke Ellington score",
+     "tags": "LO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Verdict",
+     "y": 1982,
+     "note": "Paul Newman's drunk lawyer gets one last case",
+     "tags": "L",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Judgment at Nuremberg",
+     "y": 1961,
+     "note": "The Nazi judges on trial",
+     "tags": "LO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "A Few Good Men",
+     "y": 1992,
+     "note": "You can't handle the truth!",
+     "tags": "L",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "t": "The Social Network",
+   "y": 2010,
+   "b": "Fincher and Sorkin: Mark Zuckerberg builds Facebook and loses every friend he had. Fast, funny and cold.",
+   "tags": "MP",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Moneyball",
+     "y": 2011,
+     "note": "Brad Pitt does baseball with spreadsheets",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Steve Jobs",
+     "y": 2015,
+     "note": "Sorkin again, three product launches",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "t": "Spotlight",
+   "y": 2015,
+   "b": "The Boston Globe team that uncovered the Church's abuse cover-up. No speeches, just the work, and it's riveting.",
+   "tags": "P",
+   "heat": {
+    "violence": 0,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Big Short",
+     "y": 2015,
+     "note": "The 2008 crash, explained in a bath",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "All the President's Men",
+     "y": 1976,
+     "note": "Core on Thriller",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Child abuse is the subject, never shown."
+  },
+  {
+   "n": 7,
+   "t": "Thelma & Louise",
+   "y": 1991,
+   "b": "Two friends' weekend away turns into a run from the law across the Southwest. Brad Pitt's breakout. That ending.",
+   "tags": "M",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [],
+   "w": "Sexual assault."
+  },
+  {
+   "n": 8,
+   "t": "The Straight Story",
+   "y": 1999,
+   "b": "David Lynch's G-rated film: an old man rides a lawnmower 240 miles to make peace with his dying brother. Lovely.",
+   "tags": "M",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Elephant Man",
+     "y": 1980,
+     "note": "Lynch, black and white, John Hurt",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "t": "Chariots of Fire",
+   "y": 1981,
+   "b": "Two British runners at the 1924 Olympics, one for God, one against prejudice. The beach run and Vangelis.",
+   "tags": "SB",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 2,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Kes",
+     "y": 1969,
+     "note": "Ken Loach: a Barnsley boy and his kestrel. BFI No. 7",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Trainspotting",
+     "y": 1996,
+     "note": "Choose life. BFI No. 10",
+     "tags": "B",
+     "warn": "Heroin, the baby.",
+     "seq": []
+    },
+    {
+     "t": "This Is England",
+     "y": 2006,
+     "note": "Shane Meadows' skinheads, 1983",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Secrets & Lies",
+     "y": 1996,
+     "note": "Mike Leigh: a woman finds her birth mother",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "t": "Eternal Sunshine of the Spotless Mind",
+   "y": 2004,
+   "b": "Jim Carrey and Kate Winslet pay to erase each other from memory, and he changes his mind halfway through. Charlie Kaufman's best script.",
+   "tags": "M",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Lost in Translation",
+     "y": 2003,
+     "note": "Bill Murray in Tokyo",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Aftersun",
+     "y": 2022,
+     "note": "A father and daughter on holiday. It ruins everyone",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "t": "Glengarry Glen Ross",
+   "y": 1992,
+   "b": "Mamet's real-estate salesmen fight over the leads. Baldwin's 'Coffee's for closers', and Pacino, Lemmon, Spacey and Harris at their best.",
+   "tags": "P",
+   "heat": {
+    "violence": 0,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Wall Street",
+     "y": 1987,
+     "note": "Greed is good",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Margin Call",
+     "y": 2011,
+     "note": "One night at a bank before the crash",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Wall-to-wall swearing."
+  },
+  {
+   "n": 12,
+   "t": "Network",
+   "y": 1976,
+   "b": "Sidney Lumet and Paddy Chayefsky: a TV anchor goes mad on air and the network turns it into a hit. 'I'm as mad as hell!' It predicted everything.",
+   "tags": "PN",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Ace in the Hole",
+     "y": 1951,
+     "note": "Wilder's reporter milks a man trapped in a cave",
+     "tags": "PO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "A Face in the Crowd",
+     "y": 1957,
+     "note": "Andy Griffith's drifter becomes a TV demagogue",
+     "tags": "PO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Dog Day Afternoon",
+     "y": 1975,
+     "note": "Lumet: Pacino's bank robbery becomes a media circus. Also on Thriller",
+     "tags": "N",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "t": "To Kill a Mockingbird",
+   "y": 1962,
+   "b": "Gregory Peck's Atticus Finch defends a Black man in 1930s Alabama, seen through his daughter Scout's eyes.",
+   "tags": "LO",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 14,
+   "t": "Mr. Smith Goes to Washington",
+   "y": 1939,
+   "b": "James Stewart's naive senator takes on a corrupt machine, ending in a one-man filibuster. Capra at his best.",
+   "tags": "PO",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 4,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "It's a Wonderful Life",
+     "y": 1946,
+     "note": "Capra and Stewart again. Core on Fantasy",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "t": "Rebel Without a Cause",
+   "y": 1955,
+   "b": "James Dean's troubled new kid, the chickie run and the planetarium. The first teenage film.",
+   "tags": "YO",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "East of Eden",
+     "y": 1955,
+     "note": "Dean's first starring role",
+     "tags": "YO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Rumble Fish",
+     "y": 1983,
+     "note": "Coppola's black-and-white teen film",
+     "tags": "Y",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "t": "On the Waterfront",
+   "y": 1954,
+   "b": "Brando's ex-boxer turned dockworker against the mob union. 'I coulda been a contender.'",
+   "tags": "O",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 17,
+   "t": "All About Eve",
+   "y": 1950,
+   "b": "Bette Davis's ageing star and the sweet young fan who's after her life. 'Fasten your seatbelts, it's going to be a bumpy night.'",
+   "tags": "O",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Sweet Smell of Success",
+     "y": 1957,
+     "note": "Burt Lancaster's poisonous columnist. 'Match me, Sidney'",
+     "tags": "PO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Lost Weekend",
+     "y": 1945,
+     "note": "Wilder's alcoholic bender",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "t": "A Streetcar Named Desire",
+   "y": 1951,
+   "b": "Brando's Stanley ('Stella!') and Vivien Leigh's fragile Blanche in a New Orleans tenement. Tennessee Williams at full heat.",
+   "tags": "O",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Who's Afraid of Virginia Woolf?",
+     "y": 1966,
+     "note": "Burton and Taylor tear each other apart",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Cat on a Hot Tin Roof",
+     "y": 1958,
+     "note": "Newman and Taylor, Williams again",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Sexual assault."
+  },
+  {
+   "n": 19,
+   "t": "The Grapes of Wrath",
+   "y": 1940,
+   "b": "John Ford: the Joad family flee the Dust Bowl for California and find no promised land. Henry Fonda's Tom Joad.",
+   "tags": "O",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Best Years of Our Lives",
+     "y": 1946,
+     "note": "Three servicemen come home",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "How Green Was My Valley",
+     "y": 1941,
+     "note": "Ford's Welsh mining family",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "t": "The Graduate",
+   "y": 1967,
+   "b": "Dustin Hoffman drifts into an affair with Mrs. Robinson, then falls for her daughter. Simon & Garfunkel, and the bus.",
+   "tags": "N",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Midnight Cowboy",
+     "y": 1969,
+     "note": "Jon Voight's hustler and Dustin Hoffman's Ratso",
+     "tags": "N",
+     "warn": "Seedy.",
+     "seq": []
+    },
+    {
+     "t": "Easy Rider",
+     "y": 1969,
+     "note": "Fonda, Hopper, Nicholson on the road",
+     "tags": "N",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "t": "Cool Hand Luke",
+   "y": 1967,
+   "b": "Paul Newman's unbreakable chain-gang prisoner. Fifty eggs, and 'What we've got here is failure to communicate.'",
+   "tags": "N",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Papillon",
+     "y": 1973,
+     "note": "McQueen escapes Devil's Island",
+     "tags": "N",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Escape from Alcatraz",
+     "y": 1979,
+     "note": "Eastwood on the Rock",
+     "tags": "N",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "t": "The Hustler",
+   "y": 1961,
+   "b": "Paul Newman's pool shark Fast Eddie takes on Jackie Gleason's Minnesota Fats. Black and white, all smoke and nerve.",
+   "tags": "SO",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [
+    {
+     "t": "The Color of Money",
+     "y": 1986,
+     "note": "Scorsese's sequel: Newman mentors Tom Cruise",
+     "star": false
+    }
+   ],
+   "br": []
+  },
+  {
+   "n": 23,
+   "t": "One Flew Over the Cuckoo's Nest",
+   "y": 1975,
+   "b": "Jack Nicholson's McMurphy fakes madness to dodge prison and takes on Nurse Ratched. The fishing trip, the Chief.",
+   "tags": "N",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 24,
+   "t": "Five Easy Pieces",
+   "y": 1970,
+   "b": "Jack Nicholson's drifting oil worker, a failed pianist, goes home. The chicken salad sandwich.",
+   "tags": "N",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 2,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Paris, Texas",
+     "y": 1984,
+     "note": "Wenders' Harry Dean Stanton. Also on World cinema",
+     "tags": "N",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "t": "The Last Picture Show",
+   "y": 1971,
+   "b": "Peter Bogdanovich: the last days of a dying Texas town in 1951, in black and white. Jeff Bridges, Cybill Shepherd, Cloris Leachman.",
+   "tags": "N",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 2,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Hud",
+     "y": 1963,
+     "note": "Paul Newman's heel, also from Larry McMurtry",
+     "tags": "NO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "t": "Nashville",
+   "y": 1975,
+   "b": "Altman's 24 characters over five days of country music and politics, ending in a shot that changes everything. Overlapping talk; endlessly rewatchable.",
+   "tags": "N",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Player",
+     "y": 1992,
+     "note": "Altman's Hollywood satire. Core on Comedy",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Short Cuts",
+     "y": 1993,
+     "note": "Altman's Raymond Carver LA mosaic",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Two and three-quarter hours, 24 characters."
+  },
+  {
+   "n": 27,
+   "t": "Do the Right Thing",
+   "y": 1989,
+   "b": "Spike Lee: the hottest day of the year on one Brooklyn block, and the pizzeria where it boils over. On AFI's and Sight & Sound's lists.",
+   "tags": "M",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "25th Hour",
+     "y": 2002,
+     "note": "Spike Lee: Edward Norton's last day before prison",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Moonlight",
+     "y": 2016,
+     "note": "Three ages of one boy in Miami. On Sight & Sound's list",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "t": "Raging Bull",
+   "y": 1980,
+   "b": "Scorsese and De Niro's Jake LaMotta: a boxer who destroys everyone who loves him. Black and white, brutal and beautiful.",
+   "tags": "SN",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Whiplash",
+     "y": 2014,
+     "note": "A drummer and the teacher from hell",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Uncut Gems",
+     "y": 2019,
+     "note": "Adam Sandler's 135-minute panic attack",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Domestic violence."
+  },
+  {
+   "n": 29,
+   "t": "Magnolia",
+   "y": 1999,
+   "b": "Paul Thomas Anderson's three-hour San Fernando Valley mosaic: Tom Cruise's seduction guru, a quiz-show kid, a dying man, and then the frogs.",
+   "tags": "M",
+   "heat": {
+    "violence": 1,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Boogie Nights",
+     "y": 1997,
+     "note": "Anderson's 70s porn industry. Good enough to be core",
+     "tags": "M",
+     "warn": "Sex and drugs.",
+     "seq": []
+    }
+   ],
+   "w": "Three hours."
+  },
+  {
+   "n": 30,
+   "t": "Citizen Kane",
+   "y": 1941,
+   "b": "Orson Welles at 25: the rise and ruin of a newspaper tycoon, told by everyone who knew him. Rosebud. Still the most inventive film ever made.",
+   "tags": "PO",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 4,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Magnificent Ambersons",
+     "y": 1942,
+     "note": "Welles's follow-up, butchered by the studio",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  }
+ ],
+ "beyond": [
+  {
+   "t": "The Passion of Joan of Arc",
+   "y": 1928,
+   "b": "Carl Dreyer's silent trial of Joan, almost entirely in close-up. Falconetti's face is one of the great performances in film. 9th on Sight & Sound's critics' list.",
+   "tags": "O",
+   "seq": [],
+   "heat": {
+    "violence": 1,
+    "intensity": 4,
+    "age": 5,
+    "challenge": 5
+   },
+   "w": "Silent."
+  }
+ ]
+}

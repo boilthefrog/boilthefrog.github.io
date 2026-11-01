@@ -1,0 +1,1089 @@
+{
+ "id": "world",
+ "title": "World cinema",
+ "order": 13,
+ "tagline": "From Amélie to Andrei Rublev without noticing the water got hot.",
+ "heatKeys": [
+  [
+   "violence",
+   "Violence"
+  ],
+  [
+   "intensity",
+   "Intensity"
+  ],
+  [
+   "age",
+   "Old-school"
+  ],
+  [
+   "challenge",
+   "Challenge"
+  ]
+ ],
+ "tags": {
+  "F": "France",
+  "E": "Europe",
+  "A": "Asia",
+  "W": "Wider world",
+  "K": "Comedy",
+  "R": "Romance",
+  "O": "Classics"
+ },
+ "levels": [
+  {
+   "t": 22,
+   "name": "Popcorn",
+   "note": "A Paris waitress, a fake GDR, revenge, ramen, a nose and spiked gazpacho.",
+   "bg": "#dbe5cc",
+   "fg": "#17110d",
+   "upto": 6
+  },
+  {
+   "t": 35,
+   "name": "Easy charmers",
+   "note": "A projectionist, a spring, cricket, a butcher, Hulot and a sung musical.",
+   "bg": "#ecdcaa",
+   "fg": "#17110d",
+   "upto": 12
+  },
+  {
+   "t": 50,
+   "name": "Modern masters",
+   "note": "Basements, banlieue, Wong Kar-wai, Kieślowski and Zhang Yimou.",
+   "bg": "#e8b47a",
+   "fg": "#17110d",
+   "upto": 18
+  },
+  {
+   "t": 65,
+   "name": "The greats",
+   "note": "Kurosawa, Godard, Fellini and Wenders.",
+   "bg": "#cf5b3a",
+   "fg": "#17110d",
+   "upto": 24
+  },
+  {
+   "t": 80,
+   "name": "The deep end",
+   "note": "Herzog up the Amazon, chess with Death and the Apu trilogy.",
+   "bg": "#6d1b21",
+   "fg": "#efe3cf",
+   "upto": 28
+  },
+  {
+   "t": 95,
+   "name": "Final boss",
+   "note": "Bergman's regrets and Tarkovsky's bell.",
+   "bg": "#2b0b0e",
+   "fg": "#efe3cf",
+   "upto": 30
+  },
+  {
+   "t": "100+",
+   "name": "Cooked",
+   "note": "Only if they finish Andrei Rublev and ask for more.",
+   "bg": "#0c0506",
+   "fg": "#efe3cf",
+   "beyond": true
+  }
+ ],
+ "core": [
+  {
+   "n": 1,
+   "t": "Amélie",
+   "y": 2001,
+   "b": "Jean-Pierre Jeunet's shy Parisian waitress secretly fixes strangers' lives. Pure sugar, gorgeously shot. The easiest subtitles you'll ever read.",
+   "tags": "FK",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Micmacs",
+     "y": 2009,
+     "note": "Jeunet's junkyard gang takes on arms dealers",
+     "tags": "FK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Science of Sleep",
+     "y": 2006,
+     "note": "Michel Gondry's cardboard dream world",
+     "tags": "FK",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "t": "Good Bye Lenin!",
+   "y": 2003,
+   "b": "A son hides the fall of the Berlin Wall from his bedridden socialist mother, faking East German TV news. Funny and sweet.",
+   "tags": "EK",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Lives of Others",
+     "y": 2006,
+     "note": "A Stasi agent bugs a playwright's flat and starts to care",
+     "tags": "E",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Toni Erdmann",
+     "y": 2016,
+     "note": "A prankster dad embarrasses his corporate daughter. Long, very funny",
+     "tags": "EK",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "t": "Wild Tales",
+   "y": 2014,
+   "b": "Six Argentine stories of people snapping: a plane, a road-rage duel, a wedding from hell. Savage and hilarious.",
+   "tags": "WK",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Secret in Their Eyes",
+     "y": 2009,
+     "note": "Argentine thriller, Oscar winner, the stadium shot",
+     "tags": "W",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Another Round",
+     "y": 2020,
+     "note": "Danish teachers test a theory about staying slightly drunk",
+     "tags": "EK",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Violent black comedy."
+  },
+  {
+   "n": 4,
+   "t": "Tampopo",
+   "y": 1985,
+   "b": "Juzo Itami's 'ramen western': a trucker in a cowboy hat helps a widow perfect her noodle shop, with sketches about food and sex in between.",
+   "tags": "AK",
+   "heat": {
+    "violence": 1,
+    "intensity": 1,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "A Taxing Woman",
+     "y": 1987,
+     "note": "Itami's comedy about a dogged tax inspector",
+     "tags": "AK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Big Night",
+     "y": 1996,
+     "note": "Two Italian brothers, one feast",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Some food-based erotica."
+  },
+  {
+   "n": 5,
+   "t": "Cyrano de Bergerac",
+   "y": 1990,
+   "b": "Depardieu with the nose, the sword and the verse, writing love letters for a prettier man. Swashbuckling and heartbreaking.",
+   "tags": "FO",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Roxanne",
+     "y": 1987,
+     "note": "Steve Martin's modern Cyrano",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Return of Martin Guerre",
+     "y": 1982,
+     "note": "Depardieu as a man who may not be who he says",
+     "tags": "F",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "t": "Women on the Verge of a Nervous Breakdown",
+   "y": 1988,
+   "b": "Almodóvar's screwball farce: a dumped actress, spiked gazpacho, terrorists and a burning bed. Antonio Banderas.",
+   "tags": "EK",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "All About My Mother",
+     "y": 1999,
+     "note": "Almodóvar's love letter to women and actresses",
+     "tags": "E",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Volver",
+     "y": 2006,
+     "note": "Penélope Cruz, a body in a freezer and a ghost",
+     "tags": "E",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Talk to Her",
+     "y": 2002,
+     "note": "Two men at the bedsides of comatose women",
+     "tags": "E",
+     "warn": "Disturbing themes.",
+     "seq": []
+    },
+    {
+     "t": "Pain and Glory",
+     "y": 2019,
+     "note": "Banderas as an ageing Almodóvar",
+     "tags": "E",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "t": "Cinema Paradiso",
+   "y": 1988,
+   "b": "A Sicilian boy and the village projectionist. Sentimental, yes, but the kissing montage gets everyone.",
+   "tags": "EO",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Il Postino",
+     "y": 1994,
+     "note": "Pablo Neruda teaches a postman poetry",
+     "tags": "E",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Life Is Beautiful",
+     "y": 1997,
+     "note": "Benigni's Holocaust comedy. Loved and loathed",
+     "tags": "EK",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "t": "Jean de Florette",
+   "y": 1986,
+   "b": "Provence, a hunchback city man (Depardieu) and two peasants (Montand, Auteuil) who block his spring. Gripping slow tragedy.",
+   "tags": "FO",
+   "heat": {
+    "violence": 0,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [
+    {
+     "t": "Manon des Sources",
+     "y": 1986,
+     "note": "The revenge. Watch them back to back",
+     "star": true
+    }
+   ],
+   "br": []
+  },
+  {
+   "n": 9,
+   "t": "Lagaan",
+   "y": 2001,
+   "b": "Villagers in 1893 India bet their tax on a cricket match against the British. Nearly four hours of songs and sport, and it flies.",
+   "tags": "WK",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Dilwale Dulhania Le Jayenge",
+     "y": 1995,
+     "note": "The Bollywood romance that ran 25 years in one cinema",
+     "tags": "WK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "3 Idiots",
+     "y": 2009,
+     "note": "Bollywood college comedy",
+     "tags": "WK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Gangs of Wasseypur",
+     "y": 2012,
+     "note": "Five-hour Indian gangster saga",
+     "tags": "W",
+     "warn": "Very violent.",
+     "seq": []
+    }
+   ],
+   "w": "Long."
+  },
+  {
+   "n": 10,
+   "t": "Delicatessen",
+   "y": 1991,
+   "b": "Jeunet and Caro: a post-apocalyptic butcher feeds his tenants to his tenants. The squeaky-bedsprings rhythm scene. Also on Sci-fi.",
+   "tags": "FK",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The City of Lost Children",
+     "y": 1995,
+     "note": "A mad scientist steals children's dreams",
+     "tags": "F",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Cannibalism, played for laughs."
+  },
+  {
+   "n": 11,
+   "t": "Mr. Hulot's Holiday",
+   "y": 1953,
+   "b": "Jacques Tati's gangly, almost silent holidaymaker wrecks a seaside hotel. Gentle and perfectly timed.",
+   "tags": "FKO",
+   "heat": {
+    "violence": 0,
+    "intensity": 0,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Mon Oncle",
+     "y": 1958,
+     "note": "Hulot versus a gadget-filled modern house",
+     "tags": "FK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Playtime",
+     "y": 1967,
+     "note": "Tati's glass-and-steel Paris, built at ruinous cost",
+     "tags": "FK",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Almost no dialogue."
+  },
+  {
+   "n": 12,
+   "t": "The Umbrellas of Cherbourg",
+   "y": 1964,
+   "b": "Jacques Demy's musical where every line is sung, in candy colours. A young couple, a war, an ending that wrecks you.",
+   "tags": "FO",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Young Girls of Rochefort",
+     "y": 1967,
+     "note": "Demy's sunnier one, with Gene Kelly",
+     "tags": "FK",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Every line is sung."
+  },
+  {
+   "n": 13,
+   "t": "Parasite",
+   "y": 2019,
+   "b": "Bong Joon-ho: a poor family worms its way into a rich family's house, and then the basement. Best Picture winner.",
+   "tags": "AK",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Memories of Murder",
+     "y": 2003,
+     "note": "Bong's serial-killer procedural",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Burning",
+     "y": 2018,
+     "note": "Lee Chang-dong's slow-burn mystery",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Violence."
+  },
+  {
+   "n": 14,
+   "t": "La Haine",
+   "y": 1995,
+   "b": "Mathieu Kassovitz: 24 hours with three friends from the Paris banlieue after a riot. Black and white, furious. Core on Gangster.",
+   "tags": "FA",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Les Misérables",
+     "y": 2019,
+     "note": "Ladj Ly's banlieue police drama",
+     "tags": "F",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "A Prophet",
+     "y": 2009,
+     "note": "Jacques Audiard's prison gangster epic",
+     "tags": "F",
+     "warn": "Violent.",
+     "seq": []
+    }
+   ],
+   "w": "Violence and police brutality."
+  },
+  {
+   "n": 15,
+   "t": "Chungking Express",
+   "y": 1994,
+   "b": "Wong Kar-wai: two lovesick Hong Kong cops, a blonde-wigged smuggler and 'California Dreamin'' on repeat.",
+   "tags": "AR",
+   "heat": {
+    "violence": 1,
+    "intensity": 1,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Fallen Angels",
+     "y": 1995,
+     "note": "The night-time companion piece",
+     "tags": "AR",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Happy Together",
+     "y": 1997,
+     "note": "Two men falling apart in Buenos Aires",
+     "tags": "AR",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "t": "In the Mood for Love",
+   "y": 2000,
+   "b": "Tony Leung and Maggie Cheung, neighbours whose spouses are cheating, almost falling in love in noodle-stall corridors. Gorgeous.",
+   "tags": "AR",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [
+    {
+     "t": "2046",
+     "y": 2004,
+     "note": "The loose sequel",
+     "star": false
+    }
+   ],
+   "br": []
+  },
+  {
+   "n": 17,
+   "t": "Three Colours: Blue",
+   "y": 1993,
+   "b": "Kieślowski's trilogy starts with Juliette Binoche, widowed, trying to cut herself off from everything.",
+   "tags": "ER",
+   "heat": {
+    "violence": 0,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [
+    {
+     "t": "Three Colours: White",
+     "y": 1994,
+     "note": "The black comedy",
+     "star": true
+    },
+    {
+     "t": "Three Colours: Red",
+     "y": 1994,
+     "note": "The best, and the ending ties all three together",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "The Double Life of Véronique",
+     "y": 1991,
+     "note": "Two identical women in Poland and France",
+     "tags": "ER",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "t": "Raise the Red Lantern",
+   "y": 1991,
+   "b": "Zhang Yimou: Gong Li becomes the fourth wife of a lord in 1920s China, in a courtyard of rituals and rivalries.",
+   "tags": "A",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Farewell My Concubine",
+     "y": 1993,
+     "note": "Two Peking opera stars across fifty years of Chinese history",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Yi Yi",
+     "y": 2000,
+     "note": "Edward Yang's Taipei family epic",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "t": "Rashomon",
+   "y": 1950,
+   "b": "Kurosawa: a murder in the woods told four ways by four witnesses, none agreeing. The film that taught the world unreliable narrators. Homer: 'You liked Rashomon.' Marge: 'That's not how I remember it.'",
+   "tags": "AO",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Odyssey",
+     "y": 2026,
+     "note": "Nolan shows Troy sacked three times, differently each time",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Last Duel",
+     "y": 2021,
+     "note": "Ridley Scott tells a rape case from three sides",
+     "tags": "E",
+     "warn": "Sexual violence.",
+     "seq": []
+    },
+    {
+     "t": "Hero",
+     "y": 2002,
+     "note": "Zhang Yimou's colour-coded wuxia lies",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Vantage Point",
+     "y": 2008,
+     "note": "The same assassination eight times. Silly",
+     "tags": "K",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Ikiru",
+     "y": 1952,
+     "note": "Kurosawa: a dying bureaucrat builds a playground",
+     "tags": "AO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "t": "Throne of Blood",
+   "y": 1957,
+   "b": "Kurosawa's Macbeth in feudal Japan: Toshiro Mifune, forest spirits and the arrow finale with real arrows.",
+   "tags": "AO",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Ran",
+     "y": 1985,
+     "note": "Kurosawa's King Lear, in colour, enormous",
+     "tags": "AO",
+     "warn": "Battle violence.",
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "t": "Breathless",
+   "y": 1960,
+   "b": "Godard's jump-cut debut: Belmondo as a cocky car thief, Jean Seberg selling the Herald Tribune. The French New Wave starts here.",
+   "tags": "FO",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The 400 Blows",
+     "y": 1959,
+     "note": "Truffaut's runaway boy and that final freeze frame",
+     "tags": "FO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Jules and Jim",
+     "y": 1962,
+     "note": "Truffaut's love triangle",
+     "tags": "FO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Cléo from 5 to 7",
+     "y": 1962,
+     "note": "Agnès Varda's two hours in real time",
+     "tags": "FO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "t": "Amarcord",
+   "y": 1973,
+   "b": "Fellini's memories of a seaside town: fascists, a tobacconist, a mad uncle up a tree and the night everyone rows out to see the liner Rex.",
+   "tags": "EKO",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "And the Ship Sails On",
+     "y": 1983,
+     "note": "Fellini's liner full of opera singers and a rhinoceros",
+     "tags": "EO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "La Dolce Vita",
+     "y": 1960,
+     "note": "Mastroianni and the Trevi Fountain. Tedious, but famous",
+     "tags": "EO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Nights of Cabiria",
+     "y": 1957,
+     "note": "Giulietta Masina's hopeful prostitute",
+     "tags": "EO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Bawdy."
+  },
+  {
+   "n": 23,
+   "t": "8½",
+   "y": 1963,
+   "b": "Fellini's blocked film director (Mastroianni) escapes into fantasies and memories. The ultimate film about making films.",
+   "tags": "EO",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "La Strada",
+     "y": 1954,
+     "note": "Fellini's strongman and his simple assistant",
+     "tags": "EO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "t": "Wings of Desire",
+   "y": 1987,
+   "b": "Wim Wenders: angels drift over divided Berlin, listening to thoughts, and one falls for a trapeze artist. Peter Falk plays himself.",
+   "tags": "E",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 2,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Paris, Texas",
+     "y": 1984,
+     "note": "Wenders in America: Harry Dean Stanton walks out of the desert",
+     "tags": "E",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Run Lola Run",
+     "y": 1998,
+     "note": "Twenty minutes, three times, techno. Also on Action",
+     "tags": "E",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "t": "Aguirre, the Wrath of God",
+   "y": 1972,
+   "b": "Herzog sends Klaus Kinski's conquistador down the Amazon on a raft, mad with power, surrounded by monkeys.",
+   "tags": "EO",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Nosferatu the Vampyre",
+     "y": 1979,
+     "note": "Herzog and Kinski's vampire. Also on Horror",
+     "tags": "E",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "t": "Fitzcarraldo",
+   "y": 1982,
+   "b": "Herzog and Kinski again: a man who wants an opera house in the jungle drags a real steamship over a mountain.",
+   "tags": "E",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Burden of Dreams",
+     "y": 1982,
+     "note": "The documentary of the chaos behind it",
+     "tags": "E",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "My Best Fiend",
+     "y": 1999,
+     "note": "Herzog on Kinski, his best enemy",
+     "tags": "E",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Long."
+  },
+  {
+   "n": 27,
+   "t": "The Seventh Seal",
+   "y": 1957,
+   "b": "Bergman: a knight back from the Crusades plays chess with Death while plague crosses Sweden.",
+   "tags": "EO",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Persona",
+     "y": 1966,
+     "note": "Bergman's actress and nurse blur into one. The deep end",
+     "tags": "EO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Fanny and Alexander",
+     "y": 1982,
+     "note": "Bergman's warm, ghostly family epic",
+     "tags": "E",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "t": "Pather Panchali",
+   "y": 1955,
+   "b": "Satyajit Ray's debut: a poor Bengali family, a boy and his sister, and a train across the fields. Inspired by Bicycle Thieves.",
+   "tags": "WO",
+   "heat": {
+    "violence": 0,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [
+    {
+     "t": "Aparajito",
+     "y": 1956,
+     "note": "The Apu trilogy continues",
+     "star": false
+    },
+    {
+     "t": "The World of Apu",
+     "y": 1959,
+     "note": "The trilogy's grown-up end",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Bicycle Thieves",
+     "y": 1948,
+     "note": "De Sica's father and son hunt a stolen bike in post-war Rome",
+     "tags": "EO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "t": "Wild Strawberries",
+   "y": 1957,
+   "b": "Bergman: an old professor drives to collect an honour and relives his regrets on the way. Depressing, and beautiful.",
+   "tags": "EO",
+   "heat": {
+    "violence": 0,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Tokyo Story",
+     "y": 1953,
+     "note": "Ozu's elderly couple visit children too busy for them",
+     "tags": "AO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "t": "Andrei Rublev",
+   "y": 1966,
+   "b": "Tarkovsky's three-hour medieval Russia: an icon painter, a Tatar raid and a boy who casts a giant bell. The bell sequence is one of cinema's greatest.",
+   "tags": "EO",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 3,
+    "challenge": 5
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Mirror",
+     "y": 1975,
+     "note": "Tarkovsky's dream of childhood",
+     "tags": "EO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Stalker",
+     "y": 1979,
+     "note": "Tarkovsky's Zone. Beyond the final boss on Sci-fi",
+     "tags": "EO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Cranes Are Flying",
+     "y": 1957,
+     "note": "A Soviet wartime love story, astonishing camera",
+     "tags": "EO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Long, brutal raid; real animal cruelty."
+  }
+ ],
+ "beyond": [
+  {
+   "t": "Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles",
+   "y": 1975,
+   "note": "Chantal Akerman: three and a half hours of a widow's chores. Sight & Sound's greatest film ever. Fuck that movie, and fuck critics.",
+   "tags": "EO",
+   "warn": "201 minutes of potato peeling.",
+   "seq": []
+  }
+ ]
+}

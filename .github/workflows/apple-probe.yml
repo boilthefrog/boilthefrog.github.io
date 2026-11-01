@@ -14,6 +14,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - run: sh tools/apple-links.sh
       - run: node tools/apple-wikidata.mjs ${{ inputs.ladder }}
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}

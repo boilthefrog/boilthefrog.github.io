@@ -1,0 +1,1031 @@
+{
+ "id": "epic",
+ "title": "Epic & historical",
+ "order": 15,
+ "tagline": "From Titanic to The Leopard without noticing the water got hot.",
+ "heatKeys": [
+  [
+   "violence",
+   "Violence"
+  ],
+  [
+   "intensity",
+   "Intensity"
+  ],
+  [
+   "age",
+   "Old-school"
+  ],
+  [
+   "challenge",
+   "Challenge"
+  ]
+ ],
+ "tags": {
+  "A": "Ancient world",
+  "K": "Kings & queens",
+  "F": "Frontier",
+  "S": "At sea",
+  "E": "East",
+  "V": "Battles",
+  "B": "Lives",
+  "O": "Classics"
+ },
+ "levels": [
+  {
+   "t": 22,
+   "name": "Popcorn",
+   "note": "A ship, a gladiator, blue face paint, a frontier, a frigate and a Maya chase.",
+   "bg": "#dbe5cc",
+   "fg": "#17110d",
+   "upto": 6
+  },
+  {
+   "t": 35,
+   "name": "Modern epics",
+   "note": "Wolves, Odysseus, Shanghai, Red Cliff, Five Points and Mozart.",
+   "bg": "#ecdcaa",
+   "fg": "#17110d",
+   "upto": 12
+  },
+  {
+   "t": 50,
+   "name": "Cast of thousands",
+   "note": "Moses, the chariot race, Spartacus, El Cid, the West, Scarlett and Texas.",
+   "bg": "#e8b47a",
+   "fg": "#17110d",
+   "upto": 19
+  },
+  {
+   "t": 65,
+   "name": "Prestige",
+   "note": "A royal Christmas, Gandhi, the falls, the Forbidden City, Zhivago and Lawrence.",
+   "bg": "#cf5b3a",
+   "fg": "#17110d",
+   "upto": 25
+  },
+  {
+   "t": 80,
+   "name": "Heavy",
+   "note": "Osage murders, the milkshake and Kurosawa's Lear.",
+   "bg": "#6d1b21",
+   "fg": "#efe3cf",
+   "upto": 28
+  },
+  {
+   "t": 95,
+   "name": "Final boss",
+   "note": "The Russian Revolution and a Sicilian ball.",
+   "bg": "#2b0b0e",
+   "fg": "#efe3cf",
+   "upto": 30
+  },
+  {
+   "t": "100+",
+   "name": "Cooked",
+   "note": "Only if they finish The Leopard and ask for more.",
+   "bg": "#0c0506",
+   "fg": "#efe3cf",
+   "beyond": true
+  }
+ ],
+ "core": [
+  {
+   "n": 1,
+   "t": "Titanic",
+   "y": 1997,
+   "b": "Cameron's ship, Leo and Kate, and the most expensive sinking in history. The second half is a three-hour disaster movie at its peak.",
+   "tags": "S",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "A Night to Remember",
+     "y": 1958,
+     "note": "The British Titanic film: no romance, just the night",
+     "tags": "SO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "t": "Gladiator",
+   "y": 2000,
+   "b": "Russell Crowe's general turned slave turned gladiator. 'Are you not entertained?' The film that brought back the sword and sandal.",
+   "tags": "AV",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [
+    {
+     "t": "Gladiator II",
+     "y": 2024,
+     "note": "Paul Mescal, sharks in the Colosseum. Fun, not as good",
+     "star": false
+    }
+   ],
+   "br": [
+    {
+     "t": "The Fall of the Roman Empire",
+     "y": 1964,
+     "note": "The 1964 epic Gladiator quietly remade",
+     "tags": "AO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "300",
+     "y": 2006,
+     "note": "Spartans, abs, slow motion. Also on Superheroes",
+     "tags": "AV",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Alexander",
+     "y": 2004,
+     "note": "Oliver Stone, Colin Farrell, a blond wig",
+     "tags": "A",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ],
+   "w": "Violence."
+  },
+  {
+   "n": 3,
+   "t": "Braveheart",
+   "y": 1995,
+   "b": "Mel Gibson's William Wallace: blue face paint, 'Freedom!', and history taken out the back and shot. Great battles.",
+   "tags": "KV",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Rob Roy",
+     "y": 1995,
+     "note": "Liam Neeson's Highlander and Tim Roth's foppish villain",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Outlaw King",
+     "y": 2018,
+     "note": "Robert the Bruce, the sequel Braveheart never got",
+     "tags": "KV",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Henry V",
+     "y": 1989,
+     "note": "Branagh's Agincourt",
+     "tags": "KO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Brutal battles; the ending."
+  },
+  {
+   "n": 4,
+   "t": "The Last of the Mohicans",
+   "y": 1992,
+   "b": "Michael Mann's frontier romance: Daniel Day-Lewis running through forests, and the cliff-top finale to that score.",
+   "tags": "FV",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The New World",
+     "y": 2005,
+     "note": "Malick's Pocahontas",
+     "tags": "F",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Revenant",
+     "y": 2015,
+     "note": "DiCaprio, the bear, the cold",
+     "tags": "FV",
+     "warn": "The bear.",
+     "seq": []
+    }
+   ],
+   "w": "Violence."
+  },
+  {
+   "n": 5,
+   "t": "Master and Commander: The Far Side of the World",
+   "y": 2003,
+   "b": "Russell Crowe's Captain Jack Aubrey chases a French frigate round Cape Horn. The best sea film ever made.",
+   "tags": "SV",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Mutiny on the Bounty",
+     "y": 1935,
+     "note": "Laughton's Bligh, Gable's Christian",
+     "tags": "SO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Bounty",
+     "y": 1984,
+     "note": "Hopkins as Bligh, Mel Gibson as Christian",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "t": "Apocalypto",
+   "y": 2006,
+   "b": "Mel Gibson's Maya chase: a hunter captured for sacrifice escapes and runs for his family. Subtitled and relentless. Also on Action.",
+   "tags": "EV",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Quest for Fire",
+     "y": 1981,
+     "note": "Cavemen hunting for fire, no dialogue",
+     "tags": "E",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Graphic violence. Subtitled."
+  },
+  {
+   "n": 7,
+   "t": "Dances with Wolves",
+   "y": 1990,
+   "b": "Kevin Costner's cavalry officer goes native with the Lakota. The buffalo hunt. Best Picture.",
+   "tags": "F",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Little Big Man",
+     "y": 1970,
+     "note": "Dustin Hoffman, 121 years old, remembers Custer",
+     "tags": "FO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "t": "The Odyssey",
+   "y": 2026,
+   "b": "Nolan's Homer: Matt Damon's Odysseus, the Cyclops, the Sirens, and Troy falling again and again. Also on Fantasy and World cinema.",
+   "tags": "AV",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Troy",
+     "y": 2004,
+     "note": "Brad Pitt's Achilles. Not good, but shiny",
+     "tags": "AV",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ],
+   "w": "Battle violence."
+  },
+  {
+   "n": 9,
+   "t": "Empire of the Sun",
+   "y": 1987,
+   "b": "Spielberg: a 13-year-old Christian Bale grows up alone in a Japanese internment camp in Shanghai. The P-51s.",
+   "tags": "E",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Killing Fields",
+     "y": 1984,
+     "note": "A journalist left behind in Pol Pot's Cambodia. On the BFI 100",
+     "tags": "E",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Year of Living Dangerously",
+     "y": 1982,
+     "note": "Mel Gibson and Sigourney Weaver in Jakarta, 1965",
+     "tags": "E",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "t": "Red Cliff",
+   "y": 2008,
+   "b": "John Woo's Battle of Red Cliffs, AD 208: fire ships, tortoise formations, a thousand extras. See the long two-part version if you can.",
+   "tags": "EV",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Hero",
+     "y": 2002,
+     "note": "Zhang Yimou's colour-coded wuxia. Also on World cinema",
+     "tags": "E",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Curse of the Golden Flower",
+     "y": 2006,
+     "note": "Zhang Yimou's palace of gold and poison",
+     "tags": "E",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Baahubali: The Beginning",
+     "y": 2015,
+     "note": "Indian mythic spectacle. RRR's big brother",
+     "tags": "E",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ],
+   "w": "Subtitled."
+  },
+  {
+   "n": 11,
+   "t": "Gangs of New York",
+   "y": 2002,
+   "b": "Scorsese's 1860s Five Points: Daniel Day-Lewis's Bill the Butcher versus Leonardo DiCaprio. Day-Lewis eats the film.",
+   "tags": "FV",
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Heaven's Gate",
+     "y": 1980,
+     "note": "Cimino's notorious western epic. Beyond the final boss on Westerns",
+     "tags": "F",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Violence."
+  },
+  {
+   "n": 12,
+   "t": "Amadeus",
+   "y": 1984,
+   "b": "Salieri's confession: the giggling genius Mozart, and the mediocrity who wanted to be God's instrument. Fucking great.",
+   "tags": "KO",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Barry Lyndon",
+     "y": 1975,
+     "note": "Kubrick's candlelit rogue. Dull when you were young; try again",
+     "tags": "KO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Madness of King George",
+     "y": 1994,
+     "note": "Nigel Hawthorne's mad king",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "t": "The Ten Commandments",
+   "y": 1956,
+   "b": "DeMille's Moses: Charlton Heston, Yul Brynner, and the Red Sea parting. Four hours of glorious ham.",
+   "tags": "AO",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Prince of Egypt",
+     "y": 1998,
+     "note": "DreamWorks' animated Moses",
+     "tags": "A",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Exodus: Gods and Kings",
+     "y": 2014,
+     "note": "Christian Bale's Moses. Bad",
+     "tags": "A",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ],
+   "w": "Four hours."
+  },
+  {
+   "n": 14,
+   "t": "Ben-Hur",
+   "y": 1959,
+   "b": "Heston's Judah Ben-Hur: galley slave, the chariot race, eleven Oscars. The sword and sandal at its biggest.",
+   "tags": "AO",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Quo Vadis",
+     "y": 1951,
+     "note": "Peter Ustinov's Nero fiddles while Rome burns",
+     "tags": "AO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Robe",
+     "y": 1953,
+     "note": "The first CinemaScope film",
+     "tags": "AO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Ben-Hur: A Tale of the Christ",
+     "y": 1925,
+     "note": "The silent original: the chariot race is even wilder",
+     "tags": "AO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "t": "Spartacus",
+   "y": 1960,
+   "b": "Kubrick and Kirk Douglas: the slave revolt against Rome. 'I'm Spartacus!'",
+   "tags": "AO",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Cleopatra",
+     "y": 1963,
+     "note": "Taylor and Burton; it nearly bankrupted Fox",
+     "tags": "AO",
+     "warn": "Four hours, mostly costumes.",
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "t": "El Cid",
+   "y": 1961,
+   "b": "Heston as the Castilian knight against the Moors, and the most famous ending of any epic.",
+   "tags": "KO",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Waterloo",
+     "y": 1970,
+     "note": "Bondarchuk's battle with real armies. Also on War",
+     "tags": "VO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Napoleon",
+     "y": 2023,
+     "note": "Ridley Scott, Joaquin Phoenix. Poor man's Gladiator",
+     "tags": "V",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "55 Days at Peking",
+     "y": 1963,
+     "note": "Heston in the Boxer Rebellion",
+     "tags": "EO",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "t": "How the West Was Won",
+   "y": 1962,
+   "b": "Cinerama all-star western saga across fifty years: Stewart, Wayne, Peck, Fonda, a river raft and a train robbery.",
+   "tags": "FO",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 18,
+   "t": "Gone with the Wind",
+   "y": 1939,
+   "b": "Vivien Leigh's Scarlett O'Hara, Clark Gable's Rhett, Atlanta burning. 'Frankly, my dear, I don't give a damn.'",
+   "tags": "O",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Out of Africa",
+     "y": 1985,
+     "note": "Streep and Redford in Kenya",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Romanticises slavery and the Confederacy."
+  },
+  {
+   "n": 19,
+   "t": "Giant",
+   "y": 1956,
+   "b": "A Texas cattle-and-oil family saga over 25 years: Rock Hudson, Elizabeth Taylor and James Dean's last role.",
+   "tags": "FO",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Days of Heaven",
+     "y": 1978,
+     "note": "Malick's wheat fields at magic hour",
+     "tags": "F",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Long."
+  },
+  {
+   "n": 20,
+   "t": "The Lion in Winter",
+   "y": 1968,
+   "b": "Henry II (Peter O'Toole) and Eleanor (Katharine Hepburn) spend Christmas 1183 scheming over which son gets the crown. Succession in castles.",
+   "tags": "KO",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Becket",
+     "y": 1964,
+     "note": "O'Toole's Henry and Burton's Becket",
+     "tags": "KO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "A Man for All Seasons",
+     "y": 1966,
+     "note": "Thomas More versus Henry VIII",
+     "tags": "KO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Elizabeth",
+     "y": 1998,
+     "note": "Cate Blanchett becomes the Virgin Queen",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "t": "Gandhi",
+   "y": 1982,
+   "b": "Ben Kingsley's Gandhi, from South Africa to Independence. Attenborough's biggest film; the funeral had 300,000 extras.",
+   "tags": "B",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "A Passage to India",
+     "y": 1984,
+     "note": "Lean's last film",
+     "tags": "BO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Malcolm X",
+     "y": 1992,
+     "note": "Denzel Washington, Spike Lee",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Massacre scene."
+  },
+  {
+   "n": 22,
+   "t": "The Mission",
+   "y": 1986,
+   "b": "Jesuits above the Iguazu Falls defend the Guaraní against Spain and Portugal. Robert De Niro, Jeremy Irons, and Morricone's score.",
+   "tags": "F",
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Silence",
+     "y": 2016,
+     "note": "Scorsese's Jesuits in 17th-century Japan",
+     "tags": "E",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "t": "The Last Emperor",
+   "y": 1987,
+   "b": "Bertolucci inside the Forbidden City: Puyi, crowned at three, ends up a gardener in Mao's China. Nine Oscars.",
+   "tags": "EB",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Farewell My Concubine",
+     "y": 1993,
+     "note": "Also on World cinema",
+     "tags": "E",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "t": "Doctor Zhivago",
+   "y": 1965,
+   "b": "David Lean's Russian Revolution: Omar Sharif, Julie Christie, the ice palace and Lara's theme.",
+   "tags": "O",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Ryan's Daughter",
+     "y": 1970,
+     "note": "Lean's Irish storm-and-scandal epic",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The English Patient",
+     "y": 1996,
+     "note": "Desert, burns and a cave of swimmers",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Long."
+  },
+  {
+   "n": 25,
+   "t": "Lawrence of Arabia",
+   "y": 1962,
+   "b": "Lean's masterpiece: Peter O'Toole in the desert, the match cut, Omar Sharif out of the mirage. Core on War.",
+   "tags": "VO",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Wind and the Lion",
+     "y": 1975,
+     "note": "Sean Connery as a Berber chieftain",
+     "tags": "VO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Khartoum",
+     "y": 1966,
+     "note": "Heston's Gordon, Olivier's Mahdi",
+     "tags": "VO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Nearly four hours."
+  },
+  {
+   "n": 26,
+   "t": "Killers of the Flower Moon",
+   "y": 2023,
+   "b": "Scorsese's Osage murders: oil money, a slow conspiracy and DiCaprio's dimwit husband. Three and a half hours.",
+   "tags": "F",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [],
+   "w": "Three and a half hours."
+  },
+  {
+   "n": 27,
+   "t": "There Will Be Blood",
+   "y": 2007,
+   "b": "Paul Thomas Anderson: Daniel Day-Lewis's oilman Daniel Plainview, a preacher, and the milkshake. A towering performance.",
+   "tags": "F",
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Oppenheimer",
+     "y": 2023,
+     "note": "Nolan's atomic biopic",
+     "tags": "B",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "t": "Ran",
+   "y": 1985,
+   "b": "Kurosawa's King Lear in feudal Japan: a warlord splits his kingdom between three sons, and the castle burns. Colour on a scale nobody's matched.",
+   "tags": "EV",
+   "heat": {
+    "violence": 4,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Kagemusha",
+     "y": 1980,
+     "note": "A thief impersonates a dead warlord. Palme d'Or",
+     "tags": "EV",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Seven Samurai",
+     "y": 1954,
+     "note": "Core on Action and Asian action",
+     "tags": "EO",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Battle violence. Subtitled."
+  },
+  {
+   "n": 29,
+   "t": "Reds",
+   "y": 1981,
+   "b": "Warren Beatty's John Reed and Diane Keaton's Louise Bryant in the Russian Revolution, with real witnesses between scenes. Long, earnest, on AFI's epic top 10.",
+   "tags": "B",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "1900",
+     "y": 1976,
+     "note": "Bertolucci's five-hour Italian century",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Over three hours."
+  },
+  {
+   "n": 30,
+   "t": "The Leopard",
+   "y": 1963,
+   "b": "Visconti: Burt Lancaster's Sicilian prince watches his world end in the 1860s, culminating in a 45-minute ball. Sumptuous and elegiac.",
+   "tags": "KO",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 5
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Senso",
+     "y": 1954,
+     "note": "Visconti's Venice in 1866",
+     "tags": "KO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Age of Innocence",
+     "y": 1993,
+     "note": "Scorsese's gilded New York",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    }
+   ],
+   "w": "Over three hours. Subtitled."
+  }
+ ],
+ "beyond": [
+  {
+   "t": "War and Peace",
+   "y": 1966,
+   "b": "Sergei Bondarchuk's seven-hour Tolstoy, made with the Soviet army: the biggest battle scenes ever filmed, and a ballroom to match.",
+   "tags": "KV",
+   "seq": [],
+   "heat": {
+    "violence": 3,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 5
+   },
+   "w": "Seven hours, in four parts."
+  },
+  {
+   "t": "Napoleon",
+   "y": 1927,
+   "b": "Abel Gance's silent five-and-a-half-hour biopic, with the triple-screen finale that invented widescreen 30 years early.",
+   "tags": "BO",
+   "seq": [],
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 5,
+    "challenge": 5
+   },
+   "w": "Silent, five and a half hours."
+  }
+ ]
+}

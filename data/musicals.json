@@ -43,10 +43,10 @@
   {
    "t": 35,
    "name": "Crowd-pleasers",
-   "note": "A Dublin band, Baltimore, LA, the Heights, Christmas zombies and a hungry plant.",
+   "note": "A Dublin band, LA, the Heights, Christmas zombies and a hungry plant.",
    "bg": "#ecdcaa",
    "fg": "#17110d",
-   "upto": 12
+   "upto": 11
   },
   {
    "t": 50,
@@ -54,12 +54,12 @@
    "note": "Oz, the rain, Astaire twice, the von Trapps, the Jets and Springtime for Hitler.",
    "bg": "#e8b47a",
    "fg": "#17110d",
-   "upto": 19
+   "upto": 18
   },
   {
    "t": 65,
    "name": "Rock and cult",
-   "note": "The Beatles, the Time Warp, South Park, Superstar, the Moulin Rouge and Hedwig.",
+   "note": "The Beatles, Talking Heads, the Time Warp, South Park, Superstar, the Moulin Rouge and Hedwig.",
    "bg": "#cf5b3a",
    "fg": "#17110d",
    "upto": 25
@@ -172,6 +172,22 @@
      "y": 1984,
      "note": "Kevin Bacon's dance-ban rebellion",
      "tags": "D",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Hairspray",
+     "y": 2007,
+     "note": "Baltimore 1962, Travolta in a fat suit, 'You Can't Stop the Beat'",
+     "tags": "DK",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Hairspray",
+     "y": 1988,
+     "note": "John Waters' original, with Divine",
+     "tags": "K",
      "warn": null,
      "seq": []
     }
@@ -305,30 +321,6 @@
   },
   {
    "n": 8,
-   "t": "Hairspray",
-   "y": 2007,
-   "b": "Baltimore, 1962: Tracy Turnblad dances her way onto TV and integrates it. John Travolta in a fat suit.",
-   "tags": "DK",
-   "heat": {
-    "violence": 0,
-    "intensity": 1,
-    "age": 0,
-    "challenge": 0
-   },
-   "seq": [],
-   "br": [
-    {
-     "t": "Hairspray",
-     "y": 1988,
-     "note": "John Waters' original, with Divine",
-     "tags": "K",
-     "warn": null,
-     "seq": []
-    }
-   ]
-  },
-  {
-   "n": 9,
    "t": "La La Land",
    "y": 2016,
    "b": "Emma Stone and Ryan Gosling fall in love in LA, then choose their dreams. The traffic-jam opening and the epilogue that wrecks you.",
@@ -360,7 +352,7 @@
    ]
   },
   {
-   "n": 10,
+   "n": 9,
    "t": "In the Heights",
    "y": 2021,
    "b": "Lin-Manuel Miranda's Washington Heights summer, with a swimming-pool number like Busby Berkeley.",
@@ -384,7 +376,7 @@
    ]
   },
   {
-   "n": 11,
+   "n": 10,
    "t": "Anna and the Apocalypse",
    "y": 2017,
    "b": "A Scottish school, Christmas, zombies, and pop songs. High School Musical with decapitations.",
@@ -400,7 +392,7 @@
    "w": "Zombie gore."
   },
   {
-   "n": 12,
+   "n": 11,
    "t": "Little Shop of Horrors",
    "y": 1986,
    "b": "Rick Moranis feeds a carnivorous plant, and Steve Martin's dentist sings. 'Feed me, Seymour!' Also on Horror.",
@@ -415,7 +407,7 @@
    "br": []
   },
   {
-   "n": 13,
+   "n": 12,
    "t": "The Wizard of Oz",
    "y": 1939,
    "b": "Over the rainbow, into Technicolor. Core on Fantasy.",
@@ -439,7 +431,7 @@
    ]
   },
   {
-   "n": 14,
+   "n": 13,
    "t": "Singin' in the Rain",
    "y": 1952,
    "b": "Gene Kelly, the puddles, 'Make 'Em Laugh', and Hollywood switching to sound. The best musical ever made.",
@@ -471,7 +463,7 @@
    ]
   },
   {
-   "n": 15,
+   "n": 14,
    "t": "Top Hat",
    "y": 1935,
    "b": "Fred Astaire and Ginger Rogers, mistaken identity in Venice, and 'Cheek to Cheek'.",
@@ -511,7 +503,7 @@
    ]
   },
   {
-   "n": 16,
+   "n": 15,
    "t": "The Band Wagon",
    "y": 1953,
    "b": "Astaire's washed-up star in a doomed Broadway show. 'That's Entertainment' and the 'Girl Hunt' noir ballet.",
@@ -543,7 +535,7 @@
    ]
   },
   {
-   "n": 17,
+   "n": 16,
    "t": "The Sound of Music",
    "y": 1965,
    "b": "Julie Andrews, the hills, the von Trapps and the Nazis. Corny, enormous, and every song a standard.",
@@ -568,7 +560,7 @@
    "w": "Three hours."
   },
   {
-   "n": 18,
+   "n": 17,
    "t": "West Side Story",
    "y": 1961,
    "b": "Romeo and Juliet with the Jets and Sharks on the Upper West Side. Bernstein, Sondheim, and the dance-off.",
@@ -592,7 +584,7 @@
    ]
   },
   {
-   "n": 19,
+   "n": 18,
    "t": "The Producers",
    "y": 1967,
    "b": "Mel Brooks: two crooks stage a guaranteed flop, 'Springtime for Hitler', and it's a hit. Also on Comedy.",
@@ -616,7 +608,7 @@
    ]
   },
   {
-   "n": 20,
+   "n": 19,
    "t": "A Hard Day's Night",
    "y": 1964,
    "b": "A day in the life of the Beatles, running from fans. Funny, fast, and it invented the music video.",
@@ -636,11 +628,115 @@
      "tags": "P",
      "warn": null,
      "seq": []
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "t": "Stop Making Sense",
+   "y": 1984,
+   "b": "Jonathan Demme films Talking Heads: David Byrne alone with a boombox, the band arriving one song at a time, and the big suit. The greatest concert film ever made.",
+   "tags": "P",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Last Waltz",
+     "y": 1978,
+     "note": "Scorsese films The Band's farewell: Dylan, Joni, Van Morrison, Neil Young",
+     "tags": "P",
+     "warn": null,
+     "seq": []
     },
     {
-     "t": "Stop Making Sense",
-     "y": 1984,
-     "note": "Talking Heads' big suit. The best concert film",
+     "t": "Monterey Pop",
+     "y": 1968,
+     "note": "Hendrix sets his guitar on fire; Otis Redding; Janis",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Woodstock",
+     "y": 1970,
+     "note": "The festival, three days and four hours",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Gimme Shelter",
+     "y": 1970,
+     "note": "The Stones at Altamont, and a killing on camera",
+     "tags": "P",
+     "warn": "A real death.",
+     "seq": []
+    },
+    {
+     "t": "Ziggy Stardust and the Spiders from Mars",
+     "y": 1979,
+     "note": "Bowie's last night as Ziggy",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Pink Floyd: Live at Pompeii",
+     "y": 1972,
+     "note": "No audience, a Roman amphitheatre",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Wattstax",
+     "y": 1973,
+     "note": "Stax's LA festival, Isaac Hayes",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Summer of Soul (...Or, When the Revolution Could Not Be Televised)",
+     "y": 2021,
+     "note": "Harlem 1969, unseen for 50 years",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Sign o' the Times",
+     "y": 1987,
+     "note": "Prince at his peak",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Amazing Grace",
+     "y": 2018,
+     "note": "Aretha's 1972 gospel church recording. Transcendent",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Homecoming",
+     "y": 2019,
+     "note": "Beyoncé at Coachella",
+     "tags": "P",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Taylor Swift: The Eras Tour",
+     "y": 2023,
+     "note": "The biggest concert film ever",
      "tags": "P",
      "warn": null,
      "seq": []

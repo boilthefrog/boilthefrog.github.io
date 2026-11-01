@@ -94,7 +94,16 @@
     "challenge": 0
    },
    "seq": [],
-   "br": []
+   "br": [
+    {
+     "t": "Legally Blonde",
+     "y": 2001,
+     "note": "Reese Witherspoon goes to Harvard Law. 'What, like it's hard?'",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    }
+   ]
   },
   {
    "n": 2,
@@ -245,7 +254,16 @@
     "challenge": 0
    },
    "seq": [],
-   "br": []
+   "br": [
+    {
+     "t": "Bridget Jones's Diary",
+     "y": 2001,
+     "note": "Big knickers, Hugh Grant versus Colin Firth in the street",
+     "tags": "KB",
+     "warn": null,
+     "seq": []
+    }
+   ]
   },
   {
    "n": 8,

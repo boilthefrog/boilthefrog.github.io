@@ -821,6 +821,46 @@
      "tags": "O",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Great Expectations",
+     "y": 1946,
+     "note": "Lean's Dickens: the graveyard, Miss Havisham. BFI No. 5",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Oliver Twist",
+     "y": 1948,
+     "note": "Lean's Dickens, Guinness as Fagin",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Oliver!",
+     "y": 1968,
+     "note": "The musical. Best Picture",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Far from the Madding Crowd",
+     "y": 1967,
+     "note": "Schlesinger's Hardy: Julie Christie, Terence Stamp, three hours of Dorset",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Far from the Madding Crowd",
+     "y": 2015,
+     "note": "The Carey Mulligan version",
+     "tags": "",
+     "warn": null,
+     "seq": []
     }
    ],
    "w": "Long."

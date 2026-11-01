@@ -53,7 +53,7 @@
   {
    "t": 50,
    "name": "Very good",
-   "note": "Skyfall, the ski jump, Dr. No, Dalton twice, a 2CV and the sharks.",
+   "note": "Skyfall, the ski jump, Dr. No, Dalton, a 2CV, crocodiles and the sharks.",
    "bg": "#e8b47a",
    "fg": "#17110d",
    "upto": 12
@@ -61,7 +61,7 @@
   {
    "t": 65,
    "name": "Good fun",
-   "note": "Craig's farewell, a volcano, crocodiles, a car park and a clown suit.",
+   "note": "Vegas, Dalton's revenge, Craig's farewell, a volcano and a car park.",
    "bg": "#cf5b3a",
    "fg": "#17110d",
    "upto": 17
@@ -69,15 +69,15 @@
   {
    "t": 80,
    "name": "Patchy",
-   "note": "Spectre, Vegas, a nuclear physicist, space and a slide whistle.",
+   "note": "Spectre, a clown suit, a nuclear physicist, space, a slide whistle and Quantum.",
    "bg": "#6d1b21",
    "fg": "#efe3cf",
-   "upto": 22
+   "upto": 23
   },
   {
    "t": 95,
    "name": "The dregs",
-   "note": "Quantum, Moore at 57 and the invisible car.",
+   "note": "Moore at 57 and the invisible car.",
    "bg": "#2b0b0e",
    "fg": "#efe3cf",
    "upto": 25
@@ -254,6 +254,21 @@
   },
   {
    "n": 11,
+   "t": "Live and Let Die",
+   "y": 1973,
+   "b": "Moore's debut: crocodile-hopping, voodoo, the McCartney theme. Dated in every sense.",
+   "tags": "M",
+   "heat": {
+    "violence": 2,
+    "intensity": 1,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 12,
    "t": "Thunderball",
    "y": 1965,
    "b": "Underwater battles, a jetpack, the Bahamas and Largo's sharks.",
@@ -277,7 +292,22 @@
    ]
   },
   {
-   "n": 12,
+   "n": 13,
+   "t": "Diamonds Are Forever",
+   "y": 1971,
+   "b": "Connery back for the money, Las Vegas, and Mr Wint and Mr Kidd.",
+   "tags": "C",
+   "heat": {
+    "violence": 2,
+    "intensity": 1,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 14,
    "t": "Licence to Kill",
    "y": 1989,
    "b": "Dalton goes rogue for revenge: drug lords, a tanker chase, a man fed to a shark. Nastier than any Bond before it.",
@@ -292,7 +322,7 @@
    "br": []
   },
   {
-   "n": 13,
+   "n": 15,
    "t": "No Time to Die",
    "y": 2021,
    "b": "Craig's finale, and the end of his serial. The Norwegian house, the Italian chase, and that ending.",
@@ -307,7 +337,7 @@
    "br": []
   },
   {
-   "n": 14,
+   "n": 16,
    "t": "You Only Live Twice",
    "y": 1967,
    "b": "The volcano lair, Blofeld's face at last, and Roald Dahl's script. Dodgy 'turning Japanese' bit.",
@@ -322,22 +352,7 @@
    "br": []
   },
   {
-   "n": 15,
-   "t": "Live and Let Die",
-   "y": 1973,
-   "b": "Moore's debut: crocodile-hopping, voodoo, the McCartney theme. Dated in every sense.",
-   "tags": "M",
-   "heat": {
-    "violence": 2,
-    "intensity": 1,
-    "age": 3,
-    "challenge": 1
-   },
-   "seq": [],
-   "br": []
-  },
-  {
-   "n": 16,
+   "n": 17,
    "t": "Tomorrow Never Dies",
    "y": 1997,
    "b": "Jonathan Pryce's media mogul, Michelle Yeoh, and a remote-control BMW in a car park.",
@@ -347,21 +362,6 @@
     "intensity": 2,
     "age": 1,
     "challenge": 0
-   },
-   "seq": [],
-   "br": []
-  },
-  {
-   "n": 17,
-   "t": "Octopussy",
-   "y": 1983,
-   "b": "Moore in a clown suit defusing a bomb, and Tarzan yells in the jungle. Fun, daft.",
-   "tags": "M",
-   "heat": {
-    "violence": 2,
-    "intensity": 1,
-    "age": 2,
-    "challenge": 1
    },
    "seq": [],
    "br": []
@@ -383,14 +383,14 @@
   },
   {
    "n": 19,
-   "t": "Diamonds Are Forever",
-   "y": 1971,
-   "b": "Connery back for the money, Las Vegas, and Mr Wint and Mr Kidd.",
-   "tags": "C",
+   "t": "Octopussy",
+   "y": 1983,
+   "b": "Moore in a clown suit defusing a bomb, and Tarzan yells in the jungle. Fun, daft.",
+   "tags": "M",
    "heat": {
     "violence": 2,
     "intensity": 1,
-    "age": 3,
+    "age": 2,
     "challenge": 1
    },
    "seq": [],
@@ -445,7 +445,7 @@
    "n": 23,
    "t": "Quantum of Solace",
    "y": 2008,
-   "b": "Written during a strike and edited in a blender. Bolivian water rights. It's short.",
+   "b": "Written during a strike and edited in a blender, but better than the dregs: Craig's grief, an opera-house shootout, and it's short.",
    "tags": "R",
    "heat": {
     "violence": 3,
@@ -460,7 +460,7 @@
    "n": 24,
    "t": "A View to a Kill",
    "y": 1985,
-   "b": "Moore at 57, Grace Jones and Christopher Walken. Duran Duran's theme is the best bit.",
+   "b": "Moore at 57 and clearly an awful film, but Christopher Walken's psychotic Zorin is great fun, and so are Grace Jones and the Duran Duran theme.",
    "tags": "M",
    "heat": {
     "violence": 2,

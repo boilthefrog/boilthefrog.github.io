@@ -374,14 +374,6 @@
    "seq": [],
    "br": [
     {
-     "t": "Hamilton",
-     "y": 2020,
-     "note": "The filmed stage show",
-     "tags": "S",
-     "warn": null,
-     "seq": []
-    },
-    {
      "t": "Tick, Tick... Boom!",
      "y": 2021,
      "note": "Andrew Garfield as Rent's Jonathan Larson",
@@ -709,15 +701,6 @@
      "tags": "WK",
      "warn": "Puppet sex.",
      "seq": []
-    },
-    {
-     "t": "The Book of Mormon",
-     "y": 2011,
-     "note": "Not a film. Hello!",
-     "tags": "WK",
-     "warn": null,
-     "seq": [],
-     "junk": true
     }
    ],
    "w": "Filthy. Gloriously."

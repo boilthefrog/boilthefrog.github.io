@@ -896,6 +896,22 @@
      "tags": "KV",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Henry V",
+     "y": 1944,
+     "note": "Olivier's wartime Agincourt, in Technicolor. On the BFI 100",
+     "tags": "KO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Macbeth",
+     "y": 1971,
+     "note": "Polanski's muddy, bloody Macbeth",
+     "tags": "KV",
+     "warn": "Violent.",
+     "seq": []
     }
    ]
   },

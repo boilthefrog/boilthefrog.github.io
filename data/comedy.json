@@ -45,7 +45,7 @@
   {
    "t": 35,
    "name": "Cult favourites",
-   "note": "Fuzz, the Blues Brothers, Wanda, a stolen baby, the Dude and Spinal Tap.",
+   "note": "Nice guys, the Blues Brothers, Wanda, a stolen baby, the Dude and Spinal Tap.",
    "bg": "#ecdcaa",
    "fg": "#17110d",
    "upto": 12
@@ -173,6 +173,30 @@
      "t": "The Breakfast Club",
      "y": 1985,
      "note": "Detention",
+     "tags": "T",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Dazed and Confused",
+     "y": 1993,
+     "note": "Linklater's last day of school, 1976. Alright alright alright",
+     "tags": "T",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Fast Times at Ridgemont High",
+     "y": 1982,
+     "note": "Sean Penn's Spicoli",
+     "tags": "T",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Clueless",
+     "y": 1995,
+     "note": "Emma in Beverly Hills. As if!",
      "tags": "T",
      "warn": null,
      "seq": []
@@ -323,18 +347,27 @@
   },
   {
    "n": 7,
-   "t": "Hot Fuzz",
-   "y": 2007,
-   "b": "Edgar Wright's London supercop sent to a sinister village. Core on Action.",
-   "tags": "BP",
+   "t": "The Nice Guys",
+   "y": 2016,
+   "b": "Shane Black: Ryan Gosling's useless private eye and Russell Crowe's enforcer chase a missing girl through 1977 LA. Gosling's scream is the funniest thing he's done. Also on Action.",
+   "tags": "D",
    "heat": {
     "violence": 3,
     "intensity": 2,
     "age": 0,
-    "challenge": 0
+    "challenge": 1
    },
+   "w": "Violence.",
    "seq": [],
    "br": [
+    {
+     "t": "Hot Fuzz",
+     "y": 2007,
+     "note": "Edgar Wright's supercop in a sinister village. Core on Action",
+     "tags": "BP",
+     "warn": "Gory slapstick.",
+     "seq": []
+    },
     {
      "t": "Shaun of the Dead",
      "y": 2004,
@@ -350,9 +383,16 @@
      "tags": "B",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Kiss Kiss Bang Bang",
+     "y": 2005,
+     "note": "Shane Black's first: Downey and Kilmer",
+     "tags": "D",
+     "warn": null,
+     "seq": []
     }
-   ],
-   "w": "Gory slapstick."
+   ]
   },
   {
    "n": 8,
@@ -391,16 +431,7 @@
     "challenge": 1
    },
    "seq": [],
-   "br": [
-    {
-     "t": "Fierce Creatures",
-     "y": 1997,
-     "note": "The same cast at a zoo. Not as good",
-     "tags": "B",
-     "warn": null,
-     "seq": []
-    }
-   ]
+   "br": []
   },
   {
    "n": 10,
@@ -448,22 +479,6 @@
    },
    "seq": [],
    "br": [
-    {
-     "t": "The Nice Guys",
-     "y": 2016,
-     "note": "Gosling and Crowe, 70s LA. Also on Action",
-     "tags": "D",
-     "warn": "Violence.",
-     "seq": []
-    },
-    {
-     "t": "Clerks",
-     "y": 1994,
-     "note": "Kevin Smith's convenience store",
-     "tags": "D",
-     "warn": "Crude.",
-     "seq": []
-    },
     {
      "t": "Office Space",
      "y": 1999,

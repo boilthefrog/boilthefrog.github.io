@@ -571,7 +571,17 @@
     "intensity": 1,
     "age": 4,
     "challenge": 1
-   }
+   },
+   "br": [
+    {
+     "t": "Danger: Diabolik",
+     "y": 1968,
+     "note": "Mario Bava's pop-art master thief, Morricone score. Also on Superheroes",
+     "tags": "X",
+     "warn": null,
+     "seq": []
+    }
+   ]
   },
   {
    "t": "OSS 117: Cairo, Nest of Spies",

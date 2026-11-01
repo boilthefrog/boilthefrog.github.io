@@ -1,0 +1,100 @@
+Animation|Snow White and the Seven Dwarfs|1937
+Animation|Pinocchio|1940
+Animation|Bambi|1942
+Animation|The Lion King|1994
+Animation|Fantasia|1940
+Animation|Toy Story|1995
+Animation|Beauty and the Beast|1991
+Animation|Shrek|2001
+Animation|Cinderella|1950
+Animation|Finding Nemo|2003
+Fantasy|The Wizard of Oz|1939
+Fantasy|The Fellowship of the Ring|2001
+Fantasy|It's a Wonderful Life|1946
+Fantasy|King Kong|1933
+Fantasy|Miracle on 34th Street|1947
+Fantasy|Field of Dreams|1989
+Fantasy|Harvey|1950
+Fantasy|Groundhog Day|1993
+Fantasy|The Thief of Bagdad|1924
+Fantasy|Big|1988
+Gangster|The Godfather|1972
+Gangster|Goodfellas|1990
+Gangster|The Godfather Part II|1974
+Gangster|White Heat|1949
+Gangster|Bonnie and Clyde|1967
+Gangster|Scarface|1932
+Gangster|Pulp Fiction|1994
+Gangster|The Public Enemy|1931
+Gangster|Little Caesar|1931
+Gangster|Scarface|1983
+Science fiction|2001: A Space Odyssey|1968
+Science fiction|Star Wars|1977
+Science fiction|E.T. the Extra-Terrestrial|1982
+Science fiction|A Clockwork Orange|1971
+Science fiction|The Day the Earth Stood Still|1951
+Science fiction|Blade Runner|1982
+Science fiction|Alien|1979
+Science fiction|Terminator 2: Judgment Day|1991
+Science fiction|Invasion of the Body Snatchers|1956
+Science fiction|Back to the Future|1985
+Western|The Searchers|1956
+Western|High Noon|1952
+Western|Shane|1953
+Western|Unforgiven|1992
+Western|Red River|1948
+Western|The Wild Bunch|1969
+Western|Butch Cassidy and the Sundance Kid|1969
+Western|McCabe & Mrs. Miller|1971
+Western|Stagecoach|1939
+Western|Cat Ballou|1965
+Sports|Raging Bull|1980
+Sports|Rocky|1976
+Sports|The Pride of the Yankees|1942
+Sports|Hoosiers|1986
+Sports|Bull Durham|1988
+Sports|The Hustler|1961
+Sports|Caddyshack|1980
+Sports|Breaking Away|1979
+Sports|National Velvet|1944
+Sports|Jerry Maguire|1996
+Mystery|Vertigo|1958
+Mystery|Chinatown|1974
+Mystery|Rear Window|1954
+Mystery|Laura|1944
+Mystery|The Third Man|1949
+Mystery|The Maltese Falcon|1941
+Mystery|North by Northwest|1959
+Mystery|Blue Velvet|1986
+Mystery|Dial M for Murder|1954
+Mystery|The Usual Suspects|1995
+Romantic comedy|City Lights|1931
+Romantic comedy|Annie Hall|1977
+Romantic comedy|It Happened One Night|1934
+Romantic comedy|Roman Holiday|1953
+Romantic comedy|The Philadelphia Story|1940
+Romantic comedy|When Harry Met Sally...|1989
+Romantic comedy|Adam's Rib|1949
+Romantic comedy|Moonstruck|1987
+Romantic comedy|Harold and Maude|1971
+Romantic comedy|Sleepless in Seattle|1993
+Courtroom drama|To Kill a Mockingbird|1962
+Courtroom drama|12 Angry Men|1957
+Courtroom drama|Kramer vs. Kramer|1979
+Courtroom drama|The Verdict|1982
+Courtroom drama|A Few Good Men|1992
+Courtroom drama|Witness for the Prosecution|1957
+Courtroom drama|Anatomy of a Murder|1959
+Courtroom drama|In Cold Blood|1967
+Courtroom drama|A Cry in the Dark|1988
+Courtroom drama|Judgment at Nuremberg|1961
+Epic|Lawrence of Arabia|1962
+Epic|Ben-Hur|1959
+Epic|Schindler's List|1993
+Epic|Gone with the Wind|1939
+Epic|Spartacus|1960
+Epic|Titanic|1997
+Epic|All Quiet on the Western Front|1930
+Epic|Saving Private Ryan|1998
+Epic|Reds|1981
+Epic|The Ten Commandments|1956

@@ -1938,10 +1938,10 @@
    "tags": "WB",
    "seq": [],
    "heat": {
-    "violence": 2,
-    "intensity": 4,
-    "age": 3,
-    "challenge": 5
+    "gore": 3,
+    "dread": 4,
+    "jumps": 1,
+    "weird": 5
    }
   }
  ],

@@ -79,15 +79,17 @@ async function findId(f) {
   return fallback ? fallback.id : null;
 }
 async function enrich(f) {
-  if (cache[f.id]?.v === 3) return cache[f.id];
+  if (cache[f.id]?.v === 4) return cache[f.id];
   const id = await findId(f);
-  if (!id) return (cache[f.id] = { v: 3, missing: true });
-  const m = await tmdb(`/movie/${id}`, { append_to_response: "release_dates,credits,external_ids" });
+  if (!id) return (cache[f.id] = { v: 4, missing: true });
+  const m = await tmdb(`/movie/${id}`, { append_to_response: "release_dates,credits,external_ids,videos" });
   const gb = (m.release_dates?.results || []).find(r => r.iso_3166_1 === "GB");
   const cert = (gb?.release_dates || []).map(d => d.certification).find(Boolean) || "";
   const dirs = (m.credits?.crew || []).filter(c => c.job === "Director").map(c => c.name);
   const cast = (m.credits?.cast || []).slice(0, 4).map(c => c.name);
-  return (cache[f.id] = { v: 3, vote: m.vote_average || 0, votes: m.vote_count || 0, title: m.title, year: +(m.release_date || "0").slice(0, 4), tmdb: id, imdb: m.external_ids?.imdb_id || m.imdb_id || "", poster: m.poster_path || "", overview: m.overview || "", runtime: m.runtime || 0, original: m.original_title, lang: m.original_language, cert, dirs, cast });
+  const vids = (m.videos?.results || []).filter(v => v.site === "YouTube" && v.type === "Trailer");
+  const tr = vids.find(v => v.official && v.iso_639_1 === "en") || vids.find(v => v.iso_639_1 === "en") || vids[0];
+  return (cache[f.id] = { v: 4, trailer: tr ? tr.key : "", vote: m.vote_average || 0, votes: m.vote_count || 0, title: m.title, year: +(m.release_date || "0").slice(0, 4), tmdb: id, imdb: m.external_ids?.imdb_id || m.imdb_id || "", poster: m.poster_path || "", overview: m.overview || "", runtime: m.runtime || 0, original: m.original_title, lang: m.original_language, cert, dirs, cast });
 }
 if (KEY) {
   const list = [...films.values()];
@@ -122,6 +124,16 @@ if (KEY) {
     for (const f of list) { if (!f.apple && f.m && apple[f.m.tmdb]) f.apple = apple[f.m.tmdb]; if (f.apple) got++; }
     const noApple = list.filter(f => f.m && !f.m.missing && !f.apple).map(f => `${f.t} (${f.y})`);
     console.log(`Apple TV: ${got}/${list.length} linked`);
+    const gp = await fetch("https://query.wikidata.org/sparql?format=json&query=" + encodeURIComponent(`SELECT ?p ?l WHERE { ?p a wikibase:Property; rdfs:label ?l. FILTER(LANG(?l)="en" && CONTAINS(LCASE(?l),"google play")) }`), { headers: { "User-Agent": "boilthefrog/1.0 (https://boilthefrog.github.io)" } }).then(r => r.json()).catch(() => null);
+    const gprops = gp ? gp.results.bindings.map(x => x.p.value.split("/").pop() + " " + x.l.value) : [];
+    const gpMovie = gp && (gp.results.bindings.find(x => /movies/i.test(x.l.value)) || {}).p?.value.split("/").pop();
+    let gpCount = 0;
+    if (gpMovie) for (let i = 0; i < ids.length; i += 300) {
+      const q = `SELECT (COUNT(DISTINCT ?tmdb) AS ?n) WHERE { VALUES ?tmdb { ${ids.slice(i, i + 300).map(x => `"${x}"`).join(" ")} } ?item wdt:P4947 ?tmdb; wdt:${gpMovie} ?g. }`;
+      const r = await fetch("https://query.wikidata.org/sparql?format=json&query=" + encodeURIComponent(q), { headers: { "User-Agent": "boilthefrog/1.0 (https://boilthefrog.github.io)" } }).then(r => r.json()).catch(() => null);
+      gpCount += r ? +r.results.bindings[0].n.value : 0;
+    }
+    if (process.env.GITHUB_ACTIONS) console.log(`::notice title=Google Play coverage (not used yet)::${gpCount}/${ids.length} films have a Google Play id. Properties: ${gprops.join("; ")}`);
     if (process.env.GITHUB_ACTIONS) console.log(`::notice title=Apple TV links: ${got}/${list.length}::No Apple TV id: ${noApple.join("; ")}`);
   } catch (e) { console.warn("Apple TV lookup failed:", e.message); }
   console.log(`TMDB: ${list.length - miss.length}/${list.length} matched` + (miss.length ? `; no match: ${miss.join(", ")}` : ""));
@@ -274,7 +286,7 @@ ${f.heat ? `<div class="heat" aria-label="Heat scores out of 5">${HEAT.map(([k, 
 ${m.overview ? `<p class="overview">${esc(m.overview)}</p>` : ""}
 ${m.cast?.length ? `<p class="small">With ${esc(m.cast.join(", "))}</p>` : ""}
 <div class="links"><button class="watch btn" type="button" aria-pressed="false" data-id="${f.id}"><span class="box" aria-hidden="true"></span><span class="wl">Mark watched</span></button>
-${f.apple ? `<a class="btn" href="https://tv.apple.com/movie/${f.apple}" rel="noopener">Apple TV</a>` : ""}<a class="btn" href="${lb}" rel="noopener">Letterboxd</a>${m.tmdb ? `<a class="btn" href="https://www.themoviedb.org/movie/${m.tmdb}" rel="noopener">TMDB</a>` : ""}${m.imdb ? `<a class="btn" href="https://www.imdb.com/title/${m.imdb}/" rel="noopener">IMDb</a>` : ""}</div>
+${m.trailer ? `<a class="btn" href="https://www.youtube.com/watch?v=${m.trailer}" rel="noopener">Trailer</a>` : ""}${f.apple ? `<a class="btn" href="https://tv.apple.com/movie/${f.apple}" rel="noopener">Apple TV</a>` : ""}<a class="btn" href="${lb}" rel="noopener">Letterboxd</a>${m.tmdb ? `<a class="btn" href="https://www.themoviedb.org/movie/${m.tmdb}" rel="noopener">TMDB</a>` : ""}${m.imdb ? `<a class="btn" href="https://www.imdb.com/title/${m.imdb}/" rel="noopener">IMDb</a>` : ""}</div>
 ${seqs.length ? `<section class="fsec"><h2>Sequels</h2><ul>${seqs.map(q => `<li><a href="${root}films/${q.id}/">${esc(q.t)}</a> (${q.y})${q.star ? ' <span class="star">★ Worth it</span>' : ""}: ${esc(q.note)}</li>`).join("")}</ul></section>` : ""}
 ${sides.length ? `<section class="fsec"><h2>Liked it? Side quests</h2><ul>${sides.map(b => `<li>${b.junk ? '<span class="junk">Junk food</span>' : ""}<a href="${root}films/${b.id}/">${esc(b.t)}</a> (${b.y}): ${esc(b.note)}</li>`).join("")}</ul></section>` : ""}
 </div></main>`;

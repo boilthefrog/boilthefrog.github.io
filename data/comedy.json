@@ -53,15 +53,15 @@
   {
    "t": 50,
    "name": "Sharper",
-   "note": "A hotel, a monster, a Messiah, the Heathers, a night in SoHo, Paris and Annie Hall.",
+   "note": "A hotel, a monster, a Messiah, the Heathers, a night in SoHo, Altman's Hollywood, Paris and Annie Hall.",
    "bg": "#e8b47a",
    "fg": "#17110d",
-   "upto": 19
+   "upto": 20
   },
   {
    "t": 65,
    "name": "Golden age",
-   "note": "Wilder, Ealing, Hawks, screwball and the Marx Brothers.",
+   "note": "Wilder, Ealing, Hawks and the Marx Brothers.",
    "bg": "#cf5b3a",
    "fg": "#17110d",
    "upto": 25
@@ -772,6 +772,38 @@
   },
   {
    "n": 18,
+   "t": "The Player",
+   "y": 1992,
+   "b": "Altman's Hollywood satire: Tim Robbins's studio executive kills a writer he thinks is threatening him, and gets away with everything. The eight-minute opening shot, and 65 stars playing themselves.",
+   "tags": "D",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Short Cuts",
+     "y": 1993,
+     "note": "Altman's Raymond Carver LA mosaic",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Nashville",
+     "y": 1975,
+     "note": "Altman's masterpiece. Core on Drama",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 19,
    "t": "Charade",
    "y": 1963,
    "b": "Cary Grant and Audrey Hepburn in Paris: a dead husband, stolen money and everyone lying. A comedy with some murders. Also on Thriller.",
@@ -795,7 +827,7 @@
    ]
   },
   {
-   "n": 19,
+   "n": 20,
    "t": "Annie Hall",
    "y": 1977,
    "b": "Woody Allen and Diane Keaton fall in and out of love in New York. Marshall McLuhan behind the cinema queue.",
@@ -827,7 +859,7 @@
    ]
   },
   {
-   "n": 20,
+   "n": 21,
    "t": "Some Like It Hot",
    "y": 1959,
    "b": "Billy Wilder: two musicians witness a mob hit and hide in an all-girl band. Marilyn. 'Nobody's perfect.'",
@@ -859,7 +891,7 @@
    ]
   },
   {
-   "n": 21,
+   "n": 22,
    "t": "Kind Hearts and Coronets",
    "y": 1949,
    "b": "Ealing: a poor relation murders eight heirs to a dukedom, all played by Alec Guinness. Exquisitely nasty.",
@@ -899,7 +931,7 @@
    ]
   },
   {
-   "n": 22,
+   "n": 23,
    "t": "His Girl Friday",
    "y": 1940,
    "b": "Howard Hawks: Cary Grant tries to win back his ex-wife and star reporter with one last story. The fastest dialogue ever filmed.",
@@ -931,7 +963,7 @@
    ]
   },
   {
-   "n": 23,
+   "n": 24,
    "t": "Bringing Up Baby",
    "y": 1938,
    "b": "Hawks again: Katharine Hepburn wrecks Cary Grant's life with the help of a leopard. Screwball at full speed.",
@@ -945,37 +977,13 @@
    "seq": [],
    "br": [
     {
-     "t": "It Happened One Night",
-     "y": 1934,
-     "note": "Gable and Colbert, the hitchhiking scene",
+     "t": "My Man Godfrey",
+     "y": 1936,
+     "note": "William Powell's tramp butler to a family of rich lunatics, with Carole Lombard",
      "tags": "WO",
      "warn": null,
      "seq": []
     },
-    {
-     "t": "Arsenic and Old Lace",
-     "y": 1944,
-     "note": "Grant's aunts poison lonely old men",
-     "tags": "WO",
-     "warn": null,
-     "seq": []
-    }
-   ]
-  },
-  {
-   "n": 24,
-   "t": "My Man Godfrey",
-   "y": 1936,
-   "b": "William Powell's tramp becomes butler to a family of rich lunatics, with Carole Lombard. Depression-era screwball.",
-   "tags": "WO",
-   "heat": {
-    "violence": 0,
-    "intensity": 1,
-    "age": 4,
-    "challenge": 2
-   },
-   "seq": [],
-   "br": [
     {
      "t": "Trouble in Paradise",
      "y": 1932,
@@ -996,6 +1004,22 @@
      "t": "Ninotchka",
      "y": 1939,
      "note": "Garbo laughs",
+     "tags": "WO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "It Happened One Night",
+     "y": 1934,
+     "note": "Gable and Colbert, the hitchhiking scene",
+     "tags": "WO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Arsenic and Old Lace",
+     "y": 1944,
+     "note": "Grant's aunts poison lonely old men",
      "tags": "WO",
      "warn": null,
      "seq": []

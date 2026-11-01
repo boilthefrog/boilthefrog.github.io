@@ -596,6 +596,95 @@
      "warn": null,
      "seq": [],
      "junk": true
+    },
+    {
+     "t": "Deathstalker",
+     "y": 2025,
+     "note": "Steven Kostanski's remake: practical monsters, gore, Patton Oswalt as a wizard. Better than it has any right to be",
+     "tags": "L",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Conan the Destroyer",
+     "y": 1984,
+     "note": "Arnie again, with Grace Jones and Wilt Chamberlain. Sillier",
+     "tags": "L",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "The Beastmaster",
+     "y": 1982,
+     "note": "Marc Singer talks to animals; two ferrets steal the film",
+     "tags": "L",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "The Sword and the Sorcerer",
+     "y": 1982,
+     "note": "The triple-bladed sword that fires its blades",
+     "tags": "L",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Hawk the Slayer",
+     "y": 1980,
+     "note": "British, cheap, Jack Palance hamming. A cult classic of rubbishness",
+     "tags": "L",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Deathstalker",
+     "y": 1983,
+     "note": "The Roger Corman original. Pants, gratuitous, fun",
+     "tags": "L",
+     "warn": "Nudity.",
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "The Barbarians",
+     "y": 1987,
+     "note": "Bodybuilding twins David and Peter Paul. Barely a film",
+     "tags": "L",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Ator, the Fighting Eagle",
+     "y": 1982,
+     "note": "Italian Conan knock-off with a giant spider",
+     "tags": "L",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Yor, the Hunter from the Future",
+     "y": 1983,
+     "note": "Cavemen, dinosaurs, then lasers. The theme song is incredible",
+     "tags": "L",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    },
+    {
+     "t": "Masters of the Universe",
+     "y": 1987,
+     "note": "Dolph Lundgren's He-Man lands in suburban California",
+     "tags": "L",
+     "warn": null,
+     "seq": [],
+     "junk": true
     }
    ],
    "w": "Violent."

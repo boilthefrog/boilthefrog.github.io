@@ -67,7 +67,7 @@
   {
    "t": 80,
    "name": "Heavy",
-   "note": "Osage murders, the milkshake and Kurosawa's Lear.",
+   "note": "Branagh's uncut Hamlet, the milkshake and Kurosawa's Lear.",
    "bg": "#6d1b21",
    "fg": "#efe3cf",
    "upto": 28
@@ -191,14 +191,6 @@
      "y": 2018,
      "note": "Robert the Bruce, the sequel Braveheart never got",
      "tags": "KV",
-     "warn": null,
-     "seq": []
-    },
-    {
-     "t": "Henry V",
-     "y": 1989,
-     "note": "Branagh's Agincourt",
-     "tags": "KO",
      "warn": null,
      "seq": []
     }
@@ -868,19 +860,36 @@
   },
   {
    "n": 26,
-   "t": "Killers of the Flower Moon",
-   "y": 2023,
-   "b": "Scorsese's Osage murders: oil money, a slow conspiracy and DiCaprio's dimwit husband. Three and a half hours.",
-   "tags": "F",
+   "t": "Hamlet",
+   "y": 1996,
+   "b": "Kenneth Branagh's full, uncut text: four hours on 65mm, Blenheim Palace as Elsinore, and cameos from Heston, Jack Lemmon, Robin Williams and Judi Dench. Shakespeare as a widescreen epic.",
+   "tags": "KO",
    "heat": {
-    "violence": 3,
-    "intensity": 4,
-    "age": 0,
-    "challenge": 4
+    "violence": 2,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 5
    },
+   "w": "Four hours of verse.",
    "seq": [],
-   "br": [],
-   "w": "Three and a half hours."
+   "br": [
+    {
+     "t": "Henry V",
+     "y": 1989,
+     "note": "Branagh's Agincourt",
+     "tags": "KO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Much Ado About Nothing",
+     "y": 1993,
+     "note": "Branagh's sunny Tuscan Shakespeare",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    }
+   ]
   },
   {
    "n": 27,
@@ -896,6 +905,14 @@
    },
    "seq": [],
    "br": [
+    {
+     "t": "Killers of the Flower Moon",
+     "y": 2023,
+     "note": "Scorsese's Osage murders. Three and a half hours",
+     "tags": "F",
+     "warn": "Very long.",
+     "seq": []
+    },
     {
      "t": "Oppenheimer",
      "y": 2023,

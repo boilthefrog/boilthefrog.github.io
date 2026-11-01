@@ -37,15 +37,15 @@
   {
    "t": 22,
    "name": "Popcorn",
-   "note": "A bear in prison, a day off, ghosts, Axel Foley, Airplane! and Toontown.",
+   "note": "A bear in prison, a day off, ghosts, Airplane! and Toontown.",
    "bg": "#dbe5cc",
    "fg": "#17110d",
-   "upto": 6
+   "upto": 5
   },
   {
    "t": 35,
    "name": "Cult favourites",
-   "note": "Nice guys, the Blues Brothers, Wanda, a stolen baby, the Dude and Spinal Tap.",
+   "note": "Nice guys, the Blues Brothers, Wanda, a stolen baby, the Dude, Quick Stop and Spinal Tap.",
    "bg": "#ecdcaa",
    "fg": "#17110d",
    "upto": 12
@@ -217,37 +217,13 @@
    ],
    "br": [
     {
-     "t": "Stripes",
-     "y": 1981,
-     "note": "Bill Murray joins the army",
+     "t": "Beverly Hills Cop",
+     "y": 1984,
+     "note": "Eddie Murphy's Axel Foley. Core on Action",
      "tags": "M",
      "warn": null,
      "seq": []
     },
-    {
-     "t": "Groundhog Day",
-     "y": 1993,
-     "note": "Bill Murray's best. Core on Fantasy",
-     "tags": "M",
-     "warn": null,
-     "seq": []
-    }
-   ]
-  },
-  {
-   "n": 4,
-   "t": "Beverly Hills Cop",
-   "y": 1984,
-   "b": "Eddie Murphy's Detroit cop runs rings around Beverly Hills. Core on Action.",
-   "tags": "M",
-   "heat": {
-    "violence": 2,
-    "intensity": 2,
-    "age": 1,
-    "challenge": 0
-   },
-   "seq": [],
-   "br": [
     {
      "t": "Trading Places",
      "y": 1983,
@@ -271,11 +247,27 @@
      "tags": "M",
      "warn": "Violence.",
      "seq": []
+    },
+    {
+     "t": "Stripes",
+     "y": 1981,
+     "note": "Bill Murray joins the army",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Groundhog Day",
+     "y": 1993,
+     "note": "Bill Murray's best. Core on Fantasy",
+     "tags": "M",
+     "warn": null,
+     "seq": []
     }
    ]
   },
   {
-   "n": 5,
+   "n": 4,
    "t": "Airplane!",
    "y": 1980,
    "b": "The disaster-movie spoof with a joke every three seconds. 'Surely you can't be serious.' 'I am serious. And don't call me Shirley.'",
@@ -323,7 +315,7 @@
    ]
   },
   {
-   "n": 6,
+   "n": 5,
    "t": "Who Framed Roger Rabbit",
    "y": 1988,
    "b": "Bob Hoskins and the cartoons of Toontown. Core on Animation.",
@@ -338,7 +330,7 @@
    "br": []
   },
   {
-   "n": 7,
+   "n": 6,
    "t": "The Nice Guys",
    "y": 2016,
    "b": "Shane Black: Ryan Gosling's useless private eye and Russell Crowe's enforcer chase a missing girl through 1977 LA. Gosling's scream is the funniest thing he's done. Also on Action.",
@@ -387,7 +379,7 @@
    ]
   },
   {
-   "n": 8,
+   "n": 7,
    "t": "The Blues Brothers",
    "y": 1980,
    "b": "Jake and Elwood on a mission from God: car chases, Aretha, James Brown, Ray Charles and every police car in Illinois.",
@@ -411,7 +403,7 @@
    ]
   },
   {
-   "n": 9,
+   "n": 8,
    "t": "A Fish Called Wanda",
    "y": 1988,
    "b": "John Cleese, Jamie Lee Curtis, Kevin Kline ('Don't call me stupid') and Michael Palin's chips. The best British farce.",
@@ -426,7 +418,7 @@
    "br": []
   },
   {
-   "n": 10,
+   "n": 9,
    "t": "Raising Arizona",
    "y": 1987,
    "b": "The Coens: Nicolas Cage and Holly Hunter steal a quintuplet. Cartoon chase scenes and a biker from hell.",
@@ -478,19 +470,11 @@
      "tags": "D",
      "warn": null,
      "seq": []
-    },
-    {
-     "t": "Hail, Caesar!",
-     "y": 2016,
-     "note": "Josh Brolin fixes 1950s Hollywood. 'Would that it were so simple'",
-     "tags": "WO",
-     "warn": null,
-     "seq": []
     }
    ]
   },
   {
-   "n": 11,
+   "n": 10,
    "t": "The Big Lebowski",
    "y": 1998,
    "b": "The Dude abides. A rug, a ransom, bowling and nihilists. The Coens' most quotable film.",
@@ -504,20 +488,37 @@
    "seq": [],
    "br": [
     {
-     "t": "Clerks",
-     "y": 1994,
-     "note": "Kevin Smith's convenience store, shot for $27,000. 'I'm not even supposed to be here today'",
+     "t": "Office Space",
+     "y": 1999,
+     "note": "The printer scene",
      "tags": "D",
-     "warn": "Crude.",
-     "seq": [
-      {
-       "t": "Clerks II",
-       "y": 2006,
-       "note": "Ten years on, at a burger joint",
-       "star": false
-      }
-     ]
-    },
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "t": "Clerks",
+   "y": 1994,
+   "b": "Kevin Smith's convenience-store day from hell, shot in black and white for $27,000 in the shop where he worked. Hockey on the roof, a funeral, and 'I'm not even supposed to be here today!'",
+   "tags": "D",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 1,
+    "challenge": 1
+   },
+   "w": "Very crude.",
+   "seq": [
+    {
+     "t": "Clerks II",
+     "y": 2006,
+     "note": "Ten years on, at a burger joint",
+     "star": false
+    }
+   ],
+   "br": [
     {
      "t": "Dazed and Confused",
      "y": 1993,
@@ -530,14 +531,6 @@
      "t": "Slacker",
      "y": 1990,
      "note": "Linklater's Austin drifters, where the word came from",
-     "tags": "D",
-     "warn": null,
-     "seq": []
-    },
-    {
-     "t": "Office Space",
-     "y": 1999,
-     "note": "The printer scene",
      "tags": "D",
      "warn": null,
      "seq": []

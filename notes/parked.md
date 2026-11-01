@@ -58,4 +58,4 @@ Concert films, music documentaries and biopics. Films already on other ladders c
 - Documentaries: Amy, Searching for Sugar Man, Don't Look Back, Some Kind of Monster, Anvil! The Story of Anvil, 20 Feet from Stardom, Dig!, The Decline of Western Civilization, Buena Vista Social Club, Get Back, Moonage Daydream, Supersonic, Meeting People Is Easy, The Filth and the Fury
 - Biopics: Walk the Line, Ray, Control, 24 Hour Party People, Rocketman, Elvis, Bohemian Rhapsody, Love & Mercy, Straight Outta Compton, Coal Miner's Daughter, The Buddy Holly Story, Sid and Nancy, I'm Not There, Bird, 8 Mile
 - Band and fiction films: This Is Spinal Tap (Comedy core), Almost Famous (Drama side), A Hard Day's Night (Musicals core), The Commitments, Sing Street, School of Rock, That Thing You Do!, Inside Llewyn Davis, Whiplash, Once, Purple Rain, The Blues Brothers (Comedy core)
-- Beyond the boss candidates: Sátántangó-length concert films aside, maybe Woodstock's director's cut (four hours) or Gimme Shelter
+- Beyond the boss candidates: Woodstock director's cut (four hours), Gimme Shelter

@@ -1081,6 +1081,20 @@
  ],
  "beyond": [
   {
+   "t": "Intolerance",
+   "y": 1916,
+   "b": "D.W. Griffith's three-and-a-half-hour silent epic: four stories across 2,500 years, cut together, with the walls of Babylon built full-size on Sunset Boulevard. On AFI's and Scorsese's lists.",
+   "tags": "AO",
+   "seq": [],
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 5,
+    "challenge": 5
+   },
+   "w": "Silent, three and a half hours."
+  },
+  {
    "t": "War and Peace",
    "y": 1966,
    "b": "Sergei Bondarchuk's seven-hour Tolstoy, made with the Soviet army: the biggest battle scenes ever filmed, and a ballroom to match.",

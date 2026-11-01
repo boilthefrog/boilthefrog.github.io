@@ -16,9 +16,10 @@ for (const f of films) {
   let line = `MISS ${f.t} (${f.y})`;
   try {
     const u = `https://itunes.apple.com/search?${new URLSearchParams({ term: f.t, entity: "movie", country: "gb", limit: "25" })}`;
-    const r = await fetch(u); const j = await r.json();
+    const r = await fetch(u, { headers: { "User-Agent": "Mozilla/5.0 boilthefrog" } }); const txt = await r.text(); let j = {}; try { j = JSON.parse(txt); } catch (e) { j = { raw: txt.slice(0, 200) }; }
     const yr = m => +(m.releaseDate || "0").slice(0, 4);
     const res = j.results || [];
+    if (out.length < 3) console.log(`::notice title=raw ${f.t}::status ${r.status} count ${res.length} ${res.slice(0,5).map(m=>m.trackName+" "+m.releaseDate+" "+m.kind).join(" | ")} ${JSON.stringify(j).slice(0,300)}`);
     const m = res.find(m => n(m.trackName) === n(f.t) && Math.abs(yr(m) - f.y) <= 1)
       || res.find(m => n(m.trackName).startsWith(n(f.t)) && Math.abs(yr(m) - f.y) <= 1);
     if (m) {

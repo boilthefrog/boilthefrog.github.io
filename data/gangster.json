@@ -907,5 +907,33 @@
    "w": "229 minutes, and a disturbing rape scene."
   }
  ],
- "beyond": []
+ "beyond": [
+  {
+   "t": "Gomorrah",
+   "y": 2008,
+   "b": "The Naples Camorra with the glamour stripped out. Bleak, and the antidote to everything above it.",
+   "tags": "WD",
+   "seq": [],
+   "heat": {
+    "violence": 3,
+    "intensity": 4,
+    "age": 0,
+    "challenge": 4
+   },
+   "w": "Subtitled; no heroes."
+  },
+  {
+   "t": "Sonatine",
+   "y": 1993,
+   "b": "Takeshi Kitano's yakuza wait out a gang war on a beach, playing games like kids. Deadpan, beautiful, then very violent.",
+   "tags": "W",
+   "seq": [],
+   "heat": {
+    "violence": 4,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 4
+   }
+  }
+ ]
 }

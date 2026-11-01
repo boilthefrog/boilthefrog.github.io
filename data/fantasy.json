@@ -1128,5 +1128,33 @@
    "w": "Subtitled, black and white."
   }
  ],
- "beyond": []
+ "beyond": [
+  {
+   "t": "The Color of Pomegranates",
+   "y": 1969,
+   "b": "Paradjanov's life of an Armenian poet in living tableaux. No plot to speak of; every frame astonishing. In the Sight & Sound directors' poll.",
+   "tags": "WO",
+   "seq": [],
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 3,
+    "challenge": 5
+   }
+  },
+  {
+   "t": "The Holy Mountain",
+   "y": 1973,
+   "b": "Jodorowsky's psychedelic quest for enlightenment. Mad, and you'll never forget the images.",
+   "tags": "W",
+   "seq": [],
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 2,
+    "challenge": 5
+   },
+   "w": "Nudity and surreal violence."
+  }
+ ]
 }

@@ -992,5 +992,32 @@
    "w": "Real atrocity footage at the end. Subtitled."
   }
  ],
- "beyond": []
+ "beyond": [
+  {
+   "t": "Angel's Egg",
+   "y": 1985,
+   "b": "Mamoru Oshii's near-wordless puzzle: a girl, an egg and a drowned city, designed by Yoshitaka Amano. Slow, baffling, gorgeous.",
+   "tags": "GA",
+   "seq": [],
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 5
+   }
+  },
+  {
+   "t": "Alice",
+   "y": 1988,
+   "b": "Jan Švankmajer's stop-motion Wonderland, with real taxidermy and sawdust. Creepy and endlessly inventive.",
+   "tags": "HW",
+   "seq": [],
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 1,
+    "challenge": 4
+   }
+  }
+ ]
 }

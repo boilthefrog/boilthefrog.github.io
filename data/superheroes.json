@@ -998,5 +998,20 @@
    "q": "Birdman or (The Unexpected Virtue of Ignorance)"
   }
  ],
- "beyond": []
+ "beyond": [
+  {
+   "t": "Zack Snyder's Justice League",
+   "y": 2021,
+   "b": "The four-hour cut. Better than the theatrical version, which isn't saying much, but the endurance test of superhero films.",
+   "tags": "D",
+   "seq": [],
+   "heat": {
+    "violence": 3,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 4
+   },
+   "w": "Four hours."
+  }
+ ]
 }

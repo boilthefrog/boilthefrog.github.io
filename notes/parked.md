@@ -51,3 +51,11 @@ iCheckMovies has a list per decade (30s to 2010s), but only the first 50 of each
 - Coma (1978): Thriller candidate
 - Jason and the Argonauts (1963): Fantasy
 - Mars Attacks!, Highlander, True Lies, The Sting: vetoed
+
+## Music ladder (seeded 1 Nov)
+Concert films, music documentaries and biopics. Films already on other ladders can be core here too.
+- Concert films: Stop Making Sense (Musicals core), Monterey Pop (Musicals core), The Last Waltz, Amazing Grace, Woodstock, Gimme Shelter, Ziggy Stardust and the Spiders from Mars, Pink Floyd: Live at Pompeii, Wattstax, Summer of Soul, Sign o' the Times, Homecoming, Taylor Swift: The Eras Tour
+- Documentaries: Amy, Searching for Sugar Man, Don't Look Back, Some Kind of Monster, Anvil! The Story of Anvil, 20 Feet from Stardom, Dig!, The Decline of Western Civilization, Buena Vista Social Club, Get Back, Moonage Daydream, Supersonic, Meeting People Is Easy, The Filth and the Fury
+- Biopics: Walk the Line, Ray, Control, 24 Hour Party People, Rocketman, Elvis, Bohemian Rhapsody, Love & Mercy, Straight Outta Compton, Coal Miner's Daughter, The Buddy Holly Story, Sid and Nancy, I'm Not There, Bird, 8 Mile
+- Band and fiction films: This Is Spinal Tap (Comedy core), Almost Famous (Drama side), A Hard Day's Night (Musicals core), The Commitments, Sing Street, School of Rock, That Thing You Do!, Inside Llewyn Davis, Whiplash, Once, Purple Rain, The Blues Brothers (Comedy core)
+- Beyond the boss candidates: Sátántangó-length concert films aside, maybe Woodstock's director's cut (four hours) or Gimme Shelter

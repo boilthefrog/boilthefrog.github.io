@@ -2,7 +2,7 @@
  "id": "comedy",
  "title": "Comedy",
  "order": 14,
- "tagline": "From Paddington 2 to The Wolf of Wall Street without noticing the water got hot.",
+ "tagline": "From Paddington 2 to Dr. Strangelove without noticing the water got hot.",
  "heatKeys": [
   [
    "violence",
@@ -53,15 +53,15 @@
   {
    "t": 50,
    "name": "Sharper",
-   "note": "A hotel, a monster, a Messiah, the Heathers, Paris and Annie Hall.",
+   "note": "A hotel, a monster, a Messiah, the Heathers, a night in SoHo, Paris and Annie Hall.",
    "bg": "#e8b47a",
    "fg": "#17110d",
-   "upto": 18
+   "upto": 19
   },
   {
    "t": 65,
    "name": "Golden age",
-   "note": "Wilder, Kubrick, Ealing, Hawks, screwball and the Marx Brothers.",
+   "note": "Wilder, Ealing, Hawks, screwball and the Marx Brothers.",
    "bg": "#cf5b3a",
    "fg": "#17110d",
    "upto": 25
@@ -77,7 +77,7 @@
   {
    "t": 95,
    "name": "Final boss",
-   "note": "Scorsese's worst night in SoHo and three hours on Wall Street.",
+   "note": "Three hours on Wall Street, then the end of the world.",
    "bg": "#2b0b0e",
    "fg": "#efe3cf",
    "upto": 30
@@ -85,7 +85,7 @@
   {
    "t": "100+",
    "name": "Cooked",
-   "note": "Only if they finish The Wolf of Wall Street and ask for more.",
+   "note": "Only if they finish Dr. Strangelove and ask for more.",
    "bg": "#0c0506",
    "fg": "#efe3cf",
    "beyond": true
@@ -740,6 +740,38 @@
   },
   {
    "n": 17,
+   "t": "After Hours",
+   "y": 1985,
+   "b": "Scorsese: an office worker's night in SoHo goes wrong in every possible way. A paranoid nightmare that's also very funny.",
+   "tags": "D",
+   "heat": {
+    "violence": 1,
+    "intensity": 4,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The King of Comedy",
+     "y": 1982,
+     "note": "De Niro's would-be comic kidnaps Jerry Lewis",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Being John Malkovich",
+     "y": 1999,
+     "note": "A portal into John Malkovich",
+     "tags": "D",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 18,
    "t": "Charade",
    "y": 1963,
    "b": "Cary Grant and Audrey Hepburn in Paris: a dead husband, stolen money and everyone lying. A comedy with some murders. Also on Thriller.",
@@ -763,7 +795,7 @@
    ]
   },
   {
-   "n": 18,
+   "n": 19,
    "t": "Annie Hall",
    "y": 1977,
    "b": "Woody Allen and Diane Keaton fall in and out of love in New York. Marshall McLuhan behind the cinema queue.",
@@ -795,7 +827,7 @@
    ]
   },
   {
-   "n": 19,
+   "n": 20,
    "t": "Some Like It Hot",
    "y": 1959,
    "b": "Billy Wilder: two musicians witness a mob hit and hide in an all-girl band. Marilyn. 'Nobody's perfect.'",
@@ -821,38 +853,6 @@
      "y": 1982,
      "note": "Dustin Hoffman in a soap opera",
      "tags": "R",
-     "warn": null,
-     "seq": []
-    }
-   ]
-  },
-  {
-   "n": 20,
-   "t": "Dr. Strangelove",
-   "y": 1964,
-   "b": "Kubrick's nuclear farce: Peter Sellers three times, a general obsessed with his fluids, and a cowboy riding the bomb. Also on War.",
-   "tags": "O",
-   "heat": {
-    "violence": 1,
-    "intensity": 2,
-    "age": 3,
-    "challenge": 2
-   },
-   "seq": [],
-   "br": [
-    {
-     "t": "Being There",
-     "y": 1979,
-     "note": "Sellers as a gardener mistaken for a genius",
-     "tags": "O",
-     "warn": null,
-     "seq": []
-    },
-    {
-     "t": "The Pink Panther Strikes Again",
-     "y": 1976,
-     "note": "Clouseau at his best",
-     "tags": "O",
      "warn": null,
      "seq": []
     }
@@ -1031,6 +1031,30 @@
      "tags": "SO",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "Sons of the Desert",
+     "y": 1933,
+     "note": "Laurel and Hardy's best: lying to their wives to sneak off to a convention",
+     "tags": "SO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Way Out West",
+     "y": 1937,
+     "note": "Laurel and Hardy's western, with the soft-shoe dance",
+     "tags": "SO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Block-Heads",
+     "y": 1938,
+     "note": "Stan's still guarding a WWI trench, 20 years on",
+     "tags": "SO",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -1166,38 +1190,6 @@
   },
   {
    "n": 29,
-   "t": "After Hours",
-   "y": 1985,
-   "b": "Scorsese: an office worker's night in SoHo goes wrong in every possible way. A paranoid nightmare that's also very funny.",
-   "tags": "D",
-   "heat": {
-    "violence": 1,
-    "intensity": 4,
-    "age": 1,
-    "challenge": 3
-   },
-   "seq": [],
-   "br": [
-    {
-     "t": "The King of Comedy",
-     "y": 1982,
-     "note": "De Niro's would-be comic kidnaps Jerry Lewis",
-     "tags": "D",
-     "warn": null,
-     "seq": []
-    },
-    {
-     "t": "Being John Malkovich",
-     "y": 1999,
-     "note": "A portal into John Malkovich",
-     "tags": "D",
-     "warn": null,
-     "seq": []
-    }
-   ]
-  },
-  {
-   "n": 30,
    "t": "The Wolf of Wall Street",
    "y": 2013,
    "b": "Scorsese's three-hour bacchanal: DiCaprio's crooked broker, the Lemmon 714s crawl, a dwarf-tossing office. Also on Crime & Noir.",
@@ -1220,7 +1212,67 @@
     }
    ],
    "w": "Drugs, sex, three hours."
+  },
+  {
+   "n": 30,
+   "t": "Dr. Strangelove",
+   "y": 1964,
+   "b": "Kubrick's nuclear farce: Peter Sellers three times, a general obsessed with his precious bodily fluids, a cowboy riding the bomb, and the world ending to 'We'll Meet Again'. Also on War.",
+   "tags": "O",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Being There",
+     "y": 1979,
+     "note": "Sellers as a gardener mistaken for a genius",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Pink Panther Strikes Again",
+     "y": 1976,
+     "note": "Clouseau at his best",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
   }
  ],
- "beyond": []
+ "beyond": [
+  {
+   "t": "The Discreet Charm of the Bourgeoisie",
+   "y": 1972,
+   "b": "Buñuel: six rich friends keep trying to sit down to dinner and are interrupted by soldiers, dreams and death. Surreal, deadpan, Oscar winner.",
+   "tags": "O",
+   "seq": [],
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 5
+   }
+  },
+  {
+   "t": "Pink Flamingos",
+   "y": 1972,
+   "b": "John Waters: Divine fights a rival couple for the title of 'filthiest person alive', and wins with the most notorious scene in film. Gross-out taken as far as it goes.",
+   "tags": "D",
+   "w": "Genuinely disgusting. You've been warned.",
+   "seq": [],
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 3,
+    "challenge": 5
+   }
+  }
+ ]
 }

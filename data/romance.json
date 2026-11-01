@@ -1,0 +1,736 @@
+{
+ "id": "romance",
+ "title": "Romance",
+ "order": 19,
+ "tagline": "From Pretty Woman to Sunrise without noticing the water got hot.",
+ "heatKeys": [
+  [
+   "violence",
+   "Violence"
+  ],
+  [
+   "intensity",
+   "Intensity"
+  ],
+  [
+   "age",
+   "Old-school"
+  ],
+  [
+   "challenge",
+   "Challenge"
+  ]
+ ],
+ "tags": {
+  "K": "Romcom",
+  "T": "Teen",
+  "C": "Costume",
+  "B": "British",
+  "M": "Modern",
+  "W": "World",
+  "O": "Classics"
+ },
+ "levels": [
+  {
+   "t": 22,
+   "name": "Popcorn",
+   "note": "Rodeo Drive, the bleachers, one day on repeat, the Empire State, Harry and Sally, and four weddings.",
+   "bg": "#dbe5cc",
+   "fg": "#17110d",
+   "upto": 6
+  },
+  {
+   "t": 35,
+   "name": "Modern favourites",
+   "note": "Cher, Darcy, erased memories, pudding, Vienna and the door.",
+   "bg": "#ecdcaa",
+   "fg": "#17110d",
+   "upto": 12
+  },
+  {
+   "t": 50,
+   "name": "Golden age",
+   "note": "A Vespa, Paris, a hitchhike, a society wedding, Rick's and a railway café.",
+   "bg": "#e8b47a",
+   "fg": "#17110d",
+   "upto": 18
+  },
+  {
+   "t": 65,
+   "name": "Bittersweet",
+   "note": "Annie, Maude, Austen, Florence, Sirk and a lie.",
+   "bg": "#cf5b3a",
+   "fg": "#17110d",
+   "upto": 24
+  },
+  {
+   "t": 80,
+   "name": "Heartbreak",
+   "note": "Brokeback, Carol and Wong Kar-wai's corridors.",
+   "bg": "#6d1b21",
+   "fg": "#efe3cf",
+   "upto": 27
+  },
+  {
+   "t": 95,
+   "name": "Final boss",
+   "note": "A barge in 1934 and a silent sunrise.",
+   "bg": "#2b0b0e",
+   "fg": "#efe3cf",
+   "upto": 29
+  }
+ ],
+ "core": [
+  {
+   "n": 1,
+   "t": "Pretty Woman",
+   "y": 1990,
+   "b": "Julia Roberts's Hollywood Boulevard sex worker and Richard Gere's corporate raider. The shopping scene. A fairy tale and knows it.",
+   "tags": "K",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Notting Hill",
+     "y": 1999,
+     "note": "Hugh Grant's bookshop and Julia Roberts's film star",
+     "tags": "KB",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Crazy Rich Asians",
+     "y": 2018,
+     "note": "Meeting the boyfriend's very rich family in Singapore",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "t": "10 Things I Hate About You",
+   "y": 1999,
+   "b": "The Taming of the Shrew in a Seattle high school: Julia Stiles, and Heath Ledger singing on the bleachers.",
+   "tags": "KT",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "She's All That",
+     "y": 1999,
+     "note": "Freddie Prinze Jr.'s Pygmalion bet. The staircase",
+     "tags": "KT",
+     "warn": null,
+     "seq": [],
+     "junk": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "t": "Groundhog Day",
+   "y": 1993,
+   "b": "Bill Murray relives one day until he becomes someone Andie MacDowell could love. Core on Fantasy.",
+   "tags": "K",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Crazy, Stupid, Love.",
+     "y": 2011,
+     "note": "Ryan Gosling teaches Steve Carell to dress",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "t": "Sleepless in Seattle",
+   "y": 1993,
+   "b": "A widower's son phones a radio show, and Meg Ryan falls for Tom Hanks's voice. They barely meet until the Empire State Building.",
+   "tags": "K",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "You've Got Mail",
+     "y": 1998,
+     "note": "Hanks and Ryan again, falling in love by email",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "The Shop Around the Corner",
+     "y": 1940,
+     "note": "Lubitsch's original pen-pal romance",
+     "tags": "KO",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "An Affair to Remember",
+     "y": 1957,
+     "note": "Cary Grant, Deborah Kerr and the Empire State",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "t": "When Harry Met Sally...",
+   "y": 1989,
+   "b": "Can men and women be friends? Billy Crystal and Meg Ryan argue about it for twelve years. 'I'll have what she's having.'",
+   "tags": "K",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 6,
+   "t": "Four Weddings and a Funeral",
+   "y": 1994,
+   "b": "Hugh Grant stammers through four weddings and a funeral chasing Andie MacDowell. The funeral is the best bit. On the BFI list.",
+   "tags": "KB",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 7,
+   "t": "Moonstruck",
+   "y": 1987,
+   "b": "Cher's Brooklyn widow falls for her fiancé's angry one-handed brother (Nicolas Cage). 'Snap out of it!'",
+   "tags": "K",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 1,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 8,
+   "t": "Pride & Prejudice",
+   "y": 2005,
+   "b": "Keira Knightley's Elizabeth and Matthew Macfadyen's Darcy, misty fields and the hand flex.",
+   "tags": "C",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Clueless",
+     "y": 1995,
+     "note": "Emma in Beverly Hills. As if! Also on Comedy",
+     "tags": "KT",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Emma.",
+     "y": 2020,
+     "note": "Anya Taylor-Joy's Emma",
+     "tags": "C",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "t": "Eternal Sunshine of the Spotless Mind",
+   "y": 2004,
+   "b": "Jim Carrey and Kate Winslet erase each other, and he changes his mind halfway through. Core on Drama.",
+   "tags": "M",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Her",
+     "y": 2013,
+     "note": "Joaquin Phoenix falls for his operating system",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Out of Sight",
+     "y": 1998,
+     "note": "Clooney and J.Lo in a car boot. Core on Crime & Noir",
+     "tags": "K",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "t": "Punch-Drunk Love",
+   "y": 2002,
+   "b": "Paul Thomas Anderson: Adam Sandler's furious, lonely novelty-plunger salesman finds love, pudding air miles and a harmonium.",
+   "tags": "M",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Shape of Water",
+     "y": 2017,
+     "note": "A mute cleaner and a fish-man. Also on Fantasy",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Phantom Thread",
+     "y": 2017,
+     "note": "A dressmaker and a poisonous love. Day-Lewis's last",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "t": "Before Sunrise",
+   "y": 1995,
+   "b": "Linklater: Ethan Hawke and Julie Delpy meet on a train and walk around Vienna all night talking. Nothing happens; everything happens.",
+   "tags": "M",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [
+    {
+     "t": "Before Sunset",
+     "y": 2004,
+     "note": "Nine years later, Paris, in real time",
+     "star": true
+    },
+    {
+     "t": "Before Midnight",
+     "y": 2013,
+     "note": "Married, Greece, the fight",
+     "star": true
+    }
+   ],
+   "br": [
+    {
+     "t": "Past Lives",
+     "y": 2023,
+     "note": "Two childhood sweethearts, 24 years later",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "t": "Titanic",
+   "y": 1997,
+   "b": "Jack, Rose, the door. Core on Epic.",
+   "tags": "M",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 0
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 13,
+   "t": "Roman Holiday",
+   "y": 1953,
+   "b": "Audrey Hepburn's runaway princess and Gregory Peck's reporter on a Vespa round Rome. Her debut, and an Oscar.",
+   "tags": "O",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Sabrina",
+     "y": 1954,
+     "note": "Wilder: Audrey between Holden and Bogart",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Breakfast at Tiffany's",
+     "y": 1961,
+     "note": "Moon River; Mickey Rooney's yellowface has not aged",
+     "tags": "O",
+     "warn": "Racist caricature.",
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "t": "Charade",
+   "y": 1963,
+   "b": "Cary Grant and Audrey Hepburn in Paris: everyone's lying, the romance is the point. Core on Comedy.",
+   "tags": "O",
+   "heat": {
+    "violence": 2,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 15,
+   "t": "It Happened One Night",
+   "y": 1934,
+   "b": "Clark Gable and Claudette Colbert on the road: the hitchhiking leg, the Walls of Jericho. Swept the Oscars.",
+   "tags": "OK",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 4,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 16,
+   "t": "The Philadelphia Story",
+   "y": 1940,
+   "b": "Katharine Hepburn's society wedding, with Cary Grant as the ex and James Stewart as the reporter. Champagne and wit.",
+   "tags": "OK",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 17,
+   "t": "Casablanca",
+   "y": 1942,
+   "b": "Rick's Café, 'As Time Goes By', and Bogart giving her up on a foggy runway. The perfect Hollywood film.",
+   "tags": "O",
+   "heat": {
+    "violence": 1,
+    "intensity": 2,
+    "age": 4,
+    "challenge": 1
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 18,
+   "t": "Brief Encounter",
+   "y": 1945,
+   "b": "David Lean: two married strangers meet at a railway station café and fall in love over Rachmaninov. Very British, devastating. BFI No. 2.",
+   "tags": "OB",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 4,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Letter from an Unknown Woman",
+     "y": 1948,
+     "note": "Max Ophüls' lifelong unrequited love. On Scorsese's list",
+     "tags": "O",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "t": "Annie Hall",
+   "y": 1977,
+   "b": "Woody Allen and Diane Keaton fall in and out of love in New York. Core on Comedy.",
+   "tags": "K",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 20,
+   "t": "Harold and Maude",
+   "y": 1971,
+   "b": "A death-obsessed rich boy of 20 falls for a free-spirited woman of 79. Cat Stevens songs. On AFI's romantic comedy top 10.",
+   "tags": "K",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 21,
+   "t": "Sense and Sensibility",
+   "y": 1995,
+   "b": "Ang Lee and Emma Thompson's Austen: two sisters, Hugh Grant, Alan Rickman, Kate Winslet in the rain.",
+   "tags": "CB",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 22,
+   "t": "A Room with a View",
+   "y": 1985,
+   "b": "Merchant Ivory: Helena Bonham Carter in Florence and Surrey, Daniel Day-Lewis as the prig. On the BFI list.",
+   "tags": "CB",
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 2,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": []
+  },
+  {
+   "n": 23,
+   "t": "All That Heaven Allows",
+   "y": 1955,
+   "b": "Douglas Sirk: a widow (Jane Wyman) falls for her younger gardener (Rock Hudson) and her town turns on her. Technicolor heartbreak.",
+   "tags": "O",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 3,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Love Witch",
+     "y": 2016,
+     "note": "A Technicolor witch whose lovers keep dying",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Far from Heaven",
+     "y": 2002,
+     "note": "Todd Haynes' homage to Sirk",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "t": "Atonement",
+   "y": 2007,
+   "b": "A girl's lie destroys her sister's love affair (Keira Knightley, James McAvoy), from a 1935 country house to Dunkirk.",
+   "tags": "C",
+   "heat": {
+    "violence": 2,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "The Piano",
+     "y": 1993,
+     "note": "Jane Campion's mute bride in colonial New Zealand. On Sight & Sound's list",
+     "tags": "C",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "t": "Brokeback Mountain",
+   "y": 2005,
+   "b": "Ang Lee: two Wyoming ranch hands (Heath Ledger, Jake Gyllenhaal) and a love that lasts twenty years in secret.",
+   "tags": "M",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 0,
+    "challenge": 2
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Blue Valentine",
+     "y": 2010,
+     "note": "Ryan Gosling and Michelle Williams, a marriage falling apart",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "t": "Carol",
+   "y": 2015,
+   "b": "Todd Haynes: Cate Blanchett and Rooney Mara fall in love in 1950s New York. Restrained, gorgeous, aching. Metacritic's best film of 2015.",
+   "tags": "M",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 0,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [
+    {
+     "t": "Call Me by Your Name",
+     "y": 2017,
+     "note": "A summer in 1983 Italy, the peach, the father's speech",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Portrait of a Lady on Fire",
+     "y": 2019,
+     "note": "A painter and her subject on a Breton island. On Sight & Sound's list",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "t": "In the Mood for Love",
+   "y": 2000,
+   "b": "Wong Kar-wai: two neighbours whose spouses are cheating almost fall in love. Core on World cinema.",
+   "tags": "W",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 1,
+    "challenge": 3
+   },
+   "seq": [],
+   "br": [],
+   "w": "Subtitled."
+  },
+  {
+   "n": 28,
+   "t": "L'Atalante",
+   "y": 1934,
+   "b": "Jean Vigo's newlyweds on a canal barge, a feral old sailor and a lot of cats. Dreamy, French, on both Sight & Sound polls.",
+   "tags": "WO",
+   "heat": {
+    "violence": 0,
+    "intensity": 2,
+    "age": 5,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [],
+   "w": "Subtitled; 1934."
+  },
+  {
+   "n": 29,
+   "t": "Sunrise: A Song of Two Humans",
+   "y": 1927,
+   "b": "Murnau: a farmer tempted to drown his wife falls back in love with her over one day in the city. Silent and astonishing.",
+   "tags": "O",
+   "heat": {
+    "violence": 1,
+    "intensity": 3,
+    "age": 5,
+    "challenge": 4
+   },
+   "seq": [],
+   "br": [],
+   "w": "Silent."
+  }
+ ],
+ "beyond": []
+}

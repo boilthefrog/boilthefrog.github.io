@@ -159,6 +159,14 @@
      "warn": null,
      "seq": [],
      "junk": true
+    },
+    {
+     "t": "Easy A",
+     "y": 2010,
+     "note": "Emma Stone fakes a reputation, The Scarlet Letter as running joke",
+     "tags": "KT",
+     "warn": null,
+     "seq": []
     }
    ]
   },
@@ -407,6 +415,14 @@
      "t": "Past Lives",
      "y": 2023,
      "note": "Two childhood sweethearts, 24 years later",
+     "tags": "M",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "La La Land",
+     "y": 2016,
+     "note": "Emma Stone and Ryan Gosling choose their dreams. Core on Musicals",
      "tags": "M",
      "warn": null,
      "seq": []

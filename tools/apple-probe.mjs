@@ -1,6 +1,14 @@
 // Probe Apple's iTunes Search API for every film on one ladder and report matches as annotations.
 import fs from "node:fs";
 const ladder = process.argv[2] || "bond";
+if (ladder === "variants") {
+  const tries = ["term=goldfinger&entity=movie&country=gb","term=goldfinger&media=movie&country=gb","term=goldfinger&media=movie","term=goldfinger&entity=movie&country=us","term=goldfinger","term=skyfall&media=movie&country=us&limit=5","term=skyfall&media=all&country=gb&limit=5"];
+  const lines = [];
+  for (const q of tries) { const r = await fetch("https://itunes.apple.com/search?" + q); const j = await r.json().catch(() => ({})); lines.push(`${q} => ${r.status} ${j.resultCount} ${(j.results||[]).slice(0,4).map(m=>[m.kind,m.wrapperType,m.trackName||m.collectionName,(m.releaseDate||"").slice(0,4),m.trackViewUrl||m.collectionViewUrl].join(" ")).join(" | ")}`); await new Promise(r=>setTimeout(r,3000)); }
+  const l = await fetch("https://itunes.apple.com/lookup?id=265727087&country=gb"); lines.push("lookup " + (await l.text()).slice(0, 400));
+  console.log("::notice title=variants::" + lines.join("%0A").replace(/\n/g, " "));
+  process.exit(0);
+}
 const L = JSON.parse(fs.readFileSync(`data/${ladder}.json`, "utf8"));
 const films = [];
 for (const c of [...L.core, ...(L.beyond || [])]) {

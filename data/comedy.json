@@ -1261,11 +1261,25 @@
    }
   },
   {
+   "t": "Playtime",
+   "y": 1967,
+   "b": "Jacques Tati's enormous glass-and-steel Paris, built at ruinous cost. Almost no plot or dialogue; every frame is packed with gags you only spot second time round. Also on World cinema.",
+   "tags": "SO",
+   "seq": [],
+   "heat": {
+    "violence": 0,
+    "intensity": 1,
+    "age": 3,
+    "challenge": 5
+   },
+   "w": "Almost no dialogue, no close-ups, no plot."
+  },
+  {
    "t": "Pink Flamingos",
    "y": 1972,
    "b": "John Waters: Divine fights a rival couple for the title of 'filthiest person alive', and wins with the most notorious scene in film. Gross-out taken as far as it goes.",
    "tags": "D",
-   "w": "Genuinely disgusting. You've been warned.",
+   "w": "Fucking horrible, on purpose. The ending is real.",
    "seq": [],
    "heat": {
     "violence": 2,

@@ -87,7 +87,7 @@ async function enrich(f) {
   const cert = (gb?.release_dates || []).map(d => d.certification).find(Boolean) || "";
   const dirs = (m.credits?.crew || []).filter(c => c.job === "Director").map(c => c.name);
   const cast = (m.credits?.cast || []).slice(0, 4).map(c => c.name);
-  return (cache[f.id] = { v: 3, title: m.title, year: +(m.release_date || "0").slice(0, 4), tmdb: id, imdb: m.external_ids?.imdb_id || m.imdb_id || "", poster: m.poster_path || "", overview: m.overview || "", runtime: m.runtime || 0, original: m.original_title, lang: m.original_language, cert, dirs, cast });
+  return (cache[f.id] = { v: 3, vote: m.vote_average || 0, votes: m.vote_count || 0, title: m.title, year: +(m.release_date || "0").slice(0, 4), tmdb: id, imdb: m.external_ids?.imdb_id || m.imdb_id || "", poster: m.poster_path || "", overview: m.overview || "", runtime: m.runtime || 0, original: m.original_title, lang: m.original_language, cert, dirs, cast });
 }
 if (KEY) {
   const list = [...films.values()];
@@ -103,6 +103,10 @@ if (KEY) {
   const norm = x => (x || "").toLowerCase().replace(/[^a-z0-9]/g, "");
   const checks = list.filter(f => f.m && !f.m.missing && norm(f.m.title) !== norm(f.t)).map(f => `${f.id} -> "${f.m.title}" (${f.m.year}) tmdb ${f.m.tmdb}`);
   checks.forEach(c => console.log("CHECK " + c));
+  const weak = list.filter(f => f.m && !f.m.missing && !f.junk && f.m.votes >= 100 && f.m.vote < 6.6)
+    .sort((a, b) => a.m.vote - b.m.vote)
+    .map(f => `${f.m.vote.toFixed(1)} ${f.t} (${f.y}) [${f.places.map(p => p.ladder + ":" + p.role + (p.n ? p.n : "")).join(",")}]`);
+  if (process.env.GITHUB_ACTIONS) console.log(`::notice title=Weak films (TMDB under 6.6, not junk)::${weak.join("%0A")}`);
   if (process.env.GITHUB_ACTIONS) console.log(`::notice title=TMDB title check::${[`missing: ${miss.join(", ")}`, ...checks].join("%0A")}`);
   console.log(`TMDB: ${list.length - miss.length}/${list.length} matched` + (miss.length ? `; no match: ${miss.join(", ")}` : ""));
 } else {

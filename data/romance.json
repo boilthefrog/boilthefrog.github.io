@@ -42,7 +42,7 @@
   {
    "t": 35,
    "name": "Modern favourites",
-   "note": "Cher, Darcy, erased memories, pudding, Vienna, Verona Beach and the door.",
+   "note": "Cher, Darcy, erased memories, pudding, Vienna, Verona Beach and an iceberg.",
    "bg": "#ecdcaa",
    "fg": "#17110d",
    "upto": 14
@@ -448,7 +448,7 @@
    "n": 14,
    "t": "Titanic",
    "y": 1997,
-   "b": "Jack, Rose, the door. Core on Epic.",
+   "b": "Jack, Rose and the iceberg. Core on Epic.",
    "tags": "M",
    "heat": {
     "violence": 1,
@@ -540,7 +540,7 @@
    "n": 19,
    "t": "Casablanca",
    "y": 1942,
-   "b": "Rick's Café, 'As Time Goes By', and Bogart giving her up on a foggy runway. The perfect Hollywood film.",
+   "b": "Rick's Café, 'As Time Goes By', Bogart, Bergman and the Nazis closing in. The perfect Hollywood film.",
    "tags": "O",
    "heat": {
     "violence": 1,

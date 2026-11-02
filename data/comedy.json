@@ -77,7 +77,7 @@
   {
    "t": 95,
    "name": "Final boss",
-   "note": "Three hours on Wall Street, then the end of the world.",
+   "note": "Three hours on Wall Street, then the War Room.",
    "bg": "#2b0b0e",
    "fg": "#efe3cf",
    "upto": 30
@@ -774,7 +774,7 @@
    "n": 18,
    "t": "The Player",
    "y": 1992,
-   "b": "Altman's Hollywood satire: Tim Robbins's studio executive kills a writer he thinks is threatening him, and gets away with everything. The eight-minute opening shot, and 65 stars playing themselves.",
+   "b": "Altman's Hollywood satire: Tim Robbins's studio executive kills a writer he thinks is threatening him, then has to keep the studio running with a detective on his tail. The eight-minute opening shot, and 65 stars playing themselves.",
    "tags": "D",
    "heat": {
     "violence": 2,
@@ -1241,7 +1241,7 @@
    "n": 30,
    "t": "Dr. Strangelove",
    "y": 1964,
-   "b": "Kubrick's nuclear farce: Peter Sellers three times, a general obsessed with his precious bodily fluids, a cowboy riding the bomb, and the world ending to 'We'll Meet Again'. Also on War.",
+   "b": "Kubrick's nuclear farce: Peter Sellers three times, a general obsessed with his precious bodily fluids, and the War Room ('You can't fight in here!'). Also on War.",
    "tags": "O",
    "heat": {
     "violence": 1,

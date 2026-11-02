@@ -75,7 +75,7 @@
   {
    "t": 95,
    "name": "Final boss",
-   "note": "Rosebud, then three hours in the Valley and the frogs.",
+   "note": "Rosebud, then three hours in the Valley.",
    "bg": "#2b0b0e",
    "fg": "#efe3cf",
    "upto": 30
@@ -865,7 +865,7 @@
    "n": 26,
    "t": "Nashville",
    "y": 1975,
-   "b": "Altman's 24 characters over five days of country music and politics, ending in a shot that changes everything. Overlapping talk; endlessly rewatchable.",
+   "b": "Altman's 24 characters over five days of country music and politics, building to a big outdoor concert. Overlapping talk; endlessly rewatchable.",
    "tags": "N",
    "heat": {
     "violence": 1,
@@ -987,7 +987,7 @@
    "n": 30,
    "t": "Magnolia",
    "y": 1999,
-   "b": "Paul Thomas Anderson's three-hour San Fernando Valley mosaic: Tom Cruise's seduction guru, a quiz-show kid, a dying man, and then the frogs.",
+   "b": "Paul Thomas Anderson's three-hour San Fernando Valley mosaic: Tom Cruise's seduction guru, a quiz-show kid and a dying man, all on one rainy day.",
    "tags": "M",
    "heat": {
     "violence": 1,

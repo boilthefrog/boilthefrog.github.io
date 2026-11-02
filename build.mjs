@@ -382,8 +382,8 @@ async function shareImages() {
     const sl = wrap(sub, 30).slice(0, 4);
     const ty = 150 + size * 0.82;
     const posters = (await Promise.all(ids.slice(0, 5).map(dataUri))).filter(Boolean).slice(0, 4);
-    const pw = 190, ph = 285, px0 = 690;
-    const pimgs = posters.map((d, i) => { const px = px0 + i * 112, py = 150 + (i % 2) * 40, rot = (i - 1.5) * 4;
+    const pw = 190, ph = 285, px0 = 655;
+    const pimgs = posters.map((d, i) => { const px = px0 + i * 106, py = 150 + (i % 2) * 40, rot = (i - 1.5) * 4;
       return `<g transform="rotate(${rot} ${px + pw / 2} ${py + ph / 2})"><rect x="${px - 4}" y="${py - 4}" width="${pw + 8}" height="${ph + 8}" fill="#17110d"/><image href="${d}" x="${px}" y="${py}" width="${pw}" height="${ph}" preserveAspectRatio="xMidYMid slice"/></g>`; }).join("");
     const bars = colours.map((c, i) => `<rect x="${60 + i * (1080 / colours.length)}" y="574" width="${1080 / colours.length - 6}" height="16" fill="${c}" stroke="${i < colours.length / 2 ? "#17110d" : "#efe3cf"}" stroke-width="2"/>`).join("");
     const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">

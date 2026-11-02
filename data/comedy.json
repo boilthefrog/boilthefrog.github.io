@@ -53,7 +53,7 @@
   {
    "t": 50,
    "name": "Sharper",
-   "note": "A hotel, a monster, a Messiah, the Heathers, a night in SoHo, Altman's Hollywood, Paris and Annie Hall.",
+   "note": "A hotel, a monster, a Messiah, the Heathers, a night in SoHo, Altman's Hollywood, Stalin's funeral and Annie Hall.",
    "bg": "#e8b47a",
    "fg": "#17110d",
    "upto": 20
@@ -804,24 +804,25 @@
   },
   {
    "n": 19,
-   "t": "Charade",
-   "y": 1963,
-   "b": "Cary Grant and Audrey Hepburn in Paris: a dead husband, stolen money and everyone lying. A comedy with some murders. Also on Thriller.",
-   "tags": "RO",
+   "t": "The Death of Stalin",
+   "y": 2017,
+   "b": "Armando Iannucci: Stalin drops dead and his inner circle (Steve Buscemi, Simon Russell Beale, Jason Isaacs as a Yorkshire Marshal Zhukov) scramble for power. The Thick of It in the Kremlin, and genuinely chilling underneath.",
+   "tags": "BD",
    "heat": {
     "violence": 2,
     "intensity": 2,
-    "age": 3,
-    "challenge": 1
+    "age": 0,
+    "challenge": 2
    },
+   "w": "Executions played as background noise.",
    "seq": [],
    "br": [
     {
-     "t": "How to Steal a Million",
-     "y": 1966,
-     "note": "Hepburn and Peter O'Toole rob a museum",
-     "tags": "RO",
-     "warn": null,
+     "t": "In the Loop",
+     "y": 2009,
+     "note": "Iannucci's Malcolm Tucker starts a war",
+     "tags": "BD",
+     "warn": "Very sweary.",
      "seq": []
     }
    ]
@@ -944,6 +945,14 @@
    },
    "seq": [],
    "br": [
+    {
+     "t": "Charade",
+     "y": 1963,
+     "note": "Cary Grant and Audrey Hepburn in Paris. Core on Romance",
+     "tags": "RO",
+     "warn": null,
+     "seq": []
+    },
     {
      "t": "The Philadelphia Story",
      "y": 1940,
@@ -1225,16 +1234,7 @@
     "challenge": 3
    },
    "seq": [],
-   "br": [
-    {
-     "t": "In the Loop",
-     "y": 2009,
-     "note": "Malcolm Tucker starts a war",
-     "tags": "BD",
-     "warn": "Very sweary.",
-     "seq": []
-    }
-   ],
+   "br": [],
    "w": "Drugs, sex, three hours."
   },
   {

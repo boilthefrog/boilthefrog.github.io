@@ -180,7 +180,8 @@ const page = ({ title, body, root = "", desc = "", extraHead = "", url = "", ima
 ${extraHead}
 </head>
 <body>
-<nav class="topnav"><div class="topnav-in"><a class="brand" href="${root}">${FROG}Boil the Frog</a><div class="navlinks">${ladders.map(l => `<a href="${root}${l.id}/">${esc(l.title)}</a>`).join("")}<a href="${root}pot/">Your pot</a><a href="${root}about/">About</a><a href="${root}faq/">FAQ</a></div></div></nav>
+<nav class="topnav" data-root="${root}"><div class="topnav-in"><a class="brand" href="${root}">${FROG}Boil the Frog</a><button class="searchbtn" type="button" id="searchbtn" aria-expanded="false" aria-controls="searchpanel">Search</button><div class="navlinks">${ladders.map(l => `<a href="${root}${l.id}/">${esc(l.title)}</a>`).join("")}<a href="${root}pot/">Your pot</a><a href="${root}about/">About</a><a href="${root}faq/">FAQ</a></div></div></nav>
+<div class="searchpanel" id="searchpanel" hidden><div class="searchpanel-in"><input type="search" id="searchbox" placeholder="Search films, directors, actors" autocomplete="off" aria-label="Search films"><ul class="sresults" id="sresults"></ul></div></div>
 ${body}
 <footer><div class="foot-in" style="max-width:980px;margin:0 auto"><div>
 <p class="small">Boil the Frog: film ladders for people who think they don't like a genre. Ticks are saved in this browser only.</p>
@@ -348,6 +349,25 @@ function faq() {
 <p>Yeah, art is subjective.</p>
 </div>`;
   write("faq/index.html", page({ title: "FAQ | Boil the Frog", body, root: "../", url: "faq/" }));
+}
+
+/* ---------- search index (loaded by the browser only when someone opens search) ---------- */
+{
+  const roleWord = { core: "Core", side: "side quest", sequel: "sequel", beyond: "beyond the boss" };
+  const idx = [...films.values()].map(f => {
+    const m = M(f.id), seen = new Set();
+    const where = f.places.filter(p => { const k = p.ladder + p.role; if (seen.has(k)) return false; seen.add(k); return true; })
+      .map(p => p.role === "core" ? `Core ${p.n} on ${p.ladderTitle}` : `${roleWord[p.role] || p.role} on ${p.ladderTitle}`).join(" · ");
+    const e = { i: f.id, t: f.t, y: f.y, w: where };
+    if (m.original && m.original !== f.t) e.o = m.original;
+    if (m.title && m.title !== f.t && m.title !== m.original) e.a = m.title;
+    if (m.dirs?.length) e.d = m.dirs.join(", ");
+    if (m.cast?.length) e.c = m.cast.join(", ");
+    if (m.poster) e.p = m.poster;
+    return e;
+  });
+  write("assets/search.json", JSON.stringify(idx));
+  console.log(`Search index: ${idx.length} films`);
 }
 
 /* ---------- share images (1200x630 PNG per ladder + home) ---------- */

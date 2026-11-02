@@ -96,6 +96,46 @@
     if (saved === "year") order("year");
   }
 
+
+  /* search: the index is fetched only when search is first opened */
+  const sbtn = document.getElementById("searchbtn"), spanel = document.getElementById("searchpanel");
+  if (sbtn && spanel) {
+    const root = (document.querySelector(".topnav") || {}).dataset?.root || "";
+    const box = document.getElementById("searchbox"), out = document.getElementById("sresults");
+    let IDX = null, loading = null;
+    const NUMS = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen"];
+    const norm = s => (s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/&/g, " and ").replace(/['’.]/g, "").replace(/[^a-z0-9]+/g, " ").replace(/\b(the|a|an)\b/g, " ").replace(/\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen)\b/g, w => String(NUMS.indexOf(w) + 1)).replace(/\s+/g, " ").trim();
+    const load = () => loading || (loading = fetch(root + "assets/search.json").then(r => r.json()).then(d => {
+      IDX = d.map(e => ({ e, t: norm([e.t, e.o, e.a].filter(Boolean).join(" ")), p: norm([e.d, e.c].filter(Boolean).join(" ")) }));
+    }).catch(() => { out.innerHTML = '<li class="snone">Search is unavailable right now.</li>'; }));
+    const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+    const run = () => {
+      const q = norm(box.value);
+      if (!q || !IDX) { out.innerHTML = ""; return; }
+      const words = q.split(" ");
+      const scored = [];
+      for (const r of IDX) {
+        let s = 0;
+        if (r.t === q) s = 100;
+        else if (r.t.startsWith(q)) s = 80;
+        else if ((" " + r.t).includes(" " + q)) s = 60;
+        else if (words.every(w => r.t.includes(w))) s = 40;
+        else if (words.every(w => (" " + r.p).includes(" " + w))) s = 30;
+        if (s) scored.push([s - r.t.length / 1000, r.e]);
+      }
+      scored.sort((a, b) => b[0] - a[0]);
+      const top = scored.slice(0, 12);
+      out.innerHTML = top.length ? top.map(([, e]) => `<li><a href="${root}films/${e.i}/">${e.p ? `<img src="https://image.tmdb.org/t/p/w92${e.p}" alt="" loading="lazy" width="40" height="60">` : '<span class="snoimg"></span>'}<span><b>${esc(e.t)}</b> <span class="sy">${e.y}</span><span class="sw">${esc(e.w)}</span>${e.d ? `<span class="sd">${esc(e.d)}</span>` : ""}</span></a></li>`).join("") : '<li class="snone">No films found.</li>';
+    };
+    const open = on => { spanel.hidden = !on; sbtn.setAttribute("aria-expanded", String(on)); if (on) { load().then(run); box.focus(); } };
+    sbtn.addEventListener("click", () => open(spanel.hidden));
+    box.addEventListener("input", () => { if (IDX) run(); else load().then(run); });
+    document.addEventListener("keydown", e => {
+      if (e.key === "Escape" && !spanel.hidden) { open(false); sbtn.focus(); }
+      if (e.key === "/" && spanel.hidden && !/input|textarea/i.test(document.activeElement.tagName)) { e.preventDefault(); open(true); }
+    });
+  }
+
   /* Letterboxd export of unwatched films */
   const ex = document.getElementById("export-unwatched");
   if (ex && L) ex.addEventListener("click", () => {

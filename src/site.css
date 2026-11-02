@@ -242,3 +242,4 @@ body.chrono .level:not(.chrono):not(.beyond){display:none}
 .sresults .sw,.sresults .sd{display:block;font-size:13px;opacity:.75}
 .snone{color:var(--paper);padding:8px 4px;opacity:.8}
 @media (max-width:720px){.topnav .brand{width:auto}.searchbtn{margin-left:auto}}
+.rules{max-width:none;gap:16px}

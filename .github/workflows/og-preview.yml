@@ -16,7 +16,10 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
       - name: Push share images to a preview branch
         run: |
-          mkdir /tmp/og && cp dist/og/*.png /tmp/og/
+          set -e
+          ls dist/og
+          mkdir /tmp/og && cp dist/og/*.png /tmp/og/ && cd /tmp/og
+          git init -q -b og-preview
           git config user.name "og-preview" && git config user.email "og-preview@users.noreply.github.com"
-          git checkout --orphan og-preview && git rm -rq . && cp /tmp/og/*.png . && git add *.png
-          git commit -qm "Share image preview" && git push -f origin og-preview
+          git add . && git commit -qm "Share image preview"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" og-preview

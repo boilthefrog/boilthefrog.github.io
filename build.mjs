@@ -159,13 +159,21 @@ const tmdbLogo = (root, cls) => `<a class="${cls}" href="https://www.themoviedb.
 write(".nojekyll", "");
 
 const FROG = `<svg viewBox="0 0 60 40" aria-hidden="true"><ellipse cx="30" cy="28" rx="24" ry="12" fill="#5d9b3a"/><circle cx="17" cy="13" r="9" fill="#5d9b3a"/><circle cx="43" cy="13" r="9" fill="#5d9b3a"/><circle cx="17" cy="13" r="4.5" fill="#fff"/><circle cx="43" cy="13" r="4.5" fill="#fff"/><circle cx="17" cy="14" r="2.2" fill="#17110d"/><circle cx="43" cy="14" r="2.2" fill="#17110d"/></svg>`;
-const page = ({ title, body, root = "", desc = "", extraHead = "" }) => `<!DOCTYPE html>
+const SITE = "https://boilthefrog.github.io/";
+const page = ({ title, body, root = "", desc = "", extraHead = "", url = "", image = "og/home.png", card = "summary_large_image" }) => `<!DOCTYPE html>
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc || "Film ladders for people who think they don't like a genre. Start lukewarm, finish at the deep end.")}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Boil the Frog">
+<meta property="og:title" content="${esc(title.replace(/ \| Boil the Frog$/, ""))}">
+<meta property="og:description" content="${esc(desc || "Film ladders for people who think they don't like a genre. Start lukewarm, finish at the deep end.")}">
+<meta property="og:url" content="${SITE}${url}">
+<meta property="og:image" content="${image.startsWith("http") ? image : SITE + image}">
+<meta name="twitter:card" content="${card}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="${root}assets/site.css?v=${VER}">
@@ -246,7 +254,7 @@ function ladderPage(L) {
 <div class="mbar" aria-live="polite"><b id="mdeg">20°C</b><div class="mtrack"><div class="mfill" id="mfill" style="width:0"></div></div><span id="mword">0 of 30 watched</span></div>
 <div class="foot-in" style="max-width:980px;margin:0 auto;padding:30px 20px"><button class="btn" id="reset" type="button">Reset progress</button></div>
 <script>window.LADDER=${JSON.stringify({ id: L.id, title: L.title, core: L.core.map(c => c.id), films: exportData })};</script>`;
-  write(`${L.id}/index.html`, page({ title: `${L.title} | Boil the Frog`, body, root, desc: `The ${L.title} ladder: ${L.tagline}` }));
+  write(`${L.id}/index.html`, page({ title: `${L.title} | Boil the Frog`, body, root, desc: `The ${L.title} ladder: ${L.tagline}`, url: `${L.id}/`, image: `og/${L.id}.png` }));
   // Letterboxd CSVs
   const csv = rows => "tmdbID,Title,Year,Review\n" + rows.map(r => [r.tmdb || "", r.t, r.y, r.note].map(v => `"${String(v).replace(/"/g, '""')}"`).join(",")).join("\n") + "\n";
   const coreRows = L.core.map(c => exportData.find(e => e.id === c.id));
@@ -290,7 +298,7 @@ ${m.trailer ? `<a class="btn" href="https://www.youtube.com/watch?v=${m.trailer}
 ${seqs.length ? `<section class="fsec"><h2>Sequels</h2><ul>${seqs.map(q => `<li><a href="${root}films/${q.id}/">${esc(q.t)}</a> (${q.y})${q.star ? ' <span class="star">★ Worth it</span>' : ""}: ${esc(q.note)}</li>`).join("")}</ul></section>` : ""}
 ${sides.length ? `<section class="fsec"><h2>Liked it? Side quests</h2><ul>${sides.map(b => `<li>${b.junk ? '<span class="junk">Junk food</span>' : ""}<a href="${root}films/${b.id}/">${esc(b.t)}</a> (${b.y}): ${esc(b.note)}</li>`).join("")}</ul></section>` : ""}
 </div></main>`;
-  write(`films/${f.id}/index.html`, page({ title: `${f.t} (${f.y}) | Boil the Frog`, body, root, desc: f.note }));
+  write(`films/${f.id}/index.html`, page({ title: `${f.t} (${f.y}) | Boil the Frog`, body, root, desc: f.note, url: `films/${f.id}/`, ...(poster(f.id, "w500") ? { image: poster(f.id, "w500"), card: "summary" } : {}) }));
 }
 
 /* ---------- home, pot, about ---------- */
@@ -308,14 +316,14 @@ function home() {
 ${ladders.map(L => `<a class="ladder-card" href="${L.id}/"><div class="kicker">Ladder</div><h2>${esc(L.title)}</h2><div class="heatbar" aria-hidden="true"></div><p>${esc(L.tagline)}</p><p><b>${L.core[0].t} → ${L.core[L.core.length - 1].t}</b></p></a>`).join("")}
 ${[].map(([t, q, f]) => `<div class="ladder-card soon"><div class="kicker">Coming later</div><h2>${t}</h2><div class="heatbar" aria-hidden="true"></div><blockquote class="quote">“${esc(q)}”<cite>${esc(f)}</cite></blockquote></div>`).join("")}
 </div>`;
-  write("index.html", page({ title: "Boil the Frog", body }));
+  write("index.html", page({ title: "Boil the Frog", body, desc: "Film ladders for people who think they don't like a genre. Start lukewarm, finish at the deep end." }));
 }
 function pot() {
   const idx = ladders.map(L => ({ id: L.id, title: L.title, core: L.core.map(c => ({ id: c.id, t: c.t })), all: [...films.values()].filter(f => f.places.some(p => p.ladder === L.id)).map(f => f.id) }));
   const body = `<header class="hero"><div class="kicker">Your progress</div><h1>Your pot</h1><p class="lede">Every film you've ticked, on this device. One stamp per core film.</p></header>
 <div class="card-wrap" id="potwrap"></div>
 <script>window.POT=${JSON.stringify(idx)};</script>`;
-  write("pot/index.html", page({ title: "Your pot | Boil the Frog", body, root: "../" }));
+  write("pot/index.html", page({ title: "Your pot | Boil the Frog", body, root: "../", url: "pot/" }));
 }
 function about() {
   const body = `<header class="hero"><div class="kicker">About</div><h1>The method</h1></header>
@@ -326,7 +334,7 @@ function about() {
 <p><b>Letterboxd:</b> each ladder can be downloaded as a CSV and imported into a Letterboxd list (Lists → New list → Import). Films are matched by their TMDB ID.</p>
 ${tmdbLogo("../", "tmdb-logo big")}<p class="credit">Film data and posters are from <a href="https://www.themoviedb.org/">The Movie Database (TMDB)</a>. This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
 </div>`;
-  write("about/index.html", page({ title: "About | Boil the Frog", body, root: "../" }));
+  write("about/index.html", page({ title: "About | Boil the Frog", body, root: "../", url: "about/" }));
 }
 
 function faq() {
@@ -339,8 +347,63 @@ function faq() {
 <h2>You're high. Your ladder doesn't include my favourite film.</h2>
 <p>Yeah, art is subjective.</p>
 </div>`;
-  write("faq/index.html", page({ title: "FAQ | Boil the Frog", body, root: "../" }));
+  write("faq/index.html", page({ title: "FAQ | Boil the Frog", body, root: "../", url: "faq/" }));
 }
+
+/* ---------- share images (1200x630 PNG per ladder + home) ---------- */
+async function shareImages() {
+  let Resvg;
+  try { ({ Resvg } = await import("@resvg/resvg-js")); } catch { console.warn("resvg not installed: skipping share images"); return; }
+  const fontDir = path.join(ROOT, ".cache", "fonts"); fs.mkdirSync(fontDir, { recursive: true });
+  const fontFiles = [];
+  try {
+    // Without a browser User-Agent, Google Fonts serves plain TTF files, which resvg can read.
+    const css = await (await fetch("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Atkinson+Hyperlegible:wght@400;700")).text();
+    const urls = [...css.matchAll(/url\((https:[^)]+\.ttf)\)/g)].map(m => m[1]);
+    for (const [i, u] of urls.entries()) {
+      const fp = path.join(fontDir, `f${i}.ttf`);
+      if (!fs.existsSync(fp)) fs.writeFileSync(fp, Buffer.from(await (await fetch(u)).arrayBuffer()));
+      fontFiles.push(fp);
+    }
+  } catch (e) { console.warn("Share-image fonts unavailable:", e.message); }
+  const imgCache = new Map();
+  const dataUri = async id => {
+    const u = poster(id, "w342"); if (!u) return "";
+    if (imgCache.has(u)) return imgCache.get(u);
+    try { const r = await fetch(u); const d = r.ok ? `data:image/jpeg;base64,${Buffer.from(await r.arrayBuffer()).toString("base64")}` : ""; imgCache.set(u, d); return d; } catch { return ""; }
+  };
+  const x = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  const wrap = (s, n) => { const out = []; let line = ""; for (const w of s.split(" ")) { if ((line + " " + w).trim().length > n) { out.push(line.trim()); line = w; } else line += " " + w; } if (line.trim()) out.push(line.trim()); return out; };
+  const frog = `<g transform="translate(60,52) scale(1.1)"><ellipse cx="30" cy="28" rx="24" ry="12" fill="#5d9b3a"/><circle cx="17" cy="13" r="9" fill="#5d9b3a"/><circle cx="43" cy="13" r="9" fill="#5d9b3a"/><circle cx="17" cy="13" r="4.5" fill="#fff"/><circle cx="43" cy="13" r="4.5" fill="#fff"/><circle cx="17" cy="14" r="2.2" fill="#17110d"/><circle cx="43" cy="14" r="2.2" fill="#17110d"/></g>`;
+  const card = async ({ title, sub, ids, colours }) => {
+    const stops = colours.map((c, i) => `<stop offset="${(i / (colours.length - 1)).toFixed(3)}" stop-color="${c}"/>`).join("");
+    const T = title.toUpperCase(), size = T.length > 14 ? 92 : T.length > 9 ? 116 : 140;
+    const tl = wrap(T, size > 100 ? 11 : 15).slice(0, 2);
+    const sl = wrap(sub, 30).slice(0, 4);
+    const ty = 150 + size * 0.82;
+    const posters = (await Promise.all(ids.slice(0, 5).map(dataUri))).filter(Boolean).slice(0, 4);
+    const pw = 190, ph = 285, px0 = 690;
+    const pimgs = posters.map((d, i) => { const px = px0 + i * 112, py = 150 + (i % 2) * 40, rot = (i - 1.5) * 4;
+      return `<g transform="rotate(${rot} ${px + pw / 2} ${py + ph / 2})"><rect x="${px - 4}" y="${py - 4}" width="${pw + 8}" height="${ph + 8}" fill="#17110d"/><image href="${d}" x="${px}" y="${py}" width="${pw}" height="${ph}" preserveAspectRatio="xMidYMid slice"/></g>`; }).join("");
+    const bars = colours.map((c, i) => `<rect x="${60 + i * (1080 / colours.length)}" y="574" width="${1080 / colours.length - 6}" height="16" fill="${c}" stroke="${i < colours.length / 2 ? "#17110d" : "#efe3cf"}" stroke-width="2"/>`).join("");
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="0">${stops}</linearGradient><linearGradient id="w" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#dbe5cc" stop-opacity="0.75"/><stop offset="0.5" stop-color="#dbe5cc" stop-opacity="0.55"/><stop offset="0.62" stop-color="#dbe5cc" stop-opacity="0"/></linearGradient></defs>
+<rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#w)"/>
+${frog}<text x="140" y="92" font-family="Big Shoulders Display" font-weight="900" font-size="40" letter-spacing="3" fill="#17110d">BOIL THE FROG</text>
+${tl.map((l, i) => `<text x="60" y="${ty + i * size * 0.86}" font-family="Big Shoulders Display" font-weight="900" font-size="${size}" fill="#17110d">${x(l)}</text>`).join("")}
+${sl.map((l, i) => `<text x="62" y="${ty + (tl.length - 1) * size * 0.86 + 70 + i * 40}" font-family="Atkinson Hyperlegible" font-size="31" fill="#17110d">${x(l)}</text>`).join("")}
+${pimgs}${bars}</svg>`;
+    return new Resvg(svg, { fitTo: { mode: "width", value: 1200 }, font: { fontFiles, loadSystemFonts: true, defaultFontFamily: "Atkinson Hyperlegible" } }).render().asPng();
+  };
+  const heat = L => L.levels.map(l => l.bg);
+  for (const L of ladders) {
+    const sub = L.ranked ? "Every Bond film, ranked. Plus the better spies and the rip-offs." : `${L.core.length} films, from ${L.core[0].t} to ${L.core[L.core.length - 1].t}, without noticing the water got hot.`;
+    write(`og/${L.id}.png`, await card({ title: `The ${L.title} ladder`.replace(/^The (.*) ladder$/, "$1"), sub, ids: L.core.map(c => c.id), colours: heat(L) }));
+  }
+  write("og/home.png", await card({ title: "Film ladders", sub: "For people who think they don't like a genre. Start lukewarm; finish at the deep end.", ids: ladders.map(l => l.core[0].id), colours: heat(ladders[0]) }));
+  console.log(`Share images: ${ladders.length + 1} written`);
+}
+await shareImages();
 
 ladders.forEach(ladderPage);
 [...films.values()].forEach(filmPage);

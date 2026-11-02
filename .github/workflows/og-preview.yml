@@ -1,0 +1,22 @@
+name: Share image preview
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: node build.mjs
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      - name: Push share images to a preview branch
+        run: |
+          mkdir /tmp/og && cp dist/og/*.png /tmp/og/
+          git config user.name "og-preview" && git config user.email "og-preview@users.noreply.github.com"
+          git checkout --orphan og-preview && git rm -rq . && cp /tmp/og/*.png . && git add *.png
+          git commit -qm "Share image preview" && git push -f origin og-preview

@@ -668,7 +668,32 @@
      "star": false
     }
    ],
-   "br": []
+   "br": [
+    {
+     "t": "Death Rides a Horse",
+     "y": 1967,
+     "note": "Van Cleef and John Phillip Law's revenge hunt. Tarantino took the score",
+     "tags": "SV",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Day of Anger",
+     "y": 1967,
+     "note": "Van Cleef teaches Giuliano Gemma to be a gunfighter",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Sabata",
+     "y": 1969,
+     "note": "Van Cleef with trick guns",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    }
+   ]
   },
   {
    "n": 19,
@@ -707,6 +732,15 @@
      "tags": "M",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "They Call Me Trinity",
+     "y": 1970,
+     "note": "Terence Hill's comedy spaghetti: beans and slaps",
+     "tags": "SC",
+     "warn": null,
+     "seq": [],
+     "junk": true
     }
    ]
   },
@@ -747,6 +781,39 @@
      "tags": "S",
      "warn": null,
      "seq": []
+    },
+    {
+     "t": "The Mercenary",
+     "y": 1968,
+     "note": "Corbucci: Franco Nero and Jack Palance in the Mexican revolution. The template for Compañeros",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "A Bullet for the General",
+     "y": 1966,
+     "note": "The best of the political spaghettis",
+     "tags": "S",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Navajo Joe",
+     "y": 1966,
+     "note": "Burt Reynolds' revenge, Corbucci and Morricone",
+     "tags": "SV",
+     "warn": null,
+     "seq": []
+    },
+    {
+     "t": "Django Strikes Again",
+     "y": 1987,
+     "note": "Nero's only official sequel",
+     "tags": "S",
+     "warn": null,
+     "seq": [],
+     "junk": true
     }
    ],
    "w": "Violent, and dubbed."
@@ -934,7 +1001,17 @@
     "challenge": 3
    },
    "seq": [],
-   "br": [],
+   "br": [
+    {
+     "t": "Cut-Throats Nine",
+     "y": 1972,
+     "note": "Convicts chained together in the snow. The nastiest spaghetti",
+     "tags": "SV",
+     "warn": "Very gory.",
+     "seq": [],
+     "junk": true
+    }
+   ],
    "w": "Brutal, nihilistic, dubbed."
   },
   {

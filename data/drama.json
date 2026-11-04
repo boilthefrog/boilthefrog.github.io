@@ -535,7 +535,16 @@
     "challenge": 1
    },
    "seq": [],
-   "br": []
+   "br": [
+    {
+     "t": "A Time to Kill",
+     "y": 1996,
+     "note": "Grisham in Mississippi: Samuel L. Jackson's father on trial, Matthew McConaughey defending, Sandra Bullock helping",
+     "tags": "L",
+     "warn": null,
+     "seq": []
+    }
+   ]
   },
   {
    "n": 14,
